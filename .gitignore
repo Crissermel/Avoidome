@@ -1,0 +1,14 @@
+
+# Exclude huge fingerprint and descriptor caches (>2GB)
+analyses/avoidome_qsar_similarity_expansion/04_qsar_models_temp/morgan_fingerprints/
+analyses/avoidome_qsar_similarity_expansion_organism/03_qsar_models/morgan_fingerprints/
+analyses/qsar_avoidome/descriptor_cache/
+
+# Exclude huge fingerprint and descriptor caches (>2GB)
+analyses/avoidome_qsar_similarity_expansion/04_qsar_models_temp/morgan_fingerprints/
+analyses/avoidome_qsar_similarity_expansion_organism/03_qsar_models/morgan_fingerprints/
+analyses/qsar_avoidome/descriptor_cache/
+# Exclude huge fingerprint and descriptor caches (>2GB)
+analyses/avoidome_qsar_similarity_expansion/04_qsar_models_temp/morgan_fingerprints/
+analyses/avoidome_qsar_similarity_expansion_organism/03_qsar_models/morgan_fingerprints/
+analyses/qsar_avoidome/descriptor_cache/

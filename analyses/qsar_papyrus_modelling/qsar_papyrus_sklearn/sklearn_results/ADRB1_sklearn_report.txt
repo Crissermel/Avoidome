@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: ADRB1
+Date: 2025-07-30 15:04:11.924024
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -2317450817966078378901504.0000 ± 3952305308244174478245888.0000
+  RMSE: 1803925527365.9578 ± 2358227587840.1191
+  MAE: 479759780263.4596 ± 437682018512.6804
+  Training Time: 2.1934s
+
+Random Forest:
+  R² Score: 0.5690 ± 0.0597
+  RMSE: 0.7603 ± 0.2510
+  MAE: 0.5432 ± 0.0368
+  Training Time: 27.7455s
+
+Gradient Boosting:
+  R² Score: 0.5265 ± 0.0568
+  RMSE: 0.7981 ± 0.2698
+  MAE: 0.6071 ± 0.0407
+  Training Time: 18.4178s
+
+SVM:
+  R² Score: 0.5471 ± 0.0689
+  RMSE: 0.7850 ± 0.3584
+  MAE: 0.5642 ± 0.0635
+  Training Time: 2.6415s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

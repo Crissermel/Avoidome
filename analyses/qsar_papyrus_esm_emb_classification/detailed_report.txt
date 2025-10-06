@@ -1,0 +1,101 @@
+QSAR CLASSIFICATION RESULTS - DETAILED REPORT
+============================================================
+
+SUMMARY STATISTICS
+--------------------
+Total proteins processed: 52
+Successful models: 33
+Failed models: 19
+Success rate: 63.5%
+
+PERFORMANCE METRICS
+--------------------
+ACCURACY:
+  Mean: 0.837
+  Std:  0.078
+  Min:  0.500
+  Max:  0.933
+  Median: 0.856
+
+F1:
+  Mean: 0.738
+  Std:  0.279
+  Min:  0.000
+  Max:  0.964
+  Median: 0.865
+
+AUC:
+  Mean: 0.835
+  Std:  0.156
+  Min:  0.194
+  Max:  0.939
+  Median: 0.896
+
+PRECISION:
+  Mean: 0.741
+  Std:  0.267
+  Min:  0.000
+  Max:  0.937
+  Median: 0.835
+
+RECALL:
+  Mean: 0.751
+  Std:  0.294
+  Min:  0.000
+  Max:  1.000
+  Median: 0.901
+
+SAMPLE SIZE STATISTICS
+--------------------
+Total samples: 39351
+Average samples per protein: 1192.5
+Min samples: 16
+Max samples: 4965
+
+TOP 10 PROTEINS BY F1 SCORE
+------------------------------
+ 1. AHR                 : F1=0.964, Accuracy=0.933, Samples=31
+ 2. CHRM3               : F1=0.950, Accuracy=0.916, Samples=1302
+ 3. ADRA1A              : F1=0.949, Accuracy=0.906, Samples=712
+ 4. HSD11B1             : F1=0.937, Accuracy=0.887, Samples=2725
+ 5. ADRB1               : F1=0.937, Accuracy=0.897, Samples=699
+ 6. HRH1                : F1=0.933, Accuracy=0.890, Samples=972
+ 7. SLC6A4              : F1=0.932, Accuracy=0.885, Samples=4965
+ 8. CNR2                : F1=0.927, Accuracy=0.880, Samples=4852
+ 9. ADRB2               : F1=0.925, Accuracy=0.873, Samples=880
+10. XDH                 : F1=0.922, Accuracy=0.878, Samples=98
+
+BOTTOM 10 PROTEINS BY F1 SCORE
+------------------------------
+ 1. CYP2B6              : F1=0.000, Accuracy=0.790, Samples=33
+ 2. SLCO1B1             : F1=0.000, Accuracy=0.867, Samples=16
+ 3. SLCO2B1             : F1=0.000, Accuracy=0.914, Samples=33
+ 4. CYP2C19             : F1=0.322, Accuracy=0.824, Samples=165
+ 5. SCN5A               : F1=0.521, Accuracy=0.787, Samples=329
+ 6. AOX1                : F1=0.603, Accuracy=0.500, Samples=17
+ 7. CYP2D6              : F1=0.614, Accuracy=0.781, Samples=607
+ 8. CYP2C9              : F1=0.662, Accuracy=0.873, Samples=466
+ 9. KCNH2               : F1=0.676, Accuracy=0.836, Samples=4492
+10. NR1I3               : F1=0.683, Accuracy=0.698, Samples=59
+
+FAILED MODELS
+---------------
+ADH1A: no_activities
+AKR7A3: no_activities
+FMO1: no_activities
+SULT1A1: insufficient_data
+GSTA1: insufficient_data
+OXA1L: no_activities
+ORM1: no_activities
+CACNB1: no_activities
+CAV1: no_activities
+DIDO1: no_activities
+NAT8: no_activities
+CNRIP1: no_activities
+CHRNA10: no_activities
+CHRNA9: no_activities
+CHRNA3: insufficient_data
+CHRNA5: no_activities
+SMPDL3A: no_activities
+GABPA: no_activities
+SLCO2B3: no_activities

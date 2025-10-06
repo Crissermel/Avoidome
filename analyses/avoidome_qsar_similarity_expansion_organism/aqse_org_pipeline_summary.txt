@@ -1,0 +1,32 @@
+AQSE-org Pipeline Summary
+==================================================
+
+Run Date: 2025-09-30 11:24:48
+Base Directory: /home/serramelendezcsm/RA/Avoidome/analyses/avoidome_qsar_similarity_expansion_organism
+
+STEP 1: ORGANISM-SPECIFIC PROTEIN MAPPING
+------------------------------
+Organisms processed: human, mouse, rat
+Mapping summary: /home/serramelendezcsm/RA/Avoidome/analyses/avoidome_qsar_similarity_expansion_organism/01_organism_mapping/organism_mappings_summary.csv
+Sequence files: 3
+FASTA files: 141
+
+STEP 2: ORGANISM-SPECIFIC SIMILARITY SEARCH
+------------------------------
+Organisms processed: 1
+Human: 51 proteins processed
+Similarity matrices: 3
+
+STEP 3: ORGANISM-SPECIFIC QSAR MODEL CREATION
+------------------------------
+Models created: 48
+Proteins skipped: 121
+Total organisms: 3
+Morgan fingerprints: 398709 compounds
+Results exported to CSV
+
+ORGANISM DETAILS
+------------------------------
+Human: 51 proteins mapped
+Mouse: 43 proteins mapped
+Rat: 44 proteins mapped

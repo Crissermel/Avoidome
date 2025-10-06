@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: KCNH2
+Date: 2025-07-30 14:57:01.355232
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -22039771886692188815360.0000 ± 44079543773379822616576.0000
+  RMSE: 132256186790.3873 ± 187038493066.7043
+  MAE: 1973753956.7996 ± 3947505787.2632
+  Training Time: 13.7099s
+
+Random Forest:
+  R² Score: 0.5953 ± 0.0303
+  RMSE: 0.6010 ± 0.1545
+  MAE: 0.4403 ± 0.0089
+  Training Time: 717.2722s
+
+Gradient Boosting:
+  R² Score: 0.4672 ± 0.0224
+  RMSE: 0.6900 ± 0.1658
+  MAE: 0.5367 ± 0.0119
+  Training Time: 161.8626s
+
+SVM:
+  R² Score: 0.6175 ± 0.0177
+  RMSE: 0.5853 ± 0.1769
+  MAE: 0.4295 ± 0.0133
+  Training Time: 108.8613s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

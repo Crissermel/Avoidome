@@ -1,0 +1,14 @@
+artifact_uri: file:///home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/mlruns/131617469017848966/e98eb01dd1e3474f909e44ab3f011055/artifacts
+end_time: 1753871247744
+entry_point_name: ''
+experiment_id: '131617469017848966'
+lifecycle_stage: active
+run_id: e98eb01dd1e3474f909e44ab3f011055
+run_name: Session Initialized 7862
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753871247730
+status: 4
+tags: []
+user_id: serramelendezcsm

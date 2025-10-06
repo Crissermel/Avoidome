@@ -1,7 +1,0 @@
-2025-07-24 17:05:12,461 - INFO - QSAR Modeling started - Log file: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/logs/qsar_modeling_20250724_170512.log
-2025-07-24 17:05:12,461 - INFO - Loading data...
-2025-07-24 17:05:13,934 - INFO - Loaded 233511 valid bioactivity records in 1.47s
-2025-07-24 17:05:13,939 - INFO - Number of unique targets: 41
-2025-07-24 17:05:13,965 - INFO - Calculating descriptors for 76322 molecules...
-2025-07-24 17:06:32,925 - INFO - Successfully calculated descriptors for 76322 molecules in 78.96s
-2025-07-24 17:06:32,925 - INFO - Feature dimensionality: 522

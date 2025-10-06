@@ -1,9 +1,0 @@
-2025-07-28 09:55:33,476 - INFO - QSAR Modeling started - Log file: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/logs/qsar_modeling_20250728_095533.log
-2025-07-28 09:55:33,476 - INFO - Loading data...
-2025-07-28 09:55:34,914 - INFO - Loaded 233511 valid bioactivity records in 1.44s
-2025-07-28 09:55:34,918 - INFO - Number of unique targets: 41
-2025-07-28 09:55:34,942 - INFO - Calculating descriptors for 133045 molecules...
-2025-07-28 10:10:32,374 - INFO - Successfully calculated descriptors for 133045 molecules in 897.43s
-2025-07-28 10:10:32,374 - INFO - Added 133045 new molecules to global cache
-2025-07-28 10:10:32,374 - INFO - Global cache now contains 133045 unique molecules
-2025-07-28 10:10:32,374 - INFO - Feature dimensionality: 522

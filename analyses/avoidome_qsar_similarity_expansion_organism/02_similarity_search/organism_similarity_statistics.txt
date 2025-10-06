@@ -1,8 +1,0 @@
-AQSE-org Organism-Specific Similarity Search Statistics
-============================================================
-
-Human:
-  Proteins processed: 51
-  Similarity matrices: 3
-  Summary entries: 153
-

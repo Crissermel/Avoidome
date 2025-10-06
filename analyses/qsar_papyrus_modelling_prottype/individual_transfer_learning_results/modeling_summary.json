@@ -1,8 +1,0 @@
-{
-  "timestamp": "2025-09-04T15:49:07.948580",
-  "total_proteins": 55,
-  "transfer_learning_successful": 27,
-  "single_protein_successful": 37,
-  "transfer_learning_avg_r2": -0.27547350807295223,
-  "single_protein_avg_r2": 0.2551071674693734
-}

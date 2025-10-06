@@ -1,6 +1,0 @@
-,val_r2,val_r2,val_rmse,val_rmse,q2,q2
-,mean,std,mean,std,mean,std
-threshold,,,,,,
-high,0.338,0.172,0.822,0.208,0.254,0.26
-low,0.348,0.177,0.814,0.21,0.268,0.269
-medium,0.338,0.172,0.821,0.208,0.252,0.261

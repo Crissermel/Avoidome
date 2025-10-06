@@ -1,0 +1,19 @@
+{
+  "target_protein": "SLCO1B1",
+  "protein_type": "SLCO",
+  "status": "success",
+  "n_target_samples": 16,
+  "n_training_samples": 33,
+  "n_same_type_proteins": 3,
+  "rmse": 0.7001013399858613,
+  "mae": 0.6035749999999995,
+  "r2": -0.5895654521615155,
+  "target_uniprot": "Q9Y6L6",
+  "same_type_proteins": [
+    "SLCO2B3",
+    "SLCO2B1",
+    "SLCO1B2"
+  ],
+  "training_activities_count": 33,
+  "target_activities_count": 16
+}

@@ -1,0 +1,22 @@
+{
+  "target_protein": "CYP3A4",
+  "protein_type": "CYP",
+  "status": "success",
+  "n_target_samples": 1387,
+  "n_training_samples": 1584,
+  "n_same_type_proteins": 6,
+  "rmse": 0.8773008272388265,
+  "mae": 0.7044099319117958,
+  "r2": -0.07353872015633822,
+  "target_uniprot": "P08684",
+  "same_type_proteins": [
+    "CYP1A2",
+    "CYP2B6",
+    "CYP2C9",
+    "CYP2C19",
+    "CYP2D6",
+    "CP2BA"
+  ],
+  "training_activities_count": 1600,
+  "target_activities_count": 1387
+}

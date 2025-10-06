@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: HRH1
+Date: 2025-07-30 15:10:13.304718
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -2994173362404514338963456.0000 ± 3958250894673952802603008.0000
+  RMSE: 2108782409858.6804 ± 2429061346031.2031
+  MAE: 916912318342.7877 ± 904770055750.5109
+  Training Time: 3.4258s
+
+Random Forest:
+  R² Score: 0.6614 ± 0.0795
+  RMSE: 0.7179 ± 0.3516
+  MAE: 0.5058 ± 0.0535
+  Training Time: 49.3335s
+
+Gradient Boosting:
+  R² Score: 0.6109 ± 0.0434
+  RMSE: 0.7694 ± 0.2737
+  MAE: 0.5868 ± 0.0267
+  Training Time: 28.0528s
+
+SVM:
+  R² Score: 0.6972 ± 0.0362
+  RMSE: 0.6786 ± 0.2453
+  MAE: 0.4904 ± 0.0234
+  Training Time: 5.0317s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

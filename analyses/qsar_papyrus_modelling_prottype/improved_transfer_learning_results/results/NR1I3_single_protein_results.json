@@ -1,0 +1,12 @@
+{
+  "target_protein": "NR1I3",
+  "status": "success",
+  "n_total_samples": 59,
+  "n_train_samples": 47,
+  "n_test_samples": 12,
+  "rmse": 0.7766763128871633,
+  "mae": 0.6425499999999997,
+  "r2": 0.4943864610248071,
+  "target_uniprot": "Q14994",
+  "total_activities_count": 59
+}

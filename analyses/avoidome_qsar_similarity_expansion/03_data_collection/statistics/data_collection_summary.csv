@@ -1,0 +1,4 @@
+threshold,num_records,num_proteins,num_compounds,num_protein_combinations,min_samples_per_protein,max_samples_per_protein,mean_samples_per_protein,min_activity,max_activity,mean_activity,median_activity
+high,39534,80,29984,80,1,4492,494.175,3.4,11.0,6.646296917165159,6.555
+medium,39871,84,30049,84,1,4492,474.6547619047619,3.4,11.0,6.647260354071271,6.56
+low,41413,92,30763,92,1,4492,450.14130434782606,3.4,11.0,6.647158681045277,6.57

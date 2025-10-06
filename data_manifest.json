@@ -1,0 +1,29 @@
+{
+  "dashboard_files": [
+    "qsar_modeling_dashboard.py",
+    "unified_dashboard.py",
+    "streamlit_dashboard.py",
+    "run_qsar_dashboard.py"
+  ],
+  "data_files": {
+    "primary_data": [
+      "avoidome_prot_list.csv",
+      "prot_orgs.csv"
+    ],
+    "processed_data": [
+      "papyrus_protein_check_results.csv",
+      "avoidome_bioactivity_profile.csv",
+      "compounds.csv"
+    ],
+    "analyses": [
+      "standardized_qsar_models/modeling_summary.csv",
+      "standardized_qsar_models/esm_morgan_modeling_summary.csv"
+    ]
+  },
+  "model_files": {
+    "morgan_regression": "analyses/standardized_qsar_models/morgan_regression/",
+    "morgan_classification": "analyses/standardized_qsar_models/morgan_classification/",
+    "esm_morgan_regression": "analyses/standardized_qsar_models/esm_morgan_regression/",
+    "esm_morgan_classification": "analyses/standardized_qsar_models/esm_morgan_classification/"
+  }
+}

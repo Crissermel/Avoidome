@@ -1,0 +1,1679 @@
+2025-07-30 11:02:39,620 - INFO - Starting Papyrus prediction pipeline...
+2025-07-30 11:02:39,620 - INFO - Loading protein data...
+2025-07-30 11:02:39,622 - INFO - Loaded 52 proteins from /home/serramelendezcsm/RA/Avoidome/processed_data/papyrus_protein_check_results.csv
+2025-07-30 11:02:39,622 - INFO - Initializing Papyrus dataset...
+2025-07-30 11:02:39,776 - INFO - Papyrus dataset initialized successfully
+2025-07-30 11:02:39,776 - INFO - Loading full Papyrus dataset into DataFrame...
+2025-07-30 11:02:46,827 - INFO - Loaded 707461 total activities from Papyrus
+2025-07-30 11:02:46,829 - INFO - Processing protein: CYP1A2
+2025-07-30 11:02:46,829 - INFO - UniProt IDs - Human: P05177, Mouse: P00186, Rat: P04799
+2025-07-30 11:02:46,850 - INFO - Retrieved 329 activities for P05177
+2025-07-30 11:02:46,870 - INFO - Retrieved 1 activities for P00186
+2025-07-30 11:02:46,890 - INFO - Retrieved 9 activities for P04799
+2025-07-30 11:02:46,890 - INFO - Combined 339 activities for CYP1A2
+2025-07-30 11:02:47,092 - INFO - Created 339 fingerprints for CYP1A2
+2025-07-30 11:02:47,422 - INFO - Fold 1 - RMSE: 0.739, R²: 0.533
+2025-07-30 11:02:47,748 - INFO - Fold 2 - RMSE: 0.864, R²: 0.266
+2025-07-30 11:02:48,083 - INFO - Fold 3 - RMSE: 0.599, R²: 0.626
+2025-07-30 11:02:48,409 - INFO - Fold 4 - RMSE: 0.657, R²: 0.600
+2025-07-30 11:02:48,738 - INFO - Fold 5 - RMSE: 0.672, R²: 0.581
+2025-07-30 11:02:48,739 - INFO - Completed processing CYP1A2
+2025-07-30 11:02:48,740 - INFO - Processing protein: CYP2B6
+2025-07-30 11:02:48,740 - INFO - UniProt IDs - Human: P20813, Mouse: nan, Rat: nan
+2025-07-30 11:02:48,764 - INFO - Retrieved 33 activities for P20813
+2025-07-30 11:02:48,764 - INFO - Combined 33 activities for CYP2B6
+2025-07-30 11:02:48,787 - INFO - Created 33 fingerprints for CYP2B6
+2025-07-30 11:02:49,064 - INFO - Fold 1 - RMSE: 0.340, R²: 0.776
+2025-07-30 11:02:49,374 - INFO - Fold 2 - RMSE: 0.654, R²: 0.124
+2025-07-30 11:02:49,654 - INFO - Fold 3 - RMSE: 0.679, R²: -0.026
+2025-07-30 11:02:49,948 - INFO - Fold 4 - RMSE: 0.445, R²: 0.674
+2025-07-30 11:02:50,342 - INFO - Fold 5 - RMSE: 0.575, R²: 0.152
+2025-07-30 11:02:50,343 - INFO - Completed processing CYP2B6
+2025-07-30 11:02:50,344 - INFO - Processing protein: CYP2C9
+2025-07-30 11:02:50,344 - INFO - UniProt IDs - Human: P11712, Mouse: nan, Rat: nan
+2025-07-30 11:02:50,369 - INFO - Retrieved 466 activities for P11712
+2025-07-30 11:02:50,370 - INFO - Combined 466 activities for CYP2C9
+2025-07-30 11:02:50,671 - INFO - Created 466 fingerprints for CYP2C9
+2025-07-30 11:02:50,993 - INFO - Fold 1 - RMSE: 0.554, R²: 0.422
+2025-07-30 11:02:51,304 - INFO - Fold 2 - RMSE: 0.482, R²: 0.541
+2025-07-30 11:02:51,634 - INFO - Fold 3 - RMSE: 0.447, R²: 0.618
+2025-07-30 11:02:51,986 - INFO - Fold 4 - RMSE: 0.578, R²: 0.518
+2025-07-30 11:02:52,322 - INFO - Fold 5 - RMSE: 0.467, R²: 0.499
+2025-07-30 11:02:52,324 - INFO - Completed processing CYP2C9
+2025-07-30 11:02:52,324 - INFO - Processing protein: CYP2C19
+2025-07-30 11:02:52,324 - INFO - UniProt IDs - Human: P33261, Mouse: nan, Rat: nan
+2025-07-30 11:02:52,361 - INFO - Retrieved 165 activities for P33261
+2025-07-30 11:02:52,362 - INFO - Combined 165 activities for CYP2C19
+2025-07-30 11:02:52,553 - INFO - Created 165 fingerprints for CYP2C19
+2025-07-30 11:02:52,869 - INFO - Fold 1 - RMSE: 0.686, R²: 0.031
+2025-07-30 11:02:53,174 - INFO - Fold 2 - RMSE: 0.704, R²: 0.255
+2025-07-30 11:02:53,494 - INFO - Fold 3 - RMSE: 0.591, R²: 0.029
+2025-07-30 11:02:53,803 - INFO - Fold 4 - RMSE: 0.529, R²: 0.423
+2025-07-30 11:02:54,132 - INFO - Fold 5 - RMSE: 0.493, R²: 0.475
+2025-07-30 11:02:54,133 - INFO - Completed processing CYP2C19
+2025-07-30 11:02:54,134 - INFO - Processing protein: CYP2D6
+2025-07-30 11:02:54,134 - INFO - UniProt IDs - Human: P10635, Mouse: nan, Rat: nan
+2025-07-30 11:02:54,172 - INFO - Retrieved 607 activities for P10635
+2025-07-30 11:02:54,172 - INFO - Combined 607 activities for CYP2D6
+2025-07-30 11:02:54,818 - INFO - Created 607 fingerprints for CYP2D6
+2025-07-30 11:02:55,168 - INFO - Fold 1 - RMSE: 0.677, R²: 0.433
+2025-07-30 11:02:55,518 - INFO - Fold 2 - RMSE: 0.659, R²: 0.439
+2025-07-30 11:02:55,983 - INFO - Fold 3 - RMSE: 0.665, R²: 0.355
+2025-07-30 11:02:56,325 - INFO - Fold 4 - RMSE: 0.640, R²: 0.501
+2025-07-30 11:02:56,639 - INFO - Fold 5 - RMSE: 0.641, R²: 0.389
+2025-07-30 11:02:56,641 - INFO - Completed processing CYP2D6
+2025-07-30 11:02:56,641 - INFO - Processing protein: CYP3A4
+2025-07-30 11:02:56,641 - INFO - UniProt IDs - Human: P08684, Mouse: nan, Rat: nan
+2025-07-30 11:02:56,679 - INFO - Retrieved 1387 activities for P08684
+2025-07-30 11:02:56,679 - INFO - Combined 1387 activities for CYP3A4
+2025-07-30 11:02:58,034 - INFO - Created 1387 fingerprints for CYP3A4
+2025-07-30 11:02:58,561 - INFO - Fold 1 - RMSE: 0.523, R²: 0.586
+2025-07-30 11:02:59,091 - INFO - Fold 2 - RMSE: 0.556, R²: 0.563
+2025-07-30 11:02:59,610 - INFO - Fold 3 - RMSE: 0.565, R²: 0.611
+2025-07-30 11:03:00,152 - INFO - Fold 4 - RMSE: 0.477, R²: 0.689
+2025-07-30 11:03:00,733 - INFO - Fold 5 - RMSE: 0.502, R²: 0.610
+2025-07-30 11:03:00,736 - INFO - Completed processing CYP3A4
+2025-07-30 11:03:00,737 - INFO - Processing protein: AOX1
+2025-07-30 11:03:00,737 - INFO - UniProt IDs - Human: Q06278, Mouse: O54754, Rat: Q9Z0U5
+2025-07-30 11:03:00,774 - INFO - Retrieved 13 activities for Q06278
+2025-07-30 11:03:00,810 - WARNING - No activities found for O54754
+2025-07-30 11:03:00,845 - INFO - Retrieved 4 activities for Q9Z0U5
+2025-07-30 11:03:00,846 - INFO - Combined 17 activities for AOX1
+2025-07-30 11:03:00,871 - INFO - Created 17 fingerprints for AOX1
+2025-07-30 11:03:01,172 - INFO - Fold 1 - RMSE: 0.662, R²: 0.178
+2025-07-30 11:03:01,451 - INFO - Fold 2 - RMSE: 1.452, R²: -1.001
+2025-07-30 11:03:01,724 - INFO - Fold 3 - RMSE: 2.001, R²: -1.600
+2025-07-30 11:03:02,022 - INFO - Fold 4 - RMSE: 0.359, R²: 0.431
+2025-07-30 11:03:02,412 - INFO - Fold 5 - RMSE: 1.015, R²: -0.609
+2025-07-30 11:03:02,413 - INFO - Completed processing AOX1
+2025-07-30 11:03:02,413 - INFO - Processing protein: XDH
+2025-07-30 11:03:02,414 - INFO - UniProt IDs - Human: P47989, Mouse: Q00519, Rat: P22985
+2025-07-30 11:03:02,451 - INFO - Retrieved 98 activities for P47989
+2025-07-30 11:03:02,487 - WARNING - No activities found for Q00519
+2025-07-30 11:03:02,522 - WARNING - No activities found for P22985
+2025-07-30 11:03:02,522 - INFO - Combined 98 activities for XDH
+2025-07-30 11:03:02,629 - INFO - Created 98 fingerprints for XDH
+2025-07-30 11:03:02,914 - INFO - Fold 1 - RMSE: 0.367, R²: 0.796
+2025-07-30 11:03:03,186 - INFO - Fold 2 - RMSE: 0.367, R²: 0.716
+2025-07-30 11:03:03,489 - INFO - Fold 3 - RMSE: 0.500, R²: 0.493
+2025-07-30 11:03:03,791 - INFO - Fold 4 - RMSE: 0.365, R²: 0.759
+2025-07-30 11:03:04,075 - INFO - Fold 5 - RMSE: 0.279, R²: 0.737
+2025-07-30 11:03:04,076 - INFO - Completed processing XDH
+2025-07-30 11:03:04,076 - INFO - Processing protein: MAOA
+2025-07-30 11:03:04,077 - INFO - UniProt IDs - Human: P21397, Mouse: Q64133, Rat: P21396
+2025-07-30 11:03:04,118 - INFO - Retrieved 1130 activities for P21397
+2025-07-30 11:03:04,154 - INFO - Retrieved 2 activities for Q64133
+2025-07-30 11:03:04,191 - INFO - Retrieved 336 activities for P21396
+2025-07-30 11:03:04,192 - INFO - Combined 1468 activities for MAOA
+2025-07-30 11:03:05,661 - INFO - Created 1468 fingerprints for MAOA
+2025-07-30 11:03:06,256 - INFO - Fold 1 - RMSE: 0.730, R²: 0.591
+2025-07-30 11:03:06,850 - INFO - Fold 2 - RMSE: 0.707, R²: 0.647
+2025-07-30 11:03:07,395 - INFO - Fold 3 - RMSE: 0.664, R²: 0.680
+2025-07-30 11:03:08,009 - INFO - Fold 4 - RMSE: 0.728, R²: 0.630
+2025-07-30 11:03:08,544 - INFO - Fold 5 - RMSE: 0.689, R²: 0.681
+2025-07-30 11:03:08,547 - INFO - Completed processing MAOA
+2025-07-30 11:03:08,548 - INFO - Processing protein: MAOB
+2025-07-30 11:03:08,548 - INFO - UniProt IDs - Human: P27338, Mouse: Q8BW75, Rat: P19643
+2025-07-30 11:03:08,573 - INFO - Retrieved 1519 activities for P27338
+2025-07-30 11:03:08,594 - INFO - Retrieved 14 activities for Q8BW75
+2025-07-30 11:03:08,617 - INFO - Retrieved 263 activities for P19643
+2025-07-30 11:03:08,618 - INFO - Combined 1796 activities for MAOB
+2025-07-30 11:03:09,659 - INFO - Created 1795 fingerprints for MAOB
+2025-07-30 11:03:10,084 - INFO - Fold 1 - RMSE: 0.805, R²: 0.590
+2025-07-30 11:03:10,701 - INFO - Fold 2 - RMSE: 0.674, R²: 0.708
+2025-07-30 11:03:11,138 - INFO - Fold 3 - RMSE: 0.824, R²: 0.599
+2025-07-30 11:03:11,605 - INFO - Fold 4 - RMSE: 0.784, R²: 0.650
+2025-07-30 11:03:12,044 - INFO - Fold 5 - RMSE: 0.784, R²: 0.630
+2025-07-30 11:03:12,051 - INFO - Completed processing MAOB
+2025-07-30 11:03:12,052 - INFO - Processing protein: ALDH1A1
+2025-07-30 11:03:12,052 - INFO - UniProt IDs - Human: P00352, Mouse: P24549, Rat: P51647
+2025-07-30 11:03:12,075 - INFO - Retrieved 150 activities for P00352
+2025-07-30 11:03:12,099 - WARNING - No activities found for P24549
+2025-07-30 11:03:12,121 - WARNING - No activities found for P51647
+2025-07-30 11:03:12,121 - INFO - Combined 150 activities for ALDH1A1
+2025-07-30 11:03:12,222 - INFO - Created 150 fingerprints for ALDH1A1
+2025-07-30 11:03:12,485 - INFO - Fold 1 - RMSE: 0.562, R²: 0.525
+2025-07-30 11:03:12,749 - INFO - Fold 2 - RMSE: 0.795, R²: 0.466
+2025-07-30 11:03:13,000 - INFO - Fold 3 - RMSE: 0.886, R²: 0.303
+2025-07-30 11:03:13,257 - INFO - Fold 4 - RMSE: 0.851, R²: 0.284
+2025-07-30 11:03:13,503 - INFO - Fold 5 - RMSE: 0.549, R²: 0.579
+2025-07-30 11:03:13,504 - INFO - Completed processing ALDH1A1
+2025-07-30 11:03:13,504 - INFO - Processing protein: ADH1A
+2025-07-30 11:03:13,505 - INFO - UniProt IDs - Human: P07327, Mouse: nan, Rat: nan
+2025-07-30 11:03:13,529 - WARNING - No activities found for P07327
+2025-07-30 11:03:13,529 - WARNING - No activities found for ADH1A
+2025-07-30 11:03:13,529 - INFO - Completed processing ADH1A
+2025-07-30 11:03:13,529 - INFO - Processing protein: HSD11B1
+2025-07-30 11:03:13,529 - INFO - UniProt IDs - Human: P28845, Mouse: P50172, Rat: P16232
+2025-07-30 11:03:13,554 - INFO - Retrieved 2046 activities for P28845
+2025-07-30 11:03:13,577 - INFO - Retrieved 612 activities for P50172
+2025-07-30 11:03:13,598 - INFO - Retrieved 67 activities for P16232
+2025-07-30 11:03:13,599 - INFO - Combined 2725 activities for HSD11B1
+2025-07-30 11:03:15,294 - INFO - Created 2712 fingerprints for HSD11B1
+2025-07-30 11:03:15,843 - INFO - Fold 1 - RMSE: 0.722, R²: 0.504
+2025-07-30 11:03:16,476 - INFO - Fold 2 - RMSE: 0.733, R²: 0.527
+2025-07-30 11:03:17,089 - INFO - Fold 3 - RMSE: 0.714, R²: 0.509
+2025-07-30 11:03:17,683 - INFO - Fold 4 - RMSE: 0.687, R²: 0.558
+2025-07-30 11:03:18,436 - INFO - Fold 5 - RMSE: 0.688, R²: 0.545
+2025-07-30 11:03:18,439 - INFO - Completed processing HSD11B1
+2025-07-30 11:03:18,440 - INFO - Processing protein: AKR7A3
+2025-07-30 11:03:18,440 - INFO - UniProt IDs - Human: O95154, Mouse: nan, Rat: P38918
+2025-07-30 11:03:18,464 - WARNING - No activities found for O95154
+2025-07-30 11:03:18,485 - WARNING - No activities found for P38918
+2025-07-30 11:03:18,485 - WARNING - No activities found for AKR7A3
+2025-07-30 11:03:18,485 - INFO - Completed processing AKR7A3
+2025-07-30 11:03:18,486 - INFO - Processing protein: FMO1
+2025-07-30 11:03:18,486 - INFO - UniProt IDs - Human: Q01740, Mouse: P50285, Rat: P36365
+2025-07-30 11:03:18,506 - WARNING - No activities found for Q01740
+2025-07-30 11:03:18,526 - WARNING - No activities found for P50285
+2025-07-30 11:03:18,546 - WARNING - No activities found for P36365
+2025-07-30 11:03:18,546 - WARNING - No activities found for FMO1
+2025-07-30 11:03:18,546 - INFO - Completed processing FMO1
+2025-07-30 11:03:18,546 - INFO - Processing protein: AHR
+2025-07-30 11:03:18,546 - INFO - UniProt IDs - Human: P35869, Mouse: P30561, Rat: P41738
+2025-07-30 11:03:18,567 - INFO - Retrieved 25 activities for P35869
+2025-07-30 11:03:18,588 - INFO - Retrieved 4 activities for P30561
+2025-07-30 11:03:18,608 - INFO - Retrieved 2 activities for P41738
+2025-07-30 11:03:18,609 - INFO - Combined 31 activities for AHR
+2025-07-30 11:03:18,630 - INFO - Created 29 fingerprints for AHR
+2025-07-30 11:03:18,907 - INFO - Fold 1 - RMSE: 1.581, R²: -1.162
+2025-07-30 11:03:19,189 - INFO - Fold 2 - RMSE: 1.468, R²: 0.138
+2025-07-30 11:03:19,473 - INFO - Fold 3 - RMSE: 0.885, R²: 0.407
+2025-07-30 11:03:19,767 - INFO - Fold 4 - RMSE: 0.604, R²: 0.418
+2025-07-30 11:03:20,067 - INFO - Fold 5 - RMSE: 1.811, R²: 0.292
+2025-07-30 11:03:20,068 - INFO - Completed processing AHR
+2025-07-30 11:03:20,068 - INFO - Processing protein: NR1I3
+2025-07-30 11:03:20,068 - INFO - UniProt IDs - Human: Q14994, Mouse: O35627, Rat: Q9QUS1
+2025-07-30 11:03:20,092 - INFO - Retrieved 59 activities for Q14994
+2025-07-30 11:03:20,114 - WARNING - No activities found for O35627
+2025-07-30 11:03:20,134 - WARNING - No activities found for Q9QUS1
+2025-07-30 11:03:20,135 - INFO - Combined 59 activities for NR1I3
+2025-07-30 11:03:20,174 - INFO - Created 59 fingerprints for NR1I3
+2025-07-30 11:03:20,453 - INFO - Fold 1 - RMSE: 0.824, R²: 0.181
+2025-07-30 11:03:20,728 - INFO - Fold 2 - RMSE: 0.684, R²: 0.381
+2025-07-30 11:03:21,016 - INFO - Fold 3 - RMSE: 0.743, R²: 0.559
+2025-07-30 11:03:21,306 - INFO - Fold 4 - RMSE: 0.863, R²: 0.210
+2025-07-30 11:03:21,587 - INFO - Fold 5 - RMSE: 0.783, R²: 0.516
+2025-07-30 11:03:21,588 - INFO - Completed processing NR1I3
+2025-07-30 11:03:21,589 - INFO - Processing protein: NR1I2
+2025-07-30 11:03:21,589 - INFO - UniProt IDs - Human: O75469, Mouse: O54915, Rat: Q9R1A7
+2025-07-30 11:03:21,614 - INFO - Retrieved 344 activities for O75469
+2025-07-30 11:03:21,636 - WARNING - No activities found for O54915
+2025-07-30 11:03:21,657 - WARNING - No activities found for Q9R1A7
+2025-07-30 11:03:21,658 - INFO - Combined 344 activities for NR1I2
+2025-07-30 11:03:21,881 - INFO - Created 344 fingerprints for NR1I2
+2025-07-30 11:03:22,172 - INFO - Fold 1 - RMSE: 0.654, R²: 0.480
+2025-07-30 11:03:22,467 - INFO - Fold 2 - RMSE: 0.540, R²: 0.670
+2025-07-30 11:03:22,757 - INFO - Fold 3 - RMSE: 0.640, R²: 0.519
+2025-07-30 11:03:23,032 - INFO - Fold 4 - RMSE: 0.545, R²: 0.684
+2025-07-30 11:03:23,347 - INFO - Fold 5 - RMSE: 0.638, R²: 0.354
+2025-07-30 11:03:23,348 - INFO - Completed processing NR1I2
+2025-07-30 11:03:23,348 - INFO - Processing protein: SULT1A1
+2025-07-30 11:03:23,348 - INFO - UniProt IDs - Human: P50225, Mouse: P52840, Rat: P17988
+2025-07-30 11:03:23,372 - INFO - Retrieved 6 activities for P50225
+2025-07-30 11:03:23,393 - WARNING - No activities found for P52840
+2025-07-30 11:03:23,413 - WARNING - No activities found for P17988
+2025-07-30 11:03:23,413 - INFO - Combined 6 activities for SULT1A1
+2025-07-30 11:03:23,417 - WARNING - Insufficient data after filtering for SULT1A1: 6 samples
+2025-07-30 11:03:23,417 - INFO - Completed processing SULT1A1
+2025-07-30 11:03:23,417 - INFO - Processing protein: GSTA1
+2025-07-30 11:03:23,417 - INFO - UniProt IDs - Human: P08263, Mouse: P13745, Rat: P00502
+2025-07-30 11:03:23,439 - INFO - Retrieved 6 activities for P08263
+2025-07-30 11:03:23,459 - WARNING - No activities found for P13745
+2025-07-30 11:03:23,480 - WARNING - No activities found for P00502
+2025-07-30 11:03:23,480 - INFO - Combined 6 activities for GSTA1
+2025-07-30 11:03:23,483 - WARNING - Insufficient data after filtering for GSTA1: 6 samples
+2025-07-30 11:03:23,483 - INFO - Completed processing GSTA1
+2025-07-30 11:03:23,483 - INFO - Processing protein: OXA1L
+2025-07-30 11:03:23,483 - INFO - UniProt IDs - Human: Q15070, Mouse: Q8BGA9, Rat: A0A8I6AQW6
+2025-07-30 11:03:23,504 - WARNING - No activities found for Q15070
+2025-07-30 11:03:23,524 - WARNING - No activities found for Q8BGA9
+2025-07-30 11:03:23,543 - WARNING - No activities found for A0A8I6AQW6
+2025-07-30 11:03:23,543 - WARNING - No activities found for OXA1L
+2025-07-30 11:03:23,543 - INFO - Completed processing OXA1L
+2025-07-30 11:03:23,544 - INFO - Processing protein: ORM1
+2025-07-30 11:03:23,544 - INFO - UniProt IDs - Human: P02763, Mouse: Q60590, Rat: P02764
+2025-07-30 11:03:23,566 - WARNING - No activities found for P02763
+2025-07-30 11:03:23,586 - WARNING - No activities found for Q60590
+2025-07-30 11:03:23,606 - WARNING - No activities found for P02764
+2025-07-30 11:03:23,606 - WARNING - No activities found for ORM1
+2025-07-30 11:03:23,606 - INFO - Completed processing ORM1
+2025-07-30 11:03:23,606 - INFO - Processing protein: KCNH2
+2025-07-30 11:03:23,606 - INFO - UniProt IDs - Human: Q12809, Mouse: O35219, Rat: O08962
+2025-07-30 11:03:23,635 - INFO - Retrieved 4492 activities for Q12809
+2025-07-30 11:03:23,656 - WARNING - No activities found for O35219
+2025-07-30 11:03:23,676 - WARNING - No activities found for O08962
+2025-07-30 11:03:23,677 - INFO - Combined 4492 activities for KCNH2
+2025-07-30 11:03:26,499 - INFO - Created 4492 fingerprints for KCNH2
+2025-07-30 11:03:27,845 - INFO - Fold 1 - RMSE: 0.561, R²: 0.656
+2025-07-30 11:03:29,026 - INFO - Fold 2 - RMSE: 0.628, R²: 0.538
+2025-07-30 11:03:30,256 - INFO - Fold 3 - RMSE: 0.606, R²: 0.597
+2025-07-30 11:03:31,448 - INFO - Fold 4 - RMSE: 0.598, R²: 0.616
+2025-07-30 11:03:32,629 - INFO - Fold 5 - RMSE: 0.583, R²: 0.610
+2025-07-30 11:03:32,638 - INFO - Completed processing KCNH2
+2025-07-30 11:03:32,639 - INFO - Processing protein: SCN5A
+2025-07-30 11:03:32,639 - INFO - UniProt IDs - Human: Q14524, Mouse: Q9JJV9, Rat: P15389
+2025-07-30 11:03:32,661 - INFO - Retrieved 329 activities for Q14524
+2025-07-30 11:03:32,682 - WARNING - No activities found for Q9JJV9
+2025-07-30 11:03:32,702 - WARNING - No activities found for P15389
+2025-07-30 11:03:32,702 - INFO - Combined 329 activities for SCN5A
+2025-07-30 11:03:32,915 - INFO - Created 329 fingerprints for SCN5A
+2025-07-30 11:03:33,192 - INFO - Fold 1 - RMSE: 0.571, R²: 0.194
+2025-07-30 11:03:33,461 - INFO - Fold 2 - RMSE: 0.521, R²: 0.473
+2025-07-30 11:03:33,749 - INFO - Fold 3 - RMSE: 0.497, R²: 0.441
+2025-07-30 11:03:34,048 - INFO - Fold 4 - RMSE: 0.440, R²: 0.574
+2025-07-30 11:03:34,335 - INFO - Fold 5 - RMSE: 0.599, R²: 0.380
+2025-07-30 11:03:34,337 - INFO - Completed processing SCN5A
+2025-07-30 11:03:34,337 - INFO - Processing protein: CACNB1
+2025-07-30 11:03:34,338 - INFO - UniProt IDs - Human: Q02641, Mouse: Q8R3Z5, Rat: P54283
+2025-07-30 11:03:34,361 - WARNING - No activities found for Q02641
+2025-07-30 11:03:34,382 - WARNING - No activities found for Q8R3Z5
+2025-07-30 11:03:34,402 - WARNING - No activities found for P54283
+2025-07-30 11:03:34,402 - WARNING - No activities found for CACNB1
+2025-07-30 11:03:34,402 - INFO - Completed processing CACNB1
+2025-07-30 11:03:34,402 - INFO - Processing protein: CAV1
+2025-07-30 11:03:34,402 - INFO - UniProt IDs - Human: Q03135, Mouse: P49817, Rat: P41350
+2025-07-30 11:03:34,423 - WARNING - No activities found for Q03135
+2025-07-30 11:03:34,443 - WARNING - No activities found for P49817
+2025-07-30 11:03:34,463 - WARNING - No activities found for P41350
+2025-07-30 11:03:34,463 - WARNING - No activities found for CAV1
+2025-07-30 11:03:34,463 - INFO - Completed processing CAV1
+2025-07-30 11:03:34,463 - INFO - Processing protein: HTR2B
+2025-07-30 11:03:34,463 - INFO - UniProt IDs - Human: P41595, Mouse: Q02152, Rat: P30994
+2025-07-30 11:03:34,487 - INFO - Retrieved 1180 activities for P41595
+2025-07-30 11:03:34,508 - WARNING - No activities found for Q02152
+2025-07-30 11:03:34,528 - INFO - Retrieved 35 activities for P30994
+2025-07-30 11:03:34,529 - INFO - Combined 1215 activities for HTR2B
+2025-07-30 11:03:35,236 - INFO - Created 1214 fingerprints for HTR2B
+2025-07-30 11:03:35,699 - INFO - Fold 1 - RMSE: 0.723, R²: 0.410
+2025-07-30 11:03:36,227 - INFO - Fold 2 - RMSE: 0.715, R²: 0.519
+2025-07-30 11:03:36,655 - INFO - Fold 3 - RMSE: 0.714, R²: 0.411
+2025-07-30 11:03:37,116 - INFO - Fold 4 - RMSE: 0.611, R²: 0.525
+2025-07-30 11:03:37,562 - INFO - Fold 5 - RMSE: 0.634, R²: 0.531
+2025-07-30 11:03:37,567 - INFO - Completed processing HTR2B
+2025-07-30 11:03:37,568 - INFO - Processing protein: SLC6A4
+2025-07-30 11:03:37,568 - INFO - UniProt IDs - Human: P31645, Mouse: Q60857, Rat: P31652
+2025-07-30 11:03:37,594 - INFO - Retrieved 2958 activities for P31645
+2025-07-30 11:03:37,615 - INFO - Retrieved 12 activities for Q60857
+2025-07-30 11:03:37,638 - INFO - Retrieved 1995 activities for P31652
+2025-07-30 11:03:37,640 - INFO - Combined 4965 activities for SLC6A4
+2025-07-30 11:03:40,632 - INFO - Created 4958 fingerprints for SLC6A4
+2025-07-30 11:03:41,448 - INFO - Fold 1 - RMSE: 0.712, R²: 0.642
+2025-07-30 11:03:42,321 - INFO - Fold 2 - RMSE: 0.720, R²: 0.638
+2025-07-30 11:03:43,138 - INFO - Fold 3 - RMSE: 0.702, R²: 0.652
+2025-07-30 11:03:43,927 - INFO - Fold 4 - RMSE: 0.659, R²: 0.664
+2025-07-30 11:03:44,692 - INFO - Fold 5 - RMSE: 0.704, R²: 0.639
+2025-07-30 11:03:44,700 - INFO - Completed processing SLC6A4
+2025-07-30 11:03:44,701 - INFO - Processing protein: DIDO1
+2025-07-30 11:03:44,701 - INFO - UniProt IDs - Human: Q9BTC0, Mouse: Q8C9B9, Rat: A0A8I5ZXE0
+2025-07-30 11:03:44,723 - WARNING - No activities found for Q9BTC0
+2025-07-30 11:03:44,744 - WARNING - No activities found for Q8C9B9
+2025-07-30 11:03:44,763 - WARNING - No activities found for A0A8I5ZXE0
+2025-07-30 11:03:44,763 - WARNING - No activities found for DIDO1
+2025-07-30 11:03:44,763 - INFO - Completed processing DIDO1
+2025-07-30 11:03:44,763 - INFO - Processing protein: SLC6A3
+2025-07-30 11:03:44,763 - INFO - UniProt IDs - Human: Q01959, Mouse: Q61327, Rat: P23977
+2025-07-30 11:03:44,786 - INFO - Retrieved 1646 activities for Q01959
+2025-07-30 11:03:44,806 - INFO - Retrieved 14 activities for Q61327
+2025-07-30 11:03:44,828 - INFO - Retrieved 1114 activities for P23977
+2025-07-30 11:03:44,829 - INFO - Combined 2774 activities for SLC6A3
+2025-07-30 11:03:46,459 - INFO - Created 2766 fingerprints for SLC6A3
+2025-07-30 11:03:47,075 - INFO - Fold 1 - RMSE: 0.642, R²: 0.650
+2025-07-30 11:03:47,613 - INFO - Fold 2 - RMSE: 0.635, R²: 0.666
+2025-07-30 11:03:48,142 - INFO - Fold 3 - RMSE: 0.606, R²: 0.699
+2025-07-30 11:03:48,703 - INFO - Fold 4 - RMSE: 0.625, R²: 0.671
+2025-07-30 11:03:49,258 - INFO - Fold 5 - RMSE: 0.584, R²: 0.717
+2025-07-30 11:03:49,263 - INFO - Completed processing SLC6A3
+2025-07-30 11:03:49,264 - INFO - Processing protein: SLC6A2
+2025-07-30 11:03:49,264 - INFO - UniProt IDs - Human: P23975, Mouse: O55192, Rat: F1LNR9
+2025-07-30 11:03:49,296 - INFO - Retrieved 2021 activities for P23975
+2025-07-30 11:03:49,323 - INFO - Retrieved 1 activities for O55192
+2025-07-30 11:03:49,343 - WARNING - No activities found for F1LNR9
+2025-07-30 11:03:49,344 - INFO - Combined 2022 activities for SLC6A2
+2025-07-30 11:03:50,540 - INFO - Created 2022 fingerprints for SLC6A2
+2025-07-30 11:03:50,997 - INFO - Fold 1 - RMSE: 0.630, R²: 0.653
+2025-07-30 11:03:51,437 - INFO - Fold 2 - RMSE: 0.645, R²: 0.612
+2025-07-30 11:03:51,968 - INFO - Fold 3 - RMSE: 0.654, R²: 0.632
+2025-07-30 11:03:52,438 - INFO - Fold 4 - RMSE: 0.651, R²: 0.617
+2025-07-30 11:03:52,911 - INFO - Fold 5 - RMSE: 0.704, R²: 0.534
+2025-07-30 11:03:52,914 - INFO - Completed processing SLC6A2
+2025-07-30 11:03:52,915 - INFO - Processing protein: NAT8
+2025-07-30 11:03:52,915 - INFO - UniProt IDs - Human: Q9UHE5, Mouse: Q9JIY7, Rat: Q9QXT3
+2025-07-30 11:03:52,940 - WARNING - No activities found for Q9UHE5
+2025-07-30 11:03:52,961 - WARNING - No activities found for Q9JIY7
+2025-07-30 11:03:52,982 - WARNING - No activities found for Q9QXT3
+2025-07-30 11:03:52,982 - WARNING - No activities found for NAT8
+2025-07-30 11:03:52,982 - INFO - Completed processing NAT8
+2025-07-30 11:03:52,982 - INFO - Processing protein: ADRA1A
+2025-07-30 11:03:52,982 - INFO - UniProt IDs - Human: P25100, Mouse: P97718, Rat: P23944
+2025-07-30 11:03:53,004 - INFO - Retrieved 566 activities for P25100
+2025-07-30 11:03:53,024 - WARNING - No activities found for P97718
+2025-07-30 11:03:53,045 - INFO - Retrieved 146 activities for P23944
+2025-07-30 11:03:53,046 - INFO - Combined 712 activities for ADRA1A
+2025-07-30 11:03:53,498 - INFO - Created 711 fingerprints for ADRA1A
+2025-07-30 11:03:53,812 - INFO - Fold 1 - RMSE: 0.891, R²: 0.468
+2025-07-30 11:03:54,134 - INFO - Fold 2 - RMSE: 0.873, R²: 0.470
+2025-07-30 11:03:54,447 - INFO - Fold 3 - RMSE: 0.766, R²: 0.576
+2025-07-30 11:03:54,761 - INFO - Fold 4 - RMSE: 0.748, R²: 0.633
+2025-07-30 11:03:55,094 - INFO - Fold 5 - RMSE: 0.870, R²: 0.494
+2025-07-30 11:03:55,096 - INFO - Completed processing ADRA1A
+2025-07-30 11:03:55,097 - INFO - Processing protein: ADRA2A
+2025-07-30 11:03:55,097 - INFO - UniProt IDs - Human: P08913, Mouse: Q01338, Rat: P22909
+2025-07-30 11:03:55,127 - INFO - Retrieved 526 activities for P08913
+2025-07-30 11:03:55,154 - WARNING - No activities found for Q01338
+2025-07-30 11:03:55,175 - INFO - Retrieved 39 activities for P22909
+2025-07-30 11:03:55,176 - INFO - Combined 565 activities for ADRA2A
+2025-07-30 11:03:55,507 - INFO - Created 565 fingerprints for ADRA2A
+2025-07-30 11:03:55,795 - INFO - Fold 1 - RMSE: 0.768, R²: 0.656
+2025-07-30 11:03:56,073 - INFO - Fold 2 - RMSE: 0.749, R²: 0.619
+2025-07-30 11:03:56,363 - INFO - Fold 3 - RMSE: 0.947, R²: 0.450
+2025-07-30 11:03:56,647 - INFO - Fold 4 - RMSE: 1.096, R²: 0.372
+2025-07-30 11:03:56,931 - INFO - Fold 5 - RMSE: 0.793, R²: 0.585
+2025-07-30 11:03:56,933 - INFO - Completed processing ADRA2A
+2025-07-30 11:03:56,934 - INFO - Processing protein: ADRB1
+2025-07-30 11:03:56,934 - INFO - UniProt IDs - Human: P08588, Mouse: P34971, Rat: P18090
+2025-07-30 11:03:56,957 - INFO - Retrieved 614 activities for P08588
+2025-07-30 11:03:56,978 - INFO - Retrieved 32 activities for P34971
+2025-07-30 11:03:56,999 - INFO - Retrieved 53 activities for P18090
+2025-07-30 11:03:57,000 - INFO - Combined 699 activities for ADRB1
+2025-07-30 11:03:57,436 - INFO - Created 699 fingerprints for ADRB1
+2025-07-30 11:03:57,730 - INFO - Fold 1 - RMSE: 0.715, R²: 0.602
+2025-07-30 11:03:58,036 - INFO - Fold 2 - RMSE: 0.832, R²: 0.553
+2025-07-30 11:03:58,392 - INFO - Fold 3 - RMSE: 0.718, R²: 0.595
+2025-07-30 11:03:58,684 - INFO - Fold 4 - RMSE: 0.807, R²: 0.562
+2025-07-30 11:03:58,984 - INFO - Fold 5 - RMSE: 0.701, R²: 0.604
+2025-07-30 11:03:58,985 - INFO - Completed processing ADRB1
+2025-07-30 11:03:58,985 - INFO - Processing protein: ADRB2
+2025-07-30 11:03:58,986 - INFO - UniProt IDs - Human: P07550, Mouse: P18762, Rat: P10608
+2025-07-30 11:03:59,010 - INFO - Retrieved 860 activities for P07550
+2025-07-30 11:03:59,031 - WARNING - No activities found for P18762
+2025-07-30 11:03:59,051 - INFO - Retrieved 20 activities for P10608
+2025-07-30 11:03:59,053 - INFO - Combined 880 activities for ADRB2
+2025-07-30 11:03:59,604 - INFO - Created 880 fingerprints for ADRB2
+2025-07-30 11:03:59,905 - INFO - Fold 1 - RMSE: 0.924, R²: 0.688
+2025-07-30 11:04:00,191 - INFO - Fold 2 - RMSE: 0.931, R²: 0.660
+2025-07-30 11:04:00,482 - INFO - Fold 3 - RMSE: 0.919, R²: 0.710
+2025-07-30 11:04:00,762 - INFO - Fold 4 - RMSE: 0.974, R²: 0.660
+2025-07-30 11:04:01,072 - INFO - Fold 5 - RMSE: 0.874, R²: 0.698
+2025-07-30 11:04:01,073 - INFO - Completed processing ADRB2
+2025-07-30 11:04:01,074 - INFO - Processing protein: CNRIP1
+2025-07-30 11:04:01,074 - INFO - UniProt IDs - Human: Q96F85, Mouse: Q5M8N0, Rat: Q5M7A7
+2025-07-30 11:04:01,097 - WARNING - No activities found for Q96F85
+2025-07-30 11:04:01,120 - WARNING - No activities found for Q5M8N0
+2025-07-30 11:04:01,140 - WARNING - No activities found for Q5M7A7
+2025-07-30 11:04:01,140 - WARNING - No activities found for CNRIP1
+2025-07-30 11:04:01,141 - INFO - Completed processing CNRIP1
+2025-07-30 11:04:01,141 - INFO - Processing protein: CNR2
+2025-07-30 11:04:01,141 - INFO - UniProt IDs - Human: P34972, Mouse: P47936, Rat: Q9QZN9
+2025-07-30 11:04:01,169 - INFO - Retrieved 4295 activities for P34972
+2025-07-30 11:04:01,191 - INFO - Retrieved 363 activities for P47936
+2025-07-30 11:04:01,212 - INFO - Retrieved 194 activities for Q9QZN9
+2025-07-30 11:04:01,214 - INFO - Combined 4852 activities for CNR2
+2025-07-30 11:04:04,181 - INFO - Created 4843 fingerprints for CNR2
+2025-07-30 11:04:05,067 - INFO - Fold 1 - RMSE: 0.718, R²: 0.608
+2025-07-30 11:04:05,982 - INFO - Fold 2 - RMSE: 0.747, R²: 0.575
+2025-07-30 11:04:06,850 - INFO - Fold 3 - RMSE: 0.730, R²: 0.613
+2025-07-30 11:04:07,772 - INFO - Fold 4 - RMSE: 0.720, R²: 0.615
+2025-07-30 11:04:08,619 - INFO - Fold 5 - RMSE: 0.743, R²: 0.586
+2025-07-30 11:04:08,644 - INFO - Completed processing CNR2
+2025-07-30 11:04:08,644 - INFO - Processing protein: CHRM1
+2025-07-30 11:04:08,644 - INFO - UniProt IDs - Human: P11229, Mouse: P12657, Rat: P08482
+2025-07-30 11:04:08,685 - INFO - Retrieved 1103 activities for P11229
+2025-07-30 11:04:08,706 - INFO - Retrieved 1 activities for P12657
+2025-07-30 11:04:08,731 - INFO - Retrieved 261 activities for P08482
+2025-07-30 11:04:08,734 - INFO - Combined 1365 activities for CHRM1
+2025-07-30 11:04:09,582 - INFO - Created 1364 fingerprints for CHRM1
+2025-07-30 11:04:10,010 - INFO - Fold 1 - RMSE: 0.734, R²: 0.656
+2025-07-30 11:04:10,436 - INFO - Fold 2 - RMSE: 0.847, R²: 0.620
+2025-07-30 11:04:10,871 - INFO - Fold 3 - RMSE: 0.742, R²: 0.702
+2025-07-30 11:04:11,286 - INFO - Fold 4 - RMSE: 0.848, R²: 0.586
+2025-07-30 11:04:11,700 - INFO - Fold 5 - RMSE: 0.854, R²: 0.551
+2025-07-30 11:04:11,705 - INFO - Completed processing CHRM1
+2025-07-30 11:04:11,706 - INFO - Processing protein: CHRM2
+2025-07-30 11:04:11,706 - INFO - UniProt IDs - Human: P08172, Mouse: Q9ERZ4, Rat: P10980
+2025-07-30 11:04:11,739 - INFO - Retrieved 721 activities for P08172
+2025-07-30 11:04:11,759 - INFO - Retrieved 5 activities for Q9ERZ4
+2025-07-30 11:04:11,782 - INFO - Retrieved 130 activities for P10980
+2025-07-30 11:04:11,783 - INFO - Combined 856 activities for CHRM2
+2025-07-30 11:04:12,321 - INFO - Created 855 fingerprints for CHRM2
+2025-07-30 11:04:12,610 - INFO - Fold 1 - RMSE: 0.878, R²: 0.577
+2025-07-30 11:04:12,907 - INFO - Fold 2 - RMSE: 0.843, R²: 0.654
+2025-07-30 11:04:13,202 - INFO - Fold 3 - RMSE: 0.867, R²: 0.647
+2025-07-30 11:04:13,594 - INFO - Fold 4 - RMSE: 0.858, R²: 0.591
+2025-07-30 11:04:13,894 - INFO - Fold 5 - RMSE: 0.734, R²: 0.718
+2025-07-30 11:04:13,895 - INFO - Completed processing CHRM2
+2025-07-30 11:04:13,896 - INFO - Processing protein: CHRM3
+2025-07-30 11:04:13,896 - INFO - UniProt IDs - Human: P20309, Mouse: Q9ERZ3, Rat: P08483
+2025-07-30 11:04:13,926 - INFO - Retrieved 1209 activities for P20309
+2025-07-30 11:04:13,947 - WARNING - No activities found for Q9ERZ3
+2025-07-30 11:04:13,968 - INFO - Retrieved 93 activities for P08483
+2025-07-30 11:04:13,969 - INFO - Combined 1302 activities for CHRM3
+2025-07-30 11:04:14,804 - INFO - Created 1302 fingerprints for CHRM3
+2025-07-30 11:04:15,148 - INFO - Fold 1 - RMSE: 0.888, R²: 0.663
+2025-07-30 11:04:15,490 - INFO - Fold 2 - RMSE: 0.851, R²: 0.731
+2025-07-30 11:04:15,824 - INFO - Fold 3 - RMSE: 0.839, R²: 0.693
+2025-07-30 11:04:16,150 - INFO - Fold 4 - RMSE: 0.854, R²: 0.693
+2025-07-30 11:04:16,512 - INFO - Fold 5 - RMSE: 0.801, R²: 0.756
+2025-07-30 11:04:16,516 - INFO - Completed processing CHRM3
+2025-07-30 11:04:16,516 - INFO - Processing protein: CHRNA10
+2025-07-30 11:04:16,516 - INFO - UniProt IDs - Human: Q9GZZ6, Mouse: B2RX82, Rat: Q9JLB5
+2025-07-30 11:04:16,538 - WARNING - No activities found for Q9GZZ6
+2025-07-30 11:04:16,560 - WARNING - No activities found for B2RX82
+2025-07-30 11:04:16,581 - WARNING - No activities found for Q9JLB5
+2025-07-30 11:04:16,581 - WARNING - No activities found for CHRNA10
+2025-07-30 11:04:16,581 - INFO - Completed processing CHRNA10
+2025-07-30 11:04:16,581 - INFO - Processing protein: CHRNA9
+2025-07-30 11:04:16,581 - INFO - UniProt IDs - Human: Q9UGM1, Mouse: G3X8Z7, Rat: P43144
+2025-07-30 11:04:16,602 - WARNING - No activities found for Q9UGM1
+2025-07-30 11:04:16,622 - WARNING - No activities found for G3X8Z7
+2025-07-30 11:04:16,643 - WARNING - No activities found for P43144
+2025-07-30 11:04:16,643 - WARNING - No activities found for CHRNA9
+2025-07-30 11:04:16,643 - INFO - Completed processing CHRNA9
+2025-07-30 11:04:16,643 - INFO - Processing protein: CHRNA7
+2025-07-30 11:04:16,644 - INFO - UniProt IDs - Human: P36544, Mouse: P49582, Rat: Q05941
+2025-07-30 11:04:16,670 - INFO - Retrieved 595 activities for P36544
+2025-07-30 11:04:16,692 - INFO - Retrieved 4 activities for P49582
+2025-07-30 11:04:16,720 - INFO - Retrieved 1018 activities for Q05941
+2025-07-30 11:04:16,721 - INFO - Combined 1617 activities for CHRNA7
+2025-07-30 11:04:17,698 - INFO - Created 1614 fingerprints for CHRNA7
+2025-07-30 11:04:18,109 - INFO - Fold 1 - RMSE: 0.709, R²: 0.674
+2025-07-30 11:04:18,530 - INFO - Fold 2 - RMSE: 0.743, R²: 0.653
+2025-07-30 11:04:18,957 - INFO - Fold 3 - RMSE: 0.771, R²: 0.586
+2025-07-30 11:04:19,505 - INFO - Fold 4 - RMSE: 0.741, R²: 0.629
+2025-07-30 11:04:19,933 - INFO - Fold 5 - RMSE: 0.776, R²: 0.630
+2025-07-30 11:04:19,943 - INFO - Completed processing CHRNA7
+2025-07-30 11:04:19,944 - INFO - Processing protein: CHRNA3
+2025-07-30 11:04:19,944 - INFO - UniProt IDs - Human: P32297, Mouse: Q8R4G9, Rat: P04757
+2025-07-30 11:04:19,967 - INFO - Retrieved 3 activities for P32297
+2025-07-30 11:04:19,987 - WARNING - No activities found for Q8R4G9
+2025-07-30 11:04:20,007 - WARNING - No activities found for P04757
+2025-07-30 11:04:20,008 - INFO - Combined 3 activities for CHRNA3
+2025-07-30 11:04:20,011 - WARNING - Insufficient data after filtering for CHRNA3: 3 samples
+2025-07-30 11:04:20,011 - INFO - Completed processing CHRNA3
+2025-07-30 11:04:20,011 - INFO - Processing protein: CHRNA5
+2025-07-30 11:04:20,011 - INFO - UniProt IDs - Human: P30532, Mouse: Q2MKA5, Rat: P20420
+2025-07-30 11:04:20,032 - WARNING - No activities found for P30532
+2025-07-30 11:04:20,052 - WARNING - No activities found for Q2MKA5
+2025-07-30 11:04:20,072 - WARNING - No activities found for P20420
+2025-07-30 11:04:20,072 - WARNING - No activities found for CHRNA5
+2025-07-30 11:04:20,072 - INFO - Completed processing CHRNA5
+2025-07-30 11:04:20,072 - INFO - Processing protein: SMPDL3A
+2025-07-30 11:04:20,072 - INFO - UniProt IDs - Human: Q92484, Mouse: P70158, Rat: Q641Z7
+2025-07-30 11:04:20,093 - WARNING - No activities found for Q92484
+2025-07-30 11:04:20,113 - WARNING - No activities found for P70158
+2025-07-30 11:04:20,133 - WARNING - No activities found for Q641Z7
+2025-07-30 11:04:20,133 - WARNING - No activities found for SMPDL3A
+2025-07-30 11:04:20,133 - INFO - Completed processing SMPDL3A
+2025-07-30 11:04:20,133 - INFO - Processing protein: GABPA
+2025-07-30 11:04:20,134 - INFO - UniProt IDs - Human: Q06546, Mouse: Q00422, Rat: A0A8I6GML2
+2025-07-30 11:04:20,154 - WARNING - No activities found for Q06546
+2025-07-30 11:04:20,174 - WARNING - No activities found for Q00422
+2025-07-30 11:04:20,193 - WARNING - No activities found for A0A8I6GML2
+2025-07-30 11:04:20,193 - WARNING - No activities found for GABPA
+2025-07-30 11:04:20,193 - INFO - Completed processing GABPA
+2025-07-30 11:04:20,193 - INFO - Processing protein: HRH1
+2025-07-30 11:04:20,194 - INFO - UniProt IDs - Human: P35367, Mouse: P70174, Rat: P31390
+2025-07-30 11:04:20,221 - INFO - Retrieved 945 activities for P35367
+2025-07-30 11:04:20,241 - INFO - Retrieved 1 activities for P70174
+2025-07-30 11:04:20,262 - INFO - Retrieved 26 activities for P31390
+2025-07-30 11:04:20,263 - INFO - Combined 972 activities for HRH1
+2025-07-30 11:04:20,857 - INFO - Created 972 fingerprints for HRH1
+2025-07-30 11:04:21,164 - INFO - Fold 1 - RMSE: 0.733, R²: 0.638
+2025-07-30 11:04:21,474 - INFO - Fold 2 - RMSE: 0.713, R²: 0.696
+2025-07-30 11:04:21,780 - INFO - Fold 3 - RMSE: 0.658, R²: 0.676
+2025-07-30 11:04:22,096 - INFO - Fold 4 - RMSE: 0.757, R²: 0.670
+2025-07-30 11:04:22,410 - INFO - Fold 5 - RMSE: 0.673, R²: 0.674
+2025-07-30 11:04:22,413 - INFO - Completed processing HRH1
+2025-07-30 11:04:22,414 - INFO - Processing protein: SLCO1B1
+2025-07-30 11:04:22,414 - INFO - UniProt IDs - Human: Q9Y6L6, Mouse: nan, Rat: nan
+2025-07-30 11:04:22,436 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-07-30 11:04:22,437 - INFO - Combined 16 activities for SLCO1B1
+2025-07-30 11:04:22,451 - INFO - Created 16 fingerprints for SLCO1B1
+2025-07-30 11:04:22,735 - INFO - Fold 1 - RMSE: 0.553, R²: -0.136
+2025-07-30 11:04:23,019 - INFO - Fold 2 - RMSE: 0.620, R²: -0.119
+2025-07-30 11:04:23,302 - INFO - Fold 3 - RMSE: 0.530, R²: 0.476
+2025-07-30 11:04:23,585 - INFO - Fold 4 - RMSE: 0.410, R²: -2.215
+2025-07-30 11:04:23,870 - INFO - Fold 5 - RMSE: 0.211, R²: 0.780
+2025-07-30 11:04:23,871 - INFO - Completed processing SLCO1B1
+2025-07-30 11:04:23,871 - INFO - Processing protein: SLCO2B3
+2025-07-30 11:04:23,872 - INFO - UniProt IDs - Human: nan, Mouse: nan, Rat: nan
+2025-07-30 11:04:23,872 - WARNING - No activities found for SLCO2B3
+2025-07-30 11:04:23,872 - INFO - Completed processing SLCO2B3
+2025-07-30 11:04:23,872 - INFO - Processing protein: SLCO2B1
+2025-07-30 11:04:23,872 - INFO - UniProt IDs - Human: O94956, Mouse: Q8BXB6, Rat: Q9JHI3
+2025-07-30 11:04:23,897 - INFO - Retrieved 33 activities for O94956
+2025-07-30 11:04:23,917 - WARNING - No activities found for Q8BXB6
+2025-07-30 11:04:23,937 - WARNING - No activities found for Q9JHI3
+2025-07-30 11:04:23,938 - INFO - Combined 33 activities for SLCO2B1
+2025-07-30 11:04:23,962 - INFO - Created 33 fingerprints for SLCO2B1
+2025-07-30 11:04:24,234 - INFO - Fold 1 - RMSE: 0.643, R²: 0.159
+2025-07-30 11:04:24,510 - INFO - Fold 2 - RMSE: 0.820, R²: -0.424
+2025-07-30 11:04:24,778 - INFO - Fold 3 - RMSE: 0.648, R²: -0.539
+2025-07-30 11:04:25,133 - INFO - Fold 4 - RMSE: 0.457, R²: 0.085
+2025-07-30 11:04:25,409 - INFO - Fold 5 - RMSE: 0.590, R²: -0.157
+2025-07-30 11:04:25,410 - INFO - Completed processing SLCO2B1
+2025-07-30 11:04:25,415 - INFO - Results saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/prediction_results.csv
+2025-07-30 11:04:25,416 - INFO - Successfully trained models: 33
+2025-07-30 11:04:25,416 - INFO - Average R²: 0.461
+2025-07-30 11:04:25,417 - INFO - Average RMSE: 0.712
+2025-07-30 11:04:25,417 - INFO - Prediction pipeline completed!
+2025-09-09 12:11:33,851 - INFO - Starting Papyrus prediction pipeline...
+2025-09-09 12:11:33,852 - INFO - Loading protein data...
+2025-09-09 12:11:33,855 - INFO - Loaded 52 proteins from /home/serramelendezcsm/RA/Avoidome/processed_data/papyrus_protein_check_results.csv
+2025-09-09 12:11:33,855 - INFO - Initializing Papyrus dataset...
+2025-09-09 12:11:34,131 - INFO - Papyrus dataset initialized successfully
+2025-09-09 12:11:34,131 - INFO - Loading full Papyrus dataset into DataFrame...
+2025-09-09 12:11:43,108 - INFO - Loaded 707461 total activities from Papyrus
+2025-09-09 12:11:43,111 - INFO - Processing protein: CYP1A2
+2025-09-09 12:11:43,111 - INFO - UniProt IDs - Human: P05177, Mouse: P00186, Rat: P04799
+2025-09-09 12:11:43,136 - INFO - Retrieved 329 activities for P05177
+2025-09-09 12:11:43,161 - INFO - Retrieved 1 activities for P00186
+2025-09-09 12:11:43,184 - INFO - Retrieved 9 activities for P04799
+2025-09-09 12:11:43,185 - INFO - Combined 339 activities for CYP1A2
+2025-09-09 12:11:43,438 - INFO - Created 339 fingerprints for CYP1A2
+2025-09-09 12:11:43,733 - INFO - Fold 1 - RMSE: 0.739, R²: 0.533
+2025-09-09 12:11:44,144 - INFO - Fold 2 - RMSE: 0.864, R²: 0.266
+2025-09-09 12:11:44,466 - INFO - Fold 3 - RMSE: 0.599, R²: 0.626
+2025-09-09 12:11:44,756 - INFO - Fold 4 - RMSE: 0.657, R²: 0.600
+2025-09-09 12:11:45,063 - INFO - Fold 5 - RMSE: 0.672, R²: 0.581
+2025-09-09 12:11:45,067 - INFO - Completed processing CYP1A2
+2025-09-09 12:11:45,067 - INFO - Processing protein: CYP2B6
+2025-09-09 12:11:45,067 - INFO - UniProt IDs - Human: P20813, Mouse: nan, Rat: nan
+2025-09-09 12:11:45,104 - INFO - Retrieved 33 activities for P20813
+2025-09-09 12:11:45,104 - INFO - Combined 33 activities for CYP2B6
+2025-09-09 12:11:45,147 - INFO - Created 33 fingerprints for CYP2B6
+2025-09-09 12:11:45,429 - INFO - Fold 1 - RMSE: 0.340, R²: 0.776
+2025-09-09 12:11:45,709 - INFO - Fold 2 - RMSE: 0.654, R²: 0.124
+2025-09-09 12:11:45,996 - INFO - Fold 3 - RMSE: 0.679, R²: -0.026
+2025-09-09 12:11:46,231 - INFO - Fold 4 - RMSE: 0.445, R²: 0.674
+2025-09-09 12:11:46,482 - INFO - Fold 5 - RMSE: 0.575, R²: 0.152
+2025-09-09 12:11:46,482 - INFO - Completed processing CYP2B6
+2025-09-09 12:11:46,483 - INFO - Processing protein: CYP2C9
+2025-09-09 12:11:46,483 - INFO - UniProt IDs - Human: P11712, Mouse: nan, Rat: nan
+2025-09-09 12:11:46,508 - INFO - Retrieved 466 activities for P11712
+2025-09-09 12:11:46,508 - INFO - Combined 466 activities for CYP2C9
+2025-09-09 12:11:47,074 - INFO - Created 466 fingerprints for CYP2C9
+2025-09-09 12:11:47,372 - INFO - Fold 1 - RMSE: 0.554, R²: 0.422
+2025-09-09 12:11:47,690 - INFO - Fold 2 - RMSE: 0.482, R²: 0.541
+2025-09-09 12:11:47,992 - INFO - Fold 3 - RMSE: 0.447, R²: 0.618
+2025-09-09 12:11:48,285 - INFO - Fold 4 - RMSE: 0.578, R²: 0.518
+2025-09-09 12:11:48,581 - INFO - Fold 5 - RMSE: 0.467, R²: 0.499
+2025-09-09 12:11:48,586 - INFO - Completed processing CYP2C9
+2025-09-09 12:11:48,587 - INFO - Processing protein: CYP2C19
+2025-09-09 12:11:48,587 - INFO - UniProt IDs - Human: P33261, Mouse: nan, Rat: nan
+2025-09-09 12:11:48,623 - INFO - Retrieved 165 activities for P33261
+2025-09-09 12:11:48,623 - INFO - Combined 165 activities for CYP2C19
+2025-09-09 12:11:48,822 - INFO - Created 165 fingerprints for CYP2C19
+2025-09-09 12:11:49,089 - INFO - Fold 1 - RMSE: 0.686, R²: 0.031
+2025-09-09 12:11:49,359 - INFO - Fold 2 - RMSE: 0.704, R²: 0.255
+2025-09-09 12:11:49,636 - INFO - Fold 3 - RMSE: 0.591, R²: 0.029
+2025-09-09 12:11:49,899 - INFO - Fold 4 - RMSE: 0.529, R²: 0.423
+2025-09-09 12:11:50,170 - INFO - Fold 5 - RMSE: 0.493, R²: 0.475
+2025-09-09 12:11:50,171 - INFO - Completed processing CYP2C19
+2025-09-09 12:11:50,172 - INFO - Processing protein: CYP2D6
+2025-09-09 12:11:50,172 - INFO - UniProt IDs - Human: P10635, Mouse: nan, Rat: nan
+2025-09-09 12:11:50,216 - INFO - Retrieved 607 activities for P10635
+2025-09-09 12:11:50,216 - INFO - Combined 607 activities for CYP2D6
+2025-09-09 12:11:50,995 - INFO - Created 607 fingerprints for CYP2D6
+2025-09-09 12:11:53,563 - INFO - Fold 1 - RMSE: 0.677, R²: 0.433
+2025-09-09 12:11:54,798 - INFO - Fold 2 - RMSE: 0.659, R²: 0.439
+2025-09-09 12:11:55,331 - INFO - Fold 3 - RMSE: 0.665, R²: 0.355
+2025-09-09 12:11:55,675 - INFO - Fold 4 - RMSE: 0.640, R²: 0.501
+2025-09-09 12:11:55,988 - INFO - Fold 5 - RMSE: 0.641, R²: 0.389
+2025-09-09 12:11:56,004 - INFO - Completed processing CYP2D6
+2025-09-09 12:11:56,005 - INFO - Processing protein: CYP3A4
+2025-09-09 12:11:56,005 - INFO - UniProt IDs - Human: P08684, Mouse: nan, Rat: nan
+2025-09-09 12:11:56,058 - INFO - Retrieved 1387 activities for P08684
+2025-09-09 12:11:56,059 - INFO - Combined 1387 activities for CYP3A4
+2025-09-09 12:11:57,326 - INFO - Created 1387 fingerprints for CYP3A4
+2025-09-09 12:11:57,775 - INFO - Fold 1 - RMSE: 0.523, R²: 0.586
+2025-09-09 12:11:58,231 - INFO - Fold 2 - RMSE: 0.556, R²: 0.563
+2025-09-09 12:11:58,708 - INFO - Fold 3 - RMSE: 0.565, R²: 0.611
+2025-09-09 12:11:59,165 - INFO - Fold 4 - RMSE: 0.477, R²: 0.689
+2025-09-09 12:11:59,652 - INFO - Fold 5 - RMSE: 0.502, R²: 0.610
+2025-09-09 12:11:59,663 - INFO - Completed processing CYP3A4
+2025-09-09 12:11:59,664 - INFO - Processing protein: AOX1
+2025-09-09 12:11:59,664 - INFO - UniProt IDs - Human: Q06278, Mouse: O54754, Rat: Q9Z0U5
+2025-09-09 12:11:59,685 - INFO - Retrieved 13 activities for Q06278
+2025-09-09 12:11:59,706 - WARNING - No activities found for O54754
+2025-09-09 12:11:59,728 - INFO - Retrieved 4 activities for Q9Z0U5
+2025-09-09 12:11:59,728 - INFO - Combined 17 activities for AOX1
+2025-09-09 12:11:59,745 - INFO - Created 17 fingerprints for AOX1
+2025-09-09 12:12:00,015 - INFO - Fold 1 - RMSE: 0.662, R²: 0.178
+2025-09-09 12:12:00,257 - INFO - Fold 2 - RMSE: 1.452, R²: -1.001
+2025-09-09 12:12:00,527 - INFO - Fold 3 - RMSE: 2.001, R²: -1.600
+2025-09-09 12:12:00,742 - INFO - Fold 4 - RMSE: 0.359, R²: 0.431
+2025-09-09 12:12:00,954 - INFO - Fold 5 - RMSE: 1.015, R²: -0.609
+2025-09-09 12:12:00,955 - INFO - Completed processing AOX1
+2025-09-09 12:12:00,955 - INFO - Processing protein: XDH
+2025-09-09 12:12:00,955 - INFO - UniProt IDs - Human: P47989, Mouse: Q00519, Rat: P22985
+2025-09-09 12:12:00,982 - INFO - Retrieved 98 activities for P47989
+2025-09-09 12:12:01,006 - WARNING - No activities found for Q00519
+2025-09-09 12:12:01,025 - WARNING - No activities found for P22985
+2025-09-09 12:12:01,026 - INFO - Combined 98 activities for XDH
+2025-09-09 12:12:01,095 - INFO - Created 98 fingerprints for XDH
+2025-09-09 12:12:01,311 - INFO - Fold 1 - RMSE: 0.367, R²: 0.796
+2025-09-09 12:12:01,647 - INFO - Fold 2 - RMSE: 0.367, R²: 0.716
+2025-09-09 12:12:01,858 - INFO - Fold 3 - RMSE: 0.500, R²: 0.493
+2025-09-09 12:12:02,056 - INFO - Fold 4 - RMSE: 0.365, R²: 0.759
+2025-09-09 12:12:02,268 - INFO - Fold 5 - RMSE: 0.279, R²: 0.737
+2025-09-09 12:12:02,269 - INFO - Completed processing XDH
+2025-09-09 12:12:02,269 - INFO - Processing protein: MAOA
+2025-09-09 12:12:02,269 - INFO - UniProt IDs - Human: P21397, Mouse: Q64133, Rat: P21396
+2025-09-09 12:12:02,304 - INFO - Retrieved 1130 activities for P21397
+2025-09-09 12:12:02,326 - INFO - Retrieved 2 activities for Q64133
+2025-09-09 12:12:02,348 - INFO - Retrieved 336 activities for P21396
+2025-09-09 12:12:02,349 - INFO - Combined 1468 activities for MAOA
+2025-09-09 12:12:03,482 - INFO - Created 1468 fingerprints for MAOA
+2025-09-09 12:12:04,016 - INFO - Fold 1 - RMSE: 0.730, R²: 0.591
+2025-09-09 12:12:04,581 - INFO - Fold 2 - RMSE: 0.707, R²: 0.647
+2025-09-09 12:12:05,132 - INFO - Fold 3 - RMSE: 0.664, R²: 0.680
+2025-09-09 12:12:05,686 - INFO - Fold 4 - RMSE: 0.728, R²: 0.630
+2025-09-09 12:12:06,214 - INFO - Fold 5 - RMSE: 0.689, R²: 0.681
+2025-09-09 12:12:06,227 - INFO - Completed processing MAOA
+2025-09-09 12:12:06,227 - INFO - Processing protein: MAOB
+2025-09-09 12:12:06,227 - INFO - UniProt IDs - Human: P27338, Mouse: Q8BW75, Rat: P19643
+2025-09-09 12:12:06,273 - INFO - Retrieved 1519 activities for P27338
+2025-09-09 12:12:06,308 - INFO - Retrieved 14 activities for Q8BW75
+2025-09-09 12:12:06,345 - INFO - Retrieved 263 activities for P19643
+2025-09-09 12:12:06,347 - INFO - Combined 1796 activities for MAOB
+2025-09-09 12:12:08,293 - INFO - Created 1795 fingerprints for MAOB
+2025-09-09 12:12:08,723 - INFO - Fold 1 - RMSE: 0.805, R²: 0.590
+2025-09-09 12:12:09,201 - INFO - Fold 2 - RMSE: 0.674, R²: 0.708
+2025-09-09 12:12:09,657 - INFO - Fold 3 - RMSE: 0.824, R²: 0.599
+2025-09-09 12:12:10,251 - INFO - Fold 4 - RMSE: 0.784, R²: 0.650
+2025-09-09 12:12:10,720 - INFO - Fold 5 - RMSE: 0.784, R²: 0.630
+2025-09-09 12:12:10,733 - INFO - Completed processing MAOB
+2025-09-09 12:12:10,733 - INFO - Processing protein: ALDH1A1
+2025-09-09 12:12:10,733 - INFO - UniProt IDs - Human: P00352, Mouse: P24549, Rat: P51647
+2025-09-09 12:12:10,770 - INFO - Retrieved 150 activities for P00352
+2025-09-09 12:12:10,803 - WARNING - No activities found for P24549
+2025-09-09 12:12:10,837 - WARNING - No activities found for P51647
+2025-09-09 12:12:10,837 - INFO - Combined 150 activities for ALDH1A1
+2025-09-09 12:12:11,058 - INFO - Created 150 fingerprints for ALDH1A1
+2025-09-09 12:12:11,299 - INFO - Fold 1 - RMSE: 0.562, R²: 0.525
+2025-09-09 12:12:11,524 - INFO - Fold 2 - RMSE: 0.795, R²: 0.466
+2025-09-09 12:12:11,759 - INFO - Fold 3 - RMSE: 0.886, R²: 0.303
+2025-09-09 12:12:12,028 - INFO - Fold 4 - RMSE: 0.851, R²: 0.284
+2025-09-09 12:12:12,256 - INFO - Fold 5 - RMSE: 0.549, R²: 0.579
+2025-09-09 12:12:12,256 - INFO - Completed processing ALDH1A1
+2025-09-09 12:12:12,256 - INFO - Processing protein: ADH1A
+2025-09-09 12:12:12,257 - INFO - UniProt IDs - Human: P07327, Mouse: nan, Rat: nan
+2025-09-09 12:12:12,290 - WARNING - No activities found for P07327
+2025-09-09 12:12:12,290 - WARNING - No activities found for ADH1A
+2025-09-09 12:12:12,291 - INFO - Completed processing ADH1A
+2025-09-09 12:12:12,291 - INFO - Processing protein: HSD11B1
+2025-09-09 12:12:12,291 - INFO - UniProt IDs - Human: P28845, Mouse: P50172, Rat: P16232
+2025-09-09 12:12:12,347 - INFO - Retrieved 2046 activities for P28845
+2025-09-09 12:12:12,383 - INFO - Retrieved 612 activities for P50172
+2025-09-09 12:12:12,417 - INFO - Retrieved 67 activities for P16232
+2025-09-09 12:12:12,418 - INFO - Combined 2725 activities for HSD11B1
+2025-09-09 12:12:16,005 - INFO - Created 2712 fingerprints for HSD11B1
+2025-09-09 12:12:16,589 - INFO - Fold 1 - RMSE: 0.722, R²: 0.504
+2025-09-09 12:12:17,168 - INFO - Fold 2 - RMSE: 0.733, R²: 0.527
+2025-09-09 12:12:17,745 - INFO - Fold 3 - RMSE: 0.714, R²: 0.509
+2025-09-09 12:12:18,677 - INFO - Fold 4 - RMSE: 0.687, R²: 0.558
+2025-09-09 12:12:19,835 - INFO - Fold 5 - RMSE: 0.688, R²: 0.545
+2025-09-09 12:12:19,850 - INFO - Completed processing HSD11B1
+2025-09-09 12:12:19,851 - INFO - Processing protein: AKR7A3
+2025-09-09 12:12:19,851 - INFO - UniProt IDs - Human: O95154, Mouse: nan, Rat: P38918
+2025-09-09 12:12:19,890 - WARNING - No activities found for O95154
+2025-09-09 12:12:19,926 - WARNING - No activities found for P38918
+2025-09-09 12:12:19,926 - WARNING - No activities found for AKR7A3
+2025-09-09 12:12:19,926 - INFO - Completed processing AKR7A3
+2025-09-09 12:12:19,927 - INFO - Processing protein: FMO1
+2025-09-09 12:12:19,927 - INFO - UniProt IDs - Human: Q01740, Mouse: P50285, Rat: P36365
+2025-09-09 12:12:19,964 - WARNING - No activities found for Q01740
+2025-09-09 12:12:20,022 - WARNING - No activities found for P50285
+2025-09-09 12:12:20,083 - WARNING - No activities found for P36365
+2025-09-09 12:12:20,084 - WARNING - No activities found for FMO1
+2025-09-09 12:12:20,084 - INFO - Completed processing FMO1
+2025-09-09 12:12:20,085 - INFO - Processing protein: AHR
+2025-09-09 12:12:20,085 - INFO - UniProt IDs - Human: P35869, Mouse: P30561, Rat: P41738
+2025-09-09 12:12:20,149 - INFO - Retrieved 25 activities for P35869
+2025-09-09 12:12:20,212 - INFO - Retrieved 4 activities for P30561
+2025-09-09 12:12:20,249 - INFO - Retrieved 2 activities for P41738
+2025-09-09 12:12:20,250 - INFO - Combined 31 activities for AHR
+2025-09-09 12:12:20,296 - INFO - Created 29 fingerprints for AHR
+2025-09-09 12:12:20,546 - INFO - Fold 1 - RMSE: 1.581, R²: -1.162
+2025-09-09 12:12:20,875 - INFO - Fold 2 - RMSE: 1.468, R²: 0.138
+2025-09-09 12:12:21,129 - INFO - Fold 3 - RMSE: 0.885, R²: 0.407
+2025-09-09 12:12:21,702 - INFO - Fold 4 - RMSE: 0.604, R²: 0.418
+2025-09-09 12:12:21,967 - INFO - Fold 5 - RMSE: 1.811, R²: 0.292
+2025-09-09 12:12:21,969 - INFO - Completed processing AHR
+2025-09-09 12:12:21,969 - INFO - Processing protein: NR1I3
+2025-09-09 12:12:21,969 - INFO - UniProt IDs - Human: Q14994, Mouse: O35627, Rat: Q9QUS1
+2025-09-09 12:12:22,010 - INFO - Retrieved 59 activities for Q14994
+2025-09-09 12:12:22,046 - WARNING - No activities found for O35627
+2025-09-09 12:12:22,083 - WARNING - No activities found for Q9QUS1
+2025-09-09 12:12:22,083 - INFO - Combined 59 activities for NR1I3
+2025-09-09 12:12:22,142 - INFO - Created 59 fingerprints for NR1I3
+2025-09-09 12:12:22,553 - INFO - Fold 1 - RMSE: 0.824, R²: 0.181
+2025-09-09 12:12:22,838 - INFO - Fold 2 - RMSE: 0.684, R²: 0.381
+2025-09-09 12:12:23,579 - INFO - Fold 3 - RMSE: 0.743, R²: 0.559
+2025-09-09 12:12:24,228 - INFO - Fold 4 - RMSE: 0.863, R²: 0.210
+2025-09-09 12:12:24,862 - INFO - Fold 5 - RMSE: 0.783, R²: 0.516
+2025-09-09 12:12:24,863 - INFO - Completed processing NR1I3
+2025-09-09 12:12:24,864 - INFO - Processing protein: NR1I2
+2025-09-09 12:12:24,864 - INFO - UniProt IDs - Human: O75469, Mouse: O54915, Rat: Q9R1A7
+2025-09-09 12:12:24,951 - INFO - Retrieved 344 activities for O75469
+2025-09-09 12:12:24,997 - WARNING - No activities found for O54915
+2025-09-09 12:12:25,064 - WARNING - No activities found for Q9R1A7
+2025-09-09 12:12:25,064 - INFO - Combined 344 activities for NR1I2
+2025-09-09 12:12:25,722 - INFO - Created 344 fingerprints for NR1I2
+2025-09-09 12:12:26,052 - INFO - Fold 1 - RMSE: 0.654, R²: 0.480
+2025-09-09 12:12:26,345 - INFO - Fold 2 - RMSE: 0.540, R²: 0.670
+2025-09-09 12:12:26,630 - INFO - Fold 3 - RMSE: 0.640, R²: 0.519
+2025-09-09 12:12:26,885 - INFO - Fold 4 - RMSE: 0.545, R²: 0.684
+2025-09-09 12:12:27,150 - INFO - Fold 5 - RMSE: 0.638, R²: 0.354
+2025-09-09 12:12:27,155 - INFO - Completed processing NR1I2
+2025-09-09 12:12:27,156 - INFO - Processing protein: SULT1A1
+2025-09-09 12:12:27,156 - INFO - UniProt IDs - Human: P50225, Mouse: P52840, Rat: P17988
+2025-09-09 12:12:27,214 - INFO - Retrieved 6 activities for P50225
+2025-09-09 12:12:27,265 - WARNING - No activities found for P52840
+2025-09-09 12:12:27,318 - WARNING - No activities found for P17988
+2025-09-09 12:12:27,319 - INFO - Combined 6 activities for SULT1A1
+2025-09-09 12:12:27,325 - WARNING - Insufficient data after filtering for SULT1A1: 6 samples
+2025-09-09 12:12:27,326 - INFO - Completed processing SULT1A1
+2025-09-09 12:12:27,326 - INFO - Processing protein: GSTA1
+2025-09-09 12:12:27,326 - INFO - UniProt IDs - Human: P08263, Mouse: P13745, Rat: P00502
+2025-09-09 12:12:27,375 - INFO - Retrieved 6 activities for P08263
+2025-09-09 12:12:27,423 - WARNING - No activities found for P13745
+2025-09-09 12:12:27,455 - WARNING - No activities found for P00502
+2025-09-09 12:12:27,455 - INFO - Combined 6 activities for GSTA1
+2025-09-09 12:12:27,460 - WARNING - Insufficient data after filtering for GSTA1: 6 samples
+2025-09-09 12:12:27,460 - INFO - Completed processing GSTA1
+2025-09-09 12:12:27,461 - INFO - Processing protein: OXA1L
+2025-09-09 12:12:27,461 - INFO - UniProt IDs - Human: Q15070, Mouse: Q8BGA9, Rat: A0A8I6AQW6
+2025-09-09 12:12:27,486 - WARNING - No activities found for Q15070
+2025-09-09 12:12:27,507 - WARNING - No activities found for Q8BGA9
+2025-09-09 12:12:27,528 - WARNING - No activities found for A0A8I6AQW6
+2025-09-09 12:12:27,528 - WARNING - No activities found for OXA1L
+2025-09-09 12:12:27,528 - INFO - Completed processing OXA1L
+2025-09-09 12:12:27,528 - INFO - Processing protein: ORM1
+2025-09-09 12:12:27,528 - INFO - UniProt IDs - Human: P02763, Mouse: Q60590, Rat: P02764
+2025-09-09 12:12:27,547 - WARNING - No activities found for P02763
+2025-09-09 12:12:27,575 - WARNING - No activities found for Q60590
+2025-09-09 12:12:27,617 - WARNING - No activities found for P02764
+2025-09-09 12:12:27,617 - WARNING - No activities found for ORM1
+2025-09-09 12:12:27,618 - INFO - Completed processing ORM1
+2025-09-09 12:12:27,618 - INFO - Processing protein: KCNH2
+2025-09-09 12:12:27,618 - INFO - UniProt IDs - Human: Q12809, Mouse: O35219, Rat: O08962
+2025-09-09 12:12:27,739 - INFO - Retrieved 4492 activities for Q12809
+2025-09-09 12:12:27,780 - WARNING - No activities found for O35219
+2025-09-09 12:12:27,816 - WARNING - No activities found for O08962
+2025-09-09 12:12:27,817 - INFO - Combined 4492 activities for KCNH2
+2025-09-09 12:12:34,717 - INFO - Created 4492 fingerprints for KCNH2
+2025-09-09 12:12:36,707 - INFO - Fold 1 - RMSE: 0.561, R²: 0.656
+2025-09-09 12:12:38,191 - INFO - Fold 2 - RMSE: 0.628, R²: 0.538
+2025-09-09 12:12:39,743 - INFO - Fold 3 - RMSE: 0.606, R²: 0.597
+2025-09-09 12:12:41,231 - INFO - Fold 4 - RMSE: 0.598, R²: 0.616
+2025-09-09 12:12:42,650 - INFO - Fold 5 - RMSE: 0.583, R²: 0.610
+2025-09-09 12:12:42,658 - INFO - Completed processing KCNH2
+2025-09-09 12:12:42,658 - INFO - Processing protein: SCN5A
+2025-09-09 12:12:42,659 - INFO - UniProt IDs - Human: Q14524, Mouse: Q9JJV9, Rat: P15389
+2025-09-09 12:12:42,720 - INFO - Retrieved 329 activities for Q14524
+2025-09-09 12:12:42,745 - WARNING - No activities found for Q9JJV9
+2025-09-09 12:12:42,771 - WARNING - No activities found for P15389
+2025-09-09 12:12:42,772 - INFO - Combined 329 activities for SCN5A
+2025-09-09 12:12:43,076 - INFO - Created 329 fingerprints for SCN5A
+2025-09-09 12:12:43,308 - INFO - Fold 1 - RMSE: 0.571, R²: 0.194
+2025-09-09 12:12:43,535 - INFO - Fold 2 - RMSE: 0.521, R²: 0.473
+2025-09-09 12:12:43,763 - INFO - Fold 3 - RMSE: 0.497, R²: 0.441
+2025-09-09 12:12:44,019 - INFO - Fold 4 - RMSE: 0.440, R²: 0.574
+2025-09-09 12:12:44,274 - INFO - Fold 5 - RMSE: 0.599, R²: 0.380
+2025-09-09 12:12:44,275 - INFO - Completed processing SCN5A
+2025-09-09 12:12:44,276 - INFO - Processing protein: CACNB1
+2025-09-09 12:12:44,276 - INFO - UniProt IDs - Human: Q02641, Mouse: Q8R3Z5, Rat: P54283
+2025-09-09 12:12:44,302 - WARNING - No activities found for Q02641
+2025-09-09 12:12:44,326 - WARNING - No activities found for Q8R3Z5
+2025-09-09 12:12:44,350 - WARNING - No activities found for P54283
+2025-09-09 12:12:44,350 - WARNING - No activities found for CACNB1
+2025-09-09 12:12:44,350 - INFO - Completed processing CACNB1
+2025-09-09 12:12:44,350 - INFO - Processing protein: CAV1
+2025-09-09 12:12:44,350 - INFO - UniProt IDs - Human: Q03135, Mouse: P49817, Rat: P41350
+2025-09-09 12:12:44,380 - WARNING - No activities found for Q03135
+2025-09-09 12:12:44,411 - WARNING - No activities found for P49817
+2025-09-09 12:12:44,435 - WARNING - No activities found for P41350
+2025-09-09 12:12:44,435 - WARNING - No activities found for CAV1
+2025-09-09 12:12:44,435 - INFO - Completed processing CAV1
+2025-09-09 12:12:44,436 - INFO - Processing protein: HTR2B
+2025-09-09 12:12:44,436 - INFO - UniProt IDs - Human: P41595, Mouse: Q02152, Rat: P30994
+2025-09-09 12:12:44,480 - INFO - Retrieved 1180 activities for P41595
+2025-09-09 12:12:44,501 - WARNING - No activities found for Q02152
+2025-09-09 12:12:44,528 - INFO - Retrieved 35 activities for P30994
+2025-09-09 12:12:44,530 - INFO - Combined 1215 activities for HTR2B
+2025-09-09 12:12:45,443 - INFO - Created 1214 fingerprints for HTR2B
+2025-09-09 12:12:45,908 - INFO - Fold 1 - RMSE: 0.723, R²: 0.410
+2025-09-09 12:12:46,341 - INFO - Fold 2 - RMSE: 0.715, R²: 0.519
+2025-09-09 12:12:46,805 - INFO - Fold 3 - RMSE: 0.714, R²: 0.411
+2025-09-09 12:12:47,341 - INFO - Fold 4 - RMSE: 0.611, R²: 0.525
+2025-09-09 12:12:47,773 - INFO - Fold 5 - RMSE: 0.634, R²: 0.531
+2025-09-09 12:12:47,782 - INFO - Completed processing HTR2B
+2025-09-09 12:12:47,783 - INFO - Processing protein: SLC6A4
+2025-09-09 12:12:47,783 - INFO - UniProt IDs - Human: P31645, Mouse: Q60857, Rat: P31652
+2025-09-09 12:12:47,841 - INFO - Retrieved 2958 activities for P31645
+2025-09-09 12:12:47,863 - INFO - Retrieved 12 activities for Q60857
+2025-09-09 12:12:47,899 - INFO - Retrieved 1995 activities for P31652
+2025-09-09 12:12:47,902 - INFO - Combined 4965 activities for SLC6A4
+2025-09-09 12:12:51,949 - INFO - Created 4958 fingerprints for SLC6A4
+2025-09-09 12:12:53,491 - INFO - Fold 1 - RMSE: 0.712, R²: 0.642
+2025-09-09 12:12:54,483 - INFO - Fold 2 - RMSE: 0.720, R²: 0.638
+2025-09-09 12:12:55,789 - INFO - Fold 3 - RMSE: 0.702, R²: 0.652
+2025-09-09 12:12:57,347 - INFO - Fold 4 - RMSE: 0.659, R²: 0.664
+2025-09-09 12:12:58,223 - INFO - Fold 5 - RMSE: 0.704, R²: 0.639
+2025-09-09 12:12:58,230 - INFO - Completed processing SLC6A4
+2025-09-09 12:12:58,230 - INFO - Processing protein: DIDO1
+2025-09-09 12:12:58,231 - INFO - UniProt IDs - Human: Q9BTC0, Mouse: Q8C9B9, Rat: A0A8I5ZXE0
+2025-09-09 12:12:58,288 - WARNING - No activities found for Q9BTC0
+2025-09-09 12:12:58,343 - WARNING - No activities found for Q8C9B9
+2025-09-09 12:12:58,389 - WARNING - No activities found for A0A8I5ZXE0
+2025-09-09 12:12:58,390 - WARNING - No activities found for DIDO1
+2025-09-09 12:12:58,390 - INFO - Completed processing DIDO1
+2025-09-09 12:12:58,390 - INFO - Processing protein: SLC6A3
+2025-09-09 12:12:58,390 - INFO - UniProt IDs - Human: Q01959, Mouse: Q61327, Rat: P23977
+2025-09-09 12:12:58,484 - INFO - Retrieved 1646 activities for Q01959
+2025-09-09 12:12:58,516 - INFO - Retrieved 14 activities for Q61327
+2025-09-09 12:12:58,554 - INFO - Retrieved 1114 activities for P23977
+2025-09-09 12:12:58,556 - INFO - Combined 2774 activities for SLC6A3
+2025-09-09 12:13:00,853 - INFO - Created 2766 fingerprints for SLC6A3
+2025-09-09 12:13:01,408 - INFO - Fold 1 - RMSE: 0.642, R²: 0.650
+2025-09-09 12:13:01,918 - INFO - Fold 2 - RMSE: 0.635, R²: 0.666
+2025-09-09 12:13:02,750 - INFO - Fold 3 - RMSE: 0.606, R²: 0.699
+2025-09-09 12:13:03,356 - INFO - Fold 4 - RMSE: 0.625, R²: 0.671
+2025-09-09 12:13:03,993 - INFO - Fold 5 - RMSE: 0.584, R²: 0.717
+2025-09-09 12:13:04,004 - INFO - Completed processing SLC6A3
+2025-09-09 12:13:04,005 - INFO - Processing protein: SLC6A2
+2025-09-09 12:13:04,005 - INFO - UniProt IDs - Human: P23975, Mouse: O55192, Rat: F1LNR9
+2025-09-09 12:13:04,075 - INFO - Retrieved 2021 activities for P23975
+2025-09-09 12:13:04,097 - INFO - Retrieved 1 activities for O55192
+2025-09-09 12:13:04,121 - WARNING - No activities found for F1LNR9
+2025-09-09 12:13:04,122 - INFO - Combined 2022 activities for SLC6A2
+2025-09-09 12:13:05,575 - INFO - Created 2022 fingerprints for SLC6A2
+2025-09-09 12:13:06,047 - INFO - Fold 1 - RMSE: 0.630, R²: 0.653
+2025-09-09 12:13:06,537 - INFO - Fold 2 - RMSE: 0.645, R²: 0.612
+2025-09-09 12:13:07,028 - INFO - Fold 3 - RMSE: 0.654, R²: 0.632
+2025-09-09 12:13:07,519 - INFO - Fold 4 - RMSE: 0.651, R²: 0.617
+2025-09-09 12:13:07,975 - INFO - Fold 5 - RMSE: 0.704, R²: 0.534
+2025-09-09 12:13:07,979 - INFO - Completed processing SLC6A2
+2025-09-09 12:13:07,980 - INFO - Processing protein: NAT8
+2025-09-09 12:13:07,980 - INFO - UniProt IDs - Human: Q9UHE5, Mouse: Q9JIY7, Rat: Q9QXT3
+2025-09-09 12:13:08,009 - WARNING - No activities found for Q9UHE5
+2025-09-09 12:13:08,030 - WARNING - No activities found for Q9JIY7
+2025-09-09 12:13:08,053 - WARNING - No activities found for Q9QXT3
+2025-09-09 12:13:08,053 - WARNING - No activities found for NAT8
+2025-09-09 12:13:08,053 - INFO - Completed processing NAT8
+2025-09-09 12:13:08,054 - INFO - Processing protein: ADRA1A
+2025-09-09 12:13:08,054 - INFO - UniProt IDs - Human: P25100, Mouse: P97718, Rat: P23944
+2025-09-09 12:13:08,083 - INFO - Retrieved 566 activities for P25100
+2025-09-09 12:13:08,109 - WARNING - No activities found for P97718
+2025-09-09 12:13:08,140 - INFO - Retrieved 146 activities for P23944
+2025-09-09 12:13:08,142 - INFO - Combined 712 activities for ADRA1A
+2025-09-09 12:13:08,706 - INFO - Created 711 fingerprints for ADRA1A
+2025-09-09 12:13:08,981 - INFO - Fold 1 - RMSE: 0.891, R²: 0.468
+2025-09-09 12:13:09,432 - INFO - Fold 2 - RMSE: 0.873, R²: 0.470
+2025-09-09 12:13:09,710 - INFO - Fold 3 - RMSE: 0.766, R²: 0.576
+2025-09-09 12:13:09,973 - INFO - Fold 4 - RMSE: 0.748, R²: 0.633
+2025-09-09 12:13:10,370 - INFO - Fold 5 - RMSE: 0.870, R²: 0.494
+2025-09-09 12:13:10,371 - INFO - Completed processing ADRA1A
+2025-09-09 12:13:10,371 - INFO - Processing protein: ADRA2A
+2025-09-09 12:13:10,372 - INFO - UniProt IDs - Human: P08913, Mouse: Q01338, Rat: P22909
+2025-09-09 12:13:10,434 - INFO - Retrieved 526 activities for P08913
+2025-09-09 12:13:10,479 - WARNING - No activities found for Q01338
+2025-09-09 12:13:10,506 - INFO - Retrieved 39 activities for P22909
+2025-09-09 12:13:10,509 - INFO - Combined 565 activities for ADRA2A
+2025-09-09 12:13:11,146 - INFO - Created 565 fingerprints for ADRA2A
+2025-09-09 12:13:11,558 - INFO - Fold 1 - RMSE: 0.768, R²: 0.656
+2025-09-09 12:13:11,897 - INFO - Fold 2 - RMSE: 0.749, R²: 0.619
+2025-09-09 12:13:12,259 - INFO - Fold 3 - RMSE: 0.947, R²: 0.450
+2025-09-09 12:13:12,535 - INFO - Fold 4 - RMSE: 1.096, R²: 0.372
+2025-09-09 12:13:12,858 - INFO - Fold 5 - RMSE: 0.793, R²: 0.585
+2025-09-09 12:13:12,860 - INFO - Completed processing ADRA2A
+2025-09-09 12:13:12,861 - INFO - Processing protein: ADRB1
+2025-09-09 12:13:12,861 - INFO - UniProt IDs - Human: P08588, Mouse: P34971, Rat: P18090
+2025-09-09 12:13:12,920 - INFO - Retrieved 614 activities for P08588
+2025-09-09 12:13:12,982 - INFO - Retrieved 32 activities for P34971
+2025-09-09 12:13:13,033 - INFO - Retrieved 53 activities for P18090
+2025-09-09 12:13:13,034 - INFO - Combined 699 activities for ADRB1
+2025-09-09 12:13:13,689 - INFO - Created 699 fingerprints for ADRB1
+2025-09-09 12:13:13,967 - INFO - Fold 1 - RMSE: 0.715, R²: 0.602
+2025-09-09 12:13:14,246 - INFO - Fold 2 - RMSE: 0.832, R²: 0.553
+2025-09-09 12:13:14,503 - INFO - Fold 3 - RMSE: 0.718, R²: 0.595
+2025-09-09 12:13:14,795 - INFO - Fold 4 - RMSE: 0.807, R²: 0.562
+2025-09-09 12:13:15,045 - INFO - Fold 5 - RMSE: 0.701, R²: 0.604
+2025-09-09 12:13:15,047 - INFO - Completed processing ADRB1
+2025-09-09 12:13:15,047 - INFO - Processing protein: ADRB2
+2025-09-09 12:13:15,048 - INFO - UniProt IDs - Human: P07550, Mouse: P18762, Rat: P10608
+2025-09-09 12:13:15,078 - INFO - Retrieved 860 activities for P07550
+2025-09-09 12:13:15,099 - WARNING - No activities found for P18762
+2025-09-09 12:13:15,124 - INFO - Retrieved 20 activities for P10608
+2025-09-09 12:13:15,125 - INFO - Combined 880 activities for ADRB2
+2025-09-09 12:13:15,758 - INFO - Created 880 fingerprints for ADRB2
+2025-09-09 12:13:16,091 - INFO - Fold 1 - RMSE: 0.924, R²: 0.688
+2025-09-09 12:13:16,396 - INFO - Fold 2 - RMSE: 0.931, R²: 0.660
+2025-09-09 12:13:16,684 - INFO - Fold 3 - RMSE: 0.919, R²: 0.710
+2025-09-09 12:13:16,986 - INFO - Fold 4 - RMSE: 0.974, R²: 0.660
+2025-09-09 12:13:17,449 - INFO - Fold 5 - RMSE: 0.874, R²: 0.698
+2025-09-09 12:13:17,462 - INFO - Completed processing ADRB2
+2025-09-09 12:13:17,463 - INFO - Processing protein: CNRIP1
+2025-09-09 12:13:17,463 - INFO - UniProt IDs - Human: Q96F85, Mouse: Q5M8N0, Rat: Q5M7A7
+2025-09-09 12:13:17,498 - WARNING - No activities found for Q96F85
+2025-09-09 12:13:17,526 - WARNING - No activities found for Q5M8N0
+2025-09-09 12:13:17,557 - WARNING - No activities found for Q5M7A7
+2025-09-09 12:13:17,557 - WARNING - No activities found for CNRIP1
+2025-09-09 12:13:17,557 - INFO - Completed processing CNRIP1
+2025-09-09 12:13:17,558 - INFO - Processing protein: CNR2
+2025-09-09 12:13:17,558 - INFO - UniProt IDs - Human: P34972, Mouse: P47936, Rat: Q9QZN9
+2025-09-09 12:13:17,637 - INFO - Retrieved 4295 activities for P34972
+2025-09-09 12:13:17,665 - INFO - Retrieved 363 activities for P47936
+2025-09-09 12:13:17,689 - INFO - Retrieved 194 activities for Q9QZN9
+2025-09-09 12:13:17,692 - INFO - Combined 4852 activities for CNR2
+2025-09-09 12:13:22,160 - INFO - Created 4843 fingerprints for CNR2
+2025-09-09 12:13:23,290 - INFO - Fold 1 - RMSE: 0.718, R²: 0.608
+2025-09-09 12:13:24,230 - INFO - Fold 2 - RMSE: 0.747, R²: 0.575
+2025-09-09 12:13:25,201 - INFO - Fold 3 - RMSE: 0.730, R²: 0.613
+2025-09-09 12:13:26,119 - INFO - Fold 4 - RMSE: 0.720, R²: 0.615
+2025-09-09 12:13:27,040 - INFO - Fold 5 - RMSE: 0.743, R²: 0.586
+2025-09-09 12:13:27,071 - INFO - Completed processing CNR2
+2025-09-09 12:13:27,073 - INFO - Processing protein: CHRM1
+2025-09-09 12:13:27,073 - INFO - UniProt IDs - Human: P11229, Mouse: P12657, Rat: P08482
+2025-09-09 12:13:27,150 - INFO - Retrieved 1103 activities for P11229
+2025-09-09 12:13:27,184 - INFO - Retrieved 1 activities for P12657
+2025-09-09 12:13:27,215 - INFO - Retrieved 261 activities for P08482
+2025-09-09 12:13:27,217 - INFO - Combined 1365 activities for CHRM1
+2025-09-09 12:13:28,413 - INFO - Created 1364 fingerprints for CHRM1
+2025-09-09 12:13:28,848 - INFO - Fold 1 - RMSE: 0.734, R²: 0.656
+2025-09-09 12:13:29,303 - INFO - Fold 2 - RMSE: 0.847, R²: 0.620
+2025-09-09 12:13:29,770 - INFO - Fold 3 - RMSE: 0.742, R²: 0.702
+2025-09-09 12:13:30,305 - INFO - Fold 4 - RMSE: 0.848, R²: 0.586
+2025-09-09 12:13:30,724 - INFO - Fold 5 - RMSE: 0.854, R²: 0.551
+2025-09-09 12:13:30,732 - INFO - Completed processing CHRM1
+2025-09-09 12:13:30,732 - INFO - Processing protein: CHRM2
+2025-09-09 12:13:30,732 - INFO - UniProt IDs - Human: P08172, Mouse: Q9ERZ4, Rat: P10980
+2025-09-09 12:13:30,759 - INFO - Retrieved 721 activities for P08172
+2025-09-09 12:13:30,783 - INFO - Retrieved 5 activities for Q9ERZ4
+2025-09-09 12:13:30,807 - INFO - Retrieved 130 activities for P10980
+2025-09-09 12:13:30,808 - INFO - Combined 856 activities for CHRM2
+2025-09-09 12:13:31,491 - INFO - Created 855 fingerprints for CHRM2
+2025-09-09 12:13:31,744 - INFO - Fold 1 - RMSE: 0.878, R²: 0.577
+2025-09-09 12:13:32,040 - INFO - Fold 2 - RMSE: 0.843, R²: 0.654
+2025-09-09 12:13:32,316 - INFO - Fold 3 - RMSE: 0.867, R²: 0.647
+2025-09-09 12:13:32,623 - INFO - Fold 4 - RMSE: 0.858, R²: 0.591
+2025-09-09 12:13:32,937 - INFO - Fold 5 - RMSE: 0.734, R²: 0.718
+2025-09-09 12:13:32,940 - INFO - Completed processing CHRM2
+2025-09-09 12:13:32,941 - INFO - Processing protein: CHRM3
+2025-09-09 12:13:32,941 - INFO - UniProt IDs - Human: P20309, Mouse: Q9ERZ3, Rat: P08483
+2025-09-09 12:13:32,974 - INFO - Retrieved 1209 activities for P20309
+2025-09-09 12:13:32,996 - WARNING - No activities found for Q9ERZ3
+2025-09-09 12:13:33,015 - INFO - Retrieved 93 activities for P08483
+2025-09-09 12:13:33,016 - INFO - Combined 1302 activities for CHRM3
+2025-09-09 12:13:33,968 - INFO - Created 1302 fingerprints for CHRM3
+2025-09-09 12:13:34,288 - INFO - Fold 1 - RMSE: 0.888, R²: 0.663
+2025-09-09 12:13:34,626 - INFO - Fold 2 - RMSE: 0.851, R²: 0.731
+2025-09-09 12:13:34,948 - INFO - Fold 3 - RMSE: 0.839, R²: 0.693
+2025-09-09 12:13:35,295 - INFO - Fold 4 - RMSE: 0.854, R²: 0.693
+2025-09-09 12:13:35,725 - INFO - Fold 5 - RMSE: 0.801, R²: 0.756
+2025-09-09 12:13:35,728 - INFO - Completed processing CHRM3
+2025-09-09 12:13:35,729 - INFO - Processing protein: CHRNA10
+2025-09-09 12:13:35,729 - INFO - UniProt IDs - Human: Q9GZZ6, Mouse: B2RX82, Rat: Q9JLB5
+2025-09-09 12:13:35,755 - WARNING - No activities found for Q9GZZ6
+2025-09-09 12:13:35,775 - WARNING - No activities found for B2RX82
+2025-09-09 12:13:35,797 - WARNING - No activities found for Q9JLB5
+2025-09-09 12:13:35,797 - WARNING - No activities found for CHRNA10
+2025-09-09 12:13:35,797 - INFO - Completed processing CHRNA10
+2025-09-09 12:13:35,797 - INFO - Processing protein: CHRNA9
+2025-09-09 12:13:35,797 - INFO - UniProt IDs - Human: Q9UGM1, Mouse: G3X8Z7, Rat: P43144
+2025-09-09 12:13:35,818 - WARNING - No activities found for Q9UGM1
+2025-09-09 12:13:35,839 - WARNING - No activities found for G3X8Z7
+2025-09-09 12:13:35,861 - WARNING - No activities found for P43144
+2025-09-09 12:13:35,862 - WARNING - No activities found for CHRNA9
+2025-09-09 12:13:35,862 - INFO - Completed processing CHRNA9
+2025-09-09 12:13:35,862 - INFO - Processing protein: CHRNA7
+2025-09-09 12:13:35,862 - INFO - UniProt IDs - Human: P36544, Mouse: P49582, Rat: Q05941
+2025-09-09 12:13:35,889 - INFO - Retrieved 595 activities for P36544
+2025-09-09 12:13:35,912 - INFO - Retrieved 4 activities for P49582
+2025-09-09 12:13:35,942 - INFO - Retrieved 1018 activities for Q05941
+2025-09-09 12:13:35,944 - INFO - Combined 1617 activities for CHRNA7
+2025-09-09 12:13:37,330 - INFO - Created 1614 fingerprints for CHRNA7
+2025-09-09 12:13:37,793 - INFO - Fold 1 - RMSE: 0.709, R²: 0.674
+2025-09-09 12:13:38,287 - INFO - Fold 2 - RMSE: 0.743, R²: 0.653
+2025-09-09 12:13:38,812 - INFO - Fold 3 - RMSE: 0.771, R²: 0.586
+2025-09-09 12:13:39,279 - INFO - Fold 4 - RMSE: 0.741, R²: 0.629
+2025-09-09 12:13:39,951 - INFO - Fold 5 - RMSE: 0.776, R²: 0.630
+2025-09-09 12:13:39,957 - INFO - Completed processing CHRNA7
+2025-09-09 12:13:39,957 - INFO - Processing protein: CHRNA3
+2025-09-09 12:13:39,958 - INFO - UniProt IDs - Human: P32297, Mouse: Q8R4G9, Rat: P04757
+2025-09-09 12:13:39,987 - INFO - Retrieved 3 activities for P32297
+2025-09-09 12:13:40,011 - WARNING - No activities found for Q8R4G9
+2025-09-09 12:13:40,038 - WARNING - No activities found for P04757
+2025-09-09 12:13:40,038 - INFO - Combined 3 activities for CHRNA3
+2025-09-09 12:13:40,043 - WARNING - Insufficient data after filtering for CHRNA3: 3 samples
+2025-09-09 12:13:40,044 - INFO - Completed processing CHRNA3
+2025-09-09 12:13:40,044 - INFO - Processing protein: CHRNA5
+2025-09-09 12:13:40,044 - INFO - UniProt IDs - Human: P30532, Mouse: Q2MKA5, Rat: P20420
+2025-09-09 12:13:40,068 - WARNING - No activities found for P30532
+2025-09-09 12:13:40,091 - WARNING - No activities found for Q2MKA5
+2025-09-09 12:13:40,115 - WARNING - No activities found for P20420
+2025-09-09 12:13:40,116 - WARNING - No activities found for CHRNA5
+2025-09-09 12:13:40,116 - INFO - Completed processing CHRNA5
+2025-09-09 12:13:40,116 - INFO - Processing protein: SMPDL3A
+2025-09-09 12:13:40,116 - INFO - UniProt IDs - Human: Q92484, Mouse: P70158, Rat: Q641Z7
+2025-09-09 12:13:40,140 - WARNING - No activities found for Q92484
+2025-09-09 12:13:40,167 - WARNING - No activities found for P70158
+2025-09-09 12:13:40,196 - WARNING - No activities found for Q641Z7
+2025-09-09 12:13:40,196 - WARNING - No activities found for SMPDL3A
+2025-09-09 12:13:40,196 - INFO - Completed processing SMPDL3A
+2025-09-09 12:13:40,196 - INFO - Processing protein: GABPA
+2025-09-09 12:13:40,196 - INFO - UniProt IDs - Human: Q06546, Mouse: Q00422, Rat: A0A8I6GML2
+2025-09-09 12:13:40,224 - WARNING - No activities found for Q06546
+2025-09-09 12:13:40,278 - WARNING - No activities found for Q00422
+2025-09-09 12:13:40,316 - WARNING - No activities found for A0A8I6GML2
+2025-09-09 12:13:40,316 - WARNING - No activities found for GABPA
+2025-09-09 12:13:40,316 - INFO - Completed processing GABPA
+2025-09-09 12:13:40,317 - INFO - Processing protein: HRH1
+2025-09-09 12:13:40,317 - INFO - UniProt IDs - Human: P35367, Mouse: P70174, Rat: P31390
+2025-09-09 12:13:40,393 - INFO - Retrieved 945 activities for P35367
+2025-09-09 12:13:40,437 - INFO - Retrieved 1 activities for P70174
+2025-09-09 12:13:40,479 - INFO - Retrieved 26 activities for P31390
+2025-09-09 12:13:40,480 - INFO - Combined 972 activities for HRH1
+2025-09-09 12:13:41,523 - INFO - Created 972 fingerprints for HRH1
+2025-09-09 12:13:41,856 - INFO - Fold 1 - RMSE: 0.733, R²: 0.638
+2025-09-09 12:13:42,158 - INFO - Fold 2 - RMSE: 0.713, R²: 0.696
+2025-09-09 12:13:42,466 - INFO - Fold 3 - RMSE: 0.658, R²: 0.676
+2025-09-09 12:13:42,789 - INFO - Fold 4 - RMSE: 0.757, R²: 0.670
+2025-09-09 12:13:43,104 - INFO - Fold 5 - RMSE: 0.673, R²: 0.674
+2025-09-09 12:13:43,107 - INFO - Completed processing HRH1
+2025-09-09 12:13:43,108 - INFO - Processing protein: SLCO1B1
+2025-09-09 12:13:43,108 - INFO - UniProt IDs - Human: Q9Y6L6, Mouse: nan, Rat: nan
+2025-09-09 12:13:43,132 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-09-09 12:13:43,132 - INFO - Combined 16 activities for SLCO1B1
+2025-09-09 12:13:43,149 - INFO - Created 16 fingerprints for SLCO1B1
+2025-09-09 12:13:43,382 - INFO - Fold 1 - RMSE: 0.553, R²: -0.136
+2025-09-09 12:13:43,609 - INFO - Fold 2 - RMSE: 0.620, R²: -0.119
+2025-09-09 12:13:43,839 - INFO - Fold 3 - RMSE: 0.530, R²: 0.476
+2025-09-09 12:13:44,153 - INFO - Fold 4 - RMSE: 0.410, R²: -2.215
+2025-09-09 12:13:44,353 - INFO - Fold 5 - RMSE: 0.211, R²: 0.780
+2025-09-09 12:13:44,354 - INFO - Completed processing SLCO1B1
+2025-09-09 12:13:44,355 - INFO - Processing protein: SLCO2B3
+2025-09-09 12:13:44,355 - INFO - UniProt IDs - Human: nan, Mouse: nan, Rat: nan
+2025-09-09 12:13:44,355 - WARNING - No activities found for SLCO2B3
+2025-09-09 12:13:44,355 - INFO - Completed processing SLCO2B3
+2025-09-09 12:13:44,355 - INFO - Processing protein: SLCO2B1
+2025-09-09 12:13:44,355 - INFO - UniProt IDs - Human: O94956, Mouse: Q8BXB6, Rat: Q9JHI3
+2025-09-09 12:13:44,383 - INFO - Retrieved 33 activities for O94956
+2025-09-09 12:13:44,404 - WARNING - No activities found for Q8BXB6
+2025-09-09 12:13:44,425 - WARNING - No activities found for Q9JHI3
+2025-09-09 12:13:44,425 - INFO - Combined 33 activities for SLCO2B1
+2025-09-09 12:13:44,451 - INFO - Created 33 fingerprints for SLCO2B1
+2025-09-09 12:13:44,690 - INFO - Fold 1 - RMSE: 0.643, R²: 0.159
+2025-09-09 12:13:44,899 - INFO - Fold 2 - RMSE: 0.820, R²: -0.424
+2025-09-09 12:13:45,146 - INFO - Fold 3 - RMSE: 0.648, R²: -0.539
+2025-09-09 12:13:45,374 - INFO - Fold 4 - RMSE: 0.457, R²: 0.085
+2025-09-09 12:13:45,610 - INFO - Fold 5 - RMSE: 0.590, R²: -0.157
+2025-09-09 12:13:45,612 - INFO - Completed processing SLCO2B1
+2025-09-09 12:13:45,623 - INFO - Results saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/prediction_results.csv
+2025-09-09 12:13:45,711 - INFO - Per-sample predictions saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/predictions_per_sample.csv
+2025-09-09 12:13:45,712 - INFO - Successfully trained models: 33
+2025-09-09 12:13:45,712 - INFO - Average R²: 0.461
+2025-09-09 12:13:45,712 - INFO - Average RMSE: 0.712
+2025-09-09 12:13:45,712 - INFO - Prediction pipeline completed!
+2025-09-09 12:14:55,508 - INFO - Starting Papyrus prediction pipeline...
+2025-09-09 12:14:55,508 - INFO - Loading protein data...
+2025-09-09 12:14:55,511 - INFO - Loaded 52 proteins from /home/serramelendezcsm/RA/Avoidome/processed_data/papyrus_protein_check_results.csv
+2025-09-09 12:14:55,511 - INFO - Initializing Papyrus dataset...
+2025-09-09 12:14:55,780 - INFO - Papyrus dataset initialized successfully
+2025-09-09 12:14:55,780 - INFO - Loading full Papyrus dataset into DataFrame...
+2025-09-09 12:15:07,611 - INFO - Loaded 707461 total activities from Papyrus
+2025-09-09 12:15:07,616 - INFO - Processing protein: CYP1A2
+2025-09-09 12:15:07,616 - INFO - UniProt IDs - Human: P05177, Mouse: P00186, Rat: P04799
+2025-09-09 12:15:07,653 - INFO - Retrieved 329 activities for P05177
+2025-09-09 12:15:07,689 - INFO - Retrieved 1 activities for P00186
+2025-09-09 12:15:07,723 - INFO - Retrieved 9 activities for P04799
+2025-09-09 12:15:07,724 - INFO - Combined 339 activities for CYP1A2
+2025-09-09 12:15:08,124 - INFO - Created 339 fingerprints for CYP1A2
+2025-09-09 12:15:08,421 - INFO - Fold 1 - RMSE: 0.739, R²: 0.533
+2025-09-09 12:15:08,890 - INFO - Fold 2 - RMSE: 0.864, R²: 0.266
+2025-09-09 12:15:09,183 - INFO - Fold 3 - RMSE: 0.599, R²: 0.626
+2025-09-09 12:15:09,473 - INFO - Fold 4 - RMSE: 0.657, R²: 0.600
+2025-09-09 12:15:09,745 - INFO - Fold 5 - RMSE: 0.672, R²: 0.581
+2025-09-09 12:15:09,748 - INFO - Completed processing CYP1A2
+2025-09-09 12:15:09,749 - INFO - Processing protein: CYP2B6
+2025-09-09 12:15:09,749 - INFO - UniProt IDs - Human: P20813, Mouse: nan, Rat: nan
+2025-09-09 12:15:09,784 - INFO - Retrieved 33 activities for P20813
+2025-09-09 12:15:09,784 - INFO - Combined 33 activities for CYP2B6
+2025-09-09 12:15:09,826 - INFO - Created 33 fingerprints for CYP2B6
+2025-09-09 12:15:10,068 - INFO - Fold 1 - RMSE: 0.340, R²: 0.776
+2025-09-09 12:15:10,312 - INFO - Fold 2 - RMSE: 0.654, R²: 0.124
+2025-09-09 12:15:10,563 - INFO - Fold 3 - RMSE: 0.679, R²: -0.026
+2025-09-09 12:15:10,855 - INFO - Fold 4 - RMSE: 0.445, R²: 0.674
+2025-09-09 12:15:11,168 - INFO - Fold 5 - RMSE: 0.575, R²: 0.152
+2025-09-09 12:15:11,170 - INFO - Completed processing CYP2B6
+2025-09-09 12:15:11,170 - INFO - Processing protein: CYP2C9
+2025-09-09 12:15:11,170 - INFO - UniProt IDs - Human: P11712, Mouse: nan, Rat: nan
+2025-09-09 12:15:11,216 - INFO - Retrieved 466 activities for P11712
+2025-09-09 12:15:11,217 - INFO - Combined 466 activities for CYP2C9
+2025-09-09 12:15:11,803 - INFO - Created 466 fingerprints for CYP2C9
+2025-09-09 12:15:12,138 - INFO - Fold 1 - RMSE: 0.554, R²: 0.422
+2025-09-09 12:15:12,473 - INFO - Fold 2 - RMSE: 0.482, R²: 0.541
+2025-09-09 12:15:12,794 - INFO - Fold 3 - RMSE: 0.447, R²: 0.618
+2025-09-09 12:15:13,139 - INFO - Fold 4 - RMSE: 0.578, R²: 0.518
+2025-09-09 12:15:13,463 - INFO - Fold 5 - RMSE: 0.467, R²: 0.499
+2025-09-09 12:15:13,467 - INFO - Completed processing CYP2C9
+2025-09-09 12:15:13,467 - INFO - Processing protein: CYP2C19
+2025-09-09 12:15:13,467 - INFO - UniProt IDs - Human: P33261, Mouse: nan, Rat: nan
+2025-09-09 12:15:13,504 - INFO - Retrieved 165 activities for P33261
+2025-09-09 12:15:13,505 - INFO - Combined 165 activities for CYP2C19
+2025-09-09 12:15:13,710 - INFO - Created 165 fingerprints for CYP2C19
+2025-09-09 12:15:14,017 - INFO - Fold 1 - RMSE: 0.686, R²: 0.031
+2025-09-09 12:15:14,313 - INFO - Fold 2 - RMSE: 0.704, R²: 0.255
+2025-09-09 12:15:14,595 - INFO - Fold 3 - RMSE: 0.591, R²: 0.029
+2025-09-09 12:15:14,908 - INFO - Fold 4 - RMSE: 0.529, R²: 0.423
+2025-09-09 12:15:15,200 - INFO - Fold 5 - RMSE: 0.493, R²: 0.475
+2025-09-09 12:15:15,201 - INFO - Completed processing CYP2C19
+2025-09-09 12:15:15,202 - INFO - Processing protein: CYP2D6
+2025-09-09 12:15:15,202 - INFO - UniProt IDs - Human: P10635, Mouse: nan, Rat: nan
+2025-09-09 12:15:15,249 - INFO - Retrieved 607 activities for P10635
+2025-09-09 12:15:15,249 - INFO - Combined 607 activities for CYP2D6
+2025-09-09 12:15:15,970 - INFO - Created 607 fingerprints for CYP2D6
+2025-09-09 12:15:16,354 - INFO - Fold 1 - RMSE: 0.677, R²: 0.433
+2025-09-09 12:15:16,709 - INFO - Fold 2 - RMSE: 0.659, R²: 0.439
+2025-09-09 12:15:17,022 - INFO - Fold 3 - RMSE: 0.665, R²: 0.355
+2025-09-09 12:15:17,365 - INFO - Fold 4 - RMSE: 0.640, R²: 0.501
+2025-09-09 12:15:17,845 - INFO - Fold 5 - RMSE: 0.641, R²: 0.389
+2025-09-09 12:15:17,855 - INFO - Completed processing CYP2D6
+2025-09-09 12:15:17,856 - INFO - Processing protein: CYP3A4
+2025-09-09 12:15:17,856 - INFO - UniProt IDs - Human: P08684, Mouse: nan, Rat: nan
+2025-09-09 12:15:17,941 - INFO - Retrieved 1387 activities for P08684
+2025-09-09 12:15:17,942 - INFO - Combined 1387 activities for CYP3A4
+2025-09-09 12:15:19,693 - INFO - Created 1387 fingerprints for CYP3A4
+2025-09-09 12:15:20,314 - INFO - Fold 1 - RMSE: 0.523, R²: 0.586
+2025-09-09 12:15:20,885 - INFO - Fold 2 - RMSE: 0.556, R²: 0.563
+2025-09-09 12:15:21,443 - INFO - Fold 3 - RMSE: 0.565, R²: 0.611
+2025-09-09 12:15:22,003 - INFO - Fold 4 - RMSE: 0.477, R²: 0.689
+2025-09-09 12:15:22,545 - INFO - Fold 5 - RMSE: 0.502, R²: 0.610
+2025-09-09 12:15:22,557 - INFO - Completed processing CYP3A4
+2025-09-09 12:15:22,557 - INFO - Processing protein: AOX1
+2025-09-09 12:15:22,557 - INFO - UniProt IDs - Human: Q06278, Mouse: O54754, Rat: Q9Z0U5
+2025-09-09 12:15:22,595 - INFO - Retrieved 13 activities for Q06278
+2025-09-09 12:15:22,629 - WARNING - No activities found for O54754
+2025-09-09 12:15:22,663 - INFO - Retrieved 4 activities for Q9Z0U5
+2025-09-09 12:15:22,664 - INFO - Combined 17 activities for AOX1
+2025-09-09 12:15:22,691 - INFO - Created 17 fingerprints for AOX1
+2025-09-09 12:15:22,978 - INFO - Fold 1 - RMSE: 0.662, R²: 0.178
+2025-09-09 12:15:23,282 - INFO - Fold 2 - RMSE: 1.452, R²: -1.001
+2025-09-09 12:15:23,551 - INFO - Fold 3 - RMSE: 2.001, R²: -1.600
+2025-09-09 12:15:23,838 - INFO - Fold 4 - RMSE: 0.359, R²: 0.431
+2025-09-09 12:15:24,123 - INFO - Fold 5 - RMSE: 1.015, R²: -0.609
+2025-09-09 12:15:24,125 - INFO - Completed processing AOX1
+2025-09-09 12:15:24,126 - INFO - Processing protein: XDH
+2025-09-09 12:15:24,126 - INFO - UniProt IDs - Human: P47989, Mouse: Q00519, Rat: P22985
+2025-09-09 12:15:24,167 - INFO - Retrieved 98 activities for P47989
+2025-09-09 12:15:24,200 - WARNING - No activities found for Q00519
+2025-09-09 12:15:24,234 - WARNING - No activities found for P22985
+2025-09-09 12:15:24,235 - INFO - Combined 98 activities for XDH
+2025-09-09 12:15:24,360 - INFO - Created 98 fingerprints for XDH
+2025-09-09 12:15:24,645 - INFO - Fold 1 - RMSE: 0.367, R²: 0.796
+2025-09-09 12:15:24,934 - INFO - Fold 2 - RMSE: 0.367, R²: 0.716
+2025-09-09 12:15:25,221 - INFO - Fold 3 - RMSE: 0.500, R²: 0.493
+2025-09-09 12:15:25,495 - INFO - Fold 4 - RMSE: 0.365, R²: 0.759
+2025-09-09 12:15:25,780 - INFO - Fold 5 - RMSE: 0.279, R²: 0.737
+2025-09-09 12:15:25,781 - INFO - Completed processing XDH
+2025-09-09 12:15:25,782 - INFO - Processing protein: MAOA
+2025-09-09 12:15:25,782 - INFO - UniProt IDs - Human: P21397, Mouse: Q64133, Rat: P21396
+2025-09-09 12:15:25,834 - INFO - Retrieved 1130 activities for P21397
+2025-09-09 12:15:25,869 - INFO - Retrieved 2 activities for Q64133
+2025-09-09 12:15:25,908 - INFO - Retrieved 336 activities for P21396
+2025-09-09 12:15:25,910 - INFO - Combined 1468 activities for MAOA
+2025-09-09 12:15:27,536 - INFO - Created 1468 fingerprints for MAOA
+2025-09-09 12:15:28,382 - INFO - Fold 1 - RMSE: 0.730, R²: 0.591
+2025-09-09 12:15:28,981 - INFO - Fold 2 - RMSE: 0.707, R²: 0.647
+2025-09-09 12:15:29,588 - INFO - Fold 3 - RMSE: 0.664, R²: 0.680
+2025-09-09 12:15:30,186 - INFO - Fold 4 - RMSE: 0.728, R²: 0.630
+2025-09-09 12:15:30,763 - INFO - Fold 5 - RMSE: 0.689, R²: 0.681
+2025-09-09 12:15:30,772 - INFO - Completed processing MAOA
+2025-09-09 12:15:30,773 - INFO - Processing protein: MAOB
+2025-09-09 12:15:30,773 - INFO - UniProt IDs - Human: P27338, Mouse: Q8BW75, Rat: P19643
+2025-09-09 12:15:30,845 - INFO - Retrieved 1519 activities for P27338
+2025-09-09 12:15:30,878 - INFO - Retrieved 14 activities for Q8BW75
+2025-09-09 12:15:30,917 - INFO - Retrieved 263 activities for P19643
+2025-09-09 12:15:30,919 - INFO - Combined 1796 activities for MAOB
+2025-09-09 12:15:32,838 - INFO - Created 1795 fingerprints for MAOB
+2025-09-09 12:15:33,374 - INFO - Fold 1 - RMSE: 0.805, R²: 0.590
+2025-09-09 12:15:33,916 - INFO - Fold 2 - RMSE: 0.674, R²: 0.708
+2025-09-09 12:15:34,366 - INFO - Fold 3 - RMSE: 0.824, R²: 0.599
+2025-09-09 12:15:34,836 - INFO - Fold 4 - RMSE: 0.784, R²: 0.650
+2025-09-09 12:15:35,357 - INFO - Fold 5 - RMSE: 0.784, R²: 0.630
+2025-09-09 12:15:35,360 - INFO - Completed processing MAOB
+2025-09-09 12:15:35,360 - INFO - Processing protein: ALDH1A1
+2025-09-09 12:15:35,360 - INFO - UniProt IDs - Human: P00352, Mouse: P24549, Rat: P51647
+2025-09-09 12:15:35,397 - INFO - Retrieved 150 activities for P00352
+2025-09-09 12:15:35,431 - WARNING - No activities found for P24549
+2025-09-09 12:15:35,463 - WARNING - No activities found for P51647
+2025-09-09 12:15:35,464 - INFO - Combined 150 activities for ALDH1A1
+2025-09-09 12:15:35,653 - INFO - Created 150 fingerprints for ALDH1A1
+2025-09-09 12:15:35,962 - INFO - Fold 1 - RMSE: 0.562, R²: 0.525
+2025-09-09 12:15:36,365 - INFO - Fold 2 - RMSE: 0.795, R²: 0.466
+2025-09-09 12:15:36,663 - INFO - Fold 3 - RMSE: 0.886, R²: 0.303
+2025-09-09 12:15:36,941 - INFO - Fold 4 - RMSE: 0.851, R²: 0.284
+2025-09-09 12:15:37,258 - INFO - Fold 5 - RMSE: 0.549, R²: 0.579
+2025-09-09 12:15:37,260 - INFO - Completed processing ALDH1A1
+2025-09-09 12:15:37,261 - INFO - Processing protein: ADH1A
+2025-09-09 12:15:37,261 - INFO - UniProt IDs - Human: P07327, Mouse: nan, Rat: nan
+2025-09-09 12:15:37,296 - WARNING - No activities found for P07327
+2025-09-09 12:15:37,296 - WARNING - No activities found for ADH1A
+2025-09-09 12:15:37,297 - INFO - Completed processing ADH1A
+2025-09-09 12:15:37,298 - INFO - Processing protein: HSD11B1
+2025-09-09 12:15:37,298 - INFO - UniProt IDs - Human: P28845, Mouse: P50172, Rat: P16232
+2025-09-09 12:15:37,368 - INFO - Retrieved 2046 activities for P28845
+2025-09-09 12:15:37,403 - INFO - Retrieved 612 activities for P50172
+2025-09-09 12:15:37,443 - INFO - Retrieved 67 activities for P16232
+2025-09-09 12:15:37,457 - INFO - Combined 2725 activities for HSD11B1
+2025-09-09 12:15:40,577 - INFO - Created 2712 fingerprints for HSD11B1
+2025-09-09 12:15:41,197 - INFO - Fold 1 - RMSE: 0.722, R²: 0.504
+2025-09-09 12:15:41,813 - INFO - Fold 2 - RMSE: 0.733, R²: 0.527
+2025-09-09 12:15:42,407 - INFO - Fold 3 - RMSE: 0.714, R²: 0.509
+2025-09-09 12:15:43,017 - INFO - Fold 4 - RMSE: 0.687, R²: 0.558
+2025-09-09 12:15:43,732 - INFO - Fold 5 - RMSE: 0.688, R²: 0.545
+2025-09-09 12:15:43,740 - INFO - Completed processing HSD11B1
+2025-09-09 12:15:43,741 - INFO - Processing protein: AKR7A3
+2025-09-09 12:15:43,741 - INFO - UniProt IDs - Human: O95154, Mouse: nan, Rat: P38918
+2025-09-09 12:15:43,781 - WARNING - No activities found for O95154
+2025-09-09 12:15:43,815 - WARNING - No activities found for P38918
+2025-09-09 12:15:43,815 - WARNING - No activities found for AKR7A3
+2025-09-09 12:15:43,815 - INFO - Completed processing AKR7A3
+2025-09-09 12:15:43,815 - INFO - Processing protein: FMO1
+2025-09-09 12:15:43,815 - INFO - UniProt IDs - Human: Q01740, Mouse: P50285, Rat: P36365
+2025-09-09 12:15:43,851 - WARNING - No activities found for Q01740
+2025-09-09 12:15:43,887 - WARNING - No activities found for P50285
+2025-09-09 12:15:43,923 - WARNING - No activities found for P36365
+2025-09-09 12:15:43,923 - WARNING - No activities found for FMO1
+2025-09-09 12:15:43,923 - INFO - Completed processing FMO1
+2025-09-09 12:15:43,923 - INFO - Processing protein: AHR
+2025-09-09 12:15:43,923 - INFO - UniProt IDs - Human: P35869, Mouse: P30561, Rat: P41738
+2025-09-09 12:15:43,962 - INFO - Retrieved 25 activities for P35869
+2025-09-09 12:15:43,995 - INFO - Retrieved 4 activities for P30561
+2025-09-09 12:15:44,030 - INFO - Retrieved 2 activities for P41738
+2025-09-09 12:15:44,031 - INFO - Combined 31 activities for AHR
+2025-09-09 12:15:44,074 - INFO - Created 29 fingerprints for AHR
+2025-09-09 12:15:44,364 - INFO - Fold 1 - RMSE: 1.581, R²: -1.162
+2025-09-09 12:15:44,653 - INFO - Fold 2 - RMSE: 1.468, R²: 0.138
+2025-09-09 12:15:44,918 - INFO - Fold 3 - RMSE: 0.885, R²: 0.407
+2025-09-09 12:15:45,188 - INFO - Fold 4 - RMSE: 0.604, R²: 0.418
+2025-09-09 12:15:45,476 - INFO - Fold 5 - RMSE: 1.811, R²: 0.292
+2025-09-09 12:15:45,478 - INFO - Completed processing AHR
+2025-09-09 12:15:45,479 - INFO - Processing protein: NR1I3
+2025-09-09 12:15:45,479 - INFO - UniProt IDs - Human: Q14994, Mouse: O35627, Rat: Q9QUS1
+2025-09-09 12:15:45,519 - INFO - Retrieved 59 activities for Q14994
+2025-09-09 12:15:45,553 - WARNING - No activities found for O35627
+2025-09-09 12:15:45,586 - WARNING - No activities found for Q9QUS1
+2025-09-09 12:15:45,586 - INFO - Combined 59 activities for NR1I3
+2025-09-09 12:15:45,663 - INFO - Created 59 fingerprints for NR1I3
+2025-09-09 12:15:45,971 - INFO - Fold 1 - RMSE: 0.824, R²: 0.181
+2025-09-09 12:15:46,248 - INFO - Fold 2 - RMSE: 0.684, R²: 0.381
+2025-09-09 12:15:46,544 - INFO - Fold 3 - RMSE: 0.743, R²: 0.559
+2025-09-09 12:15:46,967 - INFO - Fold 4 - RMSE: 0.863, R²: 0.210
+2025-09-09 12:15:47,265 - INFO - Fold 5 - RMSE: 0.783, R²: 0.516
+2025-09-09 12:15:47,266 - INFO - Completed processing NR1I3
+2025-09-09 12:15:47,266 - INFO - Processing protein: NR1I2
+2025-09-09 12:15:47,266 - INFO - UniProt IDs - Human: O75469, Mouse: O54915, Rat: Q9R1A7
+2025-09-09 12:15:47,316 - INFO - Retrieved 344 activities for O75469
+2025-09-09 12:15:47,350 - WARNING - No activities found for O54915
+2025-09-09 12:15:47,383 - WARNING - No activities found for Q9R1A7
+2025-09-09 12:15:47,384 - INFO - Combined 344 activities for NR1I2
+2025-09-09 12:15:47,803 - INFO - Created 344 fingerprints for NR1I2
+2025-09-09 12:15:48,114 - INFO - Fold 1 - RMSE: 0.654, R²: 0.480
+2025-09-09 12:15:48,426 - INFO - Fold 2 - RMSE: 0.540, R²: 0.670
+2025-09-09 12:15:48,753 - INFO - Fold 3 - RMSE: 0.640, R²: 0.519
+2025-09-09 12:15:49,075 - INFO - Fold 4 - RMSE: 0.545, R²: 0.684
+2025-09-09 12:15:49,362 - INFO - Fold 5 - RMSE: 0.638, R²: 0.354
+2025-09-09 12:15:49,366 - INFO - Completed processing NR1I2
+2025-09-09 12:15:49,366 - INFO - Processing protein: SULT1A1
+2025-09-09 12:15:49,366 - INFO - UniProt IDs - Human: P50225, Mouse: P52840, Rat: P17988
+2025-09-09 12:15:49,405 - INFO - Retrieved 6 activities for P50225
+2025-09-09 12:15:49,439 - WARNING - No activities found for P52840
+2025-09-09 12:15:49,472 - WARNING - No activities found for P17988
+2025-09-09 12:15:49,472 - INFO - Combined 6 activities for SULT1A1
+2025-09-09 12:15:49,477 - WARNING - Insufficient data after filtering for SULT1A1: 6 samples
+2025-09-09 12:15:49,478 - INFO - Completed processing SULT1A1
+2025-09-09 12:15:49,478 - INFO - Processing protein: GSTA1
+2025-09-09 12:15:49,478 - INFO - UniProt IDs - Human: P08263, Mouse: P13745, Rat: P00502
+2025-09-09 12:15:49,513 - INFO - Retrieved 6 activities for P08263
+2025-09-09 12:15:49,545 - WARNING - No activities found for P13745
+2025-09-09 12:15:49,582 - WARNING - No activities found for P00502
+2025-09-09 12:15:49,582 - INFO - Combined 6 activities for GSTA1
+2025-09-09 12:15:49,587 - WARNING - Insufficient data after filtering for GSTA1: 6 samples
+2025-09-09 12:15:49,587 - INFO - Completed processing GSTA1
+2025-09-09 12:15:49,587 - INFO - Processing protein: OXA1L
+2025-09-09 12:15:49,588 - INFO - UniProt IDs - Human: Q15070, Mouse: Q8BGA9, Rat: A0A8I6AQW6
+2025-09-09 12:15:49,622 - WARNING - No activities found for Q15070
+2025-09-09 12:15:49,654 - WARNING - No activities found for Q8BGA9
+2025-09-09 12:15:49,686 - WARNING - No activities found for A0A8I6AQW6
+2025-09-09 12:15:49,686 - WARNING - No activities found for OXA1L
+2025-09-09 12:15:49,686 - INFO - Completed processing OXA1L
+2025-09-09 12:15:49,686 - INFO - Processing protein: ORM1
+2025-09-09 12:15:49,686 - INFO - UniProt IDs - Human: P02763, Mouse: Q60590, Rat: P02764
+2025-09-09 12:15:49,720 - WARNING - No activities found for P02763
+2025-09-09 12:15:49,753 - WARNING - No activities found for Q60590
+2025-09-09 12:15:49,787 - WARNING - No activities found for P02764
+2025-09-09 12:15:49,787 - WARNING - No activities found for ORM1
+2025-09-09 12:15:49,787 - INFO - Completed processing ORM1
+2025-09-09 12:15:49,787 - INFO - Processing protein: KCNH2
+2025-09-09 12:15:49,787 - INFO - UniProt IDs - Human: Q12809, Mouse: O35219, Rat: O08962
+2025-09-09 12:15:49,897 - INFO - Retrieved 4492 activities for Q12809
+2025-09-09 12:15:49,934 - WARNING - No activities found for O35219
+2025-09-09 12:15:49,967 - WARNING - No activities found for O08962
+2025-09-09 12:15:49,968 - INFO - Combined 4492 activities for KCNH2
+2025-09-09 12:15:54,553 - INFO - Created 4492 fingerprints for KCNH2
+2025-09-09 12:15:56,177 - INFO - Fold 1 - RMSE: 0.561, R²: 0.656
+2025-09-09 12:15:58,263 - INFO - Fold 2 - RMSE: 0.628, R²: 0.538
+2025-09-09 12:16:00,093 - INFO - Fold 3 - RMSE: 0.606, R²: 0.597
+2025-09-09 12:16:01,902 - INFO - Fold 4 - RMSE: 0.598, R²: 0.616
+2025-09-09 12:16:03,872 - INFO - Fold 5 - RMSE: 0.583, R²: 0.610
+2025-09-09 12:16:03,877 - INFO - Completed processing KCNH2
+2025-09-09 12:16:03,878 - INFO - Processing protein: SCN5A
+2025-09-09 12:16:03,878 - INFO - UniProt IDs - Human: Q14524, Mouse: Q9JJV9, Rat: P15389
+2025-09-09 12:16:03,928 - INFO - Retrieved 329 activities for Q14524
+2025-09-09 12:16:03,963 - WARNING - No activities found for Q9JJV9
+2025-09-09 12:16:03,998 - WARNING - No activities found for P15389
+2025-09-09 12:16:03,998 - INFO - Combined 329 activities for SCN5A
+2025-09-09 12:16:04,415 - INFO - Created 329 fingerprints for SCN5A
+2025-09-09 12:16:04,654 - INFO - Fold 1 - RMSE: 0.571, R²: 0.194
+2025-09-09 12:16:04,944 - INFO - Fold 2 - RMSE: 0.521, R²: 0.473
+2025-09-09 12:16:05,203 - INFO - Fold 3 - RMSE: 0.497, R²: 0.441
+2025-09-09 12:16:05,444 - INFO - Fold 4 - RMSE: 0.440, R²: 0.574
+2025-09-09 12:16:05,737 - INFO - Fold 5 - RMSE: 0.599, R²: 0.380
+2025-09-09 12:16:05,738 - INFO - Completed processing SCN5A
+2025-09-09 12:16:05,739 - INFO - Processing protein: CACNB1
+2025-09-09 12:16:05,739 - INFO - UniProt IDs - Human: Q02641, Mouse: Q8R3Z5, Rat: P54283
+2025-09-09 12:16:05,773 - WARNING - No activities found for Q02641
+2025-09-09 12:16:05,807 - WARNING - No activities found for Q8R3Z5
+2025-09-09 12:16:05,841 - WARNING - No activities found for P54283
+2025-09-09 12:16:05,841 - WARNING - No activities found for CACNB1
+2025-09-09 12:16:05,841 - INFO - Completed processing CACNB1
+2025-09-09 12:16:05,842 - INFO - Processing protein: CAV1
+2025-09-09 12:16:05,842 - INFO - UniProt IDs - Human: Q03135, Mouse: P49817, Rat: P41350
+2025-09-09 12:16:05,876 - WARNING - No activities found for Q03135
+2025-09-09 12:16:05,908 - WARNING - No activities found for P49817
+2025-09-09 12:16:05,941 - WARNING - No activities found for P41350
+2025-09-09 12:16:05,941 - WARNING - No activities found for CAV1
+2025-09-09 12:16:05,941 - INFO - Completed processing CAV1
+2025-09-09 12:16:05,941 - INFO - Processing protein: HTR2B
+2025-09-09 12:16:05,941 - INFO - UniProt IDs - Human: P41595, Mouse: Q02152, Rat: P30994
+2025-09-09 12:16:06,003 - INFO - Retrieved 1180 activities for P41595
+2025-09-09 12:16:06,036 - WARNING - No activities found for Q02152
+2025-09-09 12:16:06,069 - INFO - Retrieved 35 activities for P30994
+2025-09-09 12:16:06,071 - INFO - Combined 1215 activities for HTR2B
+2025-09-09 12:16:07,415 - INFO - Created 1214 fingerprints for HTR2B
+2025-09-09 12:16:07,949 - INFO - Fold 1 - RMSE: 0.723, R²: 0.410
+2025-09-09 12:16:08,485 - INFO - Fold 2 - RMSE: 0.715, R²: 0.519
+2025-09-09 12:16:09,040 - INFO - Fold 3 - RMSE: 0.714, R²: 0.411
+2025-09-09 12:16:09,581 - INFO - Fold 4 - RMSE: 0.611, R²: 0.525
+2025-09-09 12:16:10,083 - INFO - Fold 5 - RMSE: 0.634, R²: 0.531
+2025-09-09 12:16:10,086 - INFO - Completed processing HTR2B
+2025-09-09 12:16:10,087 - INFO - Processing protein: SLC6A4
+2025-09-09 12:16:10,087 - INFO - UniProt IDs - Human: P31645, Mouse: Q60857, Rat: P31652
+2025-09-09 12:16:10,166 - INFO - Retrieved 2958 activities for P31645
+2025-09-09 12:16:10,200 - INFO - Retrieved 12 activities for Q60857
+2025-09-09 12:16:10,251 - INFO - Retrieved 1995 activities for P31652
+2025-09-09 12:16:10,253 - INFO - Combined 4965 activities for SLC6A4
+2025-09-09 12:16:15,895 - INFO - Created 4958 fingerprints for SLC6A4
+2025-09-09 12:16:16,776 - INFO - Fold 1 - RMSE: 0.712, R²: 0.642
+2025-09-09 12:16:17,815 - INFO - Fold 2 - RMSE: 0.720, R²: 0.638
+2025-09-09 12:16:18,697 - INFO - Fold 3 - RMSE: 0.702, R²: 0.652
+2025-09-09 12:16:19,516 - INFO - Fold 4 - RMSE: 0.659, R²: 0.664
+2025-09-09 12:16:20,398 - INFO - Fold 5 - RMSE: 0.704, R²: 0.639
+2025-09-09 12:16:20,405 - INFO - Completed processing SLC6A4
+2025-09-09 12:16:20,406 - INFO - Processing protein: DIDO1
+2025-09-09 12:16:20,406 - INFO - UniProt IDs - Human: Q9BTC0, Mouse: Q8C9B9, Rat: A0A8I5ZXE0
+2025-09-09 12:16:20,433 - WARNING - No activities found for Q9BTC0
+2025-09-09 12:16:20,458 - WARNING - No activities found for Q8C9B9
+2025-09-09 12:16:20,481 - WARNING - No activities found for A0A8I5ZXE0
+2025-09-09 12:16:20,482 - WARNING - No activities found for DIDO1
+2025-09-09 12:16:20,482 - INFO - Completed processing DIDO1
+2025-09-09 12:16:20,482 - INFO - Processing protein: SLC6A3
+2025-09-09 12:16:20,482 - INFO - UniProt IDs - Human: Q01959, Mouse: Q61327, Rat: P23977
+2025-09-09 12:16:20,533 - INFO - Retrieved 1646 activities for Q01959
+2025-09-09 12:16:20,560 - INFO - Retrieved 14 activities for Q61327
+2025-09-09 12:16:20,593 - INFO - Retrieved 1114 activities for P23977
+2025-09-09 12:16:20,595 - INFO - Combined 2774 activities for SLC6A3
+2025-09-09 12:16:22,866 - INFO - Created 2766 fingerprints for SLC6A3
+2025-09-09 12:16:23,429 - INFO - Fold 1 - RMSE: 0.642, R²: 0.650
+2025-09-09 12:16:24,022 - INFO - Fold 2 - RMSE: 0.635, R²: 0.666
+2025-09-09 12:16:24,581 - INFO - Fold 3 - RMSE: 0.606, R²: 0.699
+2025-09-09 12:16:25,131 - INFO - Fold 4 - RMSE: 0.625, R²: 0.671
+2025-09-09 12:16:25,668 - INFO - Fold 5 - RMSE: 0.584, R²: 0.717
+2025-09-09 12:16:25,672 - INFO - Completed processing SLC6A3
+2025-09-09 12:16:25,673 - INFO - Processing protein: SLC6A2
+2025-09-09 12:16:25,673 - INFO - UniProt IDs - Human: P23975, Mouse: O55192, Rat: F1LNR9
+2025-09-09 12:16:25,747 - INFO - Retrieved 2021 activities for P23975
+2025-09-09 12:16:25,782 - INFO - Retrieved 1 activities for O55192
+2025-09-09 12:16:25,814 - WARNING - No activities found for F1LNR9
+2025-09-09 12:16:25,816 - INFO - Combined 2022 activities for SLC6A2
+2025-09-09 12:16:28,026 - INFO - Created 2022 fingerprints for SLC6A2
+2025-09-09 12:16:28,529 - INFO - Fold 1 - RMSE: 0.630, R²: 0.653
+2025-09-09 12:16:29,111 - INFO - Fold 2 - RMSE: 0.645, R²: 0.612
+2025-09-09 12:16:29,623 - INFO - Fold 3 - RMSE: 0.654, R²: 0.632
+2025-09-09 12:16:30,102 - INFO - Fold 4 - RMSE: 0.651, R²: 0.617
+2025-09-09 12:16:30,629 - INFO - Fold 5 - RMSE: 0.704, R²: 0.534
+2025-09-09 12:16:30,632 - INFO - Completed processing SLC6A2
+2025-09-09 12:16:30,633 - INFO - Processing protein: NAT8
+2025-09-09 12:16:30,633 - INFO - UniProt IDs - Human: Q9UHE5, Mouse: Q9JIY7, Rat: Q9QXT3
+2025-09-09 12:16:30,658 - WARNING - No activities found for Q9UHE5
+2025-09-09 12:16:30,681 - WARNING - No activities found for Q9JIY7
+2025-09-09 12:16:30,706 - WARNING - No activities found for Q9QXT3
+2025-09-09 12:16:30,706 - WARNING - No activities found for NAT8
+2025-09-09 12:16:30,706 - INFO - Completed processing NAT8
+2025-09-09 12:16:30,706 - INFO - Processing protein: ADRA1A
+2025-09-09 12:16:30,707 - INFO - UniProt IDs - Human: P25100, Mouse: P97718, Rat: P23944
+2025-09-09 12:16:30,747 - INFO - Retrieved 566 activities for P25100
+2025-09-09 12:16:30,773 - WARNING - No activities found for P97718
+2025-09-09 12:16:30,801 - INFO - Retrieved 146 activities for P23944
+2025-09-09 12:16:30,802 - INFO - Combined 712 activities for ADRA1A
+2025-09-09 12:16:31,348 - INFO - Created 711 fingerprints for ADRA1A
+2025-09-09 12:16:31,641 - INFO - Fold 1 - RMSE: 0.891, R²: 0.468
+2025-09-09 12:16:31,946 - INFO - Fold 2 - RMSE: 0.873, R²: 0.470
+2025-09-09 12:16:32,275 - INFO - Fold 3 - RMSE: 0.766, R²: 0.576
+2025-09-09 12:16:32,587 - INFO - Fold 4 - RMSE: 0.748, R²: 0.633
+2025-09-09 12:16:32,884 - INFO - Fold 5 - RMSE: 0.870, R²: 0.494
+2025-09-09 12:16:32,891 - INFO - Completed processing ADRA1A
+2025-09-09 12:16:32,891 - INFO - Processing protein: ADRA2A
+2025-09-09 12:16:32,892 - INFO - UniProt IDs - Human: P08913, Mouse: Q01338, Rat: P22909
+2025-09-09 12:16:32,931 - INFO - Retrieved 526 activities for P08913
+2025-09-09 12:16:32,956 - WARNING - No activities found for Q01338
+2025-09-09 12:16:32,982 - INFO - Retrieved 39 activities for P22909
+2025-09-09 12:16:32,985 - INFO - Combined 565 activities for ADRA2A
+2025-09-09 12:16:33,595 - INFO - Created 565 fingerprints for ADRA2A
+2025-09-09 12:16:33,903 - INFO - Fold 1 - RMSE: 0.768, R²: 0.656
+2025-09-09 12:16:34,183 - INFO - Fold 2 - RMSE: 0.749, R²: 0.619
+2025-09-09 12:16:34,460 - INFO - Fold 3 - RMSE: 0.947, R²: 0.450
+2025-09-09 12:16:34,762 - INFO - Fold 4 - RMSE: 1.096, R²: 0.372
+2025-09-09 12:16:35,160 - INFO - Fold 5 - RMSE: 0.793, R²: 0.585
+2025-09-09 12:16:35,166 - INFO - Completed processing ADRA2A
+2025-09-09 12:16:35,166 - INFO - Processing protein: ADRB1
+2025-09-09 12:16:35,167 - INFO - UniProt IDs - Human: P08588, Mouse: P34971, Rat: P18090
+2025-09-09 12:16:35,240 - INFO - Retrieved 614 activities for P08588
+2025-09-09 12:16:35,276 - INFO - Retrieved 32 activities for P34971
+2025-09-09 12:16:35,311 - INFO - Retrieved 53 activities for P18090
+2025-09-09 12:16:35,316 - INFO - Combined 699 activities for ADRB1
+2025-09-09 12:16:36,149 - INFO - Created 699 fingerprints for ADRB1
+2025-09-09 12:16:36,447 - INFO - Fold 1 - RMSE: 0.715, R²: 0.602
+2025-09-09 12:16:36,751 - INFO - Fold 2 - RMSE: 0.832, R²: 0.553
+2025-09-09 12:16:37,056 - INFO - Fold 3 - RMSE: 0.718, R²: 0.595
+2025-09-09 12:16:37,367 - INFO - Fold 4 - RMSE: 0.807, R²: 0.562
+2025-09-09 12:16:37,702 - INFO - Fold 5 - RMSE: 0.701, R²: 0.604
+2025-09-09 12:16:37,707 - INFO - Completed processing ADRB1
+2025-09-09 12:16:37,707 - INFO - Processing protein: ADRB2
+2025-09-09 12:16:37,707 - INFO - UniProt IDs - Human: P07550, Mouse: P18762, Rat: P10608
+2025-09-09 12:16:37,739 - INFO - Retrieved 860 activities for P07550
+2025-09-09 12:16:37,760 - WARNING - No activities found for P18762
+2025-09-09 12:16:37,779 - INFO - Retrieved 20 activities for P10608
+2025-09-09 12:16:37,780 - INFO - Combined 880 activities for ADRB2
+2025-09-09 12:16:38,713 - INFO - Created 880 fingerprints for ADRB2
+2025-09-09 12:16:39,053 - INFO - Fold 1 - RMSE: 0.924, R²: 0.688
+2025-09-09 12:16:39,393 - INFO - Fold 2 - RMSE: 0.931, R²: 0.660
+2025-09-09 12:16:39,696 - INFO - Fold 3 - RMSE: 0.919, R²: 0.710
+2025-09-09 12:16:40,009 - INFO - Fold 4 - RMSE: 0.974, R²: 0.660
+2025-09-09 12:16:40,313 - INFO - Fold 5 - RMSE: 0.874, R²: 0.698
+2025-09-09 12:16:40,320 - INFO - Completed processing ADRB2
+2025-09-09 12:16:40,321 - INFO - Processing protein: CNRIP1
+2025-09-09 12:16:40,321 - INFO - UniProt IDs - Human: Q96F85, Mouse: Q5M8N0, Rat: Q5M7A7
+2025-09-09 12:16:40,348 - WARNING - No activities found for Q96F85
+2025-09-09 12:16:40,370 - WARNING - No activities found for Q5M8N0
+2025-09-09 12:16:40,395 - WARNING - No activities found for Q5M7A7
+2025-09-09 12:16:40,395 - WARNING - No activities found for CNRIP1
+2025-09-09 12:16:40,395 - INFO - Completed processing CNRIP1
+2025-09-09 12:16:40,395 - INFO - Processing protein: CNR2
+2025-09-09 12:16:40,395 - INFO - UniProt IDs - Human: P34972, Mouse: P47936, Rat: Q9QZN9
+2025-09-09 12:16:40,476 - INFO - Retrieved 4295 activities for P34972
+2025-09-09 12:16:40,525 - INFO - Retrieved 363 activities for P47936
+2025-09-09 12:16:40,569 - INFO - Retrieved 194 activities for Q9QZN9
+2025-09-09 12:16:40,571 - INFO - Combined 4852 activities for CNR2
+2025-09-09 12:16:44,967 - INFO - Created 4843 fingerprints for CNR2
+2025-09-09 12:16:46,052 - INFO - Fold 1 - RMSE: 0.718, R²: 0.608
+2025-09-09 12:16:47,209 - INFO - Fold 2 - RMSE: 0.747, R²: 0.575
+2025-09-09 12:16:48,643 - INFO - Fold 3 - RMSE: 0.730, R²: 0.613
+2025-09-09 12:16:49,866 - INFO - Fold 4 - RMSE: 0.720, R²: 0.615
+2025-09-09 12:16:50,949 - INFO - Fold 5 - RMSE: 0.743, R²: 0.586
+2025-09-09 12:16:50,954 - INFO - Completed processing CNR2
+2025-09-09 12:16:50,955 - INFO - Processing protein: CHRM1
+2025-09-09 12:16:50,955 - INFO - UniProt IDs - Human: P11229, Mouse: P12657, Rat: P08482
+2025-09-09 12:16:51,022 - INFO - Retrieved 1103 activities for P11229
+2025-09-09 12:16:51,055 - INFO - Retrieved 1 activities for P12657
+2025-09-09 12:16:51,096 - INFO - Retrieved 261 activities for P08482
+2025-09-09 12:16:51,098 - INFO - Combined 1365 activities for CHRM1
+2025-09-09 12:16:52,627 - INFO - Created 1364 fingerprints for CHRM1
+2025-09-09 12:16:53,116 - INFO - Fold 1 - RMSE: 0.734, R²: 0.656
+2025-09-09 12:16:53,701 - INFO - Fold 2 - RMSE: 0.847, R²: 0.620
+2025-09-09 12:16:54,229 - INFO - Fold 3 - RMSE: 0.742, R²: 0.702
+2025-09-09 12:16:54,788 - INFO - Fold 4 - RMSE: 0.848, R²: 0.586
+2025-09-09 12:16:55,268 - INFO - Fold 5 - RMSE: 0.854, R²: 0.551
+2025-09-09 12:16:55,273 - INFO - Completed processing CHRM1
+2025-09-09 12:16:55,274 - INFO - Processing protein: CHRM2
+2025-09-09 12:16:55,274 - INFO - UniProt IDs - Human: P08172, Mouse: Q9ERZ4, Rat: P10980
+2025-09-09 12:16:55,307 - INFO - Retrieved 721 activities for P08172
+2025-09-09 12:16:55,332 - INFO - Retrieved 5 activities for Q9ERZ4
+2025-09-09 12:16:55,358 - INFO - Retrieved 130 activities for P10980
+2025-09-09 12:16:55,358 - INFO - Combined 856 activities for CHRM2
+2025-09-09 12:16:56,105 - INFO - Created 855 fingerprints for CHRM2
+2025-09-09 12:16:56,433 - INFO - Fold 1 - RMSE: 0.878, R²: 0.577
+2025-09-09 12:16:56,780 - INFO - Fold 2 - RMSE: 0.843, R²: 0.654
+2025-09-09 12:16:57,112 - INFO - Fold 3 - RMSE: 0.867, R²: 0.647
+2025-09-09 12:16:57,456 - INFO - Fold 4 - RMSE: 0.858, R²: 0.591
+2025-09-09 12:16:57,908 - INFO - Fold 5 - RMSE: 0.734, R²: 0.718
+2025-09-09 12:16:57,916 - INFO - Completed processing CHRM2
+2025-09-09 12:16:57,916 - INFO - Processing protein: CHRM3
+2025-09-09 12:16:57,916 - INFO - UniProt IDs - Human: P20309, Mouse: Q9ERZ3, Rat: P08483
+2025-09-09 12:16:57,960 - INFO - Retrieved 1209 activities for P20309
+2025-09-09 12:16:57,992 - WARNING - No activities found for Q9ERZ3
+2025-09-09 12:16:58,027 - INFO - Retrieved 93 activities for P08483
+2025-09-09 12:16:58,028 - INFO - Combined 1302 activities for CHRM3
+2025-09-09 12:16:59,573 - INFO - Created 1302 fingerprints for CHRM3
+2025-09-09 12:16:59,975 - INFO - Fold 1 - RMSE: 0.888, R²: 0.663
+2025-09-09 12:17:00,434 - INFO - Fold 2 - RMSE: 0.851, R²: 0.731
+2025-09-09 12:17:00,813 - INFO - Fold 3 - RMSE: 0.839, R²: 0.693
+2025-09-09 12:17:01,286 - INFO - Fold 4 - RMSE: 0.854, R²: 0.693
+2025-09-09 12:17:01,730 - INFO - Fold 5 - RMSE: 0.801, R²: 0.756
+2025-09-09 12:17:01,733 - INFO - Completed processing CHRM3
+2025-09-09 12:17:01,734 - INFO - Processing protein: CHRNA10
+2025-09-09 12:17:01,734 - INFO - UniProt IDs - Human: Q9GZZ6, Mouse: B2RX82, Rat: Q9JLB5
+2025-09-09 12:17:01,770 - WARNING - No activities found for Q9GZZ6
+2025-09-09 12:17:01,803 - WARNING - No activities found for B2RX82
+2025-09-09 12:17:01,836 - WARNING - No activities found for Q9JLB5
+2025-09-09 12:17:01,836 - WARNING - No activities found for CHRNA10
+2025-09-09 12:17:01,836 - INFO - Completed processing CHRNA10
+2025-09-09 12:17:01,836 - INFO - Processing protein: CHRNA9
+2025-09-09 12:17:01,836 - INFO - UniProt IDs - Human: Q9UGM1, Mouse: G3X8Z7, Rat: P43144
+2025-09-09 12:17:01,870 - WARNING - No activities found for Q9UGM1
+2025-09-09 12:17:01,903 - WARNING - No activities found for G3X8Z7
+2025-09-09 12:17:01,936 - WARNING - No activities found for P43144
+2025-09-09 12:17:01,936 - WARNING - No activities found for CHRNA9
+2025-09-09 12:17:01,936 - INFO - Completed processing CHRNA9
+2025-09-09 12:17:01,936 - INFO - Processing protein: CHRNA7
+2025-09-09 12:17:01,936 - INFO - UniProt IDs - Human: P36544, Mouse: P49582, Rat: Q05941
+2025-09-09 12:17:01,980 - INFO - Retrieved 595 activities for P36544
+2025-09-09 12:17:02,015 - INFO - Retrieved 4 activities for P49582
+2025-09-09 12:17:02,062 - INFO - Retrieved 1018 activities for Q05941
+2025-09-09 12:17:02,063 - INFO - Combined 1617 activities for CHRNA7
+2025-09-09 12:17:03,896 - INFO - Created 1614 fingerprints for CHRNA7
+2025-09-09 12:17:04,353 - INFO - Fold 1 - RMSE: 0.709, R²: 0.674
+2025-09-09 12:17:04,828 - INFO - Fold 2 - RMSE: 0.743, R²: 0.653
+2025-09-09 12:17:05,264 - INFO - Fold 3 - RMSE: 0.771, R²: 0.586
+2025-09-09 12:17:05,708 - INFO - Fold 4 - RMSE: 0.741, R²: 0.629
+2025-09-09 12:17:06,267 - INFO - Fold 5 - RMSE: 0.776, R²: 0.630
+2025-09-09 12:17:06,270 - INFO - Completed processing CHRNA7
+2025-09-09 12:17:06,271 - INFO - Processing protein: CHRNA3
+2025-09-09 12:17:06,271 - INFO - UniProt IDs - Human: P32297, Mouse: Q8R4G9, Rat: P04757
+2025-09-09 12:17:06,307 - INFO - Retrieved 3 activities for P32297
+2025-09-09 12:17:06,341 - WARNING - No activities found for Q8R4G9
+2025-09-09 12:17:06,376 - WARNING - No activities found for P04757
+2025-09-09 12:17:06,376 - INFO - Combined 3 activities for CHRNA3
+2025-09-09 12:17:06,381 - WARNING - Insufficient data after filtering for CHRNA3: 3 samples
+2025-09-09 12:17:06,381 - INFO - Completed processing CHRNA3
+2025-09-09 12:17:06,382 - INFO - Processing protein: CHRNA5
+2025-09-09 12:17:06,382 - INFO - UniProt IDs - Human: P30532, Mouse: Q2MKA5, Rat: P20420
+2025-09-09 12:17:06,416 - WARNING - No activities found for P30532
+2025-09-09 12:17:06,449 - WARNING - No activities found for Q2MKA5
+2025-09-09 12:17:06,482 - WARNING - No activities found for P20420
+2025-09-09 12:17:06,482 - WARNING - No activities found for CHRNA5
+2025-09-09 12:17:06,483 - INFO - Completed processing CHRNA5
+2025-09-09 12:17:06,483 - INFO - Processing protein: SMPDL3A
+2025-09-09 12:17:06,483 - INFO - UniProt IDs - Human: Q92484, Mouse: P70158, Rat: Q641Z7
+2025-09-09 12:17:06,519 - WARNING - No activities found for Q92484
+2025-09-09 12:17:06,553 - WARNING - No activities found for P70158
+2025-09-09 12:17:06,586 - WARNING - No activities found for Q641Z7
+2025-09-09 12:17:06,586 - WARNING - No activities found for SMPDL3A
+2025-09-09 12:17:06,586 - INFO - Completed processing SMPDL3A
+2025-09-09 12:17:06,587 - INFO - Processing protein: GABPA
+2025-09-09 12:17:06,587 - INFO - UniProt IDs - Human: Q06546, Mouse: Q00422, Rat: A0A8I6GML2
+2025-09-09 12:17:06,621 - WARNING - No activities found for Q06546
+2025-09-09 12:17:06,655 - WARNING - No activities found for Q00422
+2025-09-09 12:17:06,689 - WARNING - No activities found for A0A8I6GML2
+2025-09-09 12:17:06,689 - WARNING - No activities found for GABPA
+2025-09-09 12:17:06,689 - INFO - Completed processing GABPA
+2025-09-09 12:17:06,689 - INFO - Processing protein: HRH1
+2025-09-09 12:17:06,689 - INFO - UniProt IDs - Human: P35367, Mouse: P70174, Rat: P31390
+2025-09-09 12:17:06,740 - INFO - Retrieved 945 activities for P35367
+2025-09-09 12:17:06,774 - INFO - Retrieved 1 activities for P70174
+2025-09-09 12:17:06,808 - INFO - Retrieved 26 activities for P31390
+2025-09-09 12:17:06,809 - INFO - Combined 972 activities for HRH1
+2025-09-09 12:17:07,927 - INFO - Created 972 fingerprints for HRH1
+2025-09-09 12:17:08,278 - INFO - Fold 1 - RMSE: 0.733, R²: 0.638
+2025-09-09 12:17:08,635 - INFO - Fold 2 - RMSE: 0.713, R²: 0.696
+2025-09-09 12:17:08,985 - INFO - Fold 3 - RMSE: 0.658, R²: 0.676
+2025-09-09 12:17:09,347 - INFO - Fold 4 - RMSE: 0.757, R²: 0.670
+2025-09-09 12:17:09,704 - INFO - Fold 5 - RMSE: 0.673, R²: 0.674
+2025-09-09 12:17:09,707 - INFO - Completed processing HRH1
+2025-09-09 12:17:09,707 - INFO - Processing protein: SLCO1B1
+2025-09-09 12:17:09,707 - INFO - UniProt IDs - Human: Q9Y6L6, Mouse: nan, Rat: nan
+2025-09-09 12:17:09,744 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-09-09 12:17:09,744 - INFO - Combined 16 activities for SLCO1B1
+2025-09-09 12:17:09,770 - INFO - Created 16 fingerprints for SLCO1B1
+2025-09-09 12:17:10,051 - INFO - Fold 1 - RMSE: 0.553, R²: -0.136
+2025-09-09 12:17:10,343 - INFO - Fold 2 - RMSE: 0.620, R²: -0.119
+2025-09-09 12:17:10,634 - INFO - Fold 3 - RMSE: 0.530, R²: 0.476
+2025-09-09 12:17:10,924 - INFO - Fold 4 - RMSE: 0.410, R²: -2.215
+2025-09-09 12:17:11,214 - INFO - Fold 5 - RMSE: 0.211, R²: 0.780
+2025-09-09 12:17:11,215 - INFO - Completed processing SLCO1B1
+2025-09-09 12:17:11,216 - INFO - Processing protein: SLCO2B3
+2025-09-09 12:17:11,216 - INFO - UniProt IDs - Human: nan, Mouse: nan, Rat: nan
+2025-09-09 12:17:11,216 - WARNING - No activities found for SLCO2B3
+2025-09-09 12:17:11,216 - INFO - Completed processing SLCO2B3
+2025-09-09 12:17:11,216 - INFO - Processing protein: SLCO2B1
+2025-09-09 12:17:11,216 - INFO - UniProt IDs - Human: O94956, Mouse: Q8BXB6, Rat: Q9JHI3
+2025-09-09 12:17:11,251 - INFO - Retrieved 33 activities for O94956
+2025-09-09 12:17:11,285 - WARNING - No activities found for Q8BXB6
+2025-09-09 12:17:11,317 - WARNING - No activities found for Q9JHI3
+2025-09-09 12:17:11,317 - INFO - Combined 33 activities for SLCO2B1
+2025-09-09 12:17:11,362 - INFO - Created 33 fingerprints for SLCO2B1
+2025-09-09 12:17:11,629 - INFO - Fold 1 - RMSE: 0.643, R²: 0.159
+2025-09-09 12:17:11,911 - INFO - Fold 2 - RMSE: 0.820, R²: -0.424
+2025-09-09 12:17:12,211 - INFO - Fold 3 - RMSE: 0.648, R²: -0.539
+2025-09-09 12:17:12,475 - INFO - Fold 4 - RMSE: 0.457, R²: 0.085
+2025-09-09 12:17:12,761 - INFO - Fold 5 - RMSE: 0.590, R²: -0.157
+2025-09-09 12:17:12,761 - INFO - Completed processing SLCO2B1
+2025-09-09 12:17:12,775 - INFO - Results saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/prediction_results.csv
+2025-09-09 12:17:13,023 - INFO - Per-sample fold predictions saved to /home/serramelendezcsm/RA/Avoidome/analyses/MCC_comparison/morgan_regression_fold_predictions.csv
+2025-09-09 12:17:13,025 - INFO - Successfully trained models: 33
+2025-09-09 12:17:13,026 - INFO - Average R²: 0.461
+2025-09-09 12:17:13,026 - INFO - Average RMSE: 0.712
+2025-09-09 12:17:13,027 - INFO - Prediction pipeline completed!

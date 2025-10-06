@@ -1,0 +1,1624 @@
+2025-09-10 15:15:35,975 - INFO - Starting standardized input data saving process...
+2025-09-10 15:15:35,975 - INFO - Creating standardized directory structure...
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/models
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/results
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/predictions
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/input_data
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/models
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/results
+2025-09-10 15:15:35,976 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/predictions
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/performance_reports
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/models
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/results
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/predictions
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/performance_reports
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/input_data
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/models
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/results
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/predictions
+2025-09-10 15:15:35,977 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/performance_reports
+2025-09-10 15:15:35,978 - INFO - Created shared data directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/shared_data
+2025-09-10 15:15:35,978 - INFO - Loading all data sources...
+2025-09-10 15:15:35,978 - INFO - Loading protein check results...
+2025-09-10 15:15:35,983 - INFO - Loaded 52 proteins from /home/serramelendezcsm/RA/Avoidome/processed_data/papyrus_protein_check_results.csv
+2025-09-10 15:15:35,984 - INFO - Initializing Papyrus dataset...
+2025-09-10 15:15:36,394 - INFO - Loading full Papyrus dataset...
+2025-09-10 15:15:57,502 - INFO - Loaded 707461 total activities from Papyrus
+2025-09-10 15:15:57,503 - INFO - Loading ESM embeddings...
+2025-09-10 15:15:57,504 - INFO - Loaded ESM embeddings with shape: (51, 1280)
+2025-09-10 15:15:57,504 - INFO - Loading targets with sequences...
+2025-09-10 15:15:57,508 - INFO - Loaded 51 targets with sequences
+2025-09-10 15:15:57,509 - INFO - Starting to save standardized data for all proteins and model types...
+2025-09-10 15:15:57,513 - INFO - Found 51 proteins to process
+2025-09-10 15:15:57,514 - INFO - Processing protein: CYP1A2 (P05177)
+2025-09-10 15:15:57,514 - INFO - Saving data for CYP1A2 (P05177) - morgan_regression
+2025-09-10 15:15:57,567 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:15:57,568 - ERROR - Error processing CYP1A2 (P05177) for morgan_regression: ['smiles']
+2025-09-10 15:15:57,568 - INFO - Saving data for CYP1A2 (P05177) - morgan_classification
+2025-09-10 15:15:57,623 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:15:57,624 - ERROR - Error processing CYP1A2 (P05177) for morgan_classification: ['smiles']
+2025-09-10 15:15:57,624 - INFO - Saving data for CYP1A2 (P05177) - esm_morgan_regression
+2025-09-10 15:15:57,677 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:15:57,678 - ERROR - Error processing CYP1A2 (P05177) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:57,678 - INFO - Saving data for CYP1A2 (P05177) - esm_morgan_classification
+2025-09-10 15:15:57,731 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:15:57,732 - ERROR - Error processing CYP1A2 (P05177) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:57,732 - INFO - Processing protein: CYP2B6 (P20813)
+2025-09-10 15:15:57,732 - INFO - Saving data for CYP2B6 (P20813) - morgan_regression
+2025-09-10 15:15:57,784 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:15:57,785 - ERROR - Error processing CYP2B6 (P20813) for morgan_regression: ['smiles']
+2025-09-10 15:15:57,785 - INFO - Saving data for CYP2B6 (P20813) - morgan_classification
+2025-09-10 15:15:57,837 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:15:57,838 - ERROR - Error processing CYP2B6 (P20813) for morgan_classification: ['smiles']
+2025-09-10 15:15:57,838 - INFO - Saving data for CYP2B6 (P20813) - esm_morgan_regression
+2025-09-10 15:15:57,888 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:15:57,889 - ERROR - Error processing CYP2B6 (P20813) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:57,889 - INFO - Saving data for CYP2B6 (P20813) - esm_morgan_classification
+2025-09-10 15:15:57,941 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:15:57,942 - ERROR - Error processing CYP2B6 (P20813) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:57,942 - INFO - Processing protein: CYP2C9 (P11712)
+2025-09-10 15:15:57,942 - INFO - Saving data for CYP2C9 (P11712) - morgan_regression
+2025-09-10 15:15:57,994 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:15:57,994 - ERROR - Error processing CYP2C9 (P11712) for morgan_regression: ['smiles']
+2025-09-10 15:15:57,994 - INFO - Saving data for CYP2C9 (P11712) - morgan_classification
+2025-09-10 15:15:58,048 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:15:58,049 - ERROR - Error processing CYP2C9 (P11712) for morgan_classification: ['smiles']
+2025-09-10 15:15:58,049 - INFO - Saving data for CYP2C9 (P11712) - esm_morgan_regression
+2025-09-10 15:15:58,101 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:15:58,102 - ERROR - Error processing CYP2C9 (P11712) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:58,102 - INFO - Saving data for CYP2C9 (P11712) - esm_morgan_classification
+2025-09-10 15:15:58,153 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:15:58,154 - ERROR - Error processing CYP2C9 (P11712) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:58,154 - INFO - Processing protein: CYP2C19 (P33261)
+2025-09-10 15:15:58,154 - INFO - Saving data for CYP2C19 (P33261) - morgan_regression
+2025-09-10 15:15:58,205 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:15:58,206 - ERROR - Error processing CYP2C19 (P33261) for morgan_regression: ['smiles']
+2025-09-10 15:15:58,206 - INFO - Saving data for CYP2C19 (P33261) - morgan_classification
+2025-09-10 15:15:58,255 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:15:58,256 - ERROR - Error processing CYP2C19 (P33261) for morgan_classification: ['smiles']
+2025-09-10 15:15:58,256 - INFO - Saving data for CYP2C19 (P33261) - esm_morgan_regression
+2025-09-10 15:15:58,307 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:15:58,308 - ERROR - Error processing CYP2C19 (P33261) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:58,308 - INFO - Saving data for CYP2C19 (P33261) - esm_morgan_classification
+2025-09-10 15:15:58,357 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:15:58,357 - ERROR - Error processing CYP2C19 (P33261) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:58,358 - INFO - Processing protein: CYP2D6 (P10635)
+2025-09-10 15:15:58,358 - INFO - Saving data for CYP2D6 (P10635) - morgan_regression
+2025-09-10 15:15:58,409 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:15:58,410 - ERROR - Error processing CYP2D6 (P10635) for morgan_regression: ['smiles']
+2025-09-10 15:15:58,410 - INFO - Saving data for CYP2D6 (P10635) - morgan_classification
+2025-09-10 15:15:58,462 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:15:58,463 - ERROR - Error processing CYP2D6 (P10635) for morgan_classification: ['smiles']
+2025-09-10 15:15:58,464 - INFO - Saving data for CYP2D6 (P10635) - esm_morgan_regression
+2025-09-10 15:15:58,515 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:15:58,516 - ERROR - Error processing CYP2D6 (P10635) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:58,516 - INFO - Saving data for CYP2D6 (P10635) - esm_morgan_classification
+2025-09-10 15:15:58,569 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:15:58,570 - ERROR - Error processing CYP2D6 (P10635) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:58,570 - INFO - Processing protein: CYP3A4 (P08684)
+2025-09-10 15:15:58,570 - INFO - Saving data for CYP3A4 (P08684) - morgan_regression
+2025-09-10 15:15:58,624 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:15:58,625 - ERROR - Error processing CYP3A4 (P08684) for morgan_regression: ['smiles']
+2025-09-10 15:15:58,626 - INFO - Saving data for CYP3A4 (P08684) - morgan_classification
+2025-09-10 15:15:58,682 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:15:58,683 - ERROR - Error processing CYP3A4 (P08684) for morgan_classification: ['smiles']
+2025-09-10 15:15:58,684 - INFO - Saving data for CYP3A4 (P08684) - esm_morgan_regression
+2025-09-10 15:15:58,744 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:15:58,745 - ERROR - Error processing CYP3A4 (P08684) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:58,745 - INFO - Saving data for CYP3A4 (P08684) - esm_morgan_classification
+2025-09-10 15:15:58,800 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:15:58,801 - ERROR - Error processing CYP3A4 (P08684) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:58,802 - INFO - Processing protein: AOX1 (Q06278)
+2025-09-10 15:15:58,802 - INFO - Saving data for AOX1 (Q06278) - morgan_regression
+2025-09-10 15:15:58,856 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:15:58,856 - ERROR - Error processing AOX1 (Q06278) for morgan_regression: ['smiles']
+2025-09-10 15:15:58,857 - INFO - Saving data for AOX1 (Q06278) - morgan_classification
+2025-09-10 15:15:58,912 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:15:58,912 - ERROR - Error processing AOX1 (Q06278) for morgan_classification: ['smiles']
+2025-09-10 15:15:58,913 - INFO - Saving data for AOX1 (Q06278) - esm_morgan_regression
+2025-09-10 15:15:58,967 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:15:58,968 - ERROR - Error processing AOX1 (Q06278) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:58,968 - INFO - Saving data for AOX1 (Q06278) - esm_morgan_classification
+2025-09-10 15:15:59,022 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:15:59,023 - ERROR - Error processing AOX1 (Q06278) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:59,023 - INFO - Processing protein: XDH (P47989)
+2025-09-10 15:15:59,023 - INFO - Saving data for XDH (P47989) - morgan_regression
+2025-09-10 15:15:59,078 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:15:59,078 - ERROR - Error processing XDH (P47989) for morgan_regression: ['smiles']
+2025-09-10 15:15:59,079 - INFO - Saving data for XDH (P47989) - morgan_classification
+2025-09-10 15:15:59,134 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:15:59,135 - ERROR - Error processing XDH (P47989) for morgan_classification: ['smiles']
+2025-09-10 15:15:59,135 - INFO - Saving data for XDH (P47989) - esm_morgan_regression
+2025-09-10 15:15:59,190 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:15:59,190 - ERROR - Error processing XDH (P47989) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:59,191 - INFO - Saving data for XDH (P47989) - esm_morgan_classification
+2025-09-10 15:15:59,241 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:15:59,242 - ERROR - Error processing XDH (P47989) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:59,242 - INFO - Processing protein: MAOA (P21397)
+2025-09-10 15:15:59,242 - INFO - Saving data for MAOA (P21397) - morgan_regression
+2025-09-10 15:15:59,295 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:15:59,296 - ERROR - Error processing MAOA (P21397) for morgan_regression: ['smiles']
+2025-09-10 15:15:59,297 - INFO - Saving data for MAOA (P21397) - morgan_classification
+2025-09-10 15:15:59,351 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:15:59,352 - ERROR - Error processing MAOA (P21397) for morgan_classification: ['smiles']
+2025-09-10 15:15:59,353 - INFO - Saving data for MAOA (P21397) - esm_morgan_regression
+2025-09-10 15:15:59,408 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:15:59,408 - ERROR - Error processing MAOA (P21397) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:59,409 - INFO - Saving data for MAOA (P21397) - esm_morgan_classification
+2025-09-10 15:15:59,462 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:15:59,463 - ERROR - Error processing MAOA (P21397) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:59,464 - INFO - Processing protein: MAOB (P27338)
+2025-09-10 15:15:59,464 - INFO - Saving data for MAOB (P27338) - morgan_regression
+2025-09-10 15:15:59,516 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:15:59,517 - ERROR - Error processing MAOB (P27338) for morgan_regression: ['smiles']
+2025-09-10 15:15:59,517 - INFO - Saving data for MAOB (P27338) - morgan_classification
+2025-09-10 15:15:59,567 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:15:59,568 - ERROR - Error processing MAOB (P27338) for morgan_classification: ['smiles']
+2025-09-10 15:15:59,569 - INFO - Saving data for MAOB (P27338) - esm_morgan_regression
+2025-09-10 15:15:59,633 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:15:59,635 - ERROR - Error processing MAOB (P27338) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:59,636 - INFO - Saving data for MAOB (P27338) - esm_morgan_classification
+2025-09-10 15:15:59,697 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:15:59,698 - ERROR - Error processing MAOB (P27338) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:59,700 - INFO - Processing protein: ALDH1A1 (P00352)
+2025-09-10 15:15:59,700 - INFO - Saving data for ALDH1A1 (P00352) - morgan_regression
+2025-09-10 15:15:59,757 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:15:59,758 - ERROR - Error processing ALDH1A1 (P00352) for morgan_regression: ['smiles']
+2025-09-10 15:15:59,759 - INFO - Saving data for ALDH1A1 (P00352) - morgan_classification
+2025-09-10 15:15:59,813 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:15:59,813 - ERROR - Error processing ALDH1A1 (P00352) for morgan_classification: ['smiles']
+2025-09-10 15:15:59,814 - INFO - Saving data for ALDH1A1 (P00352) - esm_morgan_regression
+2025-09-10 15:15:59,866 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:15:59,866 - ERROR - Error processing ALDH1A1 (P00352) for esm_morgan_regression: ['smiles']
+2025-09-10 15:15:59,867 - INFO - Saving data for ALDH1A1 (P00352) - esm_morgan_classification
+2025-09-10 15:15:59,919 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:15:59,920 - ERROR - Error processing ALDH1A1 (P00352) for esm_morgan_classification: ['smiles']
+2025-09-10 15:15:59,921 - INFO - Processing protein: ADH1A (P07327)
+2025-09-10 15:15:59,921 - INFO - Saving data for ADH1A (P07327) - morgan_regression
+2025-09-10 15:15:59,974 - WARNING - No activities found for P07327
+2025-09-10 15:15:59,974 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:15:59,974 - INFO - Saving data for ADH1A (P07327) - morgan_classification
+2025-09-10 15:16:00,029 - WARNING - No activities found for P07327
+2025-09-10 15:16:00,030 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:16:00,030 - INFO - Saving data for ADH1A (P07327) - esm_morgan_regression
+2025-09-10 15:16:00,086 - WARNING - No activities found for P07327
+2025-09-10 15:16:00,086 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:16:00,087 - INFO - Saving data for ADH1A (P07327) - esm_morgan_classification
+2025-09-10 15:16:00,140 - WARNING - No activities found for P07327
+2025-09-10 15:16:00,140 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:16:00,140 - INFO - Processing protein: HSD11B1 (P28845)
+2025-09-10 15:16:00,140 - INFO - Saving data for HSD11B1 (P28845) - morgan_regression
+2025-09-10 15:16:00,198 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:16:00,199 - ERROR - Error processing HSD11B1 (P28845) for morgan_regression: ['smiles']
+2025-09-10 15:16:00,200 - INFO - Saving data for HSD11B1 (P28845) - morgan_classification
+2025-09-10 15:16:00,256 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:16:00,257 - ERROR - Error processing HSD11B1 (P28845) for morgan_classification: ['smiles']
+2025-09-10 15:16:00,258 - INFO - Saving data for HSD11B1 (P28845) - esm_morgan_regression
+2025-09-10 15:16:00,315 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:16:00,316 - ERROR - Error processing HSD11B1 (P28845) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:00,317 - INFO - Saving data for HSD11B1 (P28845) - esm_morgan_classification
+2025-09-10 15:16:00,373 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:16:00,374 - ERROR - Error processing HSD11B1 (P28845) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:00,375 - INFO - Processing protein: AKR7A3 (O95154)
+2025-09-10 15:16:00,376 - INFO - Saving data for AKR7A3 (O95154) - morgan_regression
+2025-09-10 15:16:00,426 - WARNING - No activities found for O95154
+2025-09-10 15:16:00,427 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:16:00,427 - INFO - Saving data for AKR7A3 (O95154) - morgan_classification
+2025-09-10 15:16:00,477 - WARNING - No activities found for O95154
+2025-09-10 15:16:00,477 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:16:00,477 - INFO - Saving data for AKR7A3 (O95154) - esm_morgan_regression
+2025-09-10 15:16:00,528 - WARNING - No activities found for O95154
+2025-09-10 15:16:00,528 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:16:00,528 - INFO - Saving data for AKR7A3 (O95154) - esm_morgan_classification
+2025-09-10 15:16:00,580 - WARNING - No activities found for O95154
+2025-09-10 15:16:00,580 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:16:00,580 - INFO - Processing protein: FMO1 (Q01740)
+2025-09-10 15:16:00,580 - INFO - Saving data for FMO1 (Q01740) - morgan_regression
+2025-09-10 15:16:00,628 - WARNING - No activities found for Q01740
+2025-09-10 15:16:00,628 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:16:00,628 - INFO - Saving data for FMO1 (Q01740) - morgan_classification
+2025-09-10 15:16:00,677 - WARNING - No activities found for Q01740
+2025-09-10 15:16:00,677 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:16:00,677 - INFO - Saving data for FMO1 (Q01740) - esm_morgan_regression
+2025-09-10 15:16:00,726 - WARNING - No activities found for Q01740
+2025-09-10 15:16:00,726 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:16:00,726 - INFO - Saving data for FMO1 (Q01740) - esm_morgan_classification
+2025-09-10 15:16:00,777 - WARNING - No activities found for Q01740
+2025-09-10 15:16:00,777 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:16:00,777 - INFO - Processing protein: AHR (P35869)
+2025-09-10 15:16:00,777 - INFO - Saving data for AHR (P35869) - morgan_regression
+2025-09-10 15:16:00,832 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:16:00,833 - ERROR - Error processing AHR (P35869) for morgan_regression: ['smiles']
+2025-09-10 15:16:00,833 - INFO - Saving data for AHR (P35869) - morgan_classification
+2025-09-10 15:16:00,889 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:16:00,889 - ERROR - Error processing AHR (P35869) for morgan_classification: ['smiles']
+2025-09-10 15:16:00,890 - INFO - Saving data for AHR (P35869) - esm_morgan_regression
+2025-09-10 15:16:00,942 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:16:00,943 - ERROR - Error processing AHR (P35869) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:00,943 - INFO - Saving data for AHR (P35869) - esm_morgan_classification
+2025-09-10 15:16:00,995 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:16:00,996 - ERROR - Error processing AHR (P35869) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:00,996 - INFO - Processing protein: NR1I3 (Q14994)
+2025-09-10 15:16:00,996 - INFO - Saving data for NR1I3 (Q14994) - morgan_regression
+2025-09-10 15:16:01,049 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:16:01,050 - ERROR - Error processing NR1I3 (Q14994) for morgan_regression: ['smiles']
+2025-09-10 15:16:01,051 - INFO - Saving data for NR1I3 (Q14994) - morgan_classification
+2025-09-10 15:16:01,102 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:16:01,102 - ERROR - Error processing NR1I3 (Q14994) for morgan_classification: ['smiles']
+2025-09-10 15:16:01,103 - INFO - Saving data for NR1I3 (Q14994) - esm_morgan_regression
+2025-09-10 15:16:01,159 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:16:01,160 - ERROR - Error processing NR1I3 (Q14994) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:01,160 - INFO - Saving data for NR1I3 (Q14994) - esm_morgan_classification
+2025-09-10 15:16:01,213 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:16:01,214 - ERROR - Error processing NR1I3 (Q14994) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:01,214 - INFO - Processing protein: NR1I2 (O75469)
+2025-09-10 15:16:01,214 - INFO - Saving data for NR1I2 (O75469) - morgan_regression
+2025-09-10 15:16:01,266 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:16:01,266 - ERROR - Error processing NR1I2 (O75469) for morgan_regression: ['smiles']
+2025-09-10 15:16:01,267 - INFO - Saving data for NR1I2 (O75469) - morgan_classification
+2025-09-10 15:16:01,320 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:16:01,321 - ERROR - Error processing NR1I2 (O75469) for morgan_classification: ['smiles']
+2025-09-10 15:16:01,321 - INFO - Saving data for NR1I2 (O75469) - esm_morgan_regression
+2025-09-10 15:16:01,372 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:16:01,373 - ERROR - Error processing NR1I2 (O75469) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:01,374 - INFO - Saving data for NR1I2 (O75469) - esm_morgan_classification
+2025-09-10 15:16:01,424 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:16:01,424 - ERROR - Error processing NR1I2 (O75469) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:01,425 - INFO - Processing protein: SULT1A1 (P50225)
+2025-09-10 15:16:01,425 - INFO - Saving data for SULT1A1 (P50225) - morgan_regression
+2025-09-10 15:16:01,474 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:16:01,475 - ERROR - Error processing SULT1A1 (P50225) for morgan_regression: ['smiles']
+2025-09-10 15:16:01,475 - INFO - Saving data for SULT1A1 (P50225) - morgan_classification
+2025-09-10 15:16:01,523 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:16:01,524 - ERROR - Error processing SULT1A1 (P50225) for morgan_classification: ['smiles']
+2025-09-10 15:16:01,524 - INFO - Saving data for SULT1A1 (P50225) - esm_morgan_regression
+2025-09-10 15:16:01,572 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:16:01,573 - ERROR - Error processing SULT1A1 (P50225) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:01,573 - INFO - Saving data for SULT1A1 (P50225) - esm_morgan_classification
+2025-09-10 15:16:01,621 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:16:01,622 - ERROR - Error processing SULT1A1 (P50225) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:01,622 - INFO - Processing protein: GSTA1 (P08263)
+2025-09-10 15:16:01,622 - INFO - Saving data for GSTA1 (P08263) - morgan_regression
+2025-09-10 15:16:01,673 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:16:01,673 - ERROR - Error processing GSTA1 (P08263) for morgan_regression: ['smiles']
+2025-09-10 15:16:01,674 - INFO - Saving data for GSTA1 (P08263) - morgan_classification
+2025-09-10 15:16:01,725 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:16:01,726 - ERROR - Error processing GSTA1 (P08263) for morgan_classification: ['smiles']
+2025-09-10 15:16:01,726 - INFO - Saving data for GSTA1 (P08263) - esm_morgan_regression
+2025-09-10 15:16:01,779 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:16:01,780 - ERROR - Error processing GSTA1 (P08263) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:01,780 - INFO - Saving data for GSTA1 (P08263) - esm_morgan_classification
+2025-09-10 15:16:01,837 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:16:01,838 - ERROR - Error processing GSTA1 (P08263) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:01,838 - INFO - Processing protein: OXA1L (Q15070)
+2025-09-10 15:16:01,838 - INFO - Saving data for OXA1L (Q15070) - morgan_regression
+2025-09-10 15:16:01,890 - WARNING - No activities found for Q15070
+2025-09-10 15:16:01,891 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:16:01,891 - INFO - Saving data for OXA1L (Q15070) - morgan_classification
+2025-09-10 15:16:01,942 - WARNING - No activities found for Q15070
+2025-09-10 15:16:01,942 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:16:01,943 - INFO - Saving data for OXA1L (Q15070) - esm_morgan_regression
+2025-09-10 15:16:01,996 - WARNING - No activities found for Q15070
+2025-09-10 15:16:01,996 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:16:01,996 - INFO - Saving data for OXA1L (Q15070) - esm_morgan_classification
+2025-09-10 15:16:02,052 - WARNING - No activities found for Q15070
+2025-09-10 15:16:02,052 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:16:02,052 - INFO - Processing protein: ORM1 (P02763)
+2025-09-10 15:16:02,053 - INFO - Saving data for ORM1 (P02763) - morgan_regression
+2025-09-10 15:16:02,106 - WARNING - No activities found for P02763
+2025-09-10 15:16:02,106 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:16:02,106 - INFO - Saving data for ORM1 (P02763) - morgan_classification
+2025-09-10 15:16:02,158 - WARNING - No activities found for P02763
+2025-09-10 15:16:02,158 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:16:02,158 - INFO - Saving data for ORM1 (P02763) - esm_morgan_regression
+2025-09-10 15:16:02,207 - WARNING - No activities found for P02763
+2025-09-10 15:16:02,207 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:16:02,207 - INFO - Saving data for ORM1 (P02763) - esm_morgan_classification
+2025-09-10 15:16:02,259 - WARNING - No activities found for P02763
+2025-09-10 15:16:02,259 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:16:02,259 - INFO - Processing protein: KCNH2 (Q12809)
+2025-09-10 15:16:02,259 - INFO - Saving data for KCNH2 (Q12809) - morgan_regression
+2025-09-10 15:16:02,328 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:16:02,328 - ERROR - Error processing KCNH2 (Q12809) for morgan_regression: ['smiles']
+2025-09-10 15:16:02,330 - INFO - Saving data for KCNH2 (Q12809) - morgan_classification
+2025-09-10 15:16:02,388 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:16:02,389 - ERROR - Error processing KCNH2 (Q12809) for morgan_classification: ['smiles']
+2025-09-10 15:16:02,391 - INFO - Saving data for KCNH2 (Q12809) - esm_morgan_regression
+2025-09-10 15:16:02,450 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:16:02,451 - ERROR - Error processing KCNH2 (Q12809) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:02,453 - INFO - Saving data for KCNH2 (Q12809) - esm_morgan_classification
+2025-09-10 15:16:02,510 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:16:02,511 - ERROR - Error processing KCNH2 (Q12809) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:02,513 - INFO - Processing protein: SCN5A (Q14524)
+2025-09-10 15:16:02,514 - INFO - Saving data for SCN5A (Q14524) - morgan_regression
+2025-09-10 15:16:02,568 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:16:02,569 - ERROR - Error processing SCN5A (Q14524) for morgan_regression: ['smiles']
+2025-09-10 15:16:02,569 - INFO - Saving data for SCN5A (Q14524) - morgan_classification
+2025-09-10 15:16:02,621 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:16:02,621 - ERROR - Error processing SCN5A (Q14524) for morgan_classification: ['smiles']
+2025-09-10 15:16:02,622 - INFO - Saving data for SCN5A (Q14524) - esm_morgan_regression
+2025-09-10 15:16:02,674 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:16:02,674 - ERROR - Error processing SCN5A (Q14524) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:02,675 - INFO - Saving data for SCN5A (Q14524) - esm_morgan_classification
+2025-09-10 15:16:02,730 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:16:02,731 - ERROR - Error processing SCN5A (Q14524) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:02,732 - INFO - Processing protein: CACNB1 (Q02641)
+2025-09-10 15:16:02,732 - INFO - Saving data for CACNB1 (Q02641) - morgan_regression
+2025-09-10 15:16:02,789 - WARNING - No activities found for Q02641
+2025-09-10 15:16:02,789 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:16:02,789 - INFO - Saving data for CACNB1 (Q02641) - morgan_classification
+2025-09-10 15:16:02,841 - WARNING - No activities found for Q02641
+2025-09-10 15:16:02,841 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:16:02,841 - INFO - Saving data for CACNB1 (Q02641) - esm_morgan_regression
+2025-09-10 15:16:02,892 - WARNING - No activities found for Q02641
+2025-09-10 15:16:02,892 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:16:02,892 - INFO - Saving data for CACNB1 (Q02641) - esm_morgan_classification
+2025-09-10 15:16:02,944 - WARNING - No activities found for Q02641
+2025-09-10 15:16:02,945 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:16:02,945 - INFO - Processing protein: CAV1 (Q03135)
+2025-09-10 15:16:02,945 - INFO - Saving data for CAV1 (Q03135) - morgan_regression
+2025-09-10 15:16:02,996 - WARNING - No activities found for Q03135
+2025-09-10 15:16:02,996 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:16:02,996 - INFO - Saving data for CAV1 (Q03135) - morgan_classification
+2025-09-10 15:16:03,048 - WARNING - No activities found for Q03135
+2025-09-10 15:16:03,049 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:16:03,049 - INFO - Saving data for CAV1 (Q03135) - esm_morgan_regression
+2025-09-10 15:16:03,101 - WARNING - No activities found for Q03135
+2025-09-10 15:16:03,101 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:16:03,102 - INFO - Saving data for CAV1 (Q03135) - esm_morgan_classification
+2025-09-10 15:16:03,158 - WARNING - No activities found for Q03135
+2025-09-10 15:16:03,158 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:16:03,158 - INFO - Processing protein: HTR2B (P41595)
+2025-09-10 15:16:03,158 - INFO - Saving data for HTR2B (P41595) - morgan_regression
+2025-09-10 15:16:03,215 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:16:03,216 - ERROR - Error processing HTR2B (P41595) for morgan_regression: ['smiles']
+2025-09-10 15:16:03,217 - INFO - Saving data for HTR2B (P41595) - morgan_classification
+2025-09-10 15:16:03,267 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:16:03,268 - ERROR - Error processing HTR2B (P41595) for morgan_classification: ['smiles']
+2025-09-10 15:16:03,268 - INFO - Saving data for HTR2B (P41595) - esm_morgan_regression
+2025-09-10 15:16:03,319 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:16:03,320 - ERROR - Error processing HTR2B (P41595) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:03,321 - INFO - Saving data for HTR2B (P41595) - esm_morgan_classification
+2025-09-10 15:16:03,372 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:16:03,373 - ERROR - Error processing HTR2B (P41595) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:03,374 - INFO - Processing protein: SLC6A4 (P31645)
+2025-09-10 15:16:03,374 - INFO - Saving data for SLC6A4 (P31645) - morgan_regression
+2025-09-10 15:16:03,433 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:16:03,434 - ERROR - Error processing SLC6A4 (P31645) for morgan_regression: ['smiles']
+2025-09-10 15:16:03,435 - INFO - Saving data for SLC6A4 (P31645) - morgan_classification
+2025-09-10 15:16:03,499 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:16:03,500 - ERROR - Error processing SLC6A4 (P31645) for morgan_classification: ['smiles']
+2025-09-10 15:16:03,501 - INFO - Saving data for SLC6A4 (P31645) - esm_morgan_regression
+2025-09-10 15:16:03,562 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:16:03,563 - ERROR - Error processing SLC6A4 (P31645) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:03,564 - INFO - Saving data for SLC6A4 (P31645) - esm_morgan_classification
+2025-09-10 15:16:03,624 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:16:03,625 - ERROR - Error processing SLC6A4 (P31645) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:03,627 - INFO - Processing protein: DIDO1 (Q9BTC0)
+2025-09-10 15:16:03,627 - INFO - Saving data for DIDO1 (Q9BTC0) - morgan_regression
+2025-09-10 15:16:03,683 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:16:03,683 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:16:03,683 - INFO - Saving data for DIDO1 (Q9BTC0) - morgan_classification
+2025-09-10 15:16:03,737 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:16:03,738 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:16:03,738 - INFO - Saving data for DIDO1 (Q9BTC0) - esm_morgan_regression
+2025-09-10 15:16:03,793 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:16:03,794 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:16:03,794 - INFO - Saving data for DIDO1 (Q9BTC0) - esm_morgan_classification
+2025-09-10 15:16:03,844 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:16:03,844 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:16:03,845 - INFO - Processing protein: SLC6A3 (Q01959)
+2025-09-10 15:16:03,845 - INFO - Saving data for SLC6A3 (Q01959) - morgan_regression
+2025-09-10 15:16:03,901 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:16:03,902 - ERROR - Error processing SLC6A3 (Q01959) for morgan_regression: ['smiles']
+2025-09-10 15:16:03,903 - INFO - Saving data for SLC6A3 (Q01959) - morgan_classification
+2025-09-10 15:16:03,999 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:16:04,000 - ERROR - Error processing SLC6A3 (Q01959) for morgan_classification: ['smiles']
+2025-09-10 15:16:04,002 - INFO - Saving data for SLC6A3 (Q01959) - esm_morgan_regression
+2025-09-10 15:16:04,058 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:16:04,058 - ERROR - Error processing SLC6A3 (Q01959) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:04,059 - INFO - Saving data for SLC6A3 (Q01959) - esm_morgan_classification
+2025-09-10 15:16:04,114 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:16:04,115 - ERROR - Error processing SLC6A3 (Q01959) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:04,116 - INFO - Processing protein: SLC6A2 (P23975)
+2025-09-10 15:16:04,116 - INFO - Saving data for SLC6A2 (P23975) - morgan_regression
+2025-09-10 15:16:04,177 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:16:04,179 - ERROR - Error processing SLC6A2 (P23975) for morgan_regression: ['smiles']
+2025-09-10 15:16:04,181 - INFO - Saving data for SLC6A2 (P23975) - morgan_classification
+2025-09-10 15:16:04,236 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:16:04,236 - ERROR - Error processing SLC6A2 (P23975) for morgan_classification: ['smiles']
+2025-09-10 15:16:04,238 - INFO - Saving data for SLC6A2 (P23975) - esm_morgan_regression
+2025-09-10 15:16:04,294 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:16:04,294 - ERROR - Error processing SLC6A2 (P23975) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:04,296 - INFO - Saving data for SLC6A2 (P23975) - esm_morgan_classification
+2025-09-10 15:16:04,351 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:16:04,351 - ERROR - Error processing SLC6A2 (P23975) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:04,352 - INFO - Processing protein: NAT8 (Q9UHE5)
+2025-09-10 15:16:04,353 - INFO - Saving data for NAT8 (Q9UHE5) - morgan_regression
+2025-09-10 15:16:04,402 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:16:04,402 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:16:04,403 - INFO - Saving data for NAT8 (Q9UHE5) - morgan_classification
+2025-09-10 15:16:04,452 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:16:04,452 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:16:04,452 - INFO - Saving data for NAT8 (Q9UHE5) - esm_morgan_regression
+2025-09-10 15:16:04,503 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:16:04,503 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:16:04,503 - INFO - Saving data for NAT8 (Q9UHE5) - esm_morgan_classification
+2025-09-10 15:16:04,554 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:16:04,554 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:16:04,554 - INFO - Processing protein: ADRA1A (P25100)
+2025-09-10 15:16:04,554 - INFO - Saving data for ADRA1A (P25100) - morgan_regression
+2025-09-10 15:16:04,606 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:16:04,607 - ERROR - Error processing ADRA1A (P25100) for morgan_regression: ['smiles']
+2025-09-10 15:16:04,608 - INFO - Saving data for ADRA1A (P25100) - morgan_classification
+2025-09-10 15:16:04,658 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:16:04,659 - ERROR - Error processing ADRA1A (P25100) for morgan_classification: ['smiles']
+2025-09-10 15:16:04,659 - INFO - Saving data for ADRA1A (P25100) - esm_morgan_regression
+2025-09-10 15:16:04,692 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:16:04,692 - ERROR - Error processing ADRA1A (P25100) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:04,693 - INFO - Saving data for ADRA1A (P25100) - esm_morgan_classification
+2025-09-10 15:16:04,746 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:16:04,747 - ERROR - Error processing ADRA1A (P25100) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:04,748 - INFO - Processing protein: ADRA2A (P08913)
+2025-09-10 15:16:04,748 - INFO - Saving data for ADRA2A (P08913) - morgan_regression
+2025-09-10 15:16:04,808 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:16:04,808 - ERROR - Error processing ADRA2A (P08913) for morgan_regression: ['smiles']
+2025-09-10 15:16:04,809 - INFO - Saving data for ADRA2A (P08913) - morgan_classification
+2025-09-10 15:16:04,862 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:16:04,863 - ERROR - Error processing ADRA2A (P08913) for morgan_classification: ['smiles']
+2025-09-10 15:16:04,864 - INFO - Saving data for ADRA2A (P08913) - esm_morgan_regression
+2025-09-10 15:16:04,917 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:16:04,918 - ERROR - Error processing ADRA2A (P08913) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:04,919 - INFO - Saving data for ADRA2A (P08913) - esm_morgan_classification
+2025-09-10 15:16:04,975 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:16:04,976 - ERROR - Error processing ADRA2A (P08913) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:04,976 - INFO - Processing protein: ADRB1 (P08588)
+2025-09-10 15:16:04,976 - INFO - Saving data for ADRB1 (P08588) - morgan_regression
+2025-09-10 15:16:05,030 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:16:05,031 - ERROR - Error processing ADRB1 (P08588) for morgan_regression: ['smiles']
+2025-09-10 15:16:05,031 - INFO - Saving data for ADRB1 (P08588) - morgan_classification
+2025-09-10 15:16:05,089 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:16:05,090 - ERROR - Error processing ADRB1 (P08588) for morgan_classification: ['smiles']
+2025-09-10 15:16:05,090 - INFO - Saving data for ADRB1 (P08588) - esm_morgan_regression
+2025-09-10 15:16:05,144 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:16:05,145 - ERROR - Error processing ADRB1 (P08588) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:05,146 - INFO - Saving data for ADRB1 (P08588) - esm_morgan_classification
+2025-09-10 15:16:05,199 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:16:05,200 - ERROR - Error processing ADRB1 (P08588) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:05,200 - INFO - Processing protein: ADRB2 (P07550)
+2025-09-10 15:16:05,200 - INFO - Saving data for ADRB2 (P07550) - morgan_regression
+2025-09-10 15:16:05,253 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:16:05,254 - ERROR - Error processing ADRB2 (P07550) for morgan_regression: ['smiles']
+2025-09-10 15:16:05,255 - INFO - Saving data for ADRB2 (P07550) - morgan_classification
+2025-09-10 15:16:05,311 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:16:05,312 - ERROR - Error processing ADRB2 (P07550) for morgan_classification: ['smiles']
+2025-09-10 15:16:05,312 - INFO - Saving data for ADRB2 (P07550) - esm_morgan_regression
+2025-09-10 15:16:05,363 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:16:05,364 - ERROR - Error processing ADRB2 (P07550) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:05,364 - INFO - Saving data for ADRB2 (P07550) - esm_morgan_classification
+2025-09-10 15:16:05,419 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:16:05,419 - ERROR - Error processing ADRB2 (P07550) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:05,420 - INFO - Processing protein: CNRIP1 (Q96F85)
+2025-09-10 15:16:05,420 - INFO - Saving data for CNRIP1 (Q96F85) - morgan_regression
+2025-09-10 15:16:05,476 - WARNING - No activities found for Q96F85
+2025-09-10 15:16:05,476 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:16:05,476 - INFO - Saving data for CNRIP1 (Q96F85) - morgan_classification
+2025-09-10 15:16:05,531 - WARNING - No activities found for Q96F85
+2025-09-10 15:16:05,531 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:16:05,531 - INFO - Saving data for CNRIP1 (Q96F85) - esm_morgan_regression
+2025-09-10 15:16:05,585 - WARNING - No activities found for Q96F85
+2025-09-10 15:16:05,585 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:16:05,585 - INFO - Saving data for CNRIP1 (Q96F85) - esm_morgan_classification
+2025-09-10 15:16:05,641 - WARNING - No activities found for Q96F85
+2025-09-10 15:16:05,641 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:16:05,641 - INFO - Processing protein: CNR2 (P34972)
+2025-09-10 15:16:05,641 - INFO - Saving data for CNR2 (P34972) - morgan_regression
+2025-09-10 15:16:05,705 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:16:05,706 - ERROR - Error processing CNR2 (P34972) for morgan_regression: ['smiles']
+2025-09-10 15:16:05,707 - INFO - Saving data for CNR2 (P34972) - morgan_classification
+2025-09-10 15:16:05,767 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:16:05,768 - ERROR - Error processing CNR2 (P34972) for morgan_classification: ['smiles']
+2025-09-10 15:16:05,770 - INFO - Saving data for CNR2 (P34972) - esm_morgan_regression
+2025-09-10 15:16:05,832 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:16:05,833 - ERROR - Error processing CNR2 (P34972) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:05,835 - INFO - Saving data for CNR2 (P34972) - esm_morgan_classification
+2025-09-10 15:16:05,894 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:16:05,895 - ERROR - Error processing CNR2 (P34972) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:05,897 - INFO - Processing protein: CHRM1 (P11229)
+2025-09-10 15:16:05,897 - INFO - Saving data for CHRM1 (P11229) - morgan_regression
+2025-09-10 15:16:05,950 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:16:05,951 - ERROR - Error processing CHRM1 (P11229) for morgan_regression: ['smiles']
+2025-09-10 15:16:05,952 - INFO - Saving data for CHRM1 (P11229) - morgan_classification
+2025-09-10 15:16:06,009 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:16:06,010 - ERROR - Error processing CHRM1 (P11229) for morgan_classification: ['smiles']
+2025-09-10 15:16:06,010 - INFO - Saving data for CHRM1 (P11229) - esm_morgan_regression
+2025-09-10 15:16:06,065 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:16:06,066 - ERROR - Error processing CHRM1 (P11229) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:06,067 - INFO - Saving data for CHRM1 (P11229) - esm_morgan_classification
+2025-09-10 15:16:06,121 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:16:06,122 - ERROR - Error processing CHRM1 (P11229) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:06,123 - INFO - Processing protein: CHRM2 (P08172)
+2025-09-10 15:16:06,123 - INFO - Saving data for CHRM2 (P08172) - morgan_regression
+2025-09-10 15:16:06,179 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:16:06,180 - ERROR - Error processing CHRM2 (P08172) for morgan_regression: ['smiles']
+2025-09-10 15:16:06,180 - INFO - Saving data for CHRM2 (P08172) - morgan_classification
+2025-09-10 15:16:06,237 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:16:06,238 - ERROR - Error processing CHRM2 (P08172) for morgan_classification: ['smiles']
+2025-09-10 15:16:06,239 - INFO - Saving data for CHRM2 (P08172) - esm_morgan_regression
+2025-09-10 15:16:06,292 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:16:06,293 - ERROR - Error processing CHRM2 (P08172) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:06,293 - INFO - Saving data for CHRM2 (P08172) - esm_morgan_classification
+2025-09-10 15:16:06,343 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:16:06,343 - ERROR - Error processing CHRM2 (P08172) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:06,344 - INFO - Processing protein: CHRM3 (P20309)
+2025-09-10 15:16:06,344 - INFO - Saving data for CHRM3 (P20309) - morgan_regression
+2025-09-10 15:16:06,396 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:16:06,397 - ERROR - Error processing CHRM3 (P20309) for morgan_regression: ['smiles']
+2025-09-10 15:16:06,398 - INFO - Saving data for CHRM3 (P20309) - morgan_classification
+2025-09-10 15:16:06,451 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:16:06,452 - ERROR - Error processing CHRM3 (P20309) for morgan_classification: ['smiles']
+2025-09-10 15:16:06,453 - INFO - Saving data for CHRM3 (P20309) - esm_morgan_regression
+2025-09-10 15:16:06,509 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:16:06,510 - ERROR - Error processing CHRM3 (P20309) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:06,511 - INFO - Saving data for CHRM3 (P20309) - esm_morgan_classification
+2025-09-10 15:16:06,569 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:16:06,570 - ERROR - Error processing CHRM3 (P20309) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:06,571 - INFO - Processing protein: CHRNA10 (Q9GZZ6)
+2025-09-10 15:16:06,571 - INFO - Saving data for CHRNA10 (Q9GZZ6) - morgan_regression
+2025-09-10 15:16:06,624 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:16:06,624 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:16:06,624 - INFO - Saving data for CHRNA10 (Q9GZZ6) - morgan_classification
+2025-09-10 15:16:06,676 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:16:06,676 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:16:06,676 - INFO - Saving data for CHRNA10 (Q9GZZ6) - esm_morgan_regression
+2025-09-10 15:16:06,729 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:16:06,729 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:16:06,729 - INFO - Saving data for CHRNA10 (Q9GZZ6) - esm_morgan_classification
+2025-09-10 15:16:06,781 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:16:06,781 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:16:06,782 - INFO - Processing protein: CHRNA9 (Q9UGM1)
+2025-09-10 15:16:06,782 - INFO - Saving data for CHRNA9 (Q9UGM1) - morgan_regression
+2025-09-10 15:16:06,830 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:16:06,831 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:16:06,831 - INFO - Saving data for CHRNA9 (Q9UGM1) - morgan_classification
+2025-09-10 15:16:06,882 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:16:06,882 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:16:06,882 - INFO - Saving data for CHRNA9 (Q9UGM1) - esm_morgan_regression
+2025-09-10 15:16:06,939 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:16:06,939 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:16:06,939 - INFO - Saving data for CHRNA9 (Q9UGM1) - esm_morgan_classification
+2025-09-10 15:16:06,989 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:16:06,989 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:16:06,989 - INFO - Processing protein: CHRNA7 (P36544)
+2025-09-10 15:16:06,989 - INFO - Saving data for CHRNA7 (P36544) - morgan_regression
+2025-09-10 15:16:07,045 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:16:07,046 - ERROR - Error processing CHRNA7 (P36544) for morgan_regression: ['smiles']
+2025-09-10 15:16:07,046 - INFO - Saving data for CHRNA7 (P36544) - morgan_classification
+2025-09-10 15:16:07,103 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:16:07,104 - ERROR - Error processing CHRNA7 (P36544) for morgan_classification: ['smiles']
+2025-09-10 15:16:07,105 - INFO - Saving data for CHRNA7 (P36544) - esm_morgan_regression
+2025-09-10 15:16:07,159 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:16:07,160 - ERROR - Error processing CHRNA7 (P36544) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:07,161 - INFO - Saving data for CHRNA7 (P36544) - esm_morgan_classification
+2025-09-10 15:16:07,215 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:16:07,216 - ERROR - Error processing CHRNA7 (P36544) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:07,216 - INFO - Processing protein: CHRNA3 (P32297)
+2025-09-10 15:16:07,216 - INFO - Saving data for CHRNA3 (P32297) - morgan_regression
+2025-09-10 15:16:07,267 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:16:07,268 - ERROR - Error processing CHRNA3 (P32297) for morgan_regression: ['smiles']
+2025-09-10 15:16:07,268 - INFO - Saving data for CHRNA3 (P32297) - morgan_classification
+2025-09-10 15:16:07,318 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:16:07,319 - ERROR - Error processing CHRNA3 (P32297) for morgan_classification: ['smiles']
+2025-09-10 15:16:07,319 - INFO - Saving data for CHRNA3 (P32297) - esm_morgan_regression
+2025-09-10 15:16:07,368 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:16:07,369 - ERROR - Error processing CHRNA3 (P32297) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:07,369 - INFO - Saving data for CHRNA3 (P32297) - esm_morgan_classification
+2025-09-10 15:16:07,422 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:16:07,423 - ERROR - Error processing CHRNA3 (P32297) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:07,423 - INFO - Processing protein: CHRNA5 (P30532)
+2025-09-10 15:16:07,423 - INFO - Saving data for CHRNA5 (P30532) - morgan_regression
+2025-09-10 15:16:07,475 - WARNING - No activities found for P30532
+2025-09-10 15:16:07,475 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:16:07,475 - INFO - Saving data for CHRNA5 (P30532) - morgan_classification
+2025-09-10 15:16:07,523 - WARNING - No activities found for P30532
+2025-09-10 15:16:07,523 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:16:07,523 - INFO - Saving data for CHRNA5 (P30532) - esm_morgan_regression
+2025-09-10 15:16:07,575 - WARNING - No activities found for P30532
+2025-09-10 15:16:07,575 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:16:07,575 - INFO - Saving data for CHRNA5 (P30532) - esm_morgan_classification
+2025-09-10 15:16:07,626 - WARNING - No activities found for P30532
+2025-09-10 15:16:07,626 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:16:07,626 - INFO - Processing protein: SMPDL3A (Q92484)
+2025-09-10 15:16:07,626 - INFO - Saving data for SMPDL3A (Q92484) - morgan_regression
+2025-09-10 15:16:07,679 - WARNING - No activities found for Q92484
+2025-09-10 15:16:07,679 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:16:07,679 - INFO - Saving data for SMPDL3A (Q92484) - morgan_classification
+2025-09-10 15:16:07,733 - WARNING - No activities found for Q92484
+2025-09-10 15:16:07,733 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:16:07,733 - INFO - Saving data for SMPDL3A (Q92484) - esm_morgan_regression
+2025-09-10 15:16:07,787 - WARNING - No activities found for Q92484
+2025-09-10 15:16:07,788 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:16:07,788 - INFO - Saving data for SMPDL3A (Q92484) - esm_morgan_classification
+2025-09-10 15:16:07,841 - WARNING - No activities found for Q92484
+2025-09-10 15:16:07,841 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:16:07,842 - INFO - Processing protein: GABPA (Q06546)
+2025-09-10 15:16:07,842 - INFO - Saving data for GABPA (Q06546) - morgan_regression
+2025-09-10 15:16:07,893 - WARNING - No activities found for Q06546
+2025-09-10 15:16:07,894 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:16:07,894 - INFO - Saving data for GABPA (Q06546) - morgan_classification
+2025-09-10 15:16:07,946 - WARNING - No activities found for Q06546
+2025-09-10 15:16:07,946 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:16:07,946 - INFO - Saving data for GABPA (Q06546) - esm_morgan_regression
+2025-09-10 15:16:07,999 - WARNING - No activities found for Q06546
+2025-09-10 15:16:08,000 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:16:08,000 - INFO - Saving data for GABPA (Q06546) - esm_morgan_classification
+2025-09-10 15:16:08,053 - WARNING - No activities found for Q06546
+2025-09-10 15:16:08,053 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:16:08,053 - INFO - Processing protein: HRH1 (P35367)
+2025-09-10 15:16:08,054 - INFO - Saving data for HRH1 (P35367) - morgan_regression
+2025-09-10 15:16:08,114 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:16:08,114 - ERROR - Error processing HRH1 (P35367) for morgan_regression: ['smiles']
+2025-09-10 15:16:08,115 - INFO - Saving data for HRH1 (P35367) - morgan_classification
+2025-09-10 15:16:08,169 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:16:08,170 - ERROR - Error processing HRH1 (P35367) for morgan_classification: ['smiles']
+2025-09-10 15:16:08,170 - INFO - Saving data for HRH1 (P35367) - esm_morgan_regression
+2025-09-10 15:16:08,225 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:16:08,226 - ERROR - Error processing HRH1 (P35367) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:08,226 - INFO - Saving data for HRH1 (P35367) - esm_morgan_classification
+2025-09-10 15:16:08,279 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:16:08,280 - ERROR - Error processing HRH1 (P35367) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:08,280 - INFO - Processing protein: SLCO1B1 (Q9Y6L6)
+2025-09-10 15:16:08,281 - INFO - Saving data for SLCO1B1 (Q9Y6L6) - morgan_regression
+2025-09-10 15:16:08,331 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-09-10 15:16:08,331 - ERROR - Error processing SLCO1B1 (Q9Y6L6) for morgan_regression: ['smiles']
+2025-09-10 15:16:08,332 - INFO - Saving data for SLCO1B1 (Q9Y6L6) - morgan_classification
+2025-09-10 15:16:08,385 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-09-10 15:16:08,386 - ERROR - Error processing SLCO1B1 (Q9Y6L6) for morgan_classification: ['smiles']
+2025-09-10 15:16:08,386 - INFO - Saving data for SLCO1B1 (Q9Y6L6) - esm_morgan_regression
+2025-09-10 15:16:08,438 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-09-10 15:16:08,438 - ERROR - Error processing SLCO1B1 (Q9Y6L6) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:08,439 - INFO - Saving data for SLCO1B1 (Q9Y6L6) - esm_morgan_classification
+2025-09-10 15:16:08,489 - INFO - Retrieved 16 activities for Q9Y6L6
+2025-09-10 15:16:08,489 - ERROR - Error processing SLCO1B1 (Q9Y6L6) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:08,490 - INFO - Processing protein: SLCO2B1 (O94956)
+2025-09-10 15:16:08,490 - INFO - Saving data for SLCO2B1 (O94956) - morgan_regression
+2025-09-10 15:16:08,541 - INFO - Retrieved 33 activities for O94956
+2025-09-10 15:16:08,541 - ERROR - Error processing SLCO2B1 (O94956) for morgan_regression: ['smiles']
+2025-09-10 15:16:08,542 - INFO - Saving data for SLCO2B1 (O94956) - morgan_classification
+2025-09-10 15:16:08,590 - INFO - Retrieved 33 activities for O94956
+2025-09-10 15:16:08,591 - ERROR - Error processing SLCO2B1 (O94956) for morgan_classification: ['smiles']
+2025-09-10 15:16:08,591 - INFO - Saving data for SLCO2B1 (O94956) - esm_morgan_regression
+2025-09-10 15:16:08,640 - INFO - Retrieved 33 activities for O94956
+2025-09-10 15:16:08,641 - ERROR - Error processing SLCO2B1 (O94956) for esm_morgan_regression: ['smiles']
+2025-09-10 15:16:08,641 - INFO - Saving data for SLCO2B1 (O94956) - esm_morgan_classification
+2025-09-10 15:16:08,693 - INFO - Retrieved 33 activities for O94956
+2025-09-10 15:16:08,694 - ERROR - Error processing SLCO2B1 (O94956) for esm_morgan_classification: ['smiles']
+2025-09-10 15:16:08,708 - INFO - Saved data preparation summary to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/shared_data/data_preparation_summary.csv
+2025-09-10 15:16:08,708 - INFO - Data preparation summary:
+2025-09-10 15:16:08,710 - INFO -   morgan_regression: 0/51 proteins processed successfully
+2025-09-10 15:16:08,712 - INFO -   morgan_classification: 0/51 proteins processed successfully
+2025-09-10 15:16:08,713 - INFO -   esm_morgan_regression: 0/51 proteins processed successfully
+2025-09-10 15:16:08,713 - INFO -   esm_morgan_classification: 0/51 proteins processed successfully
+2025-09-10 15:16:08,714 - INFO - Standardized input data saving completed successfully!
+2025-09-10 15:16:08,714 - INFO - Processed 204 protein-model combinations
+2025-09-10 15:17:21,176 - INFO - Starting standardized input data saving process...
+2025-09-10 15:17:21,177 - INFO - Creating standardized directory structure...
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/models
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/results
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/predictions
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/input_data
+2025-09-10 15:17:21,177 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/models
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/results
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/predictions
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_classification/performance_reports
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/models
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/results
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/predictions
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/performance_reports
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/input_data
+2025-09-10 15:17:21,178 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/models
+2025-09-10 15:17:21,179 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/results
+2025-09-10 15:17:21,179 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/predictions
+2025-09-10 15:17:21,179 - INFO - Created directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_classification/performance_reports
+2025-09-10 15:17:21,179 - INFO - Created shared data directory: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/shared_data
+2025-09-10 15:17:21,179 - INFO - Loading all data sources...
+2025-09-10 15:17:21,179 - INFO - Loading protein check results...
+2025-09-10 15:17:21,186 - INFO - Loaded 52 proteins from /home/serramelendezcsm/RA/Avoidome/processed_data/papyrus_protein_check_results.csv
+2025-09-10 15:17:21,186 - INFO - Initializing Papyrus dataset...
+2025-09-10 15:17:21,609 - INFO - Loading full Papyrus dataset...
+2025-09-10 15:17:44,344 - INFO - Loaded 707461 total activities from Papyrus
+2025-09-10 15:17:44,344 - INFO - Loading ESM embeddings...
+2025-09-10 15:17:44,346 - INFO - Loaded ESM embeddings with shape: (51, 1280)
+2025-09-10 15:17:44,346 - INFO - Loading targets with sequences...
+2025-09-10 15:17:44,352 - INFO - Loaded 51 targets with sequences
+2025-09-10 15:17:44,352 - INFO - Starting to save standardized data for all proteins and model types...
+2025-09-10 15:17:44,357 - INFO - Found 51 proteins to process
+2025-09-10 15:17:44,357 - INFO - Processing protein: CYP1A2 (P05177)
+2025-09-10 15:17:44,357 - INFO - Saving data for CYP1A2 (P05177) - morgan_regression
+2025-09-10 15:17:44,413 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:17:45,190 - INFO - Saved data for CYP1A2 (P05177) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CYP1A2_P05177_data.pkl
+2025-09-10 15:17:45,190 - INFO -   - Samples: 329
+2025-09-10 15:17:45,190 - INFO -   - Features: 2048
+2025-09-10 15:17:45,190 - INFO -   - Target type: continuous
+2025-09-10 15:17:45,191 - INFO - Saving data for CYP1A2 (P05177) - morgan_classification
+2025-09-10 15:17:45,244 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:17:46,010 - ERROR - Error processing CYP1A2 (P05177) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:46,010 - INFO - Saving data for CYP1A2 (P05177) - esm_morgan_regression
+2025-09-10 15:17:46,064 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:17:46,770 - INFO - Retrieved ESM embedding for P05177 with shape: (1280,)
+2025-09-10 15:17:46,795 - INFO - Saved data for CYP1A2 (P05177) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CYP1A2_P05177_data.pkl
+2025-09-10 15:17:46,795 - INFO -   - Samples: 329
+2025-09-10 15:17:46,795 - INFO -   - Features: 3328
+2025-09-10 15:17:46,795 - INFO -   - Target type: continuous
+2025-09-10 15:17:46,796 - INFO - Saving data for CYP1A2 (P05177) - esm_morgan_classification
+2025-09-10 15:17:46,848 - INFO - Retrieved 329 activities for P05177
+2025-09-10 15:17:47,607 - INFO - Retrieved ESM embedding for P05177 with shape: (1280,)
+2025-09-10 15:17:47,614 - ERROR - Error processing CYP1A2 (P05177) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:47,614 - INFO - Processing protein: CYP2B6 (P20813)
+2025-09-10 15:17:47,615 - INFO - Saving data for CYP2B6 (P20813) - morgan_regression
+2025-09-10 15:17:47,670 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:17:47,758 - INFO - Saved data for CYP2B6 (P20813) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CYP2B6_P20813_data.pkl
+2025-09-10 15:17:47,759 - INFO -   - Samples: 33
+2025-09-10 15:17:47,759 - INFO -   - Features: 2048
+2025-09-10 15:17:47,759 - INFO -   - Target type: continuous
+2025-09-10 15:17:47,760 - INFO - Saving data for CYP2B6 (P20813) - morgan_classification
+2025-09-10 15:17:47,818 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:17:47,901 - ERROR - Error processing CYP2B6 (P20813) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:47,902 - INFO - Saving data for CYP2B6 (P20813) - esm_morgan_regression
+2025-09-10 15:17:47,956 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:17:48,043 - INFO - Retrieved ESM embedding for P20813 with shape: (1280,)
+2025-09-10 15:17:48,047 - INFO - Saved data for CYP2B6 (P20813) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CYP2B6_P20813_data.pkl
+2025-09-10 15:17:48,047 - INFO -   - Samples: 33
+2025-09-10 15:17:48,047 - INFO -   - Features: 3328
+2025-09-10 15:17:48,047 - INFO -   - Target type: continuous
+2025-09-10 15:17:48,048 - INFO - Saving data for CYP2B6 (P20813) - esm_morgan_classification
+2025-09-10 15:17:48,102 - INFO - Retrieved 33 activities for P20813
+2025-09-10 15:17:48,180 - INFO - Retrieved ESM embedding for P20813 with shape: (1280,)
+2025-09-10 15:17:48,182 - ERROR - Error processing CYP2B6 (P20813) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:48,182 - INFO - Processing protein: CYP2C9 (P11712)
+2025-09-10 15:17:48,182 - INFO - Saving data for CYP2C9 (P11712) - morgan_regression
+2025-09-10 15:17:48,235 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:17:49,426 - INFO - Saved data for CYP2C9 (P11712) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CYP2C9_P11712_data.pkl
+2025-09-10 15:17:49,427 - INFO -   - Samples: 466
+2025-09-10 15:17:49,427 - INFO -   - Features: 2048
+2025-09-10 15:17:49,427 - INFO -   - Target type: continuous
+2025-09-10 15:17:49,427 - INFO - Saving data for CYP2C9 (P11712) - morgan_classification
+2025-09-10 15:17:49,485 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:17:50,668 - ERROR - Error processing CYP2C9 (P11712) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:50,669 - INFO - Saving data for CYP2C9 (P11712) - esm_morgan_regression
+2025-09-10 15:17:50,723 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:17:51,911 - INFO - Retrieved ESM embedding for P11712 with shape: (1280,)
+2025-09-10 15:17:51,946 - INFO - Saved data for CYP2C9 (P11712) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CYP2C9_P11712_data.pkl
+2025-09-10 15:17:51,946 - INFO -   - Samples: 466
+2025-09-10 15:17:51,947 - INFO -   - Features: 3328
+2025-09-10 15:17:51,947 - INFO -   - Target type: continuous
+2025-09-10 15:17:51,947 - INFO - Saving data for CYP2C9 (P11712) - esm_morgan_classification
+2025-09-10 15:17:52,007 - INFO - Retrieved 466 activities for P11712
+2025-09-10 15:17:53,156 - INFO - Retrieved ESM embedding for P11712 with shape: (1280,)
+2025-09-10 15:17:53,166 - ERROR - Error processing CYP2C9 (P11712) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:53,167 - INFO - Processing protein: CYP2C19 (P33261)
+2025-09-10 15:17:53,167 - INFO - Saving data for CYP2C19 (P33261) - morgan_regression
+2025-09-10 15:17:53,222 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:17:53,638 - INFO - Saved data for CYP2C19 (P33261) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CYP2C19_P33261_data.pkl
+2025-09-10 15:17:53,638 - INFO -   - Samples: 165
+2025-09-10 15:17:53,639 - INFO -   - Features: 2048
+2025-09-10 15:17:53,639 - INFO -   - Target type: continuous
+2025-09-10 15:17:53,640 - INFO - Saving data for CYP2C19 (P33261) - morgan_classification
+2025-09-10 15:17:53,695 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:17:54,075 - ERROR - Error processing CYP2C19 (P33261) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:54,076 - INFO - Saving data for CYP2C19 (P33261) - esm_morgan_regression
+2025-09-10 15:17:54,129 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:17:54,548 - INFO - Retrieved ESM embedding for P33261 with shape: (1280,)
+2025-09-10 15:17:54,561 - INFO - Saved data for CYP2C19 (P33261) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CYP2C19_P33261_data.pkl
+2025-09-10 15:17:54,561 - INFO -   - Samples: 165
+2025-09-10 15:17:54,561 - INFO -   - Features: 3328
+2025-09-10 15:17:54,561 - INFO -   - Target type: continuous
+2025-09-10 15:17:54,561 - INFO - Saving data for CYP2C19 (P33261) - esm_morgan_classification
+2025-09-10 15:17:54,617 - INFO - Retrieved 165 activities for P33261
+2025-09-10 15:17:55,007 - INFO - Retrieved ESM embedding for P33261 with shape: (1280,)
+2025-09-10 15:17:55,010 - ERROR - Error processing CYP2C19 (P33261) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:55,011 - INFO - Processing protein: CYP2D6 (P10635)
+2025-09-10 15:17:55,011 - INFO - Saving data for CYP2D6 (P10635) - morgan_regression
+2025-09-10 15:17:55,075 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:17:56,603 - INFO - Saved data for CYP2D6 (P10635) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CYP2D6_P10635_data.pkl
+2025-09-10 15:17:56,603 - INFO -   - Samples: 607
+2025-09-10 15:17:56,604 - INFO -   - Features: 2048
+2025-09-10 15:17:56,604 - INFO -   - Target type: continuous
+2025-09-10 15:17:56,604 - INFO - Saving data for CYP2D6 (P10635) - morgan_classification
+2025-09-10 15:17:56,661 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:17:58,128 - ERROR - Error processing CYP2D6 (P10635) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:17:58,129 - INFO - Saving data for CYP2D6 (P10635) - esm_morgan_regression
+2025-09-10 15:17:58,189 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:17:59,642 - INFO - Retrieved ESM embedding for P10635 with shape: (1280,)
+2025-09-10 15:17:59,685 - INFO - Saved data for CYP2D6 (P10635) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CYP2D6_P10635_data.pkl
+2025-09-10 15:17:59,685 - INFO -   - Samples: 607
+2025-09-10 15:17:59,685 - INFO -   - Features: 3328
+2025-09-10 15:17:59,685 - INFO -   - Target type: continuous
+2025-09-10 15:17:59,686 - INFO - Saving data for CYP2D6 (P10635) - esm_morgan_classification
+2025-09-10 15:17:59,743 - INFO - Retrieved 607 activities for P10635
+2025-09-10 15:18:01,190 - INFO - Retrieved ESM embedding for P10635 with shape: (1280,)
+2025-09-10 15:18:01,203 - ERROR - Error processing CYP2D6 (P10635) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:01,204 - INFO - Processing protein: CYP3A4 (P08684)
+2025-09-10 15:18:01,205 - INFO - Saving data for CYP3A4 (P08684) - morgan_regression
+2025-09-10 15:18:01,272 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:18:04,857 - INFO - Saved data for CYP3A4 (P08684) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CYP3A4_P08684_data.pkl
+2025-09-10 15:18:04,859 - INFO -   - Samples: 1387
+2025-09-10 15:18:04,859 - INFO -   - Features: 2048
+2025-09-10 15:18:04,859 - INFO -   - Target type: continuous
+2025-09-10 15:18:04,862 - INFO - Saving data for CYP3A4 (P08684) - morgan_classification
+2025-09-10 15:18:04,954 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:18:08,553 - ERROR - Error processing CYP3A4 (P08684) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:08,555 - INFO - Saving data for CYP3A4 (P08684) - esm_morgan_regression
+2025-09-10 15:18:08,614 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:18:12,185 - INFO - Retrieved ESM embedding for P08684 with shape: (1280,)
+2025-09-10 15:18:12,285 - INFO - Saved data for CYP3A4 (P08684) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CYP3A4_P08684_data.pkl
+2025-09-10 15:18:12,285 - INFO -   - Samples: 1387
+2025-09-10 15:18:12,285 - INFO -   - Features: 3328
+2025-09-10 15:18:12,285 - INFO -   - Target type: continuous
+2025-09-10 15:18:12,288 - INFO - Saving data for CYP3A4 (P08684) - esm_morgan_classification
+2025-09-10 15:18:12,348 - INFO - Retrieved 1387 activities for P08684
+2025-09-10 15:18:15,843 - INFO - Retrieved ESM embedding for P08684 with shape: (1280,)
+2025-09-10 15:18:15,877 - ERROR - Error processing CYP3A4 (P08684) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:15,880 - INFO - Processing protein: AOX1 (Q06278)
+2025-09-10 15:18:15,880 - INFO - Saving data for AOX1 (Q06278) - morgan_regression
+2025-09-10 15:18:15,934 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:18:15,970 - INFO - Saved data for AOX1 (Q06278) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/AOX1_Q06278_data.pkl
+2025-09-10 15:18:15,971 - INFO -   - Samples: 13
+2025-09-10 15:18:15,971 - INFO -   - Features: 2048
+2025-09-10 15:18:15,971 - INFO -   - Target type: continuous
+2025-09-10 15:18:15,972 - INFO - Saving data for AOX1 (Q06278) - morgan_classification
+2025-09-10 15:18:16,030 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:18:16,064 - ERROR - Error processing AOX1 (Q06278) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:16,064 - INFO - Saving data for AOX1 (Q06278) - esm_morgan_regression
+2025-09-10 15:18:16,120 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:18:16,156 - INFO - Retrieved ESM embedding for Q06278 with shape: (1280,)
+2025-09-10 15:18:16,159 - INFO - Saved data for AOX1 (Q06278) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/AOX1_Q06278_data.pkl
+2025-09-10 15:18:16,160 - INFO -   - Samples: 13
+2025-09-10 15:18:16,160 - INFO -   - Features: 3328
+2025-09-10 15:18:16,160 - INFO -   - Target type: continuous
+2025-09-10 15:18:16,160 - INFO - Saving data for AOX1 (Q06278) - esm_morgan_classification
+2025-09-10 15:18:16,213 - INFO - Retrieved 13 activities for Q06278
+2025-09-10 15:18:16,254 - INFO - Retrieved ESM embedding for Q06278 with shape: (1280,)
+2025-09-10 15:18:16,255 - ERROR - Error processing AOX1 (Q06278) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:16,255 - INFO - Processing protein: XDH (P47989)
+2025-09-10 15:18:16,255 - INFO - Saving data for XDH (P47989) - morgan_regression
+2025-09-10 15:18:16,314 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:18:16,535 - INFO - Saved data for XDH (P47989) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/XDH_P47989_data.pkl
+2025-09-10 15:18:16,535 - INFO -   - Samples: 98
+2025-09-10 15:18:16,535 - INFO -   - Features: 2048
+2025-09-10 15:18:16,536 - INFO -   - Target type: continuous
+2025-09-10 15:18:16,536 - INFO - Saving data for XDH (P47989) - morgan_classification
+2025-09-10 15:18:16,588 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:18:16,814 - ERROR - Error processing XDH (P47989) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:16,814 - INFO - Saving data for XDH (P47989) - esm_morgan_regression
+2025-09-10 15:18:16,869 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:18:17,098 - INFO - Retrieved ESM embedding for P47989 with shape: (1280,)
+2025-09-10 15:18:17,105 - INFO - Saved data for XDH (P47989) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/XDH_P47989_data.pkl
+2025-09-10 15:18:17,105 - INFO -   - Samples: 98
+2025-09-10 15:18:17,105 - INFO -   - Features: 3328
+2025-09-10 15:18:17,105 - INFO -   - Target type: continuous
+2025-09-10 15:18:17,105 - INFO - Saving data for XDH (P47989) - esm_morgan_classification
+2025-09-10 15:18:17,154 - INFO - Retrieved 98 activities for P47989
+2025-09-10 15:18:17,373 - INFO - Retrieved ESM embedding for P47989 with shape: (1280,)
+2025-09-10 15:18:17,375 - ERROR - Error processing XDH (P47989) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:17,376 - INFO - Processing protein: MAOA (P21397)
+2025-09-10 15:18:17,376 - INFO - Saving data for MAOA (P21397) - morgan_regression
+2025-09-10 15:18:17,456 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:18:20,082 - INFO - Saved data for MAOA (P21397) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/MAOA_P21397_data.pkl
+2025-09-10 15:18:20,082 - INFO -   - Samples: 1130
+2025-09-10 15:18:20,082 - INFO -   - Features: 2048
+2025-09-10 15:18:20,082 - INFO -   - Target type: continuous
+2025-09-10 15:18:20,083 - INFO - Saving data for MAOA (P21397) - morgan_classification
+2025-09-10 15:18:20,141 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:18:22,770 - ERROR - Error processing MAOA (P21397) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:22,772 - INFO - Saving data for MAOA (P21397) - esm_morgan_regression
+2025-09-10 15:18:22,839 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:18:25,453 - INFO - Retrieved ESM embedding for P21397 with shape: (1280,)
+2025-09-10 15:18:25,534 - INFO - Saved data for MAOA (P21397) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/MAOA_P21397_data.pkl
+2025-09-10 15:18:25,536 - INFO -   - Samples: 1130
+2025-09-10 15:18:25,536 - INFO -   - Features: 3328
+2025-09-10 15:18:25,536 - INFO -   - Target type: continuous
+2025-09-10 15:18:25,537 - INFO - Saving data for MAOA (P21397) - esm_morgan_classification
+2025-09-10 15:18:25,623 - INFO - Retrieved 1130 activities for P21397
+2025-09-10 15:18:28,230 - INFO - Retrieved ESM embedding for P21397 with shape: (1280,)
+2025-09-10 15:18:28,253 - ERROR - Error processing MAOA (P21397) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:28,255 - INFO - Processing protein: MAOB (P27338)
+2025-09-10 15:18:28,255 - INFO - Saving data for MAOB (P27338) - morgan_regression
+2025-09-10 15:18:28,335 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:18:31,700 - INFO - Saved data for MAOB (P27338) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/MAOB_P27338_data.pkl
+2025-09-10 15:18:31,701 - INFO -   - Samples: 1519
+2025-09-10 15:18:31,701 - INFO -   - Features: 2048
+2025-09-10 15:18:31,701 - INFO -   - Target type: continuous
+2025-09-10 15:18:31,706 - INFO - Saving data for MAOB (P27338) - morgan_classification
+2025-09-10 15:18:31,764 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:18:35,155 - ERROR - Error processing MAOB (P27338) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:35,158 - INFO - Saving data for MAOB (P27338) - esm_morgan_regression
+2025-09-10 15:18:35,218 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:18:38,721 - INFO - Retrieved ESM embedding for P27338 with shape: (1280,)
+2025-09-10 15:18:38,822 - INFO - Saved data for MAOB (P27338) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/MAOB_P27338_data.pkl
+2025-09-10 15:18:38,822 - INFO -   - Samples: 1519
+2025-09-10 15:18:38,823 - INFO -   - Features: 3328
+2025-09-10 15:18:38,823 - INFO -   - Target type: continuous
+2025-09-10 15:18:38,824 - INFO - Saving data for MAOB (P27338) - esm_morgan_classification
+2025-09-10 15:18:38,882 - INFO - Retrieved 1519 activities for P27338
+2025-09-10 15:18:42,399 - INFO - Retrieved ESM embedding for P27338 with shape: (1280,)
+2025-09-10 15:18:42,437 - ERROR - Error processing MAOB (P27338) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:42,440 - INFO - Processing protein: ALDH1A1 (P00352)
+2025-09-10 15:18:42,440 - INFO - Saving data for ALDH1A1 (P00352) - morgan_regression
+2025-09-10 15:18:42,496 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:18:42,881 - INFO - Saved data for ALDH1A1 (P00352) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/ALDH1A1_P00352_data.pkl
+2025-09-10 15:18:42,882 - INFO -   - Samples: 150
+2025-09-10 15:18:42,882 - INFO -   - Features: 2048
+2025-09-10 15:18:42,882 - INFO -   - Target type: continuous
+2025-09-10 15:18:42,884 - INFO - Saving data for ALDH1A1 (P00352) - morgan_classification
+2025-09-10 15:18:42,937 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:18:43,300 - ERROR - Error processing ALDH1A1 (P00352) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:43,301 - INFO - Saving data for ALDH1A1 (P00352) - esm_morgan_regression
+2025-09-10 15:18:43,356 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:18:43,713 - INFO - Retrieved ESM embedding for P00352 with shape: (1280,)
+2025-09-10 15:18:43,727 - INFO - Saved data for ALDH1A1 (P00352) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/ALDH1A1_P00352_data.pkl
+2025-09-10 15:18:43,727 - INFO -   - Samples: 150
+2025-09-10 15:18:43,727 - INFO -   - Features: 3328
+2025-09-10 15:18:43,727 - INFO -   - Target type: continuous
+2025-09-10 15:18:43,727 - INFO - Saving data for ALDH1A1 (P00352) - esm_morgan_classification
+2025-09-10 15:18:43,782 - INFO - Retrieved 150 activities for P00352
+2025-09-10 15:18:44,142 - INFO - Retrieved ESM embedding for P00352 with shape: (1280,)
+2025-09-10 15:18:44,145 - ERROR - Error processing ALDH1A1 (P00352) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:44,145 - INFO - Processing protein: ADH1A (P07327)
+2025-09-10 15:18:44,145 - INFO - Saving data for ADH1A (P07327) - morgan_regression
+2025-09-10 15:18:44,200 - WARNING - No activities found for P07327
+2025-09-10 15:18:44,200 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:18:44,200 - INFO - Saving data for ADH1A (P07327) - morgan_classification
+2025-09-10 15:18:44,255 - WARNING - No activities found for P07327
+2025-09-10 15:18:44,256 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:18:44,256 - INFO - Saving data for ADH1A (P07327) - esm_morgan_regression
+2025-09-10 15:18:44,311 - WARNING - No activities found for P07327
+2025-09-10 15:18:44,311 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:18:44,311 - INFO - Saving data for ADH1A (P07327) - esm_morgan_classification
+2025-09-10 15:18:44,365 - WARNING - No activities found for P07327
+2025-09-10 15:18:44,366 - WARNING - No activities found for ADH1A (P07327)
+2025-09-10 15:18:44,366 - INFO - Processing protein: HSD11B1 (P28845)
+2025-09-10 15:18:44,366 - INFO - Saving data for HSD11B1 (P28845) - morgan_regression
+2025-09-10 15:18:44,453 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:18:49,291 - INFO - Saved data for HSD11B1 (P28845) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/HSD11B1_P28845_data.pkl
+2025-09-10 15:18:49,293 - INFO -   - Samples: 2046
+2025-09-10 15:18:49,293 - INFO -   - Features: 2048
+2025-09-10 15:18:49,293 - INFO -   - Target type: continuous
+2025-09-10 15:18:49,294 - INFO - Saving data for HSD11B1 (P28845) - morgan_classification
+2025-09-10 15:18:49,356 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:18:54,271 - ERROR - Error processing HSD11B1 (P28845) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:18:54,274 - INFO - Saving data for HSD11B1 (P28845) - esm_morgan_regression
+2025-09-10 15:18:54,333 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:18:59,266 - INFO - Retrieved ESM embedding for P28845 with shape: (1280,)
+2025-09-10 15:18:59,413 - INFO - Saved data for HSD11B1 (P28845) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/HSD11B1_P28845_data.pkl
+2025-09-10 15:18:59,414 - INFO -   - Samples: 2046
+2025-09-10 15:18:59,414 - INFO -   - Features: 3328
+2025-09-10 15:18:59,414 - INFO -   - Target type: continuous
+2025-09-10 15:18:59,418 - INFO - Saving data for HSD11B1 (P28845) - esm_morgan_classification
+2025-09-10 15:18:59,477 - INFO - Retrieved 2046 activities for P28845
+2025-09-10 15:19:04,314 - INFO - Retrieved ESM embedding for P28845 with shape: (1280,)
+2025-09-10 15:19:04,367 - ERROR - Error processing HSD11B1 (P28845) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:04,370 - INFO - Processing protein: AKR7A3 (O95154)
+2025-09-10 15:19:04,370 - INFO - Saving data for AKR7A3 (O95154) - morgan_regression
+2025-09-10 15:19:04,431 - WARNING - No activities found for O95154
+2025-09-10 15:19:04,431 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:19:04,433 - INFO - Saving data for AKR7A3 (O95154) - morgan_classification
+2025-09-10 15:19:04,491 - WARNING - No activities found for O95154
+2025-09-10 15:19:04,491 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:19:04,491 - INFO - Saving data for AKR7A3 (O95154) - esm_morgan_regression
+2025-09-10 15:19:04,548 - WARNING - No activities found for O95154
+2025-09-10 15:19:04,549 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:19:04,549 - INFO - Saving data for AKR7A3 (O95154) - esm_morgan_classification
+2025-09-10 15:19:04,603 - WARNING - No activities found for O95154
+2025-09-10 15:19:04,603 - WARNING - No activities found for AKR7A3 (O95154)
+2025-09-10 15:19:04,603 - INFO - Processing protein: FMO1 (Q01740)
+2025-09-10 15:19:04,603 - INFO - Saving data for FMO1 (Q01740) - morgan_regression
+2025-09-10 15:19:04,657 - WARNING - No activities found for Q01740
+2025-09-10 15:19:04,657 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:19:04,657 - INFO - Saving data for FMO1 (Q01740) - morgan_classification
+2025-09-10 15:19:04,711 - WARNING - No activities found for Q01740
+2025-09-10 15:19:04,711 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:19:04,712 - INFO - Saving data for FMO1 (Q01740) - esm_morgan_regression
+2025-09-10 15:19:04,764 - WARNING - No activities found for Q01740
+2025-09-10 15:19:04,764 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:19:04,764 - INFO - Saving data for FMO1 (Q01740) - esm_morgan_classification
+2025-09-10 15:19:04,817 - WARNING - No activities found for Q01740
+2025-09-10 15:19:04,818 - WARNING - No activities found for FMO1 (Q01740)
+2025-09-10 15:19:04,818 - INFO - Processing protein: AHR (P35869)
+2025-09-10 15:19:04,818 - INFO - Saving data for AHR (P35869) - morgan_regression
+2025-09-10 15:19:04,872 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:19:04,940 - INFO - Saved data for AHR (P35869) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/AHR_P35869_data.pkl
+2025-09-10 15:19:04,940 - INFO -   - Samples: 25
+2025-09-10 15:19:04,940 - INFO -   - Features: 2048
+2025-09-10 15:19:04,940 - INFO -   - Target type: continuous
+2025-09-10 15:19:04,940 - INFO - Saving data for AHR (P35869) - morgan_classification
+2025-09-10 15:19:04,996 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:19:05,055 - ERROR - Error processing AHR (P35869) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:05,056 - INFO - Saving data for AHR (P35869) - esm_morgan_regression
+2025-09-10 15:19:05,110 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:19:05,168 - INFO - Retrieved ESM embedding for P35869 with shape: (1280,)
+2025-09-10 15:19:05,170 - INFO - Saved data for AHR (P35869) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/AHR_P35869_data.pkl
+2025-09-10 15:19:05,171 - INFO -   - Samples: 25
+2025-09-10 15:19:05,171 - INFO -   - Features: 3328
+2025-09-10 15:19:05,171 - INFO -   - Target type: continuous
+2025-09-10 15:19:05,171 - INFO - Saving data for AHR (P35869) - esm_morgan_classification
+2025-09-10 15:19:05,222 - INFO - Retrieved 25 activities for P35869
+2025-09-10 15:19:05,281 - INFO - Retrieved ESM embedding for P35869 with shape: (1280,)
+2025-09-10 15:19:05,283 - ERROR - Error processing AHR (P35869) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:05,283 - INFO - Processing protein: NR1I3 (Q14994)
+2025-09-10 15:19:05,283 - INFO - Saving data for NR1I3 (Q14994) - morgan_regression
+2025-09-10 15:19:05,344 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:19:05,500 - INFO - Saved data for NR1I3 (Q14994) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/NR1I3_Q14994_data.pkl
+2025-09-10 15:19:05,500 - INFO -   - Samples: 59
+2025-09-10 15:19:05,500 - INFO -   - Features: 2048
+2025-09-10 15:19:05,501 - INFO -   - Target type: continuous
+2025-09-10 15:19:05,501 - INFO - Saving data for NR1I3 (Q14994) - morgan_classification
+2025-09-10 15:19:05,555 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:19:05,705 - ERROR - Error processing NR1I3 (Q14994) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:05,706 - INFO - Saving data for NR1I3 (Q14994) - esm_morgan_regression
+2025-09-10 15:19:05,761 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:19:05,914 - INFO - Retrieved ESM embedding for Q14994 with shape: (1280,)
+2025-09-10 15:19:05,918 - INFO - Saved data for NR1I3 (Q14994) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/NR1I3_Q14994_data.pkl
+2025-09-10 15:19:05,918 - INFO -   - Samples: 59
+2025-09-10 15:19:05,918 - INFO -   - Features: 3328
+2025-09-10 15:19:05,918 - INFO -   - Target type: continuous
+2025-09-10 15:19:05,918 - INFO - Saving data for NR1I3 (Q14994) - esm_morgan_classification
+2025-09-10 15:19:05,973 - INFO - Retrieved 59 activities for Q14994
+2025-09-10 15:19:06,122 - INFO - Retrieved ESM embedding for Q14994 with shape: (1280,)
+2025-09-10 15:19:06,123 - ERROR - Error processing NR1I3 (Q14994) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:06,124 - INFO - Processing protein: NR1I2 (O75469)
+2025-09-10 15:19:06,124 - INFO - Saving data for NR1I2 (O75469) - morgan_regression
+2025-09-10 15:19:06,188 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:19:07,034 - INFO - Saved data for NR1I2 (O75469) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/NR1I2_O75469_data.pkl
+2025-09-10 15:19:07,034 - INFO -   - Samples: 344
+2025-09-10 15:19:07,034 - INFO -   - Features: 2048
+2025-09-10 15:19:07,034 - INFO -   - Target type: continuous
+2025-09-10 15:19:07,035 - INFO - Saving data for NR1I2 (O75469) - morgan_classification
+2025-09-10 15:19:07,088 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:19:07,957 - ERROR - Error processing NR1I2 (O75469) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:07,958 - INFO - Saving data for NR1I2 (O75469) - esm_morgan_regression
+2025-09-10 15:19:08,010 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:19:08,849 - INFO - Retrieved ESM embedding for O75469 with shape: (1280,)
+2025-09-10 15:19:08,871 - INFO - Saved data for NR1I2 (O75469) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/NR1I2_O75469_data.pkl
+2025-09-10 15:19:08,871 - INFO -   - Samples: 344
+2025-09-10 15:19:08,872 - INFO -   - Features: 3328
+2025-09-10 15:19:08,872 - INFO -   - Target type: continuous
+2025-09-10 15:19:08,872 - INFO - Saving data for NR1I2 (O75469) - esm_morgan_classification
+2025-09-10 15:19:08,931 - INFO - Retrieved 344 activities for O75469
+2025-09-10 15:19:09,784 - INFO - Retrieved ESM embedding for O75469 with shape: (1280,)
+2025-09-10 15:19:09,790 - ERROR - Error processing NR1I2 (O75469) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:09,791 - INFO - Processing protein: SULT1A1 (P50225)
+2025-09-10 15:19:09,791 - INFO - Saving data for SULT1A1 (P50225) - morgan_regression
+2025-09-10 15:19:09,847 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:19:09,850 - WARNING - Insufficient data for SULT1A1 (P50225): 6 samples
+2025-09-10 15:19:09,850 - INFO - Saving data for SULT1A1 (P50225) - morgan_classification
+2025-09-10 15:19:09,904 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:19:09,906 - WARNING - Insufficient data for SULT1A1 (P50225): 6 samples
+2025-09-10 15:19:09,907 - INFO - Saving data for SULT1A1 (P50225) - esm_morgan_regression
+2025-09-10 15:19:09,959 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:19:09,961 - WARNING - Insufficient data for SULT1A1 (P50225): 6 samples
+2025-09-10 15:19:09,961 - INFO - Saving data for SULT1A1 (P50225) - esm_morgan_classification
+2025-09-10 15:19:10,017 - INFO - Retrieved 6 activities for P50225
+2025-09-10 15:19:10,019 - WARNING - Insufficient data for SULT1A1 (P50225): 6 samples
+2025-09-10 15:19:10,019 - INFO - Processing protein: GSTA1 (P08263)
+2025-09-10 15:19:10,019 - INFO - Saving data for GSTA1 (P08263) - morgan_regression
+2025-09-10 15:19:10,071 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:19:10,073 - WARNING - Insufficient data for GSTA1 (P08263): 6 samples
+2025-09-10 15:19:10,074 - INFO - Saving data for GSTA1 (P08263) - morgan_classification
+2025-09-10 15:19:10,127 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:19:10,129 - WARNING - Insufficient data for GSTA1 (P08263): 6 samples
+2025-09-10 15:19:10,130 - INFO - Saving data for GSTA1 (P08263) - esm_morgan_regression
+2025-09-10 15:19:10,183 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:19:10,185 - WARNING - Insufficient data for GSTA1 (P08263): 6 samples
+2025-09-10 15:19:10,185 - INFO - Saving data for GSTA1 (P08263) - esm_morgan_classification
+2025-09-10 15:19:10,238 - INFO - Retrieved 6 activities for P08263
+2025-09-10 15:19:10,240 - WARNING - Insufficient data for GSTA1 (P08263): 6 samples
+2025-09-10 15:19:10,241 - INFO - Processing protein: OXA1L (Q15070)
+2025-09-10 15:19:10,241 - INFO - Saving data for OXA1L (Q15070) - morgan_regression
+2025-09-10 15:19:10,291 - WARNING - No activities found for Q15070
+2025-09-10 15:19:10,292 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:19:10,292 - INFO - Saving data for OXA1L (Q15070) - morgan_classification
+2025-09-10 15:19:10,345 - WARNING - No activities found for Q15070
+2025-09-10 15:19:10,346 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:19:10,346 - INFO - Saving data for OXA1L (Q15070) - esm_morgan_regression
+2025-09-10 15:19:10,401 - WARNING - No activities found for Q15070
+2025-09-10 15:19:10,401 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:19:10,401 - INFO - Saving data for OXA1L (Q15070) - esm_morgan_classification
+2025-09-10 15:19:10,454 - WARNING - No activities found for Q15070
+2025-09-10 15:19:10,455 - WARNING - No activities found for OXA1L (Q15070)
+2025-09-10 15:19:10,455 - INFO - Processing protein: ORM1 (P02763)
+2025-09-10 15:19:10,455 - INFO - Saving data for ORM1 (P02763) - morgan_regression
+2025-09-10 15:19:10,515 - WARNING - No activities found for P02763
+2025-09-10 15:19:10,516 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:19:10,516 - INFO - Saving data for ORM1 (P02763) - morgan_classification
+2025-09-10 15:19:10,577 - WARNING - No activities found for P02763
+2025-09-10 15:19:10,577 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:19:10,577 - INFO - Saving data for ORM1 (P02763) - esm_morgan_regression
+2025-09-10 15:19:10,633 - WARNING - No activities found for P02763
+2025-09-10 15:19:10,633 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:19:10,633 - INFO - Saving data for ORM1 (P02763) - esm_morgan_classification
+2025-09-10 15:19:10,684 - WARNING - No activities found for P02763
+2025-09-10 15:19:10,685 - WARNING - No activities found for ORM1 (P02763)
+2025-09-10 15:19:10,685 - INFO - Processing protein: KCNH2 (Q12809)
+2025-09-10 15:19:10,685 - INFO - Saving data for KCNH2 (Q12809) - morgan_regression
+2025-09-10 15:19:10,789 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:19:22,145 - INFO - Saved data for KCNH2 (Q12809) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/KCNH2_Q12809_data.pkl
+2025-09-10 15:19:22,146 - INFO -   - Samples: 4492
+2025-09-10 15:19:22,146 - INFO -   - Features: 2048
+2025-09-10 15:19:22,146 - INFO -   - Target type: continuous
+2025-09-10 15:19:22,148 - INFO - Saving data for KCNH2 (Q12809) - morgan_classification
+2025-09-10 15:19:22,248 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:19:33,371 - ERROR - Error processing KCNH2 (Q12809) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:33,375 - INFO - Saving data for KCNH2 (Q12809) - esm_morgan_regression
+2025-09-10 15:19:33,444 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:19:44,752 - INFO - Retrieved ESM embedding for Q12809 with shape: (1280,)
+2025-09-10 15:19:45,049 - INFO - Saved data for KCNH2 (Q12809) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/KCNH2_Q12809_data.pkl
+2025-09-10 15:19:45,049 - INFO -   - Samples: 4492
+2025-09-10 15:19:45,049 - INFO -   - Features: 3328
+2025-09-10 15:19:45,049 - INFO -   - Target type: continuous
+2025-09-10 15:19:45,056 - INFO - Saving data for KCNH2 (Q12809) - esm_morgan_classification
+2025-09-10 15:19:45,123 - INFO - Retrieved 4492 activities for Q12809
+2025-09-10 15:19:56,295 - INFO - Retrieved ESM embedding for Q12809 with shape: (1280,)
+2025-09-10 15:19:56,407 - ERROR - Error processing KCNH2 (Q12809) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:56,414 - INFO - Processing protein: SCN5A (Q14524)
+2025-09-10 15:19:56,414 - INFO - Saving data for SCN5A (Q14524) - morgan_regression
+2025-09-10 15:19:56,489 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:19:57,287 - INFO - Saved data for SCN5A (Q14524) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/SCN5A_Q14524_data.pkl
+2025-09-10 15:19:57,287 - INFO -   - Samples: 329
+2025-09-10 15:19:57,288 - INFO -   - Features: 2048
+2025-09-10 15:19:57,288 - INFO -   - Target type: continuous
+2025-09-10 15:19:57,292 - INFO - Saving data for SCN5A (Q14524) - morgan_classification
+2025-09-10 15:19:57,348 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:19:58,161 - ERROR - Error processing SCN5A (Q14524) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:58,162 - INFO - Saving data for SCN5A (Q14524) - esm_morgan_regression
+2025-09-10 15:19:58,221 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:19:59,044 - INFO - Retrieved ESM embedding for Q14524 with shape: (1280,)
+2025-09-10 15:19:59,065 - INFO - Saved data for SCN5A (Q14524) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/SCN5A_Q14524_data.pkl
+2025-09-10 15:19:59,065 - INFO -   - Samples: 329
+2025-09-10 15:19:59,065 - INFO -   - Features: 3328
+2025-09-10 15:19:59,065 - INFO -   - Target type: continuous
+2025-09-10 15:19:59,066 - INFO - Saving data for SCN5A (Q14524) - esm_morgan_classification
+2025-09-10 15:19:59,119 - INFO - Retrieved 329 activities for Q14524
+2025-09-10 15:19:59,917 - INFO - Retrieved ESM embedding for Q14524 with shape: (1280,)
+2025-09-10 15:19:59,922 - ERROR - Error processing SCN5A (Q14524) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:19:59,923 - INFO - Processing protein: CACNB1 (Q02641)
+2025-09-10 15:19:59,923 - INFO - Saving data for CACNB1 (Q02641) - morgan_regression
+2025-09-10 15:19:59,979 - WARNING - No activities found for Q02641
+2025-09-10 15:19:59,980 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:19:59,980 - INFO - Saving data for CACNB1 (Q02641) - morgan_classification
+2025-09-10 15:20:00,032 - WARNING - No activities found for Q02641
+2025-09-10 15:20:00,033 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:20:00,033 - INFO - Saving data for CACNB1 (Q02641) - esm_morgan_regression
+2025-09-10 15:20:00,084 - WARNING - No activities found for Q02641
+2025-09-10 15:20:00,085 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:20:00,085 - INFO - Saving data for CACNB1 (Q02641) - esm_morgan_classification
+2025-09-10 15:20:00,145 - WARNING - No activities found for Q02641
+2025-09-10 15:20:00,145 - WARNING - No activities found for CACNB1 (Q02641)
+2025-09-10 15:20:00,145 - INFO - Processing protein: CAV1 (Q03135)
+2025-09-10 15:20:00,145 - INFO - Saving data for CAV1 (Q03135) - morgan_regression
+2025-09-10 15:20:00,197 - WARNING - No activities found for Q03135
+2025-09-10 15:20:00,198 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:20:00,198 - INFO - Saving data for CAV1 (Q03135) - morgan_classification
+2025-09-10 15:20:00,253 - WARNING - No activities found for Q03135
+2025-09-10 15:20:00,254 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:20:00,254 - INFO - Saving data for CAV1 (Q03135) - esm_morgan_regression
+2025-09-10 15:20:00,308 - WARNING - No activities found for Q03135
+2025-09-10 15:20:00,308 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:20:00,308 - INFO - Saving data for CAV1 (Q03135) - esm_morgan_classification
+2025-09-10 15:20:00,363 - WARNING - No activities found for Q03135
+2025-09-10 15:20:00,363 - WARNING - No activities found for CAV1 (Q03135)
+2025-09-10 15:20:00,363 - INFO - Processing protein: HTR2B (P41595)
+2025-09-10 15:20:00,363 - INFO - Saving data for HTR2B (P41595) - morgan_regression
+2025-09-10 15:20:00,449 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:20:03,119 - INFO - Saved data for HTR2B (P41595) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/HTR2B_P41595_data.pkl
+2025-09-10 15:20:03,119 - INFO -   - Samples: 1180
+2025-09-10 15:20:03,119 - INFO -   - Features: 2048
+2025-09-10 15:20:03,119 - INFO -   - Target type: continuous
+2025-09-10 15:20:03,120 - INFO - Saving data for HTR2B (P41595) - morgan_classification
+2025-09-10 15:20:03,178 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:20:05,800 - ERROR - Error processing HTR2B (P41595) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:20:05,802 - INFO - Saving data for HTR2B (P41595) - esm_morgan_regression
+2025-09-10 15:20:05,861 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:20:08,548 - INFO - Retrieved ESM embedding for P41595 with shape: (1280,)
+2025-09-10 15:20:08,632 - INFO - Saved data for HTR2B (P41595) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/HTR2B_P41595_data.pkl
+2025-09-10 15:20:08,632 - INFO -   - Samples: 1180
+2025-09-10 15:20:08,632 - INFO -   - Features: 3328
+2025-09-10 15:20:08,632 - INFO -   - Target type: continuous
+2025-09-10 15:20:08,633 - INFO - Saving data for HTR2B (P41595) - esm_morgan_classification
+2025-09-10 15:20:08,690 - INFO - Retrieved 1180 activities for P41595
+2025-09-10 15:20:11,412 - INFO - Retrieved ESM embedding for P41595 with shape: (1280,)
+2025-09-10 15:20:11,430 - ERROR - Error processing HTR2B (P41595) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:20:11,432 - INFO - Processing protein: SLC6A4 (P31645)
+2025-09-10 15:20:11,432 - INFO - Saving data for SLC6A4 (P31645) - morgan_regression
+2025-09-10 15:20:11,531 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:20:18,475 - INFO - Saved data for SLC6A4 (P31645) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/SLC6A4_P31645_data.pkl
+2025-09-10 15:20:18,475 - INFO -   - Samples: 2958
+2025-09-10 15:20:18,475 - INFO -   - Features: 2048
+2025-09-10 15:20:18,475 - INFO -   - Target type: continuous
+2025-09-10 15:20:18,479 - INFO - Saving data for SLC6A4 (P31645) - morgan_classification
+2025-09-10 15:20:18,541 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:20:25,409 - ERROR - Error processing SLC6A4 (P31645) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:20:25,413 - INFO - Saving data for SLC6A4 (P31645) - esm_morgan_regression
+2025-09-10 15:20:25,473 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:20:32,484 - INFO - Retrieved ESM embedding for P31645 with shape: (1280,)
+2025-09-10 15:20:32,679 - INFO - Saved data for SLC6A4 (P31645) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/SLC6A4_P31645_data.pkl
+2025-09-10 15:20:32,679 - INFO -   - Samples: 2958
+2025-09-10 15:20:32,679 - INFO -   - Features: 3328
+2025-09-10 15:20:32,679 - INFO -   - Target type: continuous
+2025-09-10 15:20:32,684 - INFO - Saving data for SLC6A4 (P31645) - esm_morgan_classification
+2025-09-10 15:20:32,740 - INFO - Retrieved 2958 activities for P31645
+2025-09-10 15:20:39,580 - INFO - Retrieved ESM embedding for P31645 with shape: (1280,)
+2025-09-10 15:20:39,653 - ERROR - Error processing SLC6A4 (P31645) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:20:39,658 - INFO - Processing protein: DIDO1 (Q9BTC0)
+2025-09-10 15:20:39,658 - INFO - Saving data for DIDO1 (Q9BTC0) - morgan_regression
+2025-09-10 15:20:39,715 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:20:39,715 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:20:39,718 - INFO - Saving data for DIDO1 (Q9BTC0) - morgan_classification
+2025-09-10 15:20:39,775 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:20:39,775 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:20:39,775 - INFO - Saving data for DIDO1 (Q9BTC0) - esm_morgan_regression
+2025-09-10 15:20:39,831 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:20:39,831 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:20:39,831 - INFO - Saving data for DIDO1 (Q9BTC0) - esm_morgan_classification
+2025-09-10 15:20:39,886 - WARNING - No activities found for Q9BTC0
+2025-09-10 15:20:39,886 - WARNING - No activities found for DIDO1 (Q9BTC0)
+2025-09-10 15:20:39,886 - INFO - Processing protein: SLC6A3 (Q01959)
+2025-09-10 15:20:39,887 - INFO - Saving data for SLC6A3 (Q01959) - morgan_regression
+2025-09-10 15:20:39,975 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:20:43,766 - INFO - Saved data for SLC6A3 (Q01959) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/SLC6A3_Q01959_data.pkl
+2025-09-10 15:20:43,766 - INFO -   - Samples: 1646
+2025-09-10 15:20:43,766 - INFO -   - Features: 2048
+2025-09-10 15:20:43,766 - INFO -   - Target type: continuous
+2025-09-10 15:20:43,767 - INFO - Saving data for SLC6A3 (Q01959) - morgan_classification
+2025-09-10 15:20:43,828 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:20:47,587 - ERROR - Error processing SLC6A3 (Q01959) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:20:47,589 - INFO - Saving data for SLC6A3 (Q01959) - esm_morgan_regression
+2025-09-10 15:20:47,650 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:20:51,288 - INFO - Retrieved ESM embedding for Q01959 with shape: (1280,)
+2025-09-10 15:20:51,399 - INFO - Saved data for SLC6A3 (Q01959) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/SLC6A3_Q01959_data.pkl
+2025-09-10 15:20:51,399 - INFO -   - Samples: 1646
+2025-09-10 15:20:51,399 - INFO -   - Features: 3328
+2025-09-10 15:20:51,399 - INFO -   - Target type: continuous
+2025-09-10 15:20:51,401 - INFO - Saving data for SLC6A3 (Q01959) - esm_morgan_classification
+2025-09-10 15:20:51,460 - INFO - Retrieved 1646 activities for Q01959
+2025-09-10 15:20:55,215 - INFO - Retrieved ESM embedding for Q01959 with shape: (1280,)
+2025-09-10 15:20:55,258 - ERROR - Error processing SLC6A3 (Q01959) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:20:55,261 - INFO - Processing protein: SLC6A2 (P23975)
+2025-09-10 15:20:55,261 - INFO - Saving data for SLC6A2 (P23975) - morgan_regression
+2025-09-10 15:20:55,331 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:21:00,017 - INFO - Saved data for SLC6A2 (P23975) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/SLC6A2_P23975_data.pkl
+2025-09-10 15:21:00,017 - INFO -   - Samples: 2021
+2025-09-10 15:21:00,017 - INFO -   - Features: 2048
+2025-09-10 15:21:00,017 - INFO -   - Target type: continuous
+2025-09-10 15:21:00,020 - INFO - Saving data for SLC6A2 (P23975) - morgan_classification
+2025-09-10 15:21:00,079 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:21:04,620 - ERROR - Error processing SLC6A2 (P23975) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:04,622 - INFO - Saving data for SLC6A2 (P23975) - esm_morgan_regression
+2025-09-10 15:21:04,679 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:21:09,081 - INFO - Retrieved ESM embedding for P23975 with shape: (1280,)
+2025-09-10 15:21:09,227 - INFO - Saved data for SLC6A2 (P23975) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/SLC6A2_P23975_data.pkl
+2025-09-10 15:21:09,228 - INFO -   - Samples: 2021
+2025-09-10 15:21:09,228 - INFO -   - Features: 3328
+2025-09-10 15:21:09,228 - INFO -   - Target type: continuous
+2025-09-10 15:21:09,233 - INFO - Saving data for SLC6A2 (P23975) - esm_morgan_classification
+2025-09-10 15:21:09,295 - INFO - Retrieved 2021 activities for P23975
+2025-09-10 15:21:13,951 - INFO - Retrieved ESM embedding for P23975 with shape: (1280,)
+2025-09-10 15:21:14,005 - ERROR - Error processing SLC6A2 (P23975) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:14,008 - INFO - Processing protein: NAT8 (Q9UHE5)
+2025-09-10 15:21:14,008 - INFO - Saving data for NAT8 (Q9UHE5) - morgan_regression
+2025-09-10 15:21:14,061 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:21:14,061 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:21:14,063 - INFO - Saving data for NAT8 (Q9UHE5) - morgan_classification
+2025-09-10 15:21:14,118 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:21:14,118 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:21:14,119 - INFO - Saving data for NAT8 (Q9UHE5) - esm_morgan_regression
+2025-09-10 15:21:14,175 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:21:14,176 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:21:14,176 - INFO - Saving data for NAT8 (Q9UHE5) - esm_morgan_classification
+2025-09-10 15:21:14,234 - WARNING - No activities found for Q9UHE5
+2025-09-10 15:21:14,234 - WARNING - No activities found for NAT8 (Q9UHE5)
+2025-09-10 15:21:14,234 - INFO - Processing protein: ADRA1A (P25100)
+2025-09-10 15:21:14,235 - INFO - Saving data for ADRA1A (P25100) - morgan_regression
+2025-09-10 15:21:14,298 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:21:15,714 - INFO - Saved data for ADRA1A (P25100) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/ADRA1A_P25100_data.pkl
+2025-09-10 15:21:15,715 - INFO -   - Samples: 566
+2025-09-10 15:21:15,715 - INFO -   - Features: 2048
+2025-09-10 15:21:15,715 - INFO -   - Target type: continuous
+2025-09-10 15:21:15,716 - INFO - Saving data for ADRA1A (P25100) - morgan_classification
+2025-09-10 15:21:15,772 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:21:17,179 - ERROR - Error processing ADRA1A (P25100) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:17,180 - INFO - Saving data for ADRA1A (P25100) - esm_morgan_regression
+2025-09-10 15:21:17,235 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:21:18,609 - INFO - Retrieved ESM embedding for P25100 with shape: (1280,)
+2025-09-10 15:21:18,643 - INFO - Saved data for ADRA1A (P25100) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/ADRA1A_P25100_data.pkl
+2025-09-10 15:21:18,643 - INFO -   - Samples: 566
+2025-09-10 15:21:18,644 - INFO -   - Features: 3328
+2025-09-10 15:21:18,644 - INFO -   - Target type: continuous
+2025-09-10 15:21:18,645 - INFO - Saving data for ADRA1A (P25100) - esm_morgan_classification
+2025-09-10 15:21:18,701 - INFO - Retrieved 566 activities for P25100
+2025-09-10 15:21:20,086 - INFO - Retrieved ESM embedding for P25100 with shape: (1280,)
+2025-09-10 15:21:20,095 - ERROR - Error processing ADRA1A (P25100) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:20,096 - INFO - Processing protein: ADRA2A (P08913)
+2025-09-10 15:21:20,096 - INFO - Saving data for ADRA2A (P08913) - morgan_regression
+2025-09-10 15:21:20,158 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:21:21,378 - INFO - Saved data for ADRA2A (P08913) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/ADRA2A_P08913_data.pkl
+2025-09-10 15:21:21,379 - INFO -   - Samples: 526
+2025-09-10 15:21:21,379 - INFO -   - Features: 2048
+2025-09-10 15:21:21,379 - INFO -   - Target type: continuous
+2025-09-10 15:21:21,380 - INFO - Saving data for ADRA2A (P08913) - morgan_classification
+2025-09-10 15:21:21,437 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:21:22,615 - ERROR - Error processing ADRA2A (P08913) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:22,616 - INFO - Saving data for ADRA2A (P08913) - esm_morgan_regression
+2025-09-10 15:21:22,670 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:21:23,853 - INFO - Retrieved ESM embedding for P08913 with shape: (1280,)
+2025-09-10 15:21:23,880 - INFO - Saved data for ADRA2A (P08913) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/ADRA2A_P08913_data.pkl
+2025-09-10 15:21:23,881 - INFO -   - Samples: 526
+2025-09-10 15:21:23,881 - INFO -   - Features: 3328
+2025-09-10 15:21:23,881 - INFO -   - Target type: continuous
+2025-09-10 15:21:23,882 - INFO - Saving data for ADRA2A (P08913) - esm_morgan_classification
+2025-09-10 15:21:23,938 - INFO - Retrieved 526 activities for P08913
+2025-09-10 15:21:25,142 - INFO - Retrieved ESM embedding for P08913 with shape: (1280,)
+2025-09-10 15:21:25,150 - ERROR - Error processing ADRA2A (P08913) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:25,150 - INFO - Processing protein: ADRB1 (P08588)
+2025-09-10 15:21:25,151 - INFO - Saving data for ADRB1 (P08588) - morgan_regression
+2025-09-10 15:21:25,215 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:21:26,737 - INFO - Saved data for ADRB1 (P08588) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/ADRB1_P08588_data.pkl
+2025-09-10 15:21:26,737 - INFO -   - Samples: 614
+2025-09-10 15:21:26,737 - INFO -   - Features: 2048
+2025-09-10 15:21:26,737 - INFO -   - Target type: continuous
+2025-09-10 15:21:26,738 - INFO - Saving data for ADRB1 (P08588) - morgan_classification
+2025-09-10 15:21:26,792 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:21:28,288 - ERROR - Error processing ADRB1 (P08588) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:28,289 - INFO - Saving data for ADRB1 (P08588) - esm_morgan_regression
+2025-09-10 15:21:28,345 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:21:29,846 - INFO - Retrieved ESM embedding for P08588 with shape: (1280,)
+2025-09-10 15:21:29,881 - INFO - Saved data for ADRB1 (P08588) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/ADRB1_P08588_data.pkl
+2025-09-10 15:21:29,881 - INFO -   - Samples: 614
+2025-09-10 15:21:29,881 - INFO -   - Features: 3328
+2025-09-10 15:21:29,882 - INFO -   - Target type: continuous
+2025-09-10 15:21:29,883 - INFO - Saving data for ADRB1 (P08588) - esm_morgan_classification
+2025-09-10 15:21:29,937 - INFO - Retrieved 614 activities for P08588
+2025-09-10 15:21:31,481 - INFO - Retrieved ESM embedding for P08588 with shape: (1280,)
+2025-09-10 15:21:31,491 - ERROR - Error processing ADRB1 (P08588) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:31,492 - INFO - Processing protein: ADRB2 (P07550)
+2025-09-10 15:21:31,492 - INFO - Saving data for ADRB2 (P07550) - morgan_regression
+2025-09-10 15:21:31,552 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:21:33,668 - INFO - Saved data for ADRB2 (P07550) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/ADRB2_P07550_data.pkl
+2025-09-10 15:21:33,669 - INFO -   - Samples: 860
+2025-09-10 15:21:33,669 - INFO -   - Features: 2048
+2025-09-10 15:21:33,669 - INFO -   - Target type: continuous
+2025-09-10 15:21:33,670 - INFO - Saving data for ADRB2 (P07550) - morgan_classification
+2025-09-10 15:21:33,727 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:21:35,842 - ERROR - Error processing ADRB2 (P07550) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:35,843 - INFO - Saving data for ADRB2 (P07550) - esm_morgan_regression
+2025-09-10 15:21:35,902 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:21:37,895 - INFO - Retrieved ESM embedding for P07550 with shape: (1280,)
+2025-09-10 15:21:37,945 - INFO - Saved data for ADRB2 (P07550) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/ADRB2_P07550_data.pkl
+2025-09-10 15:21:37,946 - INFO -   - Samples: 860
+2025-09-10 15:21:37,946 - INFO -   - Features: 3328
+2025-09-10 15:21:37,946 - INFO -   - Target type: continuous
+2025-09-10 15:21:37,947 - INFO - Saving data for ADRB2 (P07550) - esm_morgan_classification
+2025-09-10 15:21:38,006 - INFO - Retrieved 860 activities for P07550
+2025-09-10 15:21:40,013 - INFO - Retrieved ESM embedding for P07550 with shape: (1280,)
+2025-09-10 15:21:40,025 - ERROR - Error processing ADRB2 (P07550) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:21:40,027 - INFO - Processing protein: CNRIP1 (Q96F85)
+2025-09-10 15:21:40,027 - INFO - Saving data for CNRIP1 (Q96F85) - morgan_regression
+2025-09-10 15:21:40,079 - WARNING - No activities found for Q96F85
+2025-09-10 15:21:40,080 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:21:40,082 - INFO - Saving data for CNRIP1 (Q96F85) - morgan_classification
+2025-09-10 15:21:40,135 - WARNING - No activities found for Q96F85
+2025-09-10 15:21:40,136 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:21:40,137 - INFO - Saving data for CNRIP1 (Q96F85) - esm_morgan_regression
+2025-09-10 15:21:40,192 - WARNING - No activities found for Q96F85
+2025-09-10 15:21:40,192 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:21:40,192 - INFO - Saving data for CNRIP1 (Q96F85) - esm_morgan_classification
+2025-09-10 15:21:40,247 - WARNING - No activities found for Q96F85
+2025-09-10 15:21:40,247 - WARNING - No activities found for CNRIP1 (Q96F85)
+2025-09-10 15:21:40,248 - INFO - Processing protein: CNR2 (P34972)
+2025-09-10 15:21:40,248 - INFO - Saving data for CNR2 (P34972) - morgan_regression
+2025-09-10 15:21:40,344 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:21:50,977 - INFO - Saved data for CNR2 (P34972) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CNR2_P34972_data.pkl
+2025-09-10 15:21:50,977 - INFO -   - Samples: 4295
+2025-09-10 15:21:50,977 - INFO -   - Features: 2048
+2025-09-10 15:21:50,977 - INFO -   - Target type: continuous
+2025-09-10 15:21:50,979 - INFO - Saving data for CNR2 (P34972) - morgan_classification
+2025-09-10 15:21:51,085 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:22:01,520 - ERROR - Error processing CNR2 (P34972) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:01,525 - INFO - Saving data for CNR2 (P34972) - esm_morgan_regression
+2025-09-10 15:22:01,587 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:22:11,971 - INFO - Retrieved ESM embedding for P34972 with shape: (1280,)
+2025-09-10 15:22:12,283 - INFO - Saved data for CNR2 (P34972) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CNR2_P34972_data.pkl
+2025-09-10 15:22:12,283 - INFO -   - Samples: 4295
+2025-09-10 15:22:12,283 - INFO -   - Features: 3328
+2025-09-10 15:22:12,283 - INFO -   - Target type: continuous
+2025-09-10 15:22:12,290 - INFO - Saving data for CNR2 (P34972) - esm_morgan_classification
+2025-09-10 15:22:12,349 - INFO - Retrieved 4295 activities for P34972
+2025-09-10 15:22:22,908 - INFO - Retrieved ESM embedding for P34972 with shape: (1280,)
+2025-09-10 15:22:23,011 - ERROR - Error processing CNR2 (P34972) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:23,017 - INFO - Processing protein: CHRM1 (P11229)
+2025-09-10 15:22:23,017 - INFO - Saving data for CHRM1 (P11229) - morgan_regression
+2025-09-10 15:22:23,083 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:22:25,609 - INFO - Saved data for CHRM1 (P11229) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CHRM1_P11229_data.pkl
+2025-09-10 15:22:25,609 - INFO -   - Samples: 1103
+2025-09-10 15:22:25,610 - INFO -   - Features: 2048
+2025-09-10 15:22:25,610 - INFO -   - Target type: continuous
+2025-09-10 15:22:25,614 - INFO - Saving data for CHRM1 (P11229) - morgan_classification
+2025-09-10 15:22:25,671 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:22:28,282 - ERROR - Error processing CHRM1 (P11229) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:28,284 - INFO - Saving data for CHRM1 (P11229) - esm_morgan_regression
+2025-09-10 15:22:28,370 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:22:31,037 - INFO - Retrieved ESM embedding for P11229 with shape: (1280,)
+2025-09-10 15:22:31,120 - INFO - Saved data for CHRM1 (P11229) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CHRM1_P11229_data.pkl
+2025-09-10 15:22:31,120 - INFO -   - Samples: 1103
+2025-09-10 15:22:31,120 - INFO -   - Features: 3328
+2025-09-10 15:22:31,120 - INFO -   - Target type: continuous
+2025-09-10 15:22:31,122 - INFO - Saving data for CHRM1 (P11229) - esm_morgan_classification
+2025-09-10 15:22:31,180 - INFO - Retrieved 1103 activities for P11229
+2025-09-10 15:22:33,843 - INFO - Retrieved ESM embedding for P11229 with shape: (1280,)
+2025-09-10 15:22:33,862 - ERROR - Error processing CHRM1 (P11229) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:33,864 - INFO - Processing protein: CHRM2 (P08172)
+2025-09-10 15:22:33,864 - INFO - Saving data for CHRM2 (P08172) - morgan_regression
+2025-09-10 15:22:33,926 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:22:35,687 - INFO - Saved data for CHRM2 (P08172) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CHRM2_P08172_data.pkl
+2025-09-10 15:22:35,687 - INFO -   - Samples: 721
+2025-09-10 15:22:35,687 - INFO -   - Features: 2048
+2025-09-10 15:22:35,687 - INFO -   - Target type: continuous
+2025-09-10 15:22:35,690 - INFO - Saving data for CHRM2 (P08172) - morgan_classification
+2025-09-10 15:22:35,744 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:22:37,477 - ERROR - Error processing CHRM2 (P08172) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:37,478 - INFO - Saving data for CHRM2 (P08172) - esm_morgan_regression
+2025-09-10 15:22:37,539 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:22:39,256 - INFO - Retrieved ESM embedding for P08172 with shape: (1280,)
+2025-09-10 15:22:39,309 - INFO - Saved data for CHRM2 (P08172) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CHRM2_P08172_data.pkl
+2025-09-10 15:22:39,309 - INFO -   - Samples: 721
+2025-09-10 15:22:39,309 - INFO -   - Features: 3328
+2025-09-10 15:22:39,309 - INFO -   - Target type: continuous
+2025-09-10 15:22:39,310 - INFO - Saving data for CHRM2 (P08172) - esm_morgan_classification
+2025-09-10 15:22:39,367 - INFO - Retrieved 721 activities for P08172
+2025-09-10 15:22:41,048 - INFO - Retrieved ESM embedding for P08172 with shape: (1280,)
+2025-09-10 15:22:41,058 - ERROR - Error processing CHRM2 (P08172) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:41,060 - INFO - Processing protein: CHRM3 (P20309)
+2025-09-10 15:22:41,060 - INFO - Saving data for CHRM3 (P20309) - morgan_regression
+2025-09-10 15:22:41,127 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:22:44,143 - INFO - Saved data for CHRM3 (P20309) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CHRM3_P20309_data.pkl
+2025-09-10 15:22:44,144 - INFO -   - Samples: 1209
+2025-09-10 15:22:44,144 - INFO -   - Features: 2048
+2025-09-10 15:22:44,144 - INFO -   - Target type: continuous
+2025-09-10 15:22:44,145 - INFO - Saving data for CHRM3 (P20309) - morgan_classification
+2025-09-10 15:22:44,204 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:22:47,257 - ERROR - Error processing CHRM3 (P20309) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:47,260 - INFO - Saving data for CHRM3 (P20309) - esm_morgan_regression
+2025-09-10 15:22:47,317 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:22:50,379 - INFO - Retrieved ESM embedding for P20309 with shape: (1280,)
+2025-09-10 15:22:50,463 - INFO - Saved data for CHRM3 (P20309) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CHRM3_P20309_data.pkl
+2025-09-10 15:22:50,463 - INFO -   - Samples: 1209
+2025-09-10 15:22:50,463 - INFO -   - Features: 3328
+2025-09-10 15:22:50,463 - INFO -   - Target type: continuous
+2025-09-10 15:22:50,464 - INFO - Saving data for CHRM3 (P20309) - esm_morgan_classification
+2025-09-10 15:22:50,522 - INFO - Retrieved 1209 activities for P20309
+2025-09-10 15:22:53,510 - INFO - Retrieved ESM embedding for P20309 with shape: (1280,)
+2025-09-10 15:22:53,530 - ERROR - Error processing CHRM3 (P20309) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:53,532 - INFO - Processing protein: CHRNA10 (Q9GZZ6)
+2025-09-10 15:22:53,533 - INFO - Saving data for CHRNA10 (Q9GZZ6) - morgan_regression
+2025-09-10 15:22:53,589 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:22:53,590 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:22:53,592 - INFO - Saving data for CHRNA10 (Q9GZZ6) - morgan_classification
+2025-09-10 15:22:53,648 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:22:53,648 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:22:53,648 - INFO - Saving data for CHRNA10 (Q9GZZ6) - esm_morgan_regression
+2025-09-10 15:22:53,705 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:22:53,706 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:22:53,706 - INFO - Saving data for CHRNA10 (Q9GZZ6) - esm_morgan_classification
+2025-09-10 15:22:53,761 - WARNING - No activities found for Q9GZZ6
+2025-09-10 15:22:53,762 - WARNING - No activities found for CHRNA10 (Q9GZZ6)
+2025-09-10 15:22:53,762 - INFO - Processing protein: CHRNA9 (Q9UGM1)
+2025-09-10 15:22:53,762 - INFO - Saving data for CHRNA9 (Q9UGM1) - morgan_regression
+2025-09-10 15:22:53,815 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:22:53,816 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:22:53,816 - INFO - Saving data for CHRNA9 (Q9UGM1) - morgan_classification
+2025-09-10 15:22:53,868 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:22:53,868 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:22:53,869 - INFO - Saving data for CHRNA9 (Q9UGM1) - esm_morgan_regression
+2025-09-10 15:22:53,922 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:22:53,922 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:22:53,922 - INFO - Saving data for CHRNA9 (Q9UGM1) - esm_morgan_classification
+2025-09-10 15:22:53,977 - WARNING - No activities found for Q9UGM1
+2025-09-10 15:22:53,978 - WARNING - No activities found for CHRNA9 (Q9UGM1)
+2025-09-10 15:22:53,978 - INFO - Processing protein: CHRNA7 (P36544)
+2025-09-10 15:22:53,978 - INFO - Saving data for CHRNA7 (P36544) - morgan_regression
+2025-09-10 15:22:54,042 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:22:55,421 - INFO - Saved data for CHRNA7 (P36544) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/CHRNA7_P36544_data.pkl
+2025-09-10 15:22:55,421 - INFO -   - Samples: 595
+2025-09-10 15:22:55,421 - INFO -   - Features: 2048
+2025-09-10 15:22:55,422 - INFO -   - Target type: continuous
+2025-09-10 15:22:55,422 - INFO - Saving data for CHRNA7 (P36544) - morgan_classification
+2025-09-10 15:22:55,477 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:22:56,793 - ERROR - Error processing CHRNA7 (P36544) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:56,794 - INFO - Saving data for CHRNA7 (P36544) - esm_morgan_regression
+2025-09-10 15:22:56,846 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:22:58,238 - INFO - Retrieved ESM embedding for P36544 with shape: (1280,)
+2025-09-10 15:22:58,285 - INFO - Saved data for CHRNA7 (P36544) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/CHRNA7_P36544_data.pkl
+2025-09-10 15:22:58,286 - INFO -   - Samples: 595
+2025-09-10 15:22:58,287 - INFO -   - Features: 3328
+2025-09-10 15:22:58,287 - INFO -   - Target type: continuous
+2025-09-10 15:22:58,288 - INFO - Saving data for CHRNA7 (P36544) - esm_morgan_classification
+2025-09-10 15:22:58,341 - INFO - Retrieved 595 activities for P36544
+2025-09-10 15:22:59,721 - INFO - Retrieved ESM embedding for P36544 with shape: (1280,)
+2025-09-10 15:22:59,731 - ERROR - Error processing CHRNA7 (P36544) for esm_morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:22:59,732 - INFO - Processing protein: CHRNA3 (P32297)
+2025-09-10 15:22:59,732 - INFO - Saving data for CHRNA3 (P32297) - morgan_regression
+2025-09-10 15:22:59,786 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:22:59,789 - WARNING - Insufficient data for CHRNA3 (P32297): 3 samples
+2025-09-10 15:22:59,790 - INFO - Saving data for CHRNA3 (P32297) - morgan_classification
+2025-09-10 15:22:59,846 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:22:59,849 - WARNING - Insufficient data for CHRNA3 (P32297): 3 samples
+2025-09-10 15:22:59,849 - INFO - Saving data for CHRNA3 (P32297) - esm_morgan_regression
+2025-09-10 15:22:59,903 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:22:59,906 - WARNING - Insufficient data for CHRNA3 (P32297): 3 samples
+2025-09-10 15:22:59,906 - INFO - Saving data for CHRNA3 (P32297) - esm_morgan_classification
+2025-09-10 15:22:59,961 - INFO - Retrieved 3 activities for P32297
+2025-09-10 15:22:59,964 - WARNING - Insufficient data for CHRNA3 (P32297): 3 samples
+2025-09-10 15:22:59,964 - INFO - Processing protein: CHRNA5 (P30532)
+2025-09-10 15:22:59,964 - INFO - Saving data for CHRNA5 (P30532) - morgan_regression
+2025-09-10 15:23:00,019 - WARNING - No activities found for P30532
+2025-09-10 15:23:00,019 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:23:00,019 - INFO - Saving data for CHRNA5 (P30532) - morgan_classification
+2025-09-10 15:23:00,072 - WARNING - No activities found for P30532
+2025-09-10 15:23:00,073 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:23:00,073 - INFO - Saving data for CHRNA5 (P30532) - esm_morgan_regression
+2025-09-10 15:23:00,125 - WARNING - No activities found for P30532
+2025-09-10 15:23:00,126 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:23:00,126 - INFO - Saving data for CHRNA5 (P30532) - esm_morgan_classification
+2025-09-10 15:23:00,182 - WARNING - No activities found for P30532
+2025-09-10 15:23:00,182 - WARNING - No activities found for CHRNA5 (P30532)
+2025-09-10 15:23:00,182 - INFO - Processing protein: SMPDL3A (Q92484)
+2025-09-10 15:23:00,182 - INFO - Saving data for SMPDL3A (Q92484) - morgan_regression
+2025-09-10 15:23:00,236 - WARNING - No activities found for Q92484
+2025-09-10 15:23:00,236 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:23:00,236 - INFO - Saving data for SMPDL3A (Q92484) - morgan_classification
+2025-09-10 15:23:00,289 - WARNING - No activities found for Q92484
+2025-09-10 15:23:00,289 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:23:00,289 - INFO - Saving data for SMPDL3A (Q92484) - esm_morgan_regression
+2025-09-10 15:23:00,340 - WARNING - No activities found for Q92484
+2025-09-10 15:23:00,340 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:23:00,340 - INFO - Saving data for SMPDL3A (Q92484) - esm_morgan_classification
+2025-09-10 15:23:00,390 - WARNING - No activities found for Q92484
+2025-09-10 15:23:00,390 - WARNING - No activities found for SMPDL3A (Q92484)
+2025-09-10 15:23:00,390 - INFO - Processing protein: GABPA (Q06546)
+2025-09-10 15:23:00,391 - INFO - Saving data for GABPA (Q06546) - morgan_regression
+2025-09-10 15:23:00,441 - WARNING - No activities found for Q06546
+2025-09-10 15:23:00,442 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:23:00,442 - INFO - Saving data for GABPA (Q06546) - morgan_classification
+2025-09-10 15:23:00,493 - WARNING - No activities found for Q06546
+2025-09-10 15:23:00,493 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:23:00,493 - INFO - Saving data for GABPA (Q06546) - esm_morgan_regression
+2025-09-10 15:23:00,544 - WARNING - No activities found for Q06546
+2025-09-10 15:23:00,544 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:23:00,544 - INFO - Saving data for GABPA (Q06546) - esm_morgan_classification
+2025-09-10 15:23:00,598 - WARNING - No activities found for Q06546
+2025-09-10 15:23:00,598 - WARNING - No activities found for GABPA (Q06546)
+2025-09-10 15:23:00,598 - INFO - Processing protein: HRH1 (P35367)
+2025-09-10 15:23:00,599 - INFO - Saving data for HRH1 (P35367) - morgan_regression
+2025-09-10 15:23:00,670 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:23:02,986 - INFO - Saved data for HRH1 (P35367) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/input_data/HRH1_P35367_data.pkl
+2025-09-10 15:23:02,987 - INFO -   - Samples: 945
+2025-09-10 15:23:02,987 - INFO -   - Features: 2048
+2025-09-10 15:23:02,987 - INFO -   - Target type: continuous
+2025-09-10 15:23:02,988 - INFO - Saving data for HRH1 (P35367) - morgan_classification
+2025-09-10 15:23:03,044 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:23:05,327 - ERROR - Error processing HRH1 (P35367) for morgan_classification: '>=' not supported between instances of 'str' and 'float'
+2025-09-10 15:23:05,329 - INFO - Saving data for HRH1 (P35367) - esm_morgan_regression
+2025-09-10 15:23:05,386 - INFO - Retrieved 945 activities for P35367
+2025-09-10 15:23:07,671 - INFO - Retrieved ESM embedding for P35367 with shape: (1280,)
+2025-09-10 15:23:07,730 - INFO - Saved data for HRH1 (P35367) to /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/input_data/HRH1_P35367_data.pkl
+2025-09-10 15:23:07,731 - INFO -   - Samples: 945
+2025-09-10 15:23:07,731 - INFO -   - Features: 3328
+2025-09-10 15:23:07,731 - INFO -   - Target type: continuous
+2025-09-10 15:23:07,732 - INFO - Saving data for HRH1 (P35367) - esm_morgan_classification
+2025-09-10 15:23:07,792 - INFO - Retrieved 945 activities for P35367

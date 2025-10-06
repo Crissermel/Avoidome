@@ -1,0 +1,20 @@
+2025-08-07 15:32:14,868 - INFO - Starting classification results aggregation...
+2025-08-07 15:32:14,870 - INFO - Loaded 172 fold-level results from /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/classification_results.csv
+2025-08-07 15:32:14,943 - INFO - Aggregation complete:
+2025-08-07 15:32:14,943 - INFO -   Total proteins: 52
+2025-08-07 15:32:14,943 - INFO -   Successful models: 30
+2025-08-07 15:32:14,943 - INFO -   Failed models: 22
+2025-08-07 15:32:14,943 - INFO -   Results saved to: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/aggregated_classification_results.csv
+2025-08-07 15:32:14,943 - INFO - 
+Performance Summary (successful models):
+2025-08-07 15:32:14,943 - INFO -   Average Accuracy: 0.832
+2025-08-07 15:32:14,943 - INFO -   Average Precision: 0.748
+2025-08-07 15:32:14,944 - INFO -   Average Recall: 0.717
+2025-08-07 15:32:14,944 - INFO -   Average F1-Score: 0.722
+2025-08-07 15:32:14,945 - INFO - 
+Top 5 performing proteins (by F1-score):
+2025-08-07 15:32:14,946 - INFO -   CHRM3: F1=0.935, Accuracy=0.899
+2025-08-07 15:32:14,946 - INFO -   AHR: F1=0.920, Accuracy=0.860
+2025-08-07 15:32:14,946 - INFO -   ADRA1A: F1=0.919, Accuracy=0.866
+2025-08-07 15:32:14,946 - INFO -   ADRB2: F1=0.916, Accuracy=0.869
+2025-08-07 15:32:14,946 - INFO -   SLC6A4: F1=0.896, Accuracy=0.852

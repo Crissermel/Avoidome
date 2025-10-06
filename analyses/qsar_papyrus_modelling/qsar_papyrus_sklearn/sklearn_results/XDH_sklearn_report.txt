@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: XDH
+Date: 2025-07-30 14:34:09.161438
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -6490750355793420943884288.0000 ± 4921621388192452182016000.0000
+  RMSE: 1671468308239.5901 ± 1291157851428.5942
+  MAE: 835705006131.2450 ± 320504060621.5542
+  Training Time: 0.2595s
+
+Random Forest:
+  R² Score: 0.7314 ± 0.1305
+  RMSE: 0.3659 ± 0.2831
+  MAE: 0.2523 ± 0.0597
+  Training Time: 2.5059s
+
+Gradient Boosting:
+  R² Score: 0.6829 ± 0.1752
+  RMSE: 0.3946 ± 0.3109
+  MAE: 0.2699 ± 0.0660
+  Training Time: 1.3535s
+
+SVM:
+  R² Score: 0.7183 ± 0.1147
+  RMSE: 0.3809 ± 0.3056
+  MAE: 0.2662 ± 0.0606
+  Training Time: 0.0483s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

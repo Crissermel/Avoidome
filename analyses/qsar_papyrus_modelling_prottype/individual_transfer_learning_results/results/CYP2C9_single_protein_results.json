@@ -1,0 +1,12 @@
+{
+  "target_protein": "CYP2C9",
+  "status": "success",
+  "n_total_samples": 466,
+  "n_train_samples": 372,
+  "n_test_samples": 94,
+  "rmse": 0.5322712263728604,
+  "mae": 0.4043858510638307,
+  "r2": 0.42499137496735895,
+  "target_uniprot": "P11712",
+  "total_activities_count": 466
+}

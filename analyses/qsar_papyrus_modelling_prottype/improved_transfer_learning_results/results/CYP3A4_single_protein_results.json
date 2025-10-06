@@ -1,0 +1,12 @@
+{
+  "target_protein": "CYP3A4",
+  "status": "success",
+  "n_total_samples": 1387,
+  "n_train_samples": 1109,
+  "n_test_samples": 278,
+  "rmse": 0.5117896422457883,
+  "mae": 0.37687258992805756,
+  "r2": 0.6360622555304838,
+  "target_uniprot": "P08684",
+  "total_activities_count": 1387
+}

@@ -1,0 +1,18 @@
+{
+  "target_protein": "ADRB1",
+  "protein_type": "ADRB",
+  "status": "success",
+  "n_target_samples": 614,
+  "n_training_samples": 860,
+  "n_same_type_proteins": 1,
+  "rmse": 0.7497438147623454,
+  "mae": 0.5522149776422772,
+  "r2": 0.5651200617295166,
+  "target_uniprot": "P08588",
+  "same_type_proteins": [
+    "ADRB2"
+  ],
+  "training_activities_count": 860,
+  "target_activities_count": 614,
+  "approach": "fine_tuned_ensemble"
+}

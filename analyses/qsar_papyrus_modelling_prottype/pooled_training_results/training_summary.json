@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-09-05T12:50:40.148387",
+  "total_proteins": 31,
+  "pooled_avg_r2": -0.18827808971547558,
+  "single_avg_r2": 0.22661310155892395,
+  "pooled_avg_rmse": 0.854616757157065,
+  "single_avg_rmse": 0.6737788413087673,
+  "improved_proteins": 5,
+  "worsened_proteins": 26
+}

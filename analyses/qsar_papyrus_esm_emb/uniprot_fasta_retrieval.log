@@ -1,0 +1,570 @@
+2025-07-31 16:17:30,034 - INFO - Starting UniProt FASTA retrieval
+2025-07-31 16:17:30,035 - INFO - Reading UniProt IDs from analyses/qsar_papyrus_modelling/multi_organism_results.csv
+2025-07-31 16:17:30,038 - INFO - Found 138 unique UniProt IDs
+2025-07-31 16:17:30,038 - INFO - Found UniProt IDs:
+2025-07-31 16:17:30,038 - INFO -   - A0A8I5ZXE0
+2025-07-31 16:17:30,038 - INFO -   - A0A8I6AQW6
+2025-07-31 16:17:30,038 - INFO -   - A0A8I6GML2
+2025-07-31 16:17:30,038 - INFO -   - B2RX82
+2025-07-31 16:17:30,038 - INFO -   - F1LNR9
+2025-07-31 16:17:30,038 - INFO -   - G3X8Z7
+2025-07-31 16:17:30,038 - INFO -   - O08962
+2025-07-31 16:17:30,038 - INFO -   - O35219
+2025-07-31 16:17:30,038 - INFO -   - O35627
+2025-07-31 16:17:30,038 - INFO -   - O54754
+2025-07-31 16:17:30,038 - INFO -   - O54915
+2025-07-31 16:17:30,038 - INFO -   - O55192
+2025-07-31 16:17:30,038 - INFO -   - O75469
+2025-07-31 16:17:30,038 - INFO -   - O94956
+2025-07-31 16:17:30,038 - INFO -   - O95154
+2025-07-31 16:17:30,038 - INFO -   - P00186
+2025-07-31 16:17:30,039 - INFO -   - P00352
+2025-07-31 16:17:30,039 - INFO -   - P00502
+2025-07-31 16:17:30,039 - INFO -   - P02763
+2025-07-31 16:17:30,039 - INFO -   - P02764
+2025-07-31 16:17:30,039 - INFO -   - P04757
+2025-07-31 16:17:30,039 - INFO -   - P04799
+2025-07-31 16:17:30,039 - INFO -   - P05177
+2025-07-31 16:17:30,039 - INFO -   - P07327
+2025-07-31 16:17:30,039 - INFO -   - P07550
+2025-07-31 16:17:30,039 - INFO -   - P08172
+2025-07-31 16:17:30,039 - INFO -   - P08263
+2025-07-31 16:17:30,039 - INFO -   - P08482
+2025-07-31 16:17:30,039 - INFO -   - P08483
+2025-07-31 16:17:30,039 - INFO -   - P08588
+2025-07-31 16:17:30,039 - INFO -   - P08684
+2025-07-31 16:17:30,039 - INFO -   - P08913
+2025-07-31 16:17:30,039 - INFO -   - P10608
+2025-07-31 16:17:30,039 - INFO -   - P10635
+2025-07-31 16:17:30,039 - INFO -   - P10980
+2025-07-31 16:17:30,039 - INFO -   - P11229
+2025-07-31 16:17:30,039 - INFO -   - P11712
+2025-07-31 16:17:30,039 - INFO -   - P12657
+2025-07-31 16:17:30,039 - INFO -   - P13745
+2025-07-31 16:17:30,039 - INFO -   - P15389
+2025-07-31 16:17:30,039 - INFO -   - P16232
+2025-07-31 16:17:30,039 - INFO -   - P17988
+2025-07-31 16:17:30,039 - INFO -   - P18090
+2025-07-31 16:17:30,039 - INFO -   - P18762
+2025-07-31 16:17:30,039 - INFO -   - P19643
+2025-07-31 16:17:30,039 - INFO -   - P20309
+2025-07-31 16:17:30,039 - INFO -   - P20420
+2025-07-31 16:17:30,039 - INFO -   - P20813
+2025-07-31 16:17:30,039 - INFO -   - P21396
+2025-07-31 16:17:30,039 - INFO -   - P21397
+2025-07-31 16:17:30,039 - INFO -   - P22909
+2025-07-31 16:17:30,039 - INFO -   - P22985
+2025-07-31 16:17:30,039 - INFO -   - P23944
+2025-07-31 16:17:30,039 - INFO -   - P23975
+2025-07-31 16:17:30,039 - INFO -   - P23977
+2025-07-31 16:17:30,039 - INFO -   - P24549
+2025-07-31 16:17:30,040 - INFO -   - P25100
+2025-07-31 16:17:30,040 - INFO -   - P27338
+2025-07-31 16:17:30,040 - INFO -   - P28845
+2025-07-31 16:17:30,040 - INFO -   - P30532
+2025-07-31 16:17:30,040 - INFO -   - P30561
+2025-07-31 16:17:30,040 - INFO -   - P30994
+2025-07-31 16:17:30,040 - INFO -   - P31390
+2025-07-31 16:17:30,040 - INFO -   - P31645
+2025-07-31 16:17:30,040 - INFO -   - P31652
+2025-07-31 16:17:30,040 - INFO -   - P32297
+2025-07-31 16:17:30,040 - INFO -   - P33261
+2025-07-31 16:17:30,040 - INFO -   - P34971
+2025-07-31 16:17:30,040 - INFO -   - P34972
+2025-07-31 16:17:30,040 - INFO -   - P35367
+2025-07-31 16:17:30,040 - INFO -   - P35869
+2025-07-31 16:17:30,040 - INFO -   - P36365
+2025-07-31 16:17:30,040 - INFO -   - P36544
+2025-07-31 16:17:30,040 - INFO -   - P38918
+2025-07-31 16:17:30,040 - INFO -   - P41350
+2025-07-31 16:17:30,040 - INFO -   - P41595
+2025-07-31 16:17:30,040 - INFO -   - P41738
+2025-07-31 16:17:30,040 - INFO -   - P43144
+2025-07-31 16:17:30,040 - INFO -   - P47936
+2025-07-31 16:17:30,040 - INFO -   - P47989
+2025-07-31 16:17:30,040 - INFO -   - P49582
+2025-07-31 16:17:30,040 - INFO -   - P49817
+2025-07-31 16:17:30,040 - INFO -   - P50172
+2025-07-31 16:17:30,040 - INFO -   - P50225
+2025-07-31 16:17:30,040 - INFO -   - P50285
+2025-07-31 16:17:30,040 - INFO -   - P51647
+2025-07-31 16:17:30,040 - INFO -   - P52840
+2025-07-31 16:17:30,040 - INFO -   - P54283
+2025-07-31 16:17:30,041 - INFO -   - P70158
+2025-07-31 16:17:30,041 - INFO -   - P70174
+2025-07-31 16:17:30,041 - INFO -   - P97718
+2025-07-31 16:17:30,041 - INFO -   - Q00422
+2025-07-31 16:17:30,041 - INFO -   - Q00519
+2025-07-31 16:17:30,041 - INFO -   - Q01338
+2025-07-31 16:17:30,041 - INFO -   - Q01740
+2025-07-31 16:17:30,041 - INFO -   - Q01959
+2025-07-31 16:17:30,041 - INFO -   - Q02152
+2025-07-31 16:17:30,041 - INFO -   - Q02641
+2025-07-31 16:17:30,041 - INFO -   - Q03135
+2025-07-31 16:17:30,041 - INFO -   - Q05941
+2025-07-31 16:17:30,041 - INFO -   - Q06278
+2025-07-31 16:17:30,041 - INFO -   - Q06546
+2025-07-31 16:17:30,041 - INFO -   - Q12809
+2025-07-31 16:17:30,041 - INFO -   - Q14524
+2025-07-31 16:17:30,041 - INFO -   - Q14994
+2025-07-31 16:17:30,041 - INFO -   - Q15070
+2025-07-31 16:17:30,041 - INFO -   - Q2MKA5
+2025-07-31 16:17:30,041 - INFO -   - Q5M7A7
+2025-07-31 16:17:30,041 - INFO -   - Q5M8N0
+2025-07-31 16:17:30,041 - INFO -   - Q60590
+2025-07-31 16:17:30,042 - INFO -   - Q60857
+2025-07-31 16:17:30,042 - INFO -   - Q61327
+2025-07-31 16:17:30,042 - INFO -   - Q64133
+2025-07-31 16:17:30,042 - INFO -   - Q641Z7
+2025-07-31 16:17:30,042 - INFO -   - Q8BGA9
+2025-07-31 16:17:30,042 - INFO -   - Q8BW75
+2025-07-31 16:17:30,042 - INFO -   - Q8BXB6
+2025-07-31 16:17:30,042 - INFO -   - Q8C9B9
+2025-07-31 16:17:30,042 - INFO -   - Q8R3Z5
+2025-07-31 16:17:30,042 - INFO -   - Q8R4G9
+2025-07-31 16:17:30,042 - INFO -   - Q92484
+2025-07-31 16:17:30,042 - INFO -   - Q96F85
+2025-07-31 16:17:30,042 - INFO -   - Q9BTC0
+2025-07-31 16:17:30,042 - INFO -   - Q9ERZ3
+2025-07-31 16:17:30,042 - INFO -   - Q9ERZ4
+2025-07-31 16:17:30,042 - INFO -   - Q9GZZ6
+2025-07-31 16:17:30,042 - INFO -   - Q9JHI3
+2025-07-31 16:17:30,042 - INFO -   - Q9JIY7
+2025-07-31 16:17:30,042 - INFO -   - Q9JJV9
+2025-07-31 16:17:30,042 - INFO -   - Q9JLB5
+2025-07-31 16:17:30,042 - INFO -   - Q9QUS1
+2025-07-31 16:17:30,042 - INFO -   - Q9QXT3
+2025-07-31 16:17:30,042 - INFO -   - Q9QZN9
+2025-07-31 16:17:30,042 - INFO -   - Q9R1A7
+2025-07-31 16:17:30,042 - INFO -   - Q9UGM1
+2025-07-31 16:17:30,042 - INFO -   - Q9UHE5
+2025-07-31 16:17:30,042 - INFO -   - Q9Y6L6
+2025-07-31 16:17:30,042 - INFO -   - Q9Z0U5
+2025-07-31 16:17:30,042 - INFO - Starting download of 138 FASTA files
+2025-07-31 16:17:30,042 - INFO - Processing 1/138: A0A8I5ZXE0
+2025-07-31 16:17:30,042 - INFO - Downloading A0A8I5ZXE0 from https://rest.uniprot.org/uniprotkb/A0A8I5ZXE0.fasta
+2025-07-31 16:17:30,121 - INFO - Successfully downloaded A0A8I5ZXE0
+2025-07-31 16:17:31,122 - INFO - Processing 2/138: A0A8I6AQW6
+2025-07-31 16:17:31,123 - INFO - Downloading A0A8I6AQW6 from https://rest.uniprot.org/uniprotkb/A0A8I6AQW6.fasta
+2025-07-31 16:17:31,146 - INFO - Successfully downloaded A0A8I6AQW6
+2025-07-31 16:17:32,148 - INFO - Processing 3/138: A0A8I6GML2
+2025-07-31 16:17:32,148 - INFO - Downloading A0A8I6GML2 from https://rest.uniprot.org/uniprotkb/A0A8I6GML2.fasta
+2025-07-31 16:17:32,169 - INFO - Successfully downloaded A0A8I6GML2
+2025-07-31 16:17:33,170 - INFO - Processing 4/138: B2RX82
+2025-07-31 16:17:33,170 - INFO - Downloading B2RX82 from https://rest.uniprot.org/uniprotkb/B2RX82.fasta
+2025-07-31 16:17:33,194 - INFO - Successfully downloaded B2RX82
+2025-07-31 16:17:34,195 - INFO - Processing 5/138: F1LNR9
+2025-07-31 16:17:34,195 - INFO - Downloading F1LNR9 from https://rest.uniprot.org/uniprotkb/F1LNR9.fasta
+2025-07-31 16:17:34,214 - INFO - Successfully downloaded F1LNR9
+2025-07-31 16:17:35,216 - INFO - Processing 6/138: G3X8Z7
+2025-07-31 16:17:35,216 - INFO - Downloading G3X8Z7 from https://rest.uniprot.org/uniprotkb/G3X8Z7.fasta
+2025-07-31 16:17:35,241 - INFO - Successfully downloaded G3X8Z7
+2025-07-31 16:17:36,243 - INFO - Processing 7/138: O08962
+2025-07-31 16:17:36,243 - INFO - Downloading O08962 from https://rest.uniprot.org/uniprotkb/O08962.fasta
+2025-07-31 16:17:36,275 - INFO - Successfully downloaded O08962
+2025-07-31 16:17:37,276 - INFO - Processing 8/138: O35219
+2025-07-31 16:17:37,276 - INFO - Downloading O35219 from https://rest.uniprot.org/uniprotkb/O35219.fasta
+2025-07-31 16:17:37,297 - INFO - Successfully downloaded O35219
+2025-07-31 16:17:38,298 - INFO - Processing 9/138: O35627
+2025-07-31 16:17:38,298 - INFO - Downloading O35627 from https://rest.uniprot.org/uniprotkb/O35627.fasta
+2025-07-31 16:17:38,319 - INFO - Successfully downloaded O35627
+2025-07-31 16:17:39,320 - INFO - Processing 10/138: O54754
+2025-07-31 16:17:39,320 - INFO - Downloading O54754 from https://rest.uniprot.org/uniprotkb/O54754.fasta
+2025-07-31 16:17:39,335 - INFO - Successfully downloaded O54754
+2025-07-31 16:17:40,336 - INFO - Processing 11/138: O54915
+2025-07-31 16:17:40,337 - INFO - Downloading O54915 from https://rest.uniprot.org/uniprotkb/O54915.fasta
+2025-07-31 16:17:40,359 - INFO - Successfully downloaded O54915
+2025-07-31 16:17:41,360 - INFO - Processing 12/138: O55192
+2025-07-31 16:17:41,361 - INFO - Downloading O55192 from https://rest.uniprot.org/uniprotkb/O55192.fasta
+2025-07-31 16:17:41,388 - INFO - Successfully downloaded O55192
+2025-07-31 16:17:42,389 - INFO - Processing 13/138: O75469
+2025-07-31 16:17:42,389 - INFO - Downloading O75469 from https://rest.uniprot.org/uniprotkb/O75469.fasta
+2025-07-31 16:17:42,404 - INFO - Successfully downloaded O75469
+2025-07-31 16:17:43,406 - INFO - Processing 14/138: O94956
+2025-07-31 16:17:43,406 - INFO - Downloading O94956 from https://rest.uniprot.org/uniprotkb/O94956.fasta
+2025-07-31 16:17:43,419 - INFO - Successfully downloaded O94956
+2025-07-31 16:17:44,421 - INFO - Processing 15/138: O95154
+2025-07-31 16:17:44,421 - INFO - Downloading O95154 from https://rest.uniprot.org/uniprotkb/O95154.fasta
+2025-07-31 16:17:44,436 - INFO - Successfully downloaded O95154
+2025-07-31 16:17:45,437 - INFO - Processing 16/138: P00186
+2025-07-31 16:17:45,438 - INFO - Downloading P00186 from https://rest.uniprot.org/uniprotkb/P00186.fasta
+2025-07-31 16:17:45,452 - INFO - Successfully downloaded P00186
+2025-07-31 16:17:46,454 - INFO - Processing 17/138: P00352
+2025-07-31 16:17:46,454 - INFO - Downloading P00352 from https://rest.uniprot.org/uniprotkb/P00352.fasta
+2025-07-31 16:17:46,467 - INFO - Successfully downloaded P00352
+2025-07-31 16:17:47,469 - INFO - Processing 18/138: P00502
+2025-07-31 16:17:47,469 - INFO - Downloading P00502 from https://rest.uniprot.org/uniprotkb/P00502.fasta
+2025-07-31 16:17:47,482 - INFO - Successfully downloaded P00502
+2025-07-31 16:17:48,484 - INFO - Processing 19/138: P02763
+2025-07-31 16:17:48,484 - INFO - Downloading P02763 from https://rest.uniprot.org/uniprotkb/P02763.fasta
+2025-07-31 16:17:48,497 - INFO - Successfully downloaded P02763
+2025-07-31 16:17:49,499 - INFO - Processing 20/138: P02764
+2025-07-31 16:17:49,499 - INFO - Downloading P02764 from https://rest.uniprot.org/uniprotkb/P02764.fasta
+2025-07-31 16:17:49,524 - INFO - Successfully downloaded P02764
+2025-07-31 16:17:50,525 - INFO - Processing 21/138: P04757
+2025-07-31 16:17:50,526 - INFO - Downloading P04757 from https://rest.uniprot.org/uniprotkb/P04757.fasta
+2025-07-31 16:17:50,546 - INFO - Successfully downloaded P04757
+2025-07-31 16:17:51,548 - INFO - Processing 22/138: P04799
+2025-07-31 16:17:51,548 - INFO - Downloading P04799 from https://rest.uniprot.org/uniprotkb/P04799.fasta
+2025-07-31 16:17:51,568 - INFO - Successfully downloaded P04799
+2025-07-31 16:17:52,570 - INFO - Processing 23/138: P05177
+2025-07-31 16:17:52,570 - INFO - Downloading P05177 from https://rest.uniprot.org/uniprotkb/P05177.fasta
+2025-07-31 16:17:52,584 - INFO - Successfully downloaded P05177
+2025-07-31 16:17:53,585 - INFO - Processing 24/138: P07327
+2025-07-31 16:17:53,585 - INFO - Downloading P07327 from https://rest.uniprot.org/uniprotkb/P07327.fasta
+2025-07-31 16:17:53,600 - INFO - Successfully downloaded P07327
+2025-07-31 16:17:54,601 - INFO - Processing 25/138: P07550
+2025-07-31 16:17:54,601 - INFO - Downloading P07550 from https://rest.uniprot.org/uniprotkb/P07550.fasta
+2025-07-31 16:17:54,616 - INFO - Successfully downloaded P07550
+2025-07-31 16:17:55,617 - INFO - Processing 26/138: P08172
+2025-07-31 16:17:55,618 - INFO - Downloading P08172 from https://rest.uniprot.org/uniprotkb/P08172.fasta
+2025-07-31 16:17:55,631 - INFO - Successfully downloaded P08172
+2025-07-31 16:17:56,633 - INFO - Processing 27/138: P08263
+2025-07-31 16:17:56,634 - INFO - Downloading P08263 from https://rest.uniprot.org/uniprotkb/P08263.fasta
+2025-07-31 16:17:56,647 - INFO - Successfully downloaded P08263
+2025-07-31 16:17:57,649 - INFO - Processing 28/138: P08482
+2025-07-31 16:17:57,649 - INFO - Downloading P08482 from https://rest.uniprot.org/uniprotkb/P08482.fasta
+2025-07-31 16:17:57,670 - INFO - Successfully downloaded P08482
+2025-07-31 16:17:58,671 - INFO - Processing 29/138: P08483
+2025-07-31 16:17:58,671 - INFO - Downloading P08483 from https://rest.uniprot.org/uniprotkb/P08483.fasta
+2025-07-31 16:17:58,695 - INFO - Successfully downloaded P08483
+2025-07-31 16:17:59,696 - INFO - Processing 30/138: P08588
+2025-07-31 16:17:59,697 - INFO - Downloading P08588 from https://rest.uniprot.org/uniprotkb/P08588.fasta
+2025-07-31 16:17:59,710 - INFO - Successfully downloaded P08588
+2025-07-31 16:18:00,712 - INFO - Processing 31/138: P08684
+2025-07-31 16:18:00,712 - INFO - Downloading P08684 from https://rest.uniprot.org/uniprotkb/P08684.fasta
+2025-07-31 16:18:00,726 - INFO - Successfully downloaded P08684
+2025-07-31 16:18:01,728 - INFO - Processing 32/138: P08913
+2025-07-31 16:18:01,728 - INFO - Downloading P08913 from https://rest.uniprot.org/uniprotkb/P08913.fasta
+2025-07-31 16:18:01,741 - INFO - Successfully downloaded P08913
+2025-07-31 16:18:02,743 - INFO - Processing 33/138: P10608
+2025-07-31 16:18:02,743 - INFO - Downloading P10608 from https://rest.uniprot.org/uniprotkb/P10608.fasta
+2025-07-31 16:18:02,763 - INFO - Successfully downloaded P10608
+2025-07-31 16:18:03,765 - INFO - Processing 34/138: P10635
+2025-07-31 16:18:03,765 - INFO - Downloading P10635 from https://rest.uniprot.org/uniprotkb/P10635.fasta
+2025-07-31 16:18:03,787 - INFO - Successfully downloaded P10635
+2025-07-31 16:18:04,789 - INFO - Processing 35/138: P10980
+2025-07-31 16:18:04,789 - INFO - Downloading P10980 from https://rest.uniprot.org/uniprotkb/P10980.fasta
+2025-07-31 16:18:04,819 - INFO - Successfully downloaded P10980
+2025-07-31 16:18:05,820 - INFO - Processing 36/138: P11229
+2025-07-31 16:18:05,821 - INFO - Downloading P11229 from https://rest.uniprot.org/uniprotkb/P11229.fasta
+2025-07-31 16:18:05,835 - INFO - Successfully downloaded P11229
+2025-07-31 16:18:06,836 - INFO - Processing 37/138: P11712
+2025-07-31 16:18:06,837 - INFO - Downloading P11712 from https://rest.uniprot.org/uniprotkb/P11712.fasta
+2025-07-31 16:18:06,853 - INFO - Successfully downloaded P11712
+2025-07-31 16:18:07,854 - INFO - Processing 38/138: P12657
+2025-07-31 16:18:07,854 - INFO - Downloading P12657 from https://rest.uniprot.org/uniprotkb/P12657.fasta
+2025-07-31 16:18:07,873 - INFO - Successfully downloaded P12657
+2025-07-31 16:18:08,875 - INFO - Processing 39/138: P13745
+2025-07-31 16:18:08,875 - INFO - Downloading P13745 from https://rest.uniprot.org/uniprotkb/P13745.fasta
+2025-07-31 16:18:08,889 - INFO - Successfully downloaded P13745
+2025-07-31 16:18:09,890 - INFO - Processing 40/138: P15389
+2025-07-31 16:18:09,891 - INFO - Downloading P15389 from https://rest.uniprot.org/uniprotkb/P15389.fasta
+2025-07-31 16:18:09,904 - INFO - Successfully downloaded P15389
+2025-07-31 16:18:10,906 - INFO - Processing 41/138: P16232
+2025-07-31 16:18:10,907 - INFO - Downloading P16232 from https://rest.uniprot.org/uniprotkb/P16232.fasta
+2025-07-31 16:18:10,920 - INFO - Successfully downloaded P16232
+2025-07-31 16:18:11,922 - INFO - Processing 42/138: P17988
+2025-07-31 16:18:11,922 - INFO - Downloading P17988 from https://rest.uniprot.org/uniprotkb/P17988.fasta
+2025-07-31 16:18:11,947 - INFO - Successfully downloaded P17988
+2025-07-31 16:18:12,948 - INFO - Processing 43/138: P18090
+2025-07-31 16:18:12,949 - INFO - Downloading P18090 from https://rest.uniprot.org/uniprotkb/P18090.fasta
+2025-07-31 16:18:12,973 - INFO - Successfully downloaded P18090
+2025-07-31 16:18:13,974 - INFO - Processing 44/138: P18762
+2025-07-31 16:18:13,975 - INFO - Downloading P18762 from https://rest.uniprot.org/uniprotkb/P18762.fasta
+2025-07-31 16:18:13,989 - INFO - Successfully downloaded P18762
+2025-07-31 16:18:14,991 - INFO - Processing 45/138: P19643
+2025-07-31 16:18:14,991 - INFO - Downloading P19643 from https://rest.uniprot.org/uniprotkb/P19643.fasta
+2025-07-31 16:18:15,006 - INFO - Successfully downloaded P19643
+2025-07-31 16:18:16,008 - INFO - Processing 46/138: P20309
+2025-07-31 16:18:16,008 - INFO - Downloading P20309 from https://rest.uniprot.org/uniprotkb/P20309.fasta
+2025-07-31 16:18:16,023 - INFO - Successfully downloaded P20309
+2025-07-31 16:18:17,024 - INFO - Processing 47/138: P20420
+2025-07-31 16:18:17,025 - INFO - Downloading P20420 from https://rest.uniprot.org/uniprotkb/P20420.fasta
+2025-07-31 16:18:17,057 - INFO - Successfully downloaded P20420
+2025-07-31 16:18:18,058 - INFO - Processing 48/138: P20813
+2025-07-31 16:18:18,059 - INFO - Downloading P20813 from https://rest.uniprot.org/uniprotkb/P20813.fasta
+2025-07-31 16:18:18,075 - INFO - Successfully downloaded P20813
+2025-07-31 16:18:19,076 - INFO - Processing 49/138: P21396
+2025-07-31 16:18:19,076 - INFO - Downloading P21396 from https://rest.uniprot.org/uniprotkb/P21396.fasta
+2025-07-31 16:18:19,090 - INFO - Successfully downloaded P21396
+2025-07-31 16:18:20,092 - INFO - Processing 50/138: P21397
+2025-07-31 16:18:20,092 - INFO - Downloading P21397 from https://rest.uniprot.org/uniprotkb/P21397.fasta
+2025-07-31 16:18:20,107 - INFO - Successfully downloaded P21397
+2025-07-31 16:18:21,109 - INFO - Processing 51/138: P22909
+2025-07-31 16:18:21,109 - INFO - Downloading P22909 from https://rest.uniprot.org/uniprotkb/P22909.fasta
+2025-07-31 16:18:21,130 - INFO - Successfully downloaded P22909
+2025-07-31 16:18:22,131 - INFO - Processing 52/138: P22985
+2025-07-31 16:18:22,132 - INFO - Downloading P22985 from https://rest.uniprot.org/uniprotkb/P22985.fasta
+2025-07-31 16:18:22,153 - INFO - Successfully downloaded P22985
+2025-07-31 16:18:23,155 - INFO - Processing 53/138: P23944
+2025-07-31 16:18:23,155 - INFO - Downloading P23944 from https://rest.uniprot.org/uniprotkb/P23944.fasta
+2025-07-31 16:18:23,185 - INFO - Successfully downloaded P23944
+2025-07-31 16:18:24,187 - INFO - Processing 54/138: P23975
+2025-07-31 16:18:24,188 - INFO - Downloading P23975 from https://rest.uniprot.org/uniprotkb/P23975.fasta
+2025-07-31 16:18:24,202 - INFO - Successfully downloaded P23975
+2025-07-31 16:18:25,203 - INFO - Processing 55/138: P23977
+2025-07-31 16:18:25,204 - INFO - Downloading P23977 from https://rest.uniprot.org/uniprotkb/P23977.fasta
+2025-07-31 16:18:25,218 - INFO - Successfully downloaded P23977
+2025-07-31 16:18:26,219 - INFO - Processing 56/138: P24549
+2025-07-31 16:18:26,219 - INFO - Downloading P24549 from https://rest.uniprot.org/uniprotkb/P24549.fasta
+2025-07-31 16:18:26,235 - INFO - Successfully downloaded P24549
+2025-07-31 16:18:27,236 - INFO - Processing 57/138: P25100
+2025-07-31 16:18:27,236 - INFO - Downloading P25100 from https://rest.uniprot.org/uniprotkb/P25100.fasta
+2025-07-31 16:18:27,250 - INFO - Successfully downloaded P25100
+2025-07-31 16:18:28,252 - INFO - Processing 58/138: P27338
+2025-07-31 16:18:28,252 - INFO - Downloading P27338 from https://rest.uniprot.org/uniprotkb/P27338.fasta
+2025-07-31 16:18:28,273 - INFO - Successfully downloaded P27338
+2025-07-31 16:18:29,275 - INFO - Processing 59/138: P28845
+2025-07-31 16:18:29,275 - INFO - Downloading P28845 from https://rest.uniprot.org/uniprotkb/P28845.fasta
+2025-07-31 16:18:29,290 - INFO - Successfully downloaded P28845
+2025-07-31 16:18:30,291 - INFO - Processing 60/138: P30532
+2025-07-31 16:18:30,292 - INFO - Downloading P30532 from https://rest.uniprot.org/uniprotkb/P30532.fasta
+2025-07-31 16:18:30,305 - INFO - Successfully downloaded P30532
+2025-07-31 16:18:31,307 - INFO - Processing 61/138: P30561
+2025-07-31 16:18:31,307 - INFO - Downloading P30561 from https://rest.uniprot.org/uniprotkb/P30561.fasta
+2025-07-31 16:18:31,329 - INFO - Successfully downloaded P30561
+2025-07-31 16:18:32,331 - INFO - Processing 62/138: P30994
+2025-07-31 16:18:32,331 - INFO - Downloading P30994 from https://rest.uniprot.org/uniprotkb/P30994.fasta
+2025-07-31 16:18:32,376 - INFO - Successfully downloaded P30994
+2025-07-31 16:18:33,378 - INFO - Processing 63/138: P31390
+2025-07-31 16:18:33,378 - INFO - Downloading P31390 from https://rest.uniprot.org/uniprotkb/P31390.fasta
+2025-07-31 16:18:33,398 - INFO - Successfully downloaded P31390
+2025-07-31 16:18:34,399 - INFO - Processing 64/138: P31645
+2025-07-31 16:18:34,400 - INFO - Downloading P31645 from https://rest.uniprot.org/uniprotkb/P31645.fasta
+2025-07-31 16:18:34,413 - INFO - Successfully downloaded P31645
+2025-07-31 16:18:35,415 - INFO - Processing 65/138: P31652
+2025-07-31 16:18:35,415 - INFO - Downloading P31652 from https://rest.uniprot.org/uniprotkb/P31652.fasta
+2025-07-31 16:18:35,429 - INFO - Successfully downloaded P31652
+2025-07-31 16:18:36,430 - INFO - Processing 66/138: P32297
+2025-07-31 16:18:36,431 - INFO - Downloading P32297 from https://rest.uniprot.org/uniprotkb/P32297.fasta
+2025-07-31 16:18:36,444 - INFO - Successfully downloaded P32297
+2025-07-31 16:18:37,446 - INFO - Processing 67/138: P33261
+2025-07-31 16:18:37,447 - INFO - Downloading P33261 from https://rest.uniprot.org/uniprotkb/P33261.fasta
+2025-07-31 16:18:37,460 - INFO - Successfully downloaded P33261
+2025-07-31 16:18:38,462 - INFO - Processing 68/138: P34971
+2025-07-31 16:18:38,462 - INFO - Downloading P34971 from https://rest.uniprot.org/uniprotkb/P34971.fasta
+2025-07-31 16:18:38,485 - INFO - Successfully downloaded P34971
+2025-07-31 16:18:39,487 - INFO - Processing 69/138: P34972
+2025-07-31 16:18:39,487 - INFO - Downloading P34972 from https://rest.uniprot.org/uniprotkb/P34972.fasta
+2025-07-31 16:18:39,501 - INFO - Successfully downloaded P34972
+2025-07-31 16:18:40,502 - INFO - Processing 70/138: P35367
+2025-07-31 16:18:40,503 - INFO - Downloading P35367 from https://rest.uniprot.org/uniprotkb/P35367.fasta
+2025-07-31 16:18:40,516 - INFO - Successfully downloaded P35367
+2025-07-31 16:18:41,517 - INFO - Processing 71/138: P35869
+2025-07-31 16:18:41,518 - INFO - Downloading P35869 from https://rest.uniprot.org/uniprotkb/P35869.fasta
+2025-07-31 16:18:41,532 - INFO - Successfully downloaded P35869
+2025-07-31 16:18:42,533 - INFO - Processing 72/138: P36365
+2025-07-31 16:18:42,533 - INFO - Downloading P36365 from https://rest.uniprot.org/uniprotkb/P36365.fasta
+2025-07-31 16:18:42,556 - INFO - Successfully downloaded P36365
+2025-07-31 16:18:43,557 - INFO - Processing 73/138: P36544
+2025-07-31 16:18:43,558 - INFO - Downloading P36544 from https://rest.uniprot.org/uniprotkb/P36544.fasta
+2025-07-31 16:18:43,572 - INFO - Successfully downloaded P36544
+2025-07-31 16:18:44,573 - INFO - Processing 74/138: P38918
+2025-07-31 16:18:44,574 - INFO - Downloading P38918 from https://rest.uniprot.org/uniprotkb/P38918.fasta
+2025-07-31 16:18:44,588 - INFO - Successfully downloaded P38918
+2025-07-31 16:18:45,589 - INFO - Processing 75/138: P41350
+2025-07-31 16:18:45,590 - INFO - Downloading P41350 from https://rest.uniprot.org/uniprotkb/P41350.fasta
+2025-07-31 16:18:45,632 - INFO - Successfully downloaded P41350
+2025-07-31 16:18:46,634 - INFO - Processing 76/138: P41595
+2025-07-31 16:18:46,634 - INFO - Downloading P41595 from https://rest.uniprot.org/uniprotkb/P41595.fasta
+2025-07-31 16:18:46,648 - INFO - Successfully downloaded P41595
+2025-07-31 16:18:47,650 - INFO - Processing 77/138: P41738
+2025-07-31 16:18:47,650 - INFO - Downloading P41738 from https://rest.uniprot.org/uniprotkb/P41738.fasta
+2025-07-31 16:18:47,674 - INFO - Successfully downloaded P41738
+2025-07-31 16:18:48,676 - INFO - Processing 78/138: P43144
+2025-07-31 16:18:48,676 - INFO - Downloading P43144 from https://rest.uniprot.org/uniprotkb/P43144.fasta
+2025-07-31 16:18:48,702 - INFO - Successfully downloaded P43144
+2025-07-31 16:18:49,704 - INFO - Processing 79/138: P47936
+2025-07-31 16:18:49,704 - INFO - Downloading P47936 from https://rest.uniprot.org/uniprotkb/P47936.fasta
+2025-07-31 16:18:49,721 - INFO - Successfully downloaded P47936
+2025-07-31 16:18:50,722 - INFO - Processing 80/138: P47989
+2025-07-31 16:18:50,723 - INFO - Downloading P47989 from https://rest.uniprot.org/uniprotkb/P47989.fasta
+2025-07-31 16:18:50,737 - INFO - Successfully downloaded P47989
+2025-07-31 16:18:51,738 - INFO - Processing 81/138: P49582
+2025-07-31 16:18:51,739 - INFO - Downloading P49582 from https://rest.uniprot.org/uniprotkb/P49582.fasta
+2025-07-31 16:18:51,760 - INFO - Successfully downloaded P49582
+2025-07-31 16:18:52,761 - INFO - Processing 82/138: P49817
+2025-07-31 16:18:52,761 - INFO - Downloading P49817 from https://rest.uniprot.org/uniprotkb/P49817.fasta
+2025-07-31 16:18:52,778 - INFO - Successfully downloaded P49817
+2025-07-31 16:18:53,779 - INFO - Processing 83/138: P50172
+2025-07-31 16:18:53,779 - INFO - Downloading P50172 from https://rest.uniprot.org/uniprotkb/P50172.fasta
+2025-07-31 16:18:53,796 - INFO - Successfully downloaded P50172
+2025-07-31 16:18:54,797 - INFO - Processing 84/138: P50225
+2025-07-31 16:18:54,798 - INFO - Downloading P50225 from https://rest.uniprot.org/uniprotkb/P50225.fasta
+2025-07-31 16:18:54,812 - INFO - Successfully downloaded P50225
+2025-07-31 16:18:55,813 - INFO - Processing 85/138: P50285
+2025-07-31 16:18:55,814 - INFO - Downloading P50285 from https://rest.uniprot.org/uniprotkb/P50285.fasta
+2025-07-31 16:18:55,829 - INFO - Successfully downloaded P50285
+2025-07-31 16:18:56,830 - INFO - Processing 86/138: P51647
+2025-07-31 16:18:56,830 - INFO - Downloading P51647 from https://rest.uniprot.org/uniprotkb/P51647.fasta
+2025-07-31 16:18:56,851 - INFO - Successfully downloaded P51647
+2025-07-31 16:18:57,853 - INFO - Processing 87/138: P52840
+2025-07-31 16:18:57,853 - INFO - Downloading P52840 from https://rest.uniprot.org/uniprotkb/P52840.fasta
+2025-07-31 16:18:57,869 - INFO - Successfully downloaded P52840
+2025-07-31 16:18:58,871 - INFO - Processing 88/138: P54283
+2025-07-31 16:18:58,871 - INFO - Downloading P54283 from https://rest.uniprot.org/uniprotkb/P54283.fasta
+2025-07-31 16:18:58,896 - INFO - Successfully downloaded P54283
+2025-07-31 16:18:59,898 - INFO - Processing 89/138: P70158
+2025-07-31 16:18:59,898 - INFO - Downloading P70158 from https://rest.uniprot.org/uniprotkb/P70158.fasta
+2025-07-31 16:18:59,912 - INFO - Successfully downloaded P70158
+2025-07-31 16:19:00,914 - INFO - Processing 90/138: P70174
+2025-07-31 16:19:00,914 - INFO - Downloading P70174 from https://rest.uniprot.org/uniprotkb/P70174.fasta
+2025-07-31 16:19:00,928 - INFO - Successfully downloaded P70174
+2025-07-31 16:19:01,929 - INFO - Processing 91/138: P97718
+2025-07-31 16:19:01,930 - INFO - Downloading P97718 from https://rest.uniprot.org/uniprotkb/P97718.fasta
+2025-07-31 16:19:01,954 - INFO - Successfully downloaded P97718
+2025-07-31 16:19:02,955 - INFO - Processing 92/138: Q00422
+2025-07-31 16:19:02,956 - INFO - Downloading Q00422 from https://rest.uniprot.org/uniprotkb/Q00422.fasta
+2025-07-31 16:19:02,978 - INFO - Successfully downloaded Q00422
+2025-07-31 16:19:03,979 - INFO - Processing 93/138: Q00519
+2025-07-31 16:19:03,980 - INFO - Downloading Q00519 from https://rest.uniprot.org/uniprotkb/Q00519.fasta
+2025-07-31 16:19:03,994 - INFO - Successfully downloaded Q00519
+2025-07-31 16:19:04,995 - INFO - Processing 94/138: Q01338
+2025-07-31 16:19:04,996 - INFO - Downloading Q01338 from https://rest.uniprot.org/uniprotkb/Q01338.fasta
+2025-07-31 16:19:05,019 - INFO - Successfully downloaded Q01338
+2025-07-31 16:19:06,021 - INFO - Processing 95/138: Q01740
+2025-07-31 16:19:06,021 - INFO - Downloading Q01740 from https://rest.uniprot.org/uniprotkb/Q01740.fasta
+2025-07-31 16:19:06,035 - INFO - Successfully downloaded Q01740
+2025-07-31 16:19:07,036 - INFO - Processing 96/138: Q01959
+2025-07-31 16:19:07,037 - INFO - Downloading Q01959 from https://rest.uniprot.org/uniprotkb/Q01959.fasta
+2025-07-31 16:19:07,053 - INFO - Successfully downloaded Q01959
+2025-07-31 16:19:08,054 - INFO - Processing 97/138: Q02152
+2025-07-31 16:19:08,055 - INFO - Downloading Q02152 from https://rest.uniprot.org/uniprotkb/Q02152.fasta
+2025-07-31 16:19:08,075 - INFO - Successfully downloaded Q02152
+2025-07-31 16:19:09,076 - INFO - Processing 98/138: Q02641
+2025-07-31 16:19:09,077 - INFO - Downloading Q02641 from https://rest.uniprot.org/uniprotkb/Q02641.fasta
+2025-07-31 16:19:09,099 - INFO - Successfully downloaded Q02641
+2025-07-31 16:19:10,100 - INFO - Processing 99/138: Q03135
+2025-07-31 16:19:10,101 - INFO - Downloading Q03135 from https://rest.uniprot.org/uniprotkb/Q03135.fasta
+2025-07-31 16:19:10,115 - INFO - Successfully downloaded Q03135
+2025-07-31 16:19:11,116 - INFO - Processing 100/138: Q05941
+2025-07-31 16:19:11,116 - INFO - Downloading Q05941 from https://rest.uniprot.org/uniprotkb/Q05941.fasta
+2025-07-31 16:19:11,137 - INFO - Successfully downloaded Q05941
+2025-07-31 16:19:12,139 - INFO - Processing 101/138: Q06278
+2025-07-31 16:19:12,139 - INFO - Downloading Q06278 from https://rest.uniprot.org/uniprotkb/Q06278.fasta
+2025-07-31 16:19:12,153 - INFO - Successfully downloaded Q06278
+2025-07-31 16:19:13,155 - INFO - Processing 102/138: Q06546
+2025-07-31 16:19:13,155 - INFO - Downloading Q06546 from https://rest.uniprot.org/uniprotkb/Q06546.fasta
+2025-07-31 16:19:13,169 - INFO - Successfully downloaded Q06546
+2025-07-31 16:19:14,171 - INFO - Processing 103/138: Q12809
+2025-07-31 16:19:14,171 - INFO - Downloading Q12809 from https://rest.uniprot.org/uniprotkb/Q12809.fasta
+2025-07-31 16:19:14,193 - INFO - Successfully downloaded Q12809
+2025-07-31 16:19:15,194 - INFO - Processing 104/138: Q14524
+2025-07-31 16:19:15,195 - INFO - Downloading Q14524 from https://rest.uniprot.org/uniprotkb/Q14524.fasta
+2025-07-31 16:19:15,209 - INFO - Successfully downloaded Q14524
+2025-07-31 16:19:16,211 - INFO - Processing 105/138: Q14994
+2025-07-31 16:19:16,211 - INFO - Downloading Q14994 from https://rest.uniprot.org/uniprotkb/Q14994.fasta
+2025-07-31 16:19:16,225 - INFO - Successfully downloaded Q14994
+2025-07-31 16:19:17,226 - INFO - Processing 106/138: Q15070
+2025-07-31 16:19:17,227 - INFO - Downloading Q15070 from https://rest.uniprot.org/uniprotkb/Q15070.fasta
+2025-07-31 16:19:17,244 - INFO - Successfully downloaded Q15070
+2025-07-31 16:19:18,245 - INFO - Processing 107/138: Q2MKA5
+2025-07-31 16:19:18,246 - INFO - Downloading Q2MKA5 from https://rest.uniprot.org/uniprotkb/Q2MKA5.fasta
+2025-07-31 16:19:18,268 - INFO - Successfully downloaded Q2MKA5
+2025-07-31 16:19:19,269 - INFO - Processing 108/138: Q5M7A7
+2025-07-31 16:19:19,269 - INFO - Downloading Q5M7A7 from https://rest.uniprot.org/uniprotkb/Q5M7A7.fasta
+2025-07-31 16:19:19,292 - INFO - Successfully downloaded Q5M7A7
+2025-07-31 16:19:20,294 - INFO - Processing 109/138: Q5M8N0
+2025-07-31 16:19:20,294 - INFO - Downloading Q5M8N0 from https://rest.uniprot.org/uniprotkb/Q5M8N0.fasta
+2025-07-31 16:19:20,308 - INFO - Successfully downloaded Q5M8N0
+2025-07-31 16:19:21,310 - INFO - Processing 110/138: Q60590
+2025-07-31 16:19:21,310 - INFO - Downloading Q60590 from https://rest.uniprot.org/uniprotkb/Q60590.fasta
+2025-07-31 16:19:21,325 - INFO - Successfully downloaded Q60590
+2025-07-31 16:19:22,326 - INFO - Processing 111/138: Q60857
+2025-07-31 16:19:22,327 - INFO - Downloading Q60857 from https://rest.uniprot.org/uniprotkb/Q60857.fasta
+2025-07-31 16:19:22,351 - INFO - Successfully downloaded Q60857
+2025-07-31 16:19:23,352 - INFO - Processing 112/138: Q61327
+2025-07-31 16:19:23,353 - INFO - Downloading Q61327 from https://rest.uniprot.org/uniprotkb/Q61327.fasta
+2025-07-31 16:19:23,370 - INFO - Successfully downloaded Q61327
+2025-07-31 16:19:24,372 - INFO - Processing 113/138: Q64133
+2025-07-31 16:19:24,372 - INFO - Downloading Q64133 from https://rest.uniprot.org/uniprotkb/Q64133.fasta
+2025-07-31 16:19:24,386 - INFO - Successfully downloaded Q64133
+2025-07-31 16:19:25,388 - INFO - Processing 114/138: Q641Z7
+2025-07-31 16:19:25,388 - INFO - Downloading Q641Z7 from https://rest.uniprot.org/uniprotkb/Q641Z7.fasta
+2025-07-31 16:19:25,409 - INFO - Successfully downloaded Q641Z7
+2025-07-31 16:19:26,411 - INFO - Processing 115/138: Q8BGA9
+2025-07-31 16:19:26,411 - INFO - Downloading Q8BGA9 from https://rest.uniprot.org/uniprotkb/Q8BGA9.fasta
+2025-07-31 16:19:26,427 - INFO - Successfully downloaded Q8BGA9
+2025-07-31 16:19:27,429 - INFO - Processing 116/138: Q8BW75
+2025-07-31 16:19:27,429 - INFO - Downloading Q8BW75 from https://rest.uniprot.org/uniprotkb/Q8BW75.fasta
+2025-07-31 16:19:27,443 - INFO - Successfully downloaded Q8BW75
+2025-07-31 16:19:28,444 - INFO - Processing 117/138: Q8BXB6
+2025-07-31 16:19:28,445 - INFO - Downloading Q8BXB6 from https://rest.uniprot.org/uniprotkb/Q8BXB6.fasta
+2025-07-31 16:19:28,467 - INFO - Successfully downloaded Q8BXB6
+2025-07-31 16:19:29,469 - INFO - Processing 118/138: Q8C9B9
+2025-07-31 16:19:29,469 - INFO - Downloading Q8C9B9 from https://rest.uniprot.org/uniprotkb/Q8C9B9.fasta
+2025-07-31 16:19:29,496 - INFO - Successfully downloaded Q8C9B9
+2025-07-31 16:19:30,497 - INFO - Processing 119/138: Q8R3Z5
+2025-07-31 16:19:30,498 - INFO - Downloading Q8R3Z5 from https://rest.uniprot.org/uniprotkb/Q8R3Z5.fasta
+2025-07-31 16:19:30,517 - INFO - Successfully downloaded Q8R3Z5
+2025-07-31 16:19:31,518 - INFO - Processing 120/138: Q8R4G9
+2025-07-31 16:19:31,519 - INFO - Downloading Q8R4G9 from https://rest.uniprot.org/uniprotkb/Q8R4G9.fasta
+2025-07-31 16:19:31,540 - INFO - Successfully downloaded Q8R4G9
+2025-07-31 16:19:32,541 - INFO - Processing 121/138: Q92484
+2025-07-31 16:19:32,542 - INFO - Downloading Q92484 from https://rest.uniprot.org/uniprotkb/Q92484.fasta
+2025-07-31 16:19:32,556 - INFO - Successfully downloaded Q92484
+2025-07-31 16:19:33,557 - INFO - Processing 122/138: Q96F85
+2025-07-31 16:19:33,558 - INFO - Downloading Q96F85 from https://rest.uniprot.org/uniprotkb/Q96F85.fasta
+2025-07-31 16:19:33,579 - INFO - Successfully downloaded Q96F85
+2025-07-31 16:19:34,581 - INFO - Processing 123/138: Q9BTC0
+2025-07-31 16:19:34,581 - INFO - Downloading Q9BTC0 from https://rest.uniprot.org/uniprotkb/Q9BTC0.fasta
+2025-07-31 16:19:34,605 - INFO - Successfully downloaded Q9BTC0
+2025-07-31 16:19:35,606 - INFO - Processing 124/138: Q9ERZ3
+2025-07-31 16:19:35,607 - INFO - Downloading Q9ERZ3 from https://rest.uniprot.org/uniprotkb/Q9ERZ3.fasta
+2025-07-31 16:19:35,621 - INFO - Successfully downloaded Q9ERZ3
+2025-07-31 16:19:36,622 - INFO - Processing 125/138: Q9ERZ4
+2025-07-31 16:19:36,623 - INFO - Downloading Q9ERZ4 from https://rest.uniprot.org/uniprotkb/Q9ERZ4.fasta
+2025-07-31 16:19:36,640 - INFO - Successfully downloaded Q9ERZ4
+2025-07-31 16:19:37,641 - INFO - Processing 126/138: Q9GZZ6
+2025-07-31 16:19:37,642 - INFO - Downloading Q9GZZ6 from https://rest.uniprot.org/uniprotkb/Q9GZZ6.fasta
+2025-07-31 16:19:37,656 - INFO - Successfully downloaded Q9GZZ6
+2025-07-31 16:19:38,657 - INFO - Processing 127/138: Q9JHI3
+2025-07-31 16:19:38,658 - INFO - Downloading Q9JHI3 from https://rest.uniprot.org/uniprotkb/Q9JHI3.fasta
+2025-07-31 16:19:38,681 - INFO - Successfully downloaded Q9JHI3
+2025-07-31 16:19:39,682 - INFO - Processing 128/138: Q9JIY7
+2025-07-31 16:19:39,683 - INFO - Downloading Q9JIY7 from https://rest.uniprot.org/uniprotkb/Q9JIY7.fasta
+2025-07-31 16:19:39,697 - INFO - Successfully downloaded Q9JIY7
+2025-07-31 16:19:40,698 - INFO - Processing 129/138: Q9JJV9
+2025-07-31 16:19:40,699 - INFO - Downloading Q9JJV9 from https://rest.uniprot.org/uniprotkb/Q9JJV9.fasta
+2025-07-31 16:19:40,722 - INFO - Successfully downloaded Q9JJV9
+2025-07-31 16:19:41,724 - INFO - Processing 130/138: Q9JLB5
+2025-07-31 16:19:41,724 - INFO - Downloading Q9JLB5 from https://rest.uniprot.org/uniprotkb/Q9JLB5.fasta
+2025-07-31 16:19:41,747 - INFO - Successfully downloaded Q9JLB5
+2025-07-31 16:19:42,748 - INFO - Processing 131/138: Q9QUS1
+2025-07-31 16:19:42,749 - INFO - Downloading Q9QUS1 from https://rest.uniprot.org/uniprotkb/Q9QUS1.fasta
+2025-07-31 16:19:42,770 - INFO - Successfully downloaded Q9QUS1
+2025-07-31 16:19:43,771 - INFO - Processing 132/138: Q9QXT3
+2025-07-31 16:19:43,772 - INFO - Downloading Q9QXT3 from https://rest.uniprot.org/uniprotkb/Q9QXT3.fasta
+2025-07-31 16:19:43,798 - INFO - Successfully downloaded Q9QXT3
+2025-07-31 16:19:44,799 - INFO - Processing 133/138: Q9QZN9
+2025-07-31 16:19:44,800 - INFO - Downloading Q9QZN9 from https://rest.uniprot.org/uniprotkb/Q9QZN9.fasta
+2025-07-31 16:19:44,824 - INFO - Successfully downloaded Q9QZN9
+2025-07-31 16:19:45,825 - INFO - Processing 134/138: Q9R1A7
+2025-07-31 16:19:45,826 - INFO - Downloading Q9R1A7 from https://rest.uniprot.org/uniprotkb/Q9R1A7.fasta
+2025-07-31 16:19:45,849 - INFO - Successfully downloaded Q9R1A7
+2025-07-31 16:19:46,849 - INFO - Processing 135/138: Q9UGM1
+2025-07-31 16:19:46,849 - INFO - Downloading Q9UGM1 from https://rest.uniprot.org/uniprotkb/Q9UGM1.fasta
+2025-07-31 16:19:46,862 - INFO - Successfully downloaded Q9UGM1
+2025-07-31 16:19:47,863 - INFO - Processing 136/138: Q9UHE5
+2025-07-31 16:19:47,863 - INFO - Downloading Q9UHE5 from https://rest.uniprot.org/uniprotkb/Q9UHE5.fasta
+2025-07-31 16:19:47,876 - INFO - Successfully downloaded Q9UHE5
+2025-07-31 16:19:48,877 - INFO - Processing 137/138: Q9Y6L6
+2025-07-31 16:19:48,877 - INFO - Downloading Q9Y6L6 from https://rest.uniprot.org/uniprotkb/Q9Y6L6.fasta
+2025-07-31 16:19:48,893 - INFO - Successfully downloaded Q9Y6L6
+2025-07-31 16:19:49,894 - INFO - Processing 138/138: Q9Z0U5
+2025-07-31 16:19:49,895 - INFO - Downloading Q9Z0U5 from https://rest.uniprot.org/uniprotkb/Q9Z0U5.fasta
+2025-07-31 16:19:49,908 - INFO - Successfully downloaded Q9Z0U5
+2025-07-31 16:19:49,911 - INFO - Download completed. Stats: {'total_requested': 138, 'successful': 138, 'failed': 0, 'skipped': 138, 'output_directory': 'primary_data/uniprot_fasta'}
+2025-07-31 16:19:49,912 - INFO - ==================================================
+2025-07-31 16:19:49,912 - INFO - DOWNLOAD SUMMARY
+2025-07-31 16:19:49,912 - INFO - ==================================================
+2025-07-31 16:19:49,912 - INFO - Total UniProt IDs: 138
+2025-07-31 16:19:49,912 - INFO - Successfully downloaded: 138
+2025-07-31 16:19:49,912 - INFO - Failed downloads: 0
+2025-07-31 16:19:49,912 - INFO - Skipped (already existed): 138
+2025-07-31 16:19:49,912 - INFO - Output directory: primary_data/uniprot_fasta
+2025-07-31 16:19:49,914 - INFO - Total FASTA files: 138
+2025-07-31 16:19:49,914 - INFO - Total size: 0.09 MB
+2025-07-31 16:19:49,914 - INFO - ==================================================
+2025-07-31 16:19:49,914 - INFO - FASTA retrieval completed!

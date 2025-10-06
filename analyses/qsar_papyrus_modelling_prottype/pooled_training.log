@@ -1,0 +1,240 @@
+2025-09-05 12:48:16,484 - INFO - Loading protein lists and Papyrus data...
+2025-09-05 12:48:16,486 - INFO - Loaded 55 original proteins
+2025-09-05 12:48:16,487 - INFO - Loaded 69 extended proteins
+2025-09-05 12:48:23,793 - INFO - Loaded Papyrus dataset with 707461 records
+2025-09-05 12:48:23,794 - INFO - Starting comprehensive pooled training...
+2025-09-05 12:48:23,794 - INFO - Processing CYP1A2 (1/55)
+2025-09-05 12:48:23,795 - INFO - Training single protein model for CYP1A2
+2025-09-05 12:48:24,485 - INFO - Single protein model for CYP1A2: R²=0.515, RMSE=0.623
+2025-09-05 12:48:24,486 - INFO - Training pooled model for CYP1A2 (type: CYP)
+2025-09-05 12:48:28,273 - INFO - Pooled model for CYP1A2: R²=0.465, RMSE=0.654
+2025-09-05 12:48:28,274 - INFO - Processing CYP2B6 (2/55)
+2025-09-05 12:48:28,275 - INFO - Training single protein model for CYP2B6
+2025-09-05 12:48:28,621 - INFO - Single protein model for CYP2B6: R²=0.443, RMSE=0.553
+2025-09-05 12:48:28,622 - INFO - Training pooled model for CYP2B6 (type: CYP)
+2025-09-05 12:48:31,869 - INFO - Pooled model for CYP2B6: R²=-0.148, RMSE=0.794
+2025-09-05 12:48:31,870 - INFO - Processing CYP2C9 (3/55)
+2025-09-05 12:48:31,871 - INFO - Training single protein model for CYP2C9
+2025-09-05 12:48:32,511 - INFO - Single protein model for CYP2C9: R²=0.425, RMSE=0.532
+2025-09-05 12:48:32,511 - INFO - Training pooled model for CYP2C9 (type: CYP)
+2025-09-05 12:48:35,733 - INFO - Pooled model for CYP2C9: R²=0.191, RMSE=0.631
+2025-09-05 12:48:35,734 - INFO - Processing CYP2C19 (4/55)
+2025-09-05 12:48:35,735 - INFO - Training single protein model for CYP2C19
+2025-09-05 12:48:36,140 - INFO - Single protein model for CYP2C19: R²=0.396, RMSE=0.438
+2025-09-05 12:48:36,140 - INFO - Training pooled model for CYP2C19 (type: CYP)
+2025-09-05 12:48:39,349 - INFO - Pooled model for CYP2C19: R²=0.414, RMSE=0.432
+2025-09-05 12:48:39,350 - INFO - Processing CYP2D6 (5/55)
+2025-09-05 12:48:39,351 - INFO - Training single protein model for CYP2D6
+2025-09-05 12:48:40,078 - INFO - Single protein model for CYP2D6: R²=0.341, RMSE=0.742
+2025-09-05 12:48:40,078 - INFO - Training pooled model for CYP2D6 (type: CYP)
+2025-09-05 12:48:43,246 - INFO - Pooled model for CYP2D6: R²=0.173, RMSE=0.831
+2025-09-05 12:48:43,247 - INFO - Processing CYP3A4 (6/55)
+2025-09-05 12:48:43,249 - INFO - Training single protein model for CYP3A4
+2025-09-05 12:48:45,277 - INFO - Single protein model for CYP3A4: R²=0.636, RMSE=0.512
+2025-09-05 12:48:45,278 - INFO - Training pooled model for CYP3A4 (type: CYP)
+2025-09-05 12:48:48,509 - INFO - Pooled model for CYP3A4: R²=0.503, RMSE=0.598
+2025-09-05 12:48:48,510 - INFO - Processing AOX1 (7/55)
+2025-09-05 12:48:48,512 - INFO - Training single protein model for AOX1
+2025-09-05 12:48:48,826 - INFO - Single protein model for AOX1: R²=0.609, RMSE=0.409
+2025-09-05 12:48:48,826 - INFO - Training pooled model for AOX1 (type: AOX)
+2025-09-05 12:48:48,883 - INFO - Processing XDH (8/55)
+2025-09-05 12:48:48,884 - INFO - Training single protein model for XDH
+2025-09-05 12:48:49,245 - INFO - Single protein model for XDH: R²=0.610, RMSE=0.542
+2025-09-05 12:48:49,246 - INFO - Training pooled model for XDH (type: XDH)
+2025-09-05 12:48:49,337 - INFO - Processing MAOA (9/55)
+2025-09-05 12:48:49,338 - INFO - Training single protein model for MAOA
+2025-09-05 12:48:50,458 - INFO - Single protein model for MAOA: R²=0.616, RMSE=0.742
+2025-09-05 12:48:50,459 - INFO - Training pooled model for MAOA (type: MAO)
+2025-09-05 12:48:52,990 - INFO - Pooled model for MAOA: R²=0.028, RMSE=1.180
+2025-09-05 12:48:52,991 - INFO - Processing MAOB (10/55)
+2025-09-05 12:48:52,993 - INFO - Training single protein model for MAOB
+2025-09-05 12:48:54,400 - INFO - Single protein model for MAOB: R²=0.650, RMSE=0.788
+2025-09-05 12:48:54,400 - INFO - Training pooled model for MAOB (type: MAO)
+2025-09-05 12:48:56,783 - INFO - Pooled model for MAOB: R²=0.309, RMSE=1.109
+2025-09-05 12:48:56,785 - INFO - Processing ALDH1A1 (11/55)
+2025-09-05 12:48:56,787 - INFO - Training single protein model for ALDH1A1
+2025-09-05 12:48:57,273 - INFO - Single protein model for ALDH1A1: R²=0.182, RMSE=0.869
+2025-09-05 12:48:57,274 - INFO - Training pooled model for ALDH1A1 (type: ALDH)
+2025-09-05 12:48:57,448 - INFO - Processing ADH1A (12/55)
+2025-09-05 12:48:57,449 - INFO - Training single protein model for ADH1A
+2025-09-05 12:48:57,469 - INFO - Training pooled model for ADH1A (type: ADH)
+2025-09-05 12:48:57,489 - INFO - Processing HSD11B1 (13/55)
+2025-09-05 12:48:57,489 - INFO - Training single protein model for HSD11B1
+2025-09-05 12:48:59,338 - INFO - Single protein model for HSD11B1: R²=0.658, RMSE=0.641
+2025-09-05 12:48:59,339 - INFO - Training pooled model for HSD11B1 (type: HSD)
+2025-09-05 12:49:00,780 - INFO - Processing AKR7A3 (14/55)
+2025-09-05 12:49:00,782 - INFO - Training single protein model for AKR7A3
+2025-09-05 12:49:00,801 - INFO - Training pooled model for AKR7A3 (type: AKR)
+2025-09-05 12:49:00,820 - INFO - Processing FMO1 (15/55)
+2025-09-05 12:49:00,821 - INFO - Training single protein model for FMO1
+2025-09-05 12:49:00,840 - INFO - Training pooled model for FMO1 (type: FMO)
+2025-09-05 12:49:00,858 - INFO - Processing AHR (16/55)
+2025-09-05 12:49:00,859 - INFO - Training single protein model for AHR
+2025-09-05 12:49:01,178 - INFO - Single protein model for AHR: R²=-0.045, RMSE=1.792
+2025-09-05 12:49:01,178 - INFO - Training pooled model for AHR (type: AHR)
+2025-09-05 12:49:01,240 - INFO - Processing NR1I3 (17/55)
+2025-09-05 12:49:01,241 - INFO - Training single protein model for NR1I3
+2025-09-05 12:49:01,566 - INFO - Single protein model for NR1I3: R²=0.494, RMSE=0.777
+2025-09-05 12:49:01,566 - INFO - Training pooled model for NR1I3 (type: NR)
+2025-09-05 12:49:02,153 - INFO - Pooled model for NR1I3: R²=0.267, RMSE=0.935
+2025-09-05 12:49:02,154 - INFO - Processing NR1I2 (18/55)
+2025-09-05 12:49:02,155 - INFO - Training single protein model for NR1I2
+2025-09-05 12:49:02,703 - INFO - Single protein model for NR1I2: R²=0.474, RMSE=0.670
+2025-09-05 12:49:02,703 - INFO - Training pooled model for NR1I2 (type: NR)
+2025-09-05 12:49:03,314 - INFO - Pooled model for NR1I2: R²=0.482, RMSE=0.665
+2025-09-05 12:49:03,315 - INFO - Processing SULT1A1 (19/55)
+2025-09-05 12:49:03,317 - INFO - Training single protein model for SULT1A1
+2025-09-05 12:49:03,346 - INFO - Training pooled model for SULT1A1 (type: SULT)
+2025-09-05 12:49:03,371 - INFO - Processing GSTA1 (20/55)
+2025-09-05 12:49:03,372 - INFO - Training single protein model for GSTA1
+2025-09-05 12:49:03,398 - INFO - Training pooled model for GSTA1 (type: GST)
+2025-09-05 12:49:03,423 - INFO - Processing OXA1L (21/55)
+2025-09-05 12:49:03,424 - INFO - Training single protein model for OXA1L
+2025-09-05 12:49:03,443 - INFO - Training pooled model for OXA1L (type: OXA)
+2025-09-05 12:49:03,463 - INFO - Processing ORM1 (22/55)
+2025-09-05 12:49:03,463 - INFO - Training single protein model for ORM1
+2025-09-05 12:49:03,483 - INFO - Training pooled model for ORM1 (type: ORM)
+2025-09-05 12:49:03,502 - INFO - Processing KCNH2 (23/55)
+2025-09-05 12:49:03,503 - INFO - Training single protein model for KCNH2
+2025-09-05 12:49:07,925 - INFO - Single protein model for KCNH2: R²=0.546, RMSE=0.612
+2025-09-05 12:49:07,925 - INFO - Training pooled model for KCNH2 (type: KCN)
+2025-09-05 12:49:11,576 - INFO - Processing SCN5A (24/55)
+2025-09-05 12:49:11,576 - INFO - Training single protein model for SCN5A
+2025-09-05 12:49:12,103 - INFO - Single protein model for SCN5A: R²=0.350, RMSE=0.626
+2025-09-05 12:49:12,104 - INFO - Training pooled model for SCN5A (type: SCN)
+2025-09-05 12:49:12,718 - INFO - Pooled model for SCN5A: R²=0.376, RMSE=0.613
+2025-09-05 12:49:12,719 - INFO - Processing CACNB1 (25/55)
+2025-09-05 12:49:12,721 - INFO - Training single protein model for CACNB1
+2025-09-05 12:49:12,742 - INFO - Training pooled model for CACNB1 (type: CACN)
+2025-09-05 12:49:12,762 - INFO - Processing CAV1 (26/55)
+2025-09-05 12:49:12,762 - INFO - Training single protein model for CAV1
+2025-09-05 12:49:12,781 - INFO - Training pooled model for CAV1 (type: CAV)
+2025-09-05 12:49:12,800 - INFO - Processing HTR2B (27/55)
+2025-09-05 12:49:12,801 - INFO - Training single protein model for HTR2B
+2025-09-05 12:49:14,007 - INFO - Single protein model for HTR2B: R²=0.466, RMSE=0.689
+2025-09-05 12:49:14,008 - INFO - Training pooled model for HTR2B (type: HTR)
+2025-09-05 12:49:18,368 - INFO - Pooled model for HTR2B: R²=0.378, RMSE=0.744
+2025-09-05 12:49:18,368 - INFO - Processing SLC6A4 (28/55)
+2025-09-05 12:49:18,369 - INFO - Training single protein model for SLC6A4
+2025-09-05 12:49:21,144 - INFO - Single protein model for SLC6A4: R²=0.673, RMSE=0.655
+2025-09-05 12:49:21,144 - INFO - Training pooled model for SLC6A4 (type: SLC)
+2025-09-05 12:49:27,082 - INFO - Pooled model for SLC6A4: R²=0.298, RMSE=0.961
+2025-09-05 12:49:27,083 - INFO - Processing SLC6A4 (29/55)
+2025-09-05 12:49:27,085 - INFO - Training single protein model for SLC6A4
+2025-09-05 12:49:29,788 - INFO - Single protein model for SLC6A4: R²=0.673, RMSE=0.655
+2025-09-05 12:49:29,788 - INFO - Training pooled model for SLC6A4 (type: SLC)
+2025-09-05 12:49:35,733 - INFO - Pooled model for SLC6A4: R²=0.298, RMSE=0.961
+2025-09-05 12:49:35,735 - INFO - Processing DIDO1 (30/55)
+2025-09-05 12:49:35,736 - INFO - Training single protein model for DIDO1
+2025-09-05 12:49:35,760 - INFO - Training pooled model for DIDO1 (type: DIDO)
+2025-09-05 12:49:35,780 - INFO - Processing SLC6A3 (31/55)
+2025-09-05 12:49:35,781 - INFO - Training single protein model for SLC6A3
+2025-09-05 12:49:37,368 - INFO - Single protein model for SLC6A3: R²=0.651, RMSE=0.638
+2025-09-05 12:49:37,368 - INFO - Training pooled model for SLC6A3 (type: SLC)
+2025-09-05 12:49:43,224 - INFO - Pooled model for SLC6A3: R²=0.027, RMSE=1.065
+2025-09-05 12:49:43,225 - INFO - Processing SLC6A2 (32/55)
+2025-09-05 12:49:43,226 - INFO - Training single protein model for SLC6A2
+2025-09-05 12:49:45,008 - INFO - Single protein model for SLC6A2: R²=0.574, RMSE=0.695
+2025-09-05 12:49:45,009 - INFO - Training pooled model for SLC6A2 (type: SLC)
+2025-09-05 12:49:50,764 - INFO - Pooled model for SLC6A2: R²=0.126, RMSE=0.996
+2025-09-05 12:49:50,765 - INFO - Processing NAT8 (33/55)
+2025-09-05 12:49:50,766 - INFO - Training single protein model for NAT8
+2025-09-05 12:49:50,791 - INFO - Training pooled model for NAT8 (type: NAT)
+2025-09-05 12:49:50,812 - INFO - Processing SLC6A2 (34/55)
+2025-09-05 12:49:50,812 - INFO - Training single protein model for SLC6A2
+2025-09-05 12:49:52,615 - INFO - Single protein model for SLC6A2: R²=0.574, RMSE=0.695
+2025-09-05 12:49:52,616 - INFO - Training pooled model for SLC6A2 (type: SLC)
+2025-09-05 12:49:58,413 - INFO - Pooled model for SLC6A2: R²=0.126, RMSE=0.996
+2025-09-05 12:49:58,414 - INFO - Processing ADRA1A (35/55)
+2025-09-05 12:49:58,415 - INFO - Training single protein model for ADRA1A
+2025-09-05 12:49:59,421 - INFO - Single protein model for ADRA1A: R²=0.556, RMSE=0.737
+2025-09-05 12:49:59,422 - INFO - Training pooled model for ADRA1A (type: ADRA)
+2025-09-05 12:50:00,842 - INFO - Pooled model for ADRA1A: R²=0.557, RMSE=0.736
+2025-09-05 12:50:00,843 - INFO - Processing ADRA2A (36/55)
+2025-09-05 12:50:00,846 - INFO - Training single protein model for ADRA2A
+2025-09-05 12:50:01,504 - INFO - Single protein model for ADRA2A: R²=0.511, RMSE=0.912
+2025-09-05 12:50:01,504 - INFO - Training pooled model for ADRA2A (type: ADRA)
+2025-09-05 12:50:02,835 - INFO - Pooled model for ADRA2A: R²=0.486, RMSE=0.935
+2025-09-05 12:50:02,836 - INFO - Processing ADRB1 (37/55)
+2025-09-05 12:50:02,837 - INFO - Training single protein model for ADRB1
+2025-09-05 12:50:03,569 - INFO - Single protein model for ADRB1: R²=0.524, RMSE=0.784
+2025-09-05 12:50:03,569 - INFO - Training pooled model for ADRB1 (type: ADRB)
+2025-09-05 12:50:04,997 - INFO - Pooled model for ADRB1: R²=-0.066, RMSE=1.174
+2025-09-05 12:50:04,998 - INFO - Processing ADRB2 (38/55)
+2025-09-05 12:50:04,999 - INFO - Training single protein model for ADRB2
+2025-09-05 12:50:05,907 - INFO - Single protein model for ADRB2: R²=0.688, RMSE=0.849
+2025-09-05 12:50:05,908 - INFO - Training pooled model for ADRB2 (type: ADRB)
+2025-09-05 12:50:07,335 - INFO - Pooled model for ADRB2: R²=0.458, RMSE=1.119
+2025-09-05 12:50:07,336 - INFO - Processing CNRIP1 (39/55)
+2025-09-05 12:50:07,338 - INFO - Training single protein model for CNRIP1
+2025-09-05 12:50:07,372 - INFO - Training pooled model for CNRIP1 (type: CNR)
+2025-09-05 12:50:07,406 - INFO - Processing CNR2 (40/55)
+2025-09-05 12:50:07,407 - INFO - Training single protein model for CNR2
+2025-09-05 12:50:11,608 - INFO - Single protein model for CNR2: R²=0.588, RMSE=0.741
+2025-09-05 12:50:11,609 - INFO - Training pooled model for CNR2 (type: CNR)
+2025-09-05 12:50:14,733 - INFO - Processing CHRM1 (41/55)
+2025-09-05 12:50:14,734 - INFO - Training single protein model for CHRM1
+2025-09-05 12:50:15,922 - INFO - Single protein model for CHRM1: R²=0.521, RMSE=0.869
+2025-09-05 12:50:15,923 - INFO - Training pooled model for CHRM1 (type: CHRM)
+2025-09-05 12:50:18,855 - INFO - Pooled model for CHRM1: R²=0.619, RMSE=0.776
+2025-09-05 12:50:18,856 - INFO - Processing CHRM2 (42/55)
+2025-09-05 12:50:18,858 - INFO - Training single protein model for CHRM2
+2025-09-05 12:50:19,837 - INFO - Single protein model for CHRM2: R²=0.605, RMSE=0.803
+2025-09-05 12:50:19,838 - INFO - Training pooled model for CHRM2 (type: CHRM)
+2025-09-05 12:50:22,724 - INFO - Pooled model for CHRM2: R²=0.438, RMSE=0.958
+2025-09-05 12:50:22,725 - INFO - Processing CHRM3 (43/55)
+2025-09-05 12:50:22,726 - INFO - Training single protein model for CHRM3
+2025-09-05 12:50:23,947 - INFO - Single protein model for CHRM3: R²=0.695, RMSE=0.846
+2025-09-05 12:50:23,948 - INFO - Training pooled model for CHRM3 (type: CHRM)
+2025-09-05 12:50:26,878 - INFO - Pooled model for CHRM3: R²=0.681, RMSE=0.865
+2025-09-05 12:50:26,879 - INFO - Processing CHRNA10 (44/55)
+2025-09-05 12:50:26,880 - INFO - Training single protein model for CHRNA10
+2025-09-05 12:50:26,901 - INFO - Training pooled model for CHRNA10 (type: CHRN)
+2025-09-05 12:50:26,920 - INFO - Processing CHRNA9 (45/55)
+2025-09-05 12:50:26,921 - INFO - Training single protein model for CHRNA9
+2025-09-05 12:50:26,940 - INFO - Training pooled model for CHRNA9 (type: CHRN)
+2025-09-05 12:50:26,959 - INFO - Processing CHRNA7 (46/55)
+2025-09-05 12:50:26,960 - INFO - Training single protein model for CHRNA7
+2025-09-05 12:50:27,673 - INFO - Single protein model for CHRNA7: R²=0.536, RMSE=0.809
+2025-09-05 12:50:27,673 - INFO - Training pooled model for CHRNA7 (type: CHRN)
+2025-09-05 12:50:28,179 - INFO - Processing CHRNA3 (47/55)
+2025-09-05 12:50:28,179 - INFO - Training single protein model for CHRNA3
+2025-09-05 12:50:28,199 - INFO - Training pooled model for CHRNA3 (type: CHRN)
+2025-09-05 12:50:28,219 - INFO - Processing CHRNA5 (48/55)
+2025-09-05 12:50:28,220 - INFO - Training single protein model for CHRNA5
+2025-09-05 12:50:28,238 - INFO - Training pooled model for CHRNA5 (type: CHRN)
+2025-09-05 12:50:28,257 - INFO - Processing SMPDL3A (49/55)
+2025-09-05 12:50:28,257 - INFO - Training single protein model for SMPDL3A
+2025-09-05 12:50:28,276 - INFO - Training pooled model for SMPDL3A (type: SMPDL)
+2025-09-05 12:50:28,294 - INFO - Processing GABPA (50/55)
+2025-09-05 12:50:28,295 - INFO - Training single protein model for GABPA
+2025-09-05 12:50:28,313 - INFO - Training pooled model for GABPA (type: GABP)
+2025-09-05 12:50:28,332 - INFO - Processing HRH1 (51/55)
+2025-09-05 12:50:28,332 - INFO - Training single protein model for HRH1
+2025-09-05 12:50:29,316 - INFO - Single protein model for HRH1: R²=0.678, RMSE=0.692
+2025-09-05 12:50:29,317 - INFO - Training pooled model for HRH1 (type: HRH)
+2025-09-05 12:50:29,986 - INFO - Processing KCNH2 (52/55)
+2025-09-05 12:50:29,987 - INFO - Training single protein model for KCNH2
+2025-09-05 12:50:34,785 - INFO - Single protein model for KCNH2: R²=0.546, RMSE=0.612
+2025-09-05 12:50:34,785 - INFO - Training pooled model for KCNH2 (type: KCN)
+2025-09-05 12:50:37,942 - INFO - Processing SLCO1B1 (53/55)
+2025-09-05 12:50:37,943 - INFO - Training single protein model for SLCO1B1
+2025-09-05 12:50:38,256 - INFO - Single protein model for SLCO1B1: R²=0.283, RMSE=0.546
+2025-09-05 12:50:38,257 - INFO - Training pooled model for SLCO1B1 (type: SLCO)
+2025-09-05 12:50:38,761 - INFO - Pooled model for SLCO1B1: R²=-0.516, RMSE=0.793
+2025-09-05 12:50:38,762 - INFO - Processing SLCO2B3 (54/55)
+2025-09-05 12:50:38,763 - INFO - Training single protein model for SLCO2B3
+2025-09-05 12:50:39,074 - INFO - Single protein model for SLCO2B3: R²=-9.292, RMSE=0.537
+2025-09-05 12:50:39,074 - INFO - Training pooled model for SLCO2B3 (type: SLCO)
+2025-09-05 12:50:39,444 - INFO - Pooled model for SLCO2B3: R²=-13.403, RMSE=0.635
+2025-09-05 12:50:39,445 - INFO - Processing SLCO2B1 (55/55)
+2025-09-05 12:50:39,447 - INFO - Training single protein model for SLCO2B1
+2025-09-05 12:50:39,768 - INFO - Single protein model for SLCO2B1: R²=0.486, RMSE=0.272
+2025-09-05 12:50:39,768 - INFO - Training pooled model for SLCO2B1 (type: SLCO)
+2025-09-05 12:50:40,132 - INFO - Pooled model for SLCO2B1: R²=-0.254, RMSE=0.424
+2025-09-05 12:50:40,138 - INFO - Saved pooled results to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling_prottype/pooled_training_results/pooled_training_results.csv
+2025-09-05 12:50:40,140 - INFO - Saved single protein results to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling_prottype/pooled_training_results/single_protein_results.csv
+2025-09-05 12:50:40,148 - INFO - Saved comparison to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling_prottype/pooled_training_results/pooled_vs_single_comparison.csv
+2025-09-05 12:50:40,149 - INFO - Training summary: {'timestamp': '2025-09-05T12:50:40.148387', 'total_proteins': 31, 'pooled_avg_r2': -0.18827808971547558, 'single_avg_r2': 0.22661310155892395, 'pooled_avg_rmse': 0.854616757157065, 'single_avg_rmse': 0.6737788413087673, 'improved_proteins': 5, 'worsened_proteins': 26}
+2025-09-05 12:50:40,150 - INFO - Comprehensive training completed!
+2025-09-05 12:50:40,150 - INFO - Pooled training completed successfully!

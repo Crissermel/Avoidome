@@ -1,0 +1,12 @@
+{
+  "target_protein": "CYP2D6",
+  "status": "success",
+  "n_total_samples": 607,
+  "n_train_samples": 485,
+  "n_test_samples": 122,
+  "rmse": 0.7423477819216373,
+  "mae": 0.5487012704918033,
+  "r2": 0.3405767844673423,
+  "target_uniprot": "P10635",
+  "total_activities_count": 607
+}

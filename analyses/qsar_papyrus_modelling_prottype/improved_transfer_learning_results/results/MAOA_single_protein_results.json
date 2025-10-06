@@ -1,0 +1,12 @@
+{
+  "target_protein": "MAOA",
+  "status": "success",
+  "n_total_samples": 1130,
+  "n_train_samples": 904,
+  "n_test_samples": 226,
+  "rmse": 0.7419247023421841,
+  "mae": 0.5133186651917406,
+  "r2": 0.6161011297291357,
+  "target_uniprot": "P21397",
+  "total_activities_count": 1130
+}

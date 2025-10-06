@@ -1,0 +1,12 @@
+{
+  "target_protein": "HTR2B",
+  "status": "success",
+  "n_total_samples": 1180,
+  "n_train_samples": 944,
+  "n_test_samples": 236,
+  "rmse": 0.6888516787661789,
+  "mae": 0.5177898305084742,
+  "r2": 0.4661594594962496,
+  "target_uniprot": "P41595",
+  "total_activities_count": 1180
+}

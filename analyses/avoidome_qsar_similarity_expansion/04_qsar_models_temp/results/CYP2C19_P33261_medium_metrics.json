@@ -1,0 +1,22 @@
+{
+  "target_name": "CYP2C19",
+  "uniprot_id": "P33261",
+  "threshold": "medium",
+  "test_r2": 0.5199813166257412,
+  "test_rmse": 0.39195969059721714,
+  "test_mae": 0.29362457825003296,
+  "q2": 0.513552370368459,
+  "n_train": 638,
+  "n_test": 33,
+  "n_similar_proteins": 506,
+  "n_target_train": 132,
+  "n_target_test": 33,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P11712",
+    "P33260",
+    "P10632",
+    "P05178",
+    "P08683"
+  ]
+}

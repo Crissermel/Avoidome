@@ -1,0 +1,22 @@
+{
+  "organism": "human",
+  "target_name": "CYP2B6",
+  "uniprot_id": "P20813",
+  "threshold": "low",
+  "test_r2": 0.43192661743203375,
+  "test_rmse": 0.5583639186835393,
+  "test_mae": 0.48930658163265495,
+  "q2": -0.1054450563277268,
+  "n_train": 72,
+  "n_test": 7,
+  "n_similar_proteins": 46,
+  "n_target_train": 26,
+  "n_target_test": 7,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P24460",
+    "P00178",
+    "P00176",
+    "P24903"
+  ]
+}

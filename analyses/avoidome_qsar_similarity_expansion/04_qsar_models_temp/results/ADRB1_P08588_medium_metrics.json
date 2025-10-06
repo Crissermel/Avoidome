@@ -1,0 +1,20 @@
+{
+  "target_name": "ADRB1",
+  "uniprot_id": "P08588",
+  "threshold": "medium",
+  "test_r2": 0.6092407723028557,
+  "test_rmse": 0.7064094457291306,
+  "test_mae": 0.5015860818815335,
+  "q2": 0.5169969926315254,
+  "n_train": 827,
+  "n_test": 123,
+  "n_similar_proteins": 336,
+  "n_target_train": 491,
+  "n_target_test": 123,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P34971",
+    "P18090",
+    "B0FL73"
+  ]
+}

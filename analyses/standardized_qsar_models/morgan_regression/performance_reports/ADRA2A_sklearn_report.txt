@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: ADRA2A
+Date: 2025-07-30 15:03:14.267435
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -4639219994920871276838912.0000 ± 6952656387617850619068416.0000
+  RMSE: 2860198906169.6699 ± 3554255016642.7026
+  MAE: 1409411365809.1375 ± 1117602259317.8325
+  Training Time: 1.5831s
+
+Random Forest:
+  R² Score: 0.5158 ± 0.0890
+  RMSE: 0.8851 ± 0.3339
+  MAE: 0.6167 ± 0.0440
+  Training Time: 27.8358s
+
+Gradient Boosting:
+  R² Score: 0.4644 ± 0.0797
+  RMSE: 0.9346 ± 0.3741
+  MAE: 0.6783 ± 0.0515
+  Training Time: 15.8570s
+
+SVM:
+  R² Score: 0.5007 ± 0.0858
+  RMSE: 0.8994 ± 0.3631
+  MAE: 0.6209 ± 0.0334
+  Training Time: 1.6861s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

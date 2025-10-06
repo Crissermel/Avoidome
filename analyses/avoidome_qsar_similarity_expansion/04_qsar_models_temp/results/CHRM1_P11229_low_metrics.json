@@ -1,0 +1,19 @@
+{
+  "target_name": "CHRM1",
+  "uniprot_id": "P11229",
+  "threshold": "low",
+  "test_r2": 0.5491392134883217,
+  "test_rmse": 0.8346604476718075,
+  "test_mae": 0.6080128792286148,
+  "q2": 0.5676366922601843,
+  "n_train": 1144,
+  "n_test": 221,
+  "n_similar_proteins": 262,
+  "n_target_train": 882,
+  "n_target_test": 221,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P12657",
+    "P08482"
+  ]
+}

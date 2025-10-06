@@ -1,0 +1,18 @@
+{
+  "target_protein": "SCN5A",
+  "protein_type": "SCN",
+  "status": "success",
+  "n_target_samples": 329,
+  "n_training_samples": 64,
+  "n_same_type_proteins": 1,
+  "rmse": 0.6384911708200451,
+  "mae": 0.4741366666666674,
+  "r2": 0.3233183782131812,
+  "target_uniprot": "Q14524",
+  "same_type_proteins": [
+    "SCN2A"
+  ],
+  "training_activities_count": 64,
+  "target_activities_count": 329,
+  "approach": "fine_tuned_ensemble"
+}

@@ -1,0 +1,12 @@
+{
+  "target_protein": "HRH1",
+  "status": "success",
+  "n_total_samples": 945,
+  "n_train_samples": 756,
+  "n_test_samples": 189,
+  "rmse": 0.6918407411472028,
+  "mae": 0.4965227513227511,
+  "r2": 0.6782315601533465,
+  "target_uniprot": "P35367",
+  "total_activities_count": 945
+}

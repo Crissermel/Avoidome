@@ -1,0 +1,19 @@
+{
+  "target_protein": "CHRM1",
+  "protein_type": "CHRM",
+  "status": "success",
+  "n_target_samples": 1103,
+  "n_training_samples": 1918,
+  "n_same_type_proteins": 2,
+  "rmse": 0.8284800842153388,
+  "mae": 0.6416942648507953,
+  "r2": 0.5648453955533588,
+  "target_uniprot": "P11229",
+  "same_type_proteins": [
+    "CHRM2",
+    "CHRM3"
+  ],
+  "training_activities_count": 1930,
+  "target_activities_count": 1103,
+  "approach": "fine_tuned_ensemble"
+}

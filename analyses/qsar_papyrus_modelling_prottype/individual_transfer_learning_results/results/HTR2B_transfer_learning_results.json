@@ -1,0 +1,17 @@
+{
+  "target_protein": "HTR2B",
+  "protein_type": "HTR",
+  "status": "success",
+  "n_target_samples": 1180,
+  "n_training_samples": 3329,
+  "n_same_type_proteins": 1,
+  "rmse": 0.8966604894971723,
+  "mae": 0.6848086535512509,
+  "r2": 0.020927881471193177,
+  "target_uniprot": "P41595",
+  "same_type_proteins": [
+    "HTR2A"
+  ],
+  "training_activities_count": 3329,
+  "target_activities_count": 1180
+}

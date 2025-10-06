@@ -1,0 +1,4779 @@
+{
+  "morgan_comparison": {
+    "total_comparisons": 44,
+    "classification_wins": 29,
+    "regression_wins": 15,
+    "classification_win_rate": 0.6590909090909091,
+    "mean_mcc_difference": 0.03427702107851667,
+    "std_mcc_difference": 0.09511302722627399,
+    "mean_accuracy_difference": -0.001288753403766433,
+    "mean_f1_difference": 0.040569737224576345,
+    "results": [
+      {
+        "protein_name": "CYP1A2",
+        "organism": "human",
+        "n_samples": 329,
+        "regression_metrics": {
+          "mcc": 0.5238625628925131,
+          "accuracy": 0.8601823708206687,
+          "precision": 0.8709677419354839,
+          "recall": 0.391304347826087,
+          "f1": 0.54,
+          "specificity": 0.9846153846153847,
+          "confusion_matrix": [
+            [
+              256,
+              4
+            ],
+            [
+              42,
+              27
+            ]
+          ],
+          "true_negatives": 256,
+          "false_positives": 4,
+          "false_negatives": 42,
+          "true_positives": 27
+        },
+        "classification_metrics": {
+          "mcc": 0.55421034999719,
+          "accuracy": 0.8632218844984803,
+          "precision": 0.6964285714285714,
+          "recall": 0.582089552238806,
+          "f1": 0.6341463414634146,
+          "specificity": 0.9351145038167938,
+          "confusion_matrix": [
+            [
+              245,
+              17
+            ],
+            [
+              28,
+              39
+            ]
+          ],
+          "true_negatives": 245,
+          "false_positives": 17,
+          "false_negatives": 28,
+          "true_positives": 39
+        },
+        "mcc_difference": 0.030347787104676893,
+        "accuracy_difference": 0.003039513677811523,
+        "f1_difference": 0.0941463414634146,
+        "better_model": "classification",
+        "mcc_improvement": 0.030347787104676893
+      },
+      {
+        "protein_name": "CYP2C9",
+        "organism": "human",
+        "n_samples": 466,
+        "regression_metrics": {
+          "mcc": 0.3275357896270117,
+          "accuracy": 0.9656652360515021,
+          "precision": 1.0,
+          "recall": 0.1111111111111111,
+          "f1": 0.2,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              448,
+              0
+            ],
+            [
+              16,
+              2
+            ]
+          ],
+          "true_negatives": 448,
+          "false_positives": 0,
+          "false_negatives": 16,
+          "true_positives": 2
+        },
+        "classification_metrics": {
+          "mcc": 0.3903008134477228,
+          "accuracy": 0.9570815450643777,
+          "precision": 0.4375,
+          "recall": 0.3888888888888889,
+          "f1": 0.4117647058823529,
+          "specificity": 0.9799107142857143,
+          "confusion_matrix": [
+            [
+              439,
+              9
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "true_negatives": 439,
+          "false_positives": 9,
+          "false_negatives": 11,
+          "true_positives": 7
+        },
+        "mcc_difference": 0.06276502382071114,
+        "accuracy_difference": -0.008583690987124415,
+        "f1_difference": 0.2117647058823529,
+        "better_model": "classification",
+        "mcc_improvement": 0.06276502382071114
+      },
+      {
+        "protein_name": "CYP2D6",
+        "organism": "human",
+        "n_samples": 607,
+        "regression_metrics": {
+          "mcc": 0.13412693352771246,
+          "accuracy": 0.9176276771004942,
+          "precision": 1.0,
+          "recall": 0.0196078431372549,
+          "f1": 0.038461538461538464,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              556,
+              0
+            ],
+            [
+              50,
+              1
+            ]
+          ],
+          "true_negatives": 556,
+          "false_positives": 0,
+          "false_negatives": 50,
+          "true_positives": 1
+        },
+        "classification_metrics": {
+          "mcc": 0.3598136871777894,
+          "accuracy": 0.9093904448105437,
+          "precision": 0.4222222222222222,
+          "recall": 0.3958333333333333,
+          "f1": 0.40860215053763443,
+          "specificity": 0.9534883720930233,
+          "confusion_matrix": [
+            [
+              533,
+              26
+            ],
+            [
+              29,
+              19
+            ]
+          ],
+          "true_negatives": 533,
+          "false_positives": 26,
+          "false_negatives": 29,
+          "true_positives": 19
+        },
+        "mcc_difference": 0.22568675365007693,
+        "accuracy_difference": -0.008237232289950547,
+        "f1_difference": 0.37014061207609594,
+        "better_model": "classification",
+        "mcc_improvement": 0.22568675365007693
+      },
+      {
+        "protein_name": "CYP3A4",
+        "organism": "human",
+        "n_samples": 1387,
+        "regression_metrics": {
+          "mcc": 0.603756294968378,
+          "accuracy": 0.9625090122566691,
+          "precision": 0.8604651162790697,
+          "recall": 0.4457831325301205,
+          "f1": 0.5873015873015873,
+          "specificity": 0.995398773006135,
+          "confusion_matrix": [
+            [
+              1298,
+              6
+            ],
+            [
+              46,
+              37
+            ]
+          ],
+          "true_negatives": 1298,
+          "false_positives": 6,
+          "false_negatives": 46,
+          "true_positives": 37
+        },
+        "classification_metrics": {
+          "mcc": 0.6146545431986137,
+          "accuracy": 0.9632299927901946,
+          "precision": 0.6666666666666666,
+          "recall": 0.6027397260273972,
+          "f1": 0.6330935251798561,
+          "specificity": 0.9832572298325722,
+          "confusion_matrix": [
+            [
+              1292,
+              22
+            ],
+            [
+              29,
+              44
+            ]
+          ],
+          "true_negatives": 1292,
+          "false_positives": 22,
+          "false_negatives": 29,
+          "true_positives": 44
+        },
+        "mcc_difference": 0.010898248230235663,
+        "accuracy_difference": 0.0007209805335255393,
+        "f1_difference": 0.04579193787826874,
+        "better_model": "classification",
+        "mcc_improvement": 0.010898248230235663
+      },
+      {
+        "protein_name": "XDH",
+        "organism": "human",
+        "n_samples": 98,
+        "regression_metrics": {
+          "mcc": 0.553770021218013,
+          "accuracy": 0.8469387755102041,
+          "precision": 0.7647058823529411,
+          "recall": 0.5416666666666666,
+          "f1": 0.6341463414634146,
+          "specificity": 0.9459459459459459,
+          "confusion_matrix": [
+            [
+              70,
+              4
+            ],
+            [
+              11,
+              13
+            ]
+          ],
+          "true_negatives": 70,
+          "false_positives": 4,
+          "false_negatives": 11,
+          "true_positives": 13
+        },
+        "classification_metrics": {
+          "mcc": 0.6488601140008428,
+          "accuracy": 0.8673469387755102,
+          "precision": 0.6923076923076923,
+          "recall": 0.782608695652174,
+          "f1": 0.7346938775510204,
+          "specificity": 0.8933333333333333,
+          "confusion_matrix": [
+            [
+              67,
+              8
+            ],
+            [
+              5,
+              18
+            ]
+          ],
+          "true_negatives": 67,
+          "false_positives": 8,
+          "false_negatives": 5,
+          "true_positives": 18
+        },
+        "mcc_difference": 0.09509009278282976,
+        "accuracy_difference": 0.020408163265306034,
+        "f1_difference": 0.1005475360876058,
+        "better_model": "classification",
+        "mcc_improvement": 0.09509009278282976
+      },
+      {
+        "protein_name": "MAOA",
+        "organism": "human",
+        "n_samples": 1130,
+        "regression_metrics": {
+          "mcc": 0.6004016045191157,
+          "accuracy": 0.9300884955752212,
+          "precision": 0.8571428571428571,
+          "recall": 0.46511627906976744,
+          "f1": 0.6030150753768844,
+          "specificity": 0.99000999000999,
+          "confusion_matrix": [
+            [
+              991,
+              10
+            ],
+            [
+              69,
+              60
+            ]
+          ],
+          "true_negatives": 991,
+          "false_positives": 10,
+          "false_negatives": 69,
+          "true_positives": 60
+        },
+        "classification_metrics": {
+          "mcc": 0.5929473205290307,
+          "accuracy": 0.9247787610619469,
+          "precision": 0.6886792452830188,
+          "recall": 0.584,
+          "f1": 0.6320346320346321,
+          "specificity": 0.9671641791044776,
+          "confusion_matrix": [
+            [
+              972,
+              33
+            ],
+            [
+              52,
+              73
+            ]
+          ],
+          "true_negatives": 972,
+          "false_positives": 33,
+          "false_negatives": 52,
+          "true_positives": 73
+        },
+        "mcc_difference": -0.0074542839900850755,
+        "accuracy_difference": -0.005309734513274322,
+        "f1_difference": 0.02901955665774769,
+        "better_model": "regression",
+        "mcc_improvement": 0.0074542839900850755
+      },
+      {
+        "protein_name": "MAOB",
+        "organism": "human",
+        "n_samples": 1519,
+        "regression_metrics": {
+          "mcc": 0.5968383765827125,
+          "accuracy": 0.8413429888084266,
+          "precision": 0.81875,
+          "recall": 0.5887640449438202,
+          "f1": 0.6849673202614379,
+          "specificity": 0.9459962756052142,
+          "confusion_matrix": [
+            [
+              1016,
+              58
+            ],
+            [
+              183,
+              262
+            ]
+          ],
+          "true_negatives": 1016,
+          "false_positives": 58,
+          "false_negatives": 183,
+          "true_positives": 262
+        },
+        "classification_metrics": {
+          "mcc": 0.6307834315904738,
+          "accuracy": 0.8406846609611587,
+          "precision": 0.7,
+          "recall": 0.7918552036199095,
+          "f1": 0.7430997876857749,
+          "specificity": 0.8607242339832869,
+          "confusion_matrix": [
+            [
+              927,
+              150
+            ],
+            [
+              92,
+              350
+            ]
+          ],
+          "true_negatives": 927,
+          "false_positives": 150,
+          "false_negatives": 92,
+          "true_positives": 350
+        },
+        "mcc_difference": 0.03394505500776124,
+        "accuracy_difference": -0.0006583278472679366,
+        "f1_difference": 0.058132467424336975,
+        "better_model": "classification",
+        "mcc_improvement": 0.03394505500776124
+      },
+      {
+        "protein_name": "ALDH1A1",
+        "organism": "human",
+        "n_samples": 150,
+        "regression_metrics": {
+          "mcc": 0.5263452585897143,
+          "accuracy": 0.8133333333333334,
+          "precision": 0.8148148148148148,
+          "recall": 0.4888888888888889,
+          "f1": 0.6111111111111112,
+          "specificity": 0.9523809523809523,
+          "confusion_matrix": [
+            [
+              100,
+              5
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "true_negatives": 100,
+          "false_positives": 5,
+          "false_negatives": 23,
+          "true_positives": 22
+        },
+        "classification_metrics": {
+          "mcc": 0.5845252732806607,
+          "accuracy": 0.8333333333333334,
+          "precision": 0.725,
+          "recall": 0.6744186046511628,
+          "f1": 0.6987951807228916,
+          "specificity": 0.897196261682243,
+          "confusion_matrix": [
+            [
+              96,
+              11
+            ],
+            [
+              14,
+              29
+            ]
+          ],
+          "true_negatives": 96,
+          "false_positives": 11,
+          "false_negatives": 14,
+          "true_positives": 29
+        },
+        "mcc_difference": 0.05818001469094647,
+        "accuracy_difference": 0.020000000000000018,
+        "f1_difference": 0.08768406961178044,
+        "better_model": "classification",
+        "mcc_improvement": 0.05818001469094647
+      },
+      {
+        "protein_name": "HSD11B1",
+        "organism": "human",
+        "n_samples": 2046,
+        "regression_metrics": {
+          "mcc": 0.6350055912306432,
+          "accuracy": 0.8328445747800587,
+          "precision": 0.8457059679767104,
+          "recall": 0.8993808049535603,
+          "f1": 0.8717179294823706,
+          "specificity": 0.7188328912466844,
+          "confusion_matrix": [
+            [
+              542,
+              212
+            ],
+            [
+              130,
+              1162
+            ]
+          ],
+          "true_negatives": 542,
+          "false_positives": 212,
+          "false_negatives": 130,
+          "true_positives": 1162
+        },
+        "classification_metrics": {
+          "mcc": 0.6294609839735548,
+          "accuracy": 0.8250244379276638,
+          "precision": 0.8682108626198083,
+          "recall": 0.84921875,
+          "f1": 0.858609794628752,
+          "specificity": 0.7845953002610966,
+          "confusion_matrix": [
+            [
+              601,
+              165
+            ],
+            [
+              193,
+              1087
+            ]
+          ],
+          "true_negatives": 601,
+          "false_positives": 165,
+          "false_negatives": 193,
+          "true_positives": 1087
+        },
+        "mcc_difference": -0.005544607257088385,
+        "accuracy_difference": -0.00782013685239491,
+        "f1_difference": -0.013108134853618614,
+        "better_model": "regression",
+        "mcc_improvement": 0.005544607257088385
+      },
+      {
+        "protein_name": "NR1I3",
+        "organism": "human",
+        "n_samples": 59,
+        "regression_metrics": {
+          "mcc": 0.5602635585791081,
+          "accuracy": 0.8305084745762712,
+          "precision": 0.8181818181818182,
+          "recall": 0.5294117647058824,
+          "f1": 0.6428571428571429,
+          "specificity": 0.9523809523809523,
+          "confusion_matrix": [
+            [
+              40,
+              2
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "true_negatives": 40,
+          "false_positives": 2,
+          "false_negatives": 8,
+          "true_positives": 9
+        },
+        "classification_metrics": {
+          "mcc": 0.7062555504078697,
+          "accuracy": 0.8813559322033898,
+          "precision": 0.8125,
+          "recall": 0.7647058823529411,
+          "f1": 0.7878787878787878,
+          "specificity": 0.9285714285714286,
+          "confusion_matrix": [
+            [
+              39,
+              3
+            ],
+            [
+              4,
+              13
+            ]
+          ],
+          "true_negatives": 39,
+          "false_positives": 3,
+          "false_negatives": 4,
+          "true_positives": 13
+        },
+        "mcc_difference": 0.14599199182876155,
+        "accuracy_difference": 0.05084745762711862,
+        "f1_difference": 0.14502164502164494,
+        "better_model": "classification",
+        "mcc_improvement": 0.14599199182876155
+      },
+      {
+        "protein_name": "NR1I2",
+        "organism": "human",
+        "n_samples": 344,
+        "regression_metrics": {
+          "mcc": 0.499961265499122,
+          "accuracy": 0.8953488372093024,
+          "precision": 0.7,
+          "recall": 0.4375,
+          "f1": 0.5384615384615384,
+          "specificity": 0.9695945945945946,
+          "confusion_matrix": [
+            [
+              287,
+              9
+            ],
+            [
+              27,
+              21
+            ]
+          ],
+          "true_negatives": 287,
+          "false_positives": 9,
+          "false_negatives": 27,
+          "true_positives": 21
+        },
+        "classification_metrics": {
+          "mcc": 0.5909164833709295,
+          "accuracy": 0.8895348837209303,
+          "precision": 0.5737704918032787,
+          "recall": 0.7446808510638298,
+          "f1": 0.6481481481481481,
+          "specificity": 0.9124579124579124,
+          "confusion_matrix": [
+            [
+              271,
+              26
+            ],
+            [
+              12,
+              35
+            ]
+          ],
+          "true_negatives": 271,
+          "false_positives": 26,
+          "false_negatives": 12,
+          "true_positives": 35
+        },
+        "mcc_difference": 0.09095521787180749,
+        "accuracy_difference": -0.005813953488372103,
+        "f1_difference": 0.1096866096866097,
+        "better_model": "classification",
+        "mcc_improvement": 0.09095521787180749
+      },
+      {
+        "protein_name": "KCNH2",
+        "organism": "human",
+        "n_samples": 4492,
+        "regression_metrics": {
+          "mcc": 0.539433021798761,
+          "accuracy": 0.9390026714158504,
+          "precision": 0.9133333333333333,
+          "recall": 0.3442211055276382,
+          "f1": 0.5,
+          "specificity": 0.9968246213971665,
+          "confusion_matrix": [
+            [
+              4081,
+              13
+            ],
+            [
+              261,
+              137
+            ]
+          ],
+          "true_negatives": 4081,
+          "false_positives": 13,
+          "false_negatives": 261,
+          "true_positives": 137
+        },
+        "classification_metrics": {
+          "mcc": 0.614175959213235,
+          "accuracy": 0.9447907390917186,
+          "precision": 0.6840490797546013,
+          "recall": 0.6059782608695652,
+          "f1": 0.6426512968299711,
+          "specificity": 0.9750242483026188,
+          "confusion_matrix": [
+            [
+              4021,
+              103
+            ],
+            [
+              145,
+              223
+            ]
+          ],
+          "true_negatives": 4021,
+          "false_positives": 103,
+          "false_negatives": 145,
+          "true_positives": 223
+        },
+        "mcc_difference": 0.07474293741447402,
+        "accuracy_difference": 0.005788067675868258,
+        "f1_difference": 0.14265129682997113,
+        "better_model": "classification",
+        "mcc_improvement": 0.07474293741447402
+      },
+      {
+        "protein_name": "SCN5A",
+        "organism": "human",
+        "n_samples": 329,
+        "regression_metrics": {
+          "mcc": 0.0,
+          "accuracy": 0.9848024316109423,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              324,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "true_negatives": 324,
+          "false_positives": 0,
+          "false_negatives": 5,
+          "true_positives": 0
+        },
+        "classification_metrics": {
+          "mcc": 0.34813243045135706,
+          "accuracy": 0.9878419452887538,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333,
+          "specificity": 0.9969230769230769,
+          "confusion_matrix": [
+            [
+              324,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "true_negatives": 324,
+          "false_positives": 1,
+          "false_negatives": 3,
+          "true_positives": 1
+        },
+        "mcc_difference": 0.34813243045135706,
+        "accuracy_difference": 0.003039513677811523,
+        "f1_difference": 0.3333333333333333,
+        "better_model": "classification",
+        "mcc_improvement": 0.34813243045135706
+      },
+      {
+        "protein_name": "HTR2B",
+        "organism": "human",
+        "n_samples": 1180,
+        "regression_metrics": {
+          "mcc": 0.420244188448826,
+          "accuracy": 0.7406779661016949,
+          "precision": 0.817258883248731,
+          "recall": 0.37354988399071926,
+          "f1": 0.5127388535031847,
+          "specificity": 0.951935914552737,
+          "confusion_matrix": [
+            [
+              713,
+              36
+            ],
+            [
+              270,
+              161
+            ]
+          ],
+          "true_negatives": 713,
+          "false_positives": 36,
+          "false_negatives": 270,
+          "true_positives": 161
+        },
+        "classification_metrics": {
+          "mcc": 0.41780532281055843,
+          "accuracy": 0.7389830508474576,
+          "precision": 0.6363636363636364,
+          "recall": 0.5932203389830508,
+          "f1": 0.6140350877192983,
+          "specificity": 0.817470664928292,
+          "confusion_matrix": [
+            [
+              627,
+              140
+            ],
+            [
+              168,
+              245
+            ]
+          ],
+          "true_negatives": 627,
+          "false_positives": 140,
+          "false_negatives": 168,
+          "true_positives": 245
+        },
+        "mcc_difference": -0.002438865638267562,
+        "accuracy_difference": -0.0016949152542372614,
+        "f1_difference": 0.10129623421611356,
+        "better_model": "regression",
+        "mcc_improvement": 0.002438865638267562
+      },
+      {
+        "protein_name": "SLC6A4",
+        "organism": "human",
+        "n_samples": 2958,
+        "regression_metrics": {
+          "mcc": 0.5844761811747551,
+          "accuracy": 0.7981744421906694,
+          "precision": 0.8097643097643098,
+          "recall": 0.8483245149911817,
+          "f1": 0.8285960378983634,
+          "specificity": 0.7303102625298329,
+          "confusion_matrix": [
+            [
+              918,
+              339
+            ],
+            [
+              258,
+              1443
+            ]
+          ],
+          "true_negatives": 918,
+          "false_positives": 339,
+          "false_negatives": 258,
+          "true_positives": 1443
+        },
+        "classification_metrics": {
+          "mcc": 0.6148965115830152,
+          "accuracy": 0.8069641649763354,
+          "precision": 0.8620689655172413,
+          "recall": 0.7868171021377672,
+          "f1": 0.8227258615336852,
+          "specificity": 0.8335949764521193,
+          "confusion_matrix": [
+            [
+              1062,
+              212
+            ],
+            [
+              359,
+              1325
+            ]
+          ],
+          "true_negatives": 1062,
+          "false_positives": 212,
+          "false_negatives": 359,
+          "true_positives": 1325
+        },
+        "mcc_difference": 0.030420330408260088,
+        "accuracy_difference": 0.008789722785666032,
+        "f1_difference": -0.005870176364678237,
+        "better_model": "classification",
+        "mcc_improvement": 0.030420330408260088
+      },
+      {
+        "protein_name": "SLC6A3",
+        "organism": "human",
+        "n_samples": 1646,
+        "regression_metrics": {
+          "mcc": 0.5734127174558163,
+          "accuracy": 0.8232077764277035,
+          "precision": 0.7794117647058824,
+          "recall": 0.6127167630057804,
+          "f1": 0.686084142394822,
+          "specificity": 0.9201419698314108,
+          "confusion_matrix": [
+            [
+              1037,
+              90
+            ],
+            [
+              201,
+              318
+            ]
+          ],
+          "true_negatives": 1037,
+          "false_positives": 90,
+          "false_negatives": 201,
+          "true_positives": 318
+        },
+        "classification_metrics": {
+          "mcc": 0.6209254987700263,
+          "accuracy": 0.8323207776427703,
+          "precision": 0.7031802120141343,
+          "recall": 0.7865612648221344,
+          "f1": 0.7425373134328358,
+          "specificity": 0.8526315789473684,
+          "confusion_matrix": [
+            [
+              972,
+              168
+            ],
+            [
+              108,
+              398
+            ]
+          ],
+          "true_negatives": 972,
+          "false_positives": 168,
+          "false_negatives": 108,
+          "true_positives": 398
+        },
+        "mcc_difference": 0.047512781314209995,
+        "accuracy_difference": 0.009113001215066863,
+        "f1_difference": 0.05645317103801384,
+        "better_model": "classification",
+        "mcc_improvement": 0.047512781314209995
+      },
+      {
+        "protein_name": "SLC6A2",
+        "organism": "human",
+        "n_samples": 2021,
+        "regression_metrics": {
+          "mcc": 0.6069967339942285,
+          "accuracy": 0.8045522018802573,
+          "precision": 0.7973997833152763,
+          "recall": 0.7796610169491526,
+          "f1": 0.788430637386181,
+          "specificity": 0.8263695450324977,
+          "confusion_matrix": [
+            [
+              890,
+              187
+            ],
+            [
+              208,
+              736
+            ]
+          ],
+          "true_negatives": 890,
+          "false_positives": 187,
+          "false_negatives": 208,
+          "true_positives": 736
+        },
+        "classification_metrics": {
+          "mcc": 0.5949971837521797,
+          "accuracy": 0.7981197427016329,
+          "precision": 0.7733887733887734,
+          "recall": 0.7965738758029979,
+          "f1": 0.7848101265822784,
+          "specificity": 0.7994480220791168,
+          "confusion_matrix": [
+            [
+              869,
+              218
+            ],
+            [
+              190,
+              744
+            ]
+          ],
+          "true_negatives": 869,
+          "false_positives": 218,
+          "false_negatives": 190,
+          "true_positives": 744
+        },
+        "mcc_difference": -0.011999550242048795,
+        "accuracy_difference": -0.00643245917862445,
+        "f1_difference": -0.003620510803902577,
+        "better_model": "regression",
+        "mcc_improvement": 0.011999550242048795
+      },
+      {
+        "protein_name": "ADRA1A",
+        "organism": "human",
+        "n_samples": 566,
+        "regression_metrics": {
+          "mcc": 0.5334665063915358,
+          "accuracy": 0.8109540636042403,
+          "precision": 0.8325581395348837,
+          "recall": 0.910941475826972,
+          "f1": 0.8699878493317132,
+          "specificity": 0.5838150289017341,
+          "confusion_matrix": [
+            [
+              101,
+              72
+            ],
+            [
+              35,
+              358
+            ]
+          ],
+          "true_negatives": 101,
+          "false_positives": 72,
+          "false_negatives": 35,
+          "true_positives": 358
+        },
+        "classification_metrics": {
+          "mcc": 0.560726840188587,
+          "accuracy": 0.8091872791519434,
+          "precision": 0.8713910761154856,
+          "recall": 0.8491048593350383,
+          "f1": 0.8601036269430051,
+          "specificity": 0.72,
+          "confusion_matrix": [
+            [
+              126,
+              49
+            ],
+            [
+              59,
+              332
+            ]
+          ],
+          "true_negatives": 126,
+          "false_positives": 49,
+          "false_negatives": 59,
+          "true_positives": 332
+        },
+        "mcc_difference": 0.027260333797051173,
+        "accuracy_difference": -0.0017667844522968323,
+        "f1_difference": -0.00988422238870812,
+        "better_model": "classification",
+        "mcc_improvement": 0.027260333797051173
+      },
+      {
+        "protein_name": "ADRA2A",
+        "organism": "human",
+        "n_samples": 526,
+        "regression_metrics": {
+          "mcc": 0.6041226700404395,
+          "accuracy": 0.8060836501901141,
+          "precision": 0.847457627118644,
+          "recall": 0.6666666666666666,
+          "f1": 0.746268656716418,
+          "specificity": 0.9102990033222591,
+          "confusion_matrix": [
+            [
+              274,
+              27
+            ],
+            [
+              75,
+              150
+            ]
+          ],
+          "true_negatives": 274,
+          "false_positives": 27,
+          "false_negatives": 75,
+          "true_positives": 150
+        },
+        "classification_metrics": {
+          "mcc": 0.6108653256403042,
+          "accuracy": 0.8098859315589354,
+          "precision": 0.7688888888888888,
+          "recall": 0.7828054298642534,
+          "f1": 0.7757847533632287,
+          "specificity": 0.8295081967213115,
+          "confusion_matrix": [
+            [
+              253,
+              52
+            ],
+            [
+              48,
+              173
+            ]
+          ],
+          "true_negatives": 253,
+          "false_positives": 52,
+          "false_negatives": 48,
+          "true_positives": 173
+        },
+        "mcc_difference": 0.006742655599864644,
+        "accuracy_difference": 0.0038022813688213253,
+        "f1_difference": 0.029516096646810763,
+        "better_model": "classification",
+        "mcc_improvement": 0.006742655599864644
+      },
+      {
+        "protein_name": "ADRB1",
+        "organism": "human",
+        "n_samples": 614,
+        "regression_metrics": {
+          "mcc": 0.5766840683363961,
+          "accuracy": 0.7899022801302932,
+          "precision": 0.8177966101694916,
+          "recall": 0.6917562724014337,
+          "f1": 0.7495145631067961,
+          "specificity": 0.8716417910447761,
+          "confusion_matrix": [
+            [
+              292,
+              43
+            ],
+            [
+              86,
+              193
+            ]
+          ],
+          "true_negatives": 292,
+          "false_positives": 43,
+          "false_negatives": 86,
+          "true_positives": 193
+        },
+        "classification_metrics": {
+          "mcc": 0.6252739192794464,
+          "accuracy": 0.8159609120521173,
+          "precision": 0.8134920634920635,
+          "recall": 0.7564575645756457,
+          "f1": 0.7839388145315488,
+          "specificity": 0.8629737609329446,
+          "confusion_matrix": [
+            [
+              296,
+              47
+            ],
+            [
+              66,
+              205
+            ]
+          ],
+          "true_negatives": 296,
+          "false_positives": 47,
+          "false_negatives": 66,
+          "true_positives": 205
+        },
+        "mcc_difference": 0.04858985094305035,
+        "accuracy_difference": 0.026058631921824116,
+        "f1_difference": 0.034424251424752694,
+        "better_model": "classification",
+        "mcc_improvement": 0.04858985094305035
+      },
+      {
+        "protein_name": "ADRB2",
+        "organism": "human",
+        "n_samples": 860,
+        "regression_metrics": {
+          "mcc": 0.6749610569759605,
+          "accuracy": 0.8674418604651163,
+          "precision": 0.890302066772655,
+          "recall": 0.9256198347107438,
+          "f1": 0.9076175040518638,
+          "specificity": 0.7294117647058823,
+          "confusion_matrix": [
+            [
+              186,
+              69
+            ],
+            [
+              45,
+              560
+            ]
+          ],
+          "true_negatives": 186,
+          "false_positives": 69,
+          "false_negatives": 45,
+          "true_positives": 560
+        },
+        "classification_metrics": {
+          "mcc": 0.6721009846493352,
+          "accuracy": 0.8569767441860465,
+          "precision": 0.9179755671902269,
+          "recall": 0.8737541528239202,
+          "f1": 0.8953191489361703,
+          "specificity": 0.8178294573643411,
+          "confusion_matrix": [
+            [
+              211,
+              47
+            ],
+            [
+              76,
+              526
+            ]
+          ],
+          "true_negatives": 211,
+          "false_positives": 47,
+          "false_negatives": 76,
+          "true_positives": 526
+        },
+        "mcc_difference": -0.002860072326625329,
+        "accuracy_difference": -0.010465116279069764,
+        "f1_difference": -0.012298355115693549,
+        "better_model": "regression",
+        "mcc_improvement": 0.002860072326625329
+      },
+      {
+        "protein_name": "CNR2",
+        "organism": "human",
+        "n_samples": 4295,
+        "regression_metrics": {
+          "mcc": 0.5495682307284846,
+          "accuracy": 0.7743888242142025,
+          "precision": 0.7591333899745115,
+          "recall": 0.8163544997715853,
+          "f1": 0.7867048206031257,
+          "specificity": 0.7307692307692307,
+          "confusion_matrix": [
+            [
+              1539,
+              567
+            ],
+            [
+              402,
+              1787
+            ]
+          ],
+          "true_negatives": 1539,
+          "false_positives": 567,
+          "false_negatives": 402,
+          "true_positives": 1787
+        },
+        "classification_metrics": {
+          "mcc": 0.5566164534376226,
+          "accuracy": 0.7781140861466822,
+          "precision": 0.7678018575851393,
+          "recall": 0.8022181146025879,
+          "f1": 0.7846327683615819,
+          "specificity": 0.7536367902393243,
+          "confusion_matrix": [
+            [
+              1606,
+              525
+            ],
+            [
+              428,
+              1736
+            ]
+          ],
+          "true_negatives": 1606,
+          "false_positives": 525,
+          "false_negatives": 428,
+          "true_positives": 1736
+        },
+        "mcc_difference": 0.0070482227091379634,
+        "accuracy_difference": 0.0037252619324796843,
+        "f1_difference": -0.0020720522415438314,
+        "better_model": "classification",
+        "mcc_improvement": 0.0070482227091379634
+      },
+      {
+        "protein_name": "CHRM1",
+        "organism": "human",
+        "n_samples": 1103,
+        "regression_metrics": {
+          "mcc": 0.4875420831967659,
+          "accuracy": 0.772438803263826,
+          "precision": 0.8085106382978723,
+          "recall": 0.4797979797979798,
+          "f1": 0.6022187004754358,
+          "specificity": 0.9363507779349364,
+          "confusion_matrix": [
+            [
+              662,
+              45
+            ],
+            [
+              206,
+              190
+            ]
+          ],
+          "true_negatives": 662,
+          "false_positives": 45,
+          "false_negatives": 206,
+          "true_positives": 190
+        },
+        "classification_metrics": {
+          "mcc": 0.5480321044773948,
+          "accuracy": 0.7960108794197642,
+          "precision": 0.728021978021978,
+          "recall": 0.6777493606138107,
+          "f1": 0.7019867549668874,
+          "specificity": 0.8609550561797753,
+          "confusion_matrix": [
+            [
+              613,
+              99
+            ],
+            [
+              126,
+              265
+            ]
+          ],
+          "true_negatives": 613,
+          "false_positives": 99,
+          "false_negatives": 126,
+          "true_positives": 265
+        },
+        "mcc_difference": 0.060490021280628914,
+        "accuracy_difference": 0.02357207615593826,
+        "f1_difference": 0.09976805449145165,
+        "better_model": "classification",
+        "mcc_improvement": 0.060490021280628914
+      },
+      {
+        "protein_name": "CHRM2",
+        "organism": "human",
+        "n_samples": 721,
+        "regression_metrics": {
+          "mcc": 0.6096965029331164,
+          "accuracy": 0.8044382801664355,
+          "precision": 0.8213256484149856,
+          "recall": 0.782967032967033,
+          "f1": 0.8016877637130801,
+          "specificity": 0.8263305322128851,
+          "confusion_matrix": [
+            [
+              295,
+              62
+            ],
+            [
+              79,
+              285
+            ]
+          ],
+          "true_negatives": 295,
+          "false_positives": 62,
+          "false_negatives": 79,
+          "true_positives": 285
+        },
+        "classification_metrics": {
+          "mcc": 0.6171236479947015,
+          "accuracy": 0.8085991678224688,
+          "precision": 0.8096590909090909,
+          "recall": 0.800561797752809,
+          "f1": 0.8050847457627118,
+          "specificity": 0.8164383561643835,
+          "confusion_matrix": [
+            [
+              298,
+              67
+            ],
+            [
+              71,
+              285
+            ]
+          ],
+          "true_negatives": 298,
+          "false_positives": 67,
+          "false_negatives": 71,
+          "true_positives": 285
+        },
+        "mcc_difference": 0.00742714506158515,
+        "accuracy_difference": 0.004160887656033285,
+        "f1_difference": 0.0033969820496316805,
+        "better_model": "classification",
+        "mcc_improvement": 0.00742714506158515
+      },
+      {
+        "protein_name": "CHRM3",
+        "organism": "human",
+        "n_samples": 1209,
+        "regression_metrics": {
+          "mcc": 0.7245690490900549,
+          "accuracy": 0.8808933002481389,
+          "precision": 0.9001189060642093,
+          "recall": 0.9265605875152999,
+          "f1": 0.9131483715319663,
+          "specificity": 0.7857142857142857,
+          "confusion_matrix": [
+            [
+              308,
+              84
+            ],
+            [
+              60,
+              757
+            ]
+          ],
+          "true_negatives": 308,
+          "false_positives": 84,
+          "false_negatives": 60,
+          "true_positives": 757
+        },
+        "classification_metrics": {
+          "mcc": 0.6930849673813241,
+          "accuracy": 0.8469809760132341,
+          "precision": 0.9492017416545718,
+          "recall": 0.8134328358208955,
+          "f1": 0.8760884125920965,
+          "specificity": 0.9135802469135802,
+          "confusion_matrix": [
+            [
+              370,
+              35
+            ],
+            [
+              150,
+              654
+            ]
+          ],
+          "true_negatives": 370,
+          "false_positives": 35,
+          "false_negatives": 150,
+          "true_positives": 654
+        },
+        "mcc_difference": -0.03148408170873085,
+        "accuracy_difference": -0.03391232423490487,
+        "f1_difference": -0.0370599589398698,
+        "better_model": "regression",
+        "mcc_improvement": 0.03148408170873085
+      },
+      {
+        "protein_name": "CHRNA7",
+        "organism": "human",
+        "n_samples": 595,
+        "regression_metrics": {
+          "mcc": 0.5884292300693085,
+          "accuracy": 0.8319327731092437,
+          "precision": 0.7515923566878981,
+          "recall": 0.659217877094972,
+          "f1": 0.7023809523809523,
+          "specificity": 0.90625,
+          "confusion_matrix": [
+            [
+              377,
+              39
+            ],
+            [
+              61,
+              118
+            ]
+          ],
+          "true_negatives": 377,
+          "false_positives": 39,
+          "false_negatives": 61,
+          "true_positives": 118
+        },
+        "classification_metrics": {
+          "mcc": 0.6265262270582874,
+          "accuracy": 0.838655462184874,
+          "precision": 0.7076923076923077,
+          "recall": 0.7796610169491526,
+          "f1": 0.7419354838709677,
+          "specificity": 0.8636363636363636,
+          "confusion_matrix": [
+            [
+              361,
+              57
+            ],
+            [
+              39,
+              138
+            ]
+          ],
+          "true_negatives": 361,
+          "false_positives": 57,
+          "false_negatives": 39,
+          "true_positives": 138
+        },
+        "mcc_difference": 0.03809699698897895,
+        "accuracy_difference": 0.006722689075630228,
+        "f1_difference": 0.03955453149001542,
+        "better_model": "classification",
+        "mcc_improvement": 0.03809699698897895
+      },
+      {
+        "protein_name": "HRH1",
+        "organism": "human",
+        "n_samples": 945,
+        "regression_metrics": {
+          "mcc": 0.6316004197102869,
+          "accuracy": 0.8137566137566138,
+          "precision": 0.8571428571428571,
+          "recall": 0.7418655097613883,
+          "f1": 0.7953488372093023,
+          "specificity": 0.8822314049586777,
+          "confusion_matrix": [
+            [
+              427,
+              57
+            ],
+            [
+              119,
+              342
+            ]
+          ],
+          "true_negatives": 427,
+          "false_positives": 57,
+          "false_negatives": 119,
+          "true_positives": 342
+        },
+        "classification_metrics": {
+          "mcc": 0.6261965151907541,
+          "accuracy": 0.8116402116402116,
+          "precision": 0.8530927835051546,
+          "recall": 0.7323008849557522,
+          "f1": 0.7880952380952381,
+          "specificity": 0.8843813387423936,
+          "confusion_matrix": [
+            [
+              436,
+              57
+            ],
+            [
+              121,
+              331
+            ]
+          ],
+          "true_negatives": 436,
+          "false_positives": 57,
+          "false_negatives": 121,
+          "true_positives": 331
+        },
+        "mcc_difference": -0.005403904519532765,
+        "accuracy_difference": -0.002116402116402183,
+        "f1_difference": -0.007253599114064202,
+        "better_model": "regression",
+        "mcc_improvement": 0.005403904519532765
+      },
+      {
+        "protein_name": "HSD11B1",
+        "organism": "mouse",
+        "n_samples": 612,
+        "regression_metrics": {
+          "mcc": 0.49453480543789596,
+          "accuracy": 0.7598039215686274,
+          "precision": 0.77,
+          "recall": 0.8484848484848485,
+          "f1": 0.8073394495412844,
+          "specificity": 0.6305220883534136,
+          "confusion_matrix": [
+            [
+              157,
+              92
+            ],
+            [
+              55,
+              308
+            ]
+          ],
+          "true_negatives": 157,
+          "false_positives": 92,
+          "false_negatives": 55,
+          "true_positives": 308
+        },
+        "classification_metrics": {
+          "mcc": 0.5032256879064626,
+          "accuracy": 0.7549019607843137,
+          "precision": 0.8119402985074626,
+          "recall": 0.7576601671309192,
+          "f1": 0.7838616714697406,
+          "specificity": 0.7509881422924901,
+          "confusion_matrix": [
+            [
+              190,
+              63
+            ],
+            [
+              87,
+              272
+            ]
+          ],
+          "true_negatives": 190,
+          "false_positives": 63,
+          "false_negatives": 87,
+          "true_positives": 272
+        },
+        "mcc_difference": 0.00869088246856664,
+        "accuracy_difference": -0.004901960784313708,
+        "f1_difference": -0.02347777807154383,
+        "better_model": "classification",
+        "mcc_improvement": 0.00869088246856664
+      },
+      {
+        "protein_name": "ADRB1",
+        "organism": "mouse",
+        "n_samples": 32,
+        "regression_metrics": {
+          "mcc": 0.29012942659282975,
+          "accuracy": 0.65625,
+          "precision": 0.6666666666666666,
+          "recall": 0.7777777777777778,
+          "f1": 0.717948717948718,
+          "specificity": 0.5,
+          "confusion_matrix": [
+            [
+              7,
+              7
+            ],
+            [
+              4,
+              14
+            ]
+          ],
+          "true_negatives": 7,
+          "false_positives": 7,
+          "false_negatives": 4,
+          "true_positives": 14
+        },
+        "classification_metrics": {
+          "mcc": 0.2519763153394848,
+          "accuracy": 0.625,
+          "precision": 0.6875,
+          "recall": 0.6111111111111112,
+          "f1": 0.6470588235294118,
+          "specificity": 0.6428571428571429,
+          "confusion_matrix": [
+            [
+              9,
+              5
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "true_negatives": 9,
+          "false_positives": 5,
+          "false_negatives": 7,
+          "true_positives": 11
+        },
+        "mcc_difference": -0.03815311125334497,
+        "accuracy_difference": -0.03125,
+        "f1_difference": -0.07088989441930615,
+        "better_model": "regression",
+        "mcc_improvement": 0.03815311125334497
+      },
+      {
+        "protein_name": "CNR2",
+        "organism": "mouse",
+        "n_samples": 363,
+        "regression_metrics": {
+          "mcc": 0.6872965834762008,
+          "accuracy": 0.8567493112947658,
+          "precision": 0.8677685950413223,
+          "recall": 0.9130434782608695,
+          "f1": 0.8898305084745762,
+          "specificity": 0.7593984962406015,
+          "confusion_matrix": [
+            [
+              101,
+              32
+            ],
+            [
+              20,
+              210
+            ]
+          ],
+          "true_negatives": 101,
+          "false_positives": 32,
+          "false_negatives": 20,
+          "true_positives": 210
+        },
+        "classification_metrics": {
+          "mcc": 0.6753186829338744,
+          "accuracy": 0.8484848484848485,
+          "precision": 0.8739130434782608,
+          "recall": 0.8854625550660793,
+          "f1": 0.8796498905908097,
+          "specificity": 0.7867647058823529,
+          "confusion_matrix": [
+            [
+              107,
+              29
+            ],
+            [
+              26,
+              201
+            ]
+          ],
+          "true_negatives": 107,
+          "false_positives": 29,
+          "false_negatives": 26,
+          "true_positives": 201
+        },
+        "mcc_difference": -0.011977900542326392,
+        "accuracy_difference": -0.008264462809917328,
+        "f1_difference": -0.010180617883766563,
+        "better_model": "regression",
+        "mcc_improvement": 0.011977900542326392
+      },
+      {
+        "protein_name": "MAOA",
+        "organism": "rat",
+        "n_samples": 336,
+        "regression_metrics": {
+          "mcc": 0.7679819468857122,
+          "accuracy": 0.9375,
+          "precision": 0.9302325581395349,
+          "recall": 0.6896551724137931,
+          "f1": 0.7920792079207921,
+          "specificity": 0.9892086330935251,
+          "confusion_matrix": [
+            [
+              275,
+              3
+            ],
+            [
+              18,
+              40
+            ]
+          ],
+          "true_negatives": 275,
+          "false_positives": 3,
+          "false_negatives": 18,
+          "true_positives": 40
+        },
+        "classification_metrics": {
+          "mcc": 0.7393051494605678,
+          "accuracy": 0.9285714285714286,
+          "precision": 0.7962962962962963,
+          "recall": 0.7678571428571429,
+          "f1": 0.7818181818181819,
+          "specificity": 0.9607142857142857,
+          "confusion_matrix": [
+            [
+              269,
+              11
+            ],
+            [
+              13,
+              43
+            ]
+          ],
+          "true_negatives": 269,
+          "false_positives": 11,
+          "false_negatives": 13,
+          "true_positives": 43
+        },
+        "mcc_difference": -0.028676797425144396,
+        "accuracy_difference": -0.008928571428571397,
+        "f1_difference": -0.01026102610261026,
+        "better_model": "regression",
+        "mcc_improvement": 0.028676797425144396
+      },
+      {
+        "protein_name": "MAOB",
+        "organism": "rat",
+        "n_samples": 263,
+        "regression_metrics": {
+          "mcc": 0.5042351671201512,
+          "accuracy": 0.8060836501901141,
+          "precision": 0.7241379310344828,
+          "recall": 0.5454545454545454,
+          "f1": 0.6222222222222222,
+          "specificity": 0.9139784946236559,
+          "confusion_matrix": [
+            [
+              170,
+              16
+            ],
+            [
+              35,
+              42
+            ]
+          ],
+          "true_negatives": 170,
+          "false_positives": 16,
+          "false_negatives": 35,
+          "true_positives": 42
+        },
+        "classification_metrics": {
+          "mcc": 0.5144825538345801,
+          "accuracy": 0.779467680608365,
+          "precision": 0.5714285714285714,
+          "recall": 0.7777777777777778,
+          "f1": 0.6588235294117647,
+          "specificity": 0.7801047120418848,
+          "confusion_matrix": [
+            [
+              149,
+              42
+            ],
+            [
+              16,
+              56
+            ]
+          ],
+          "true_negatives": 149,
+          "false_positives": 42,
+          "false_negatives": 16,
+          "true_positives": 56
+        },
+        "mcc_difference": 0.01024738671442893,
+        "accuracy_difference": -0.026615969581749055,
+        "f1_difference": 0.036601307189542465,
+        "better_model": "classification",
+        "mcc_improvement": 0.01024738671442893
+      },
+      {
+        "protein_name": "HSD11B1",
+        "organism": "rat",
+        "n_samples": 67,
+        "regression_metrics": {
+          "mcc": 0.6674475385240917,
+          "accuracy": 0.8507462686567164,
+          "precision": 0.8269230769230769,
+          "recall": 0.9772727272727273,
+          "f1": 0.8958333333333334,
+          "specificity": 0.6086956521739131,
+          "confusion_matrix": [
+            [
+              14,
+              9
+            ],
+            [
+              1,
+              43
+            ]
+          ],
+          "true_negatives": 14,
+          "false_positives": 9,
+          "false_negatives": 1,
+          "true_positives": 43
+        },
+        "classification_metrics": {
+          "mcc": 0.7747067206264588,
+          "accuracy": 0.8955223880597015,
+          "precision": 0.8627450980392157,
+          "recall": 1.0,
+          "f1": 0.9263157894736842,
+          "specificity": 0.6956521739130435,
+          "confusion_matrix": [
+            [
+              16,
+              7
+            ],
+            [
+              0,
+              44
+            ]
+          ],
+          "true_negatives": 16,
+          "false_positives": 7,
+          "false_negatives": 0,
+          "true_positives": 44
+        },
+        "mcc_difference": 0.10725918210236718,
+        "accuracy_difference": 0.04477611940298509,
+        "f1_difference": 0.030482456140350833,
+        "better_model": "classification",
+        "mcc_improvement": 0.10725918210236718
+      },
+      {
+        "protein_name": "HTR2B",
+        "organism": "rat",
+        "n_samples": 35,
+        "regression_metrics": {
+          "mcc": -0.15309310892394862,
+          "accuracy": 0.7142857142857143,
+          "precision": 0.78125,
+          "recall": 0.8928571428571429,
+          "f1": 0.8333333333333334,
+          "specificity": 0.0,
+          "confusion_matrix": [
+            [
+              0,
+              7
+            ],
+            [
+              3,
+              25
+            ]
+          ],
+          "true_negatives": 0,
+          "false_positives": 7,
+          "false_negatives": 3,
+          "true_positives": 25
+        },
+        "classification_metrics": {
+          "mcc": 0.15161960871578067,
+          "accuracy": 0.7428571428571429,
+          "precision": 0.8275862068965517,
+          "recall": 0.8571428571428571,
+          "f1": 0.8421052631578947,
+          "specificity": 0.2857142857142857,
+          "confusion_matrix": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              24
+            ]
+          ],
+          "true_negatives": 2,
+          "false_positives": 5,
+          "false_negatives": 4,
+          "true_positives": 24
+        },
+        "mcc_difference": 0.3047127176397293,
+        "accuracy_difference": 0.02857142857142858,
+        "f1_difference": 0.00877192982456132,
+        "better_model": "classification",
+        "mcc_improvement": 0.3047127176397293
+      },
+      {
+        "protein_name": "SLC6A4",
+        "organism": "rat",
+        "n_samples": 1995,
+        "regression_metrics": {
+          "mcc": 0.6660805395533076,
+          "accuracy": 0.8340852130325814,
+          "precision": 0.8254385964912281,
+          "recall": 0.8769804287045666,
+          "f1": 0.850429281518301,
+          "specificity": 0.7841648590021691,
+          "confusion_matrix": [
+            [
+              723,
+              199
+            ],
+            [
+              132,
+              941
+            ]
+          ],
+          "true_negatives": 723,
+          "false_positives": 199,
+          "false_negatives": 132,
+          "true_positives": 941
+        },
+        "classification_metrics": {
+          "mcc": 0.6684905739831128,
+          "accuracy": 0.8335839598997494,
+          "precision": 0.8644578313253012,
+          "recall": 0.8137996219281664,
+          "f1": 0.8383641674780915,
+          "specificity": 0.855923159018143,
+          "confusion_matrix": [
+            [
+              802,
+              135
+            ],
+            [
+              197,
+              861
+            ]
+          ],
+          "true_negatives": 802,
+          "false_positives": 135,
+          "false_negatives": 197,
+          "true_positives": 861
+        },
+        "mcc_difference": 0.0024100344298052523,
+        "accuracy_difference": -0.0005012531328320025,
+        "f1_difference": -0.01206511404020949,
+        "better_model": "classification",
+        "mcc_improvement": 0.0024100344298052523
+      },
+      {
+        "protein_name": "SLC6A3",
+        "organism": "rat",
+        "n_samples": 1114,
+        "regression_metrics": {
+          "mcc": 0.6822433991425156,
+          "accuracy": 0.8447037701974865,
+          "precision": 0.8329718004338394,
+          "recall": 0.8,
+          "f1": 0.8161530286928799,
+          "specificity": 0.8785488958990536,
+          "confusion_matrix": [
+            [
+              557,
+              77
+            ],
+            [
+              96,
+              384
+            ]
+          ],
+          "true_negatives": 557,
+          "false_positives": 77,
+          "false_negatives": 96,
+          "true_positives": 384
+        },
+        "classification_metrics": {
+          "mcc": 0.6407086009804294,
+          "accuracy": 0.8240574506283662,
+          "precision": 0.7928870292887029,
+          "recall": 0.7962184873949579,
+          "f1": 0.7945492662473794,
+          "specificity": 0.8448275862068966,
+          "confusion_matrix": [
+            [
+              539,
+              99
+            ],
+            [
+              97,
+              379
+            ]
+          ],
+          "true_negatives": 539,
+          "false_positives": 99,
+          "false_negatives": 97,
+          "true_positives": 379
+        },
+        "mcc_difference": -0.04153479816208627,
+        "accuracy_difference": -0.02064631956912033,
+        "f1_difference": -0.02160376244550044,
+        "better_model": "regression",
+        "mcc_improvement": 0.04153479816208627
+      },
+      {
+        "protein_name": "ADRA1A",
+        "organism": "rat",
+        "n_samples": 146,
+        "regression_metrics": {
+          "mcc": 0.7052714789913107,
+          "accuracy": 0.8698630136986302,
+          "precision": 0.8666666666666667,
+          "recall": 0.9479166666666666,
+          "f1": 0.9054726368159204,
+          "specificity": 0.72,
+          "confusion_matrix": [
+            [
+              36,
+              14
+            ],
+            [
+              5,
+              91
+            ]
+          ],
+          "true_negatives": 36,
+          "false_positives": 14,
+          "false_negatives": 5,
+          "true_positives": 91
+        },
+        "classification_metrics": {
+          "mcc": 0.8016248501074037,
+          "accuracy": 0.910958904109589,
+          "precision": 0.8952380952380953,
+          "recall": 0.9791666666666666,
+          "f1": 0.9353233830845771,
+          "specificity": 0.78,
+          "confusion_matrix": [
+            [
+              39,
+              11
+            ],
+            [
+              2,
+              94
+            ]
+          ],
+          "true_negatives": 39,
+          "false_positives": 11,
+          "false_negatives": 2,
+          "true_positives": 94
+        },
+        "mcc_difference": 0.09635337111609299,
+        "accuracy_difference": 0.041095890410958846,
+        "f1_difference": 0.02985074626865669,
+        "better_model": "classification",
+        "mcc_improvement": 0.09635337111609299
+      },
+      {
+        "protein_name": "ADRA2A",
+        "organism": "rat",
+        "n_samples": 39,
+        "regression_metrics": {
+          "mcc": 0.6148873228105182,
+          "accuracy": 0.8205128205128205,
+          "precision": 0.8333333333333334,
+          "recall": 0.6666666666666666,
+          "f1": 0.7407407407407407,
+          "specificity": 0.9166666666666666,
+          "confusion_matrix": [
+            [
+              22,
+              2
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "true_negatives": 22,
+          "false_positives": 2,
+          "false_negatives": 5,
+          "true_positives": 10
+        },
+        "classification_metrics": {
+          "mcc": 0.6357084917461994,
+          "accuracy": 0.8205128205128205,
+          "precision": 0.7058823529411765,
+          "recall": 0.8571428571428571,
+          "f1": 0.7741935483870968,
+          "specificity": 0.8,
+          "confusion_matrix": [
+            [
+              20,
+              5
+            ],
+            [
+              2,
+              12
+            ]
+          ],
+          "true_negatives": 20,
+          "false_positives": 5,
+          "false_negatives": 2,
+          "true_positives": 12
+        },
+        "mcc_difference": 0.0208211689356812,
+        "accuracy_difference": 0.0,
+        "f1_difference": 0.03345280764635605,
+        "better_model": "classification",
+        "mcc_improvement": 0.0208211689356812
+      },
+      {
+        "protein_name": "ADRB1",
+        "organism": "rat",
+        "n_samples": 53,
+        "regression_metrics": {
+          "mcc": 0.7122423397117059,
+          "accuracy": 0.8679245283018868,
+          "precision": 0.9285714285714286,
+          "recall": 0.6842105263157895,
+          "f1": 0.7878787878787878,
+          "specificity": 0.9705882352941176,
+          "confusion_matrix": [
+            [
+              33,
+              1
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "true_negatives": 33,
+          "false_positives": 1,
+          "false_negatives": 6,
+          "true_positives": 13
+        },
+        "classification_metrics": {
+          "mcc": 0.4111111111111111,
+          "accuracy": 0.7358490566037735,
+          "precision": 0.6111111111111112,
+          "recall": 0.6111111111111112,
+          "f1": 0.6111111111111112,
+          "specificity": 0.8,
+          "confusion_matrix": [
+            [
+              28,
+              7
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "true_negatives": 28,
+          "false_positives": 7,
+          "false_negatives": 7,
+          "true_positives": 11
+        },
+        "mcc_difference": -0.3011312286005948,
+        "accuracy_difference": -0.1320754716981133,
+        "f1_difference": -0.17676767676767668,
+        "better_model": "regression",
+        "mcc_improvement": 0.3011312286005948
+      },
+      {
+        "protein_name": "CNR2",
+        "organism": "rat",
+        "n_samples": 194,
+        "regression_metrics": {
+          "mcc": 0.5540717267034054,
+          "accuracy": 0.8298969072164949,
+          "precision": 0.8397435897435898,
+          "recall": 0.9424460431654677,
+          "f1": 0.888135593220339,
+          "specificity": 0.5454545454545454,
+          "confusion_matrix": [
+            [
+              30,
+              25
+            ],
+            [
+              8,
+              131
+            ]
+          ],
+          "true_negatives": 30,
+          "false_positives": 25,
+          "false_negatives": 8,
+          "true_positives": 131
+        },
+        "classification_metrics": {
+          "mcc": 0.5480106345400115,
+          "accuracy": 0.8195876288659794,
+          "precision": 0.8493150684931506,
+          "recall": 0.9051094890510949,
+          "f1": 0.8763250883392226,
+          "specificity": 0.6140350877192983,
+          "confusion_matrix": [
+            [
+              35,
+              22
+            ],
+            [
+              13,
+              124
+            ]
+          ],
+          "true_negatives": 35,
+          "false_positives": 22,
+          "false_negatives": 13,
+          "true_positives": 124
+        },
+        "mcc_difference": -0.0060610921633939,
+        "accuracy_difference": -0.010309278350515538,
+        "f1_difference": -0.011810504881116346,
+        "better_model": "regression",
+        "mcc_improvement": 0.0060610921633939
+      },
+      {
+        "protein_name": "CHRM1",
+        "organism": "rat",
+        "n_samples": 261,
+        "regression_metrics": {
+          "mcc": 0.7941829520617333,
+          "accuracy": 0.9042145593869731,
+          "precision": 0.826530612244898,
+          "recall": 0.9101123595505618,
+          "f1": 0.8663101604278075,
+          "specificity": 0.9011627906976745,
+          "confusion_matrix": [
+            [
+              155,
+              17
+            ],
+            [
+              8,
+              81
+            ]
+          ],
+          "true_negatives": 155,
+          "false_positives": 17,
+          "false_negatives": 8,
+          "true_positives": 81
+        },
+        "classification_metrics": {
+          "mcc": 0.8193918804458422,
+          "accuracy": 0.9157088122605364,
+          "precision": 0.8367346938775511,
+          "recall": 0.9318181818181818,
+          "f1": 0.8817204301075269,
+          "specificity": 0.9075144508670521,
+          "confusion_matrix": [
+            [
+              157,
+              16
+            ],
+            [
+              6,
+              82
+            ]
+          ],
+          "true_negatives": 157,
+          "false_positives": 16,
+          "false_negatives": 6,
+          "true_positives": 82
+        },
+        "mcc_difference": 0.02520892838410893,
+        "accuracy_difference": 0.011494252873563204,
+        "f1_difference": 0.015410269679719368,
+        "better_model": "classification",
+        "mcc_improvement": 0.02520892838410893
+      },
+      {
+        "protein_name": "CHRM2",
+        "organism": "rat",
+        "n_samples": 130,
+        "regression_metrics": {
+          "mcc": 0.6465087898403734,
+          "accuracy": 0.823076923076923,
+          "precision": 0.8115942028985508,
+          "recall": 0.8484848484848485,
+          "f1": 0.8296296296296296,
+          "specificity": 0.796875,
+          "confusion_matrix": [
+            [
+              51,
+              13
+            ],
+            [
+              10,
+              56
+            ]
+          ],
+          "true_negatives": 51,
+          "false_positives": 13,
+          "false_negatives": 10,
+          "true_positives": 56
+        },
+        "classification_metrics": {
+          "mcc": 0.6307692307692307,
+          "accuracy": 0.8153846153846154,
+          "precision": 0.8153846153846154,
+          "recall": 0.8153846153846154,
+          "f1": 0.8153846153846154,
+          "specificity": 0.8153846153846154,
+          "confusion_matrix": [
+            [
+              53,
+              12
+            ],
+            [
+              12,
+              53
+            ]
+          ],
+          "true_negatives": 53,
+          "false_positives": 12,
+          "false_negatives": 12,
+          "true_positives": 53
+        },
+        "mcc_difference": -0.01573955907114266,
+        "accuracy_difference": -0.007692307692307665,
+        "f1_difference": -0.014245014245014231,
+        "better_model": "regression",
+        "mcc_improvement": 0.01573955907114266
+      },
+      {
+        "protein_name": "CHRM3",
+        "organism": "rat",
+        "n_samples": 93,
+        "regression_metrics": {
+          "mcc": 0.43209476084875315,
+          "accuracy": 0.8494623655913979,
+          "precision": 0.8588235294117647,
+          "recall": 0.9733333333333334,
+          "f1": 0.9125,
+          "specificity": 0.3333333333333333,
+          "confusion_matrix": [
+            [
+              6,
+              12
+            ],
+            [
+              2,
+              73
+            ]
+          ],
+          "true_negatives": 6,
+          "false_positives": 12,
+          "false_negatives": 2,
+          "true_positives": 73
+        },
+        "classification_metrics": {
+          "mcc": 0.45115237064484276,
+          "accuracy": 0.8387096774193549,
+          "precision": 0.8846153846153846,
+          "recall": 0.92,
+          "f1": 0.9019607843137255,
+          "specificity": 0.5,
+          "confusion_matrix": [
+            [
+              9,
+              9
+            ],
+            [
+              6,
+              69
+            ]
+          ],
+          "true_negatives": 9,
+          "false_positives": 9,
+          "false_negatives": 6,
+          "true_positives": 69
+        },
+        "mcc_difference": 0.019057609796089614,
+        "accuracy_difference": -0.010752688172043001,
+        "f1_difference": -0.010539215686274472,
+        "better_model": "classification",
+        "mcc_improvement": 0.019057609796089614
+      },
+      {
+        "protein_name": "CHRNA7",
+        "organism": "rat",
+        "n_samples": 1018,
+        "regression_metrics": {
+          "mcc": 0.6058676980348113,
+          "accuracy": 0.806483300589391,
+          "precision": 0.7720090293453724,
+          "recall": 0.7808219178082192,
+          "f1": 0.7763904653802497,
+          "specificity": 0.8258620689655173,
+          "confusion_matrix": [
+            [
+              479,
+              101
+            ],
+            [
+              96,
+              342
+            ]
+          ],
+          "true_negatives": 479,
+          "false_positives": 101,
+          "false_negatives": 96,
+          "true_positives": 342
+        },
+        "classification_metrics": {
+          "mcc": 0.5794313058466813,
+          "accuracy": 0.7888015717092338,
+          "precision": 0.7215447154471545,
+          "recall": 0.8198614318706697,
+          "f1": 0.7675675675675676,
+          "specificity": 0.7658119658119659,
+          "confusion_matrix": [
+            [
+              448,
+              137
+            ],
+            [
+              78,
+              355
+            ]
+          ],
+          "true_negatives": 448,
+          "false_positives": 137,
+          "false_negatives": 78,
+          "true_positives": 355
+        },
+        "mcc_difference": -0.026436392188129987,
+        "accuracy_difference": -0.017681728880157177,
+        "f1_difference": -0.008822897812682085,
+        "better_model": "regression",
+        "mcc_improvement": 0.026436392188129987
+      }
+    ]
+  },
+  "esm_morgan_comparison": {
+    "total_comparisons": 44,
+    "classification_wins": 24,
+    "regression_wins": 20,
+    "classification_win_rate": 0.5454545454545454,
+    "mean_mcc_difference": 0.023568963883441582,
+    "std_mcc_difference": 0.10858402001504458,
+    "mean_accuracy_difference": -0.006261170645645061,
+    "mean_f1_difference": 0.03500981115890922,
+    "results": [
+      {
+        "protein_name": "CYP1A2",
+        "organism": "human",
+        "n_samples": 329,
+        "regression_metrics": {
+          "mcc": 0.5238625628925131,
+          "accuracy": 0.8601823708206687,
+          "precision": 0.8709677419354839,
+          "recall": 0.391304347826087,
+          "f1": 0.54,
+          "specificity": 0.9846153846153847,
+          "confusion_matrix": [
+            [
+              256,
+              4
+            ],
+            [
+              42,
+              27
+            ]
+          ],
+          "true_negatives": 256,
+          "false_positives": 4,
+          "false_negatives": 42,
+          "true_positives": 27
+        },
+        "classification_metrics": {
+          "mcc": 0.5585872702830107,
+          "accuracy": 0.8662613981762918,
+          "precision": 0.7169811320754716,
+          "recall": 0.5671641791044776,
+          "f1": 0.6333333333333333,
+          "specificity": 0.9427480916030534,
+          "confusion_matrix": [
+            [
+              247,
+              15
+            ],
+            [
+              29,
+              38
+            ]
+          ],
+          "true_negatives": 247,
+          "false_positives": 15,
+          "false_negatives": 29,
+          "true_positives": 38
+        },
+        "mcc_difference": 0.0347247073904976,
+        "accuracy_difference": 0.006079027355623046,
+        "f1_difference": 0.09333333333333327,
+        "better_model": "classification",
+        "mcc_improvement": 0.0347247073904976
+      },
+      {
+        "protein_name": "CYP2C9",
+        "organism": "human",
+        "n_samples": 466,
+        "regression_metrics": {
+          "mcc": 0.40158074982761494,
+          "accuracy": 0.9678111587982833,
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "f1": 0.2857142857142857,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              448,
+              0
+            ],
+            [
+              15,
+              3
+            ]
+          ],
+          "true_negatives": 448,
+          "false_positives": 0,
+          "false_negatives": 15,
+          "true_positives": 3
+        },
+        "classification_metrics": {
+          "mcc": 0.4361713289108325,
+          "accuracy": 0.9592274678111588,
+          "precision": 0.47058823529411764,
+          "recall": 0.4444444444444444,
+          "f1": 0.45714285714285713,
+          "specificity": 0.9799107142857143,
+          "confusion_matrix": [
+            [
+              439,
+              9
+            ],
+            [
+              10,
+              8
+            ]
+          ],
+          "true_negatives": 439,
+          "false_positives": 9,
+          "false_negatives": 10,
+          "true_positives": 8
+        },
+        "mcc_difference": 0.034590579083217554,
+        "accuracy_difference": -0.008583690987124526,
+        "f1_difference": 0.17142857142857143,
+        "better_model": "classification",
+        "mcc_improvement": 0.034590579083217554
+      },
+      {
+        "protein_name": "CYP2D6",
+        "organism": "human",
+        "n_samples": 607,
+        "regression_metrics": {
+          "mcc": 0.13412693352771246,
+          "accuracy": 0.9176276771004942,
+          "precision": 1.0,
+          "recall": 0.0196078431372549,
+          "f1": 0.038461538461538464,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              556,
+              0
+            ],
+            [
+              50,
+              1
+            ]
+          ],
+          "true_negatives": 556,
+          "false_positives": 0,
+          "false_negatives": 50,
+          "true_positives": 1
+        },
+        "classification_metrics": {
+          "mcc": 0.36657722122838404,
+          "accuracy": 0.9077429983525536,
+          "precision": 0.4166666666666667,
+          "recall": 0.4166666666666667,
+          "f1": 0.4166666666666667,
+          "specificity": 0.9499105545617174,
+          "confusion_matrix": [
+            [
+              531,
+              28
+            ],
+            [
+              28,
+              20
+            ]
+          ],
+          "true_negatives": 531,
+          "false_positives": 28,
+          "false_negatives": 28,
+          "true_positives": 20
+        },
+        "mcc_difference": 0.23245028770067158,
+        "accuracy_difference": -0.009884678747940634,
+        "f1_difference": 0.3782051282051282,
+        "better_model": "classification",
+        "mcc_improvement": 0.23245028770067158
+      },
+      {
+        "protein_name": "CYP3A4",
+        "organism": "human",
+        "n_samples": 1387,
+        "regression_metrics": {
+          "mcc": 0.5841017349731981,
+          "accuracy": 0.9610670511896179,
+          "precision": 0.8536585365853658,
+          "recall": 0.42168674698795183,
+          "f1": 0.5645161290322581,
+          "specificity": 0.995398773006135,
+          "confusion_matrix": [
+            [
+              1298,
+              6
+            ],
+            [
+              48,
+              35
+            ]
+          ],
+          "true_negatives": 1298,
+          "false_positives": 6,
+          "false_negatives": 48,
+          "true_positives": 35
+        },
+        "classification_metrics": {
+          "mcc": 0.6193863435980694,
+          "accuracy": 0.9632299927901946,
+          "precision": 0.6617647058823529,
+          "recall": 0.6164383561643836,
+          "f1": 0.6382978723404256,
+          "specificity": 0.982496194824962,
+          "confusion_matrix": [
+            [
+              1291,
+              23
+            ],
+            [
+              28,
+              45
+            ]
+          ],
+          "true_negatives": 1291,
+          "false_positives": 23,
+          "false_negatives": 28,
+          "true_positives": 45
+        },
+        "mcc_difference": 0.03528460862487137,
+        "accuracy_difference": 0.002162941600576729,
+        "f1_difference": 0.07378174330816745,
+        "better_model": "classification",
+        "mcc_improvement": 0.03528460862487137
+      },
+      {
+        "protein_name": "XDH",
+        "organism": "human",
+        "n_samples": 98,
+        "regression_metrics": {
+          "mcc": 0.553770021218013,
+          "accuracy": 0.8469387755102041,
+          "precision": 0.7647058823529411,
+          "recall": 0.5416666666666666,
+          "f1": 0.6341463414634146,
+          "specificity": 0.9459459459459459,
+          "confusion_matrix": [
+            [
+              70,
+              4
+            ],
+            [
+              11,
+              13
+            ]
+          ],
+          "true_negatives": 70,
+          "false_positives": 4,
+          "false_negatives": 11,
+          "true_positives": 13
+        },
+        "classification_metrics": {
+          "mcc": 0.6247668505170333,
+          "accuracy": 0.8469387755102041,
+          "precision": 0.6333333333333333,
+          "recall": 0.8260869565217391,
+          "f1": 0.7169811320754716,
+          "specificity": 0.8533333333333334,
+          "confusion_matrix": [
+            [
+              64,
+              11
+            ],
+            [
+              4,
+              19
+            ]
+          ],
+          "true_negatives": 64,
+          "false_positives": 11,
+          "false_negatives": 4,
+          "true_positives": 19
+        },
+        "mcc_difference": 0.07099682929902029,
+        "accuracy_difference": 0.0,
+        "f1_difference": 0.08283479061205701,
+        "better_model": "classification",
+        "mcc_improvement": 0.07099682929902029
+      },
+      {
+        "protein_name": "MAOA",
+        "organism": "human",
+        "n_samples": 1130,
+        "regression_metrics": {
+          "mcc": 0.6013554100857851,
+          "accuracy": 0.9300884955752212,
+          "precision": 0.8472222222222222,
+          "recall": 0.4728682170542636,
+          "f1": 0.6069651741293532,
+          "specificity": 0.989010989010989,
+          "confusion_matrix": [
+            [
+              990,
+              11
+            ],
+            [
+              68,
+              61
+            ]
+          ],
+          "true_negatives": 990,
+          "false_positives": 11,
+          "false_negatives": 68,
+          "true_positives": 61
+        },
+        "classification_metrics": {
+          "mcc": 0.5722769165496087,
+          "accuracy": 0.9194690265486726,
+          "precision": 0.6517857142857143,
+          "recall": 0.584,
+          "f1": 0.6160337552742616,
+          "specificity": 0.9611940298507463,
+          "confusion_matrix": [
+            [
+              966,
+              39
+            ],
+            [
+              52,
+              73
+            ]
+          ],
+          "true_negatives": 966,
+          "false_positives": 39,
+          "false_negatives": 52,
+          "true_positives": 73
+        },
+        "mcc_difference": -0.02907849353617642,
+        "accuracy_difference": -0.010619469026548645,
+        "f1_difference": 0.009068581144908383,
+        "better_model": "regression",
+        "mcc_improvement": 0.02907849353617642
+      },
+      {
+        "protein_name": "MAOB",
+        "organism": "human",
+        "n_samples": 1519,
+        "regression_metrics": {
+          "mcc": 0.5950130648440672,
+          "accuracy": 0.8406846609611587,
+          "precision": 0.8181818181818182,
+          "recall": 0.5865168539325842,
+          "f1": 0.6832460732984293,
+          "specificity": 0.9459962756052142,
+          "confusion_matrix": [
+            [
+              1016,
+              58
+            ],
+            [
+              184,
+              261
+            ]
+          ],
+          "true_negatives": 1016,
+          "false_positives": 58,
+          "false_negatives": 184,
+          "true_positives": 261
+        },
+        "classification_metrics": {
+          "mcc": 0.6227456809589713,
+          "accuracy": 0.837393021724819,
+          "precision": 0.6953907815631263,
+          "recall": 0.7850678733031674,
+          "f1": 0.7375132837407014,
+          "specificity": 0.8588672237697307,
+          "confusion_matrix": [
+            [
+              925,
+              152
+            ],
+            [
+              95,
+              347
+            ]
+          ],
+          "true_negatives": 925,
+          "false_positives": 152,
+          "false_negatives": 95,
+          "true_positives": 347
+        },
+        "mcc_difference": 0.027732616114904074,
+        "accuracy_difference": -0.003291639236339683,
+        "f1_difference": 0.05426721044227201,
+        "better_model": "classification",
+        "mcc_improvement": 0.027732616114904074
+      },
+      {
+        "protein_name": "ALDH1A1",
+        "organism": "human",
+        "n_samples": 150,
+        "regression_metrics": {
+          "mcc": 0.5263452585897143,
+          "accuracy": 0.8133333333333334,
+          "precision": 0.8148148148148148,
+          "recall": 0.4888888888888889,
+          "f1": 0.6111111111111112,
+          "specificity": 0.9523809523809523,
+          "confusion_matrix": [
+            [
+              100,
+              5
+            ],
+            [
+              23,
+              22
+            ]
+          ],
+          "true_negatives": 100,
+          "false_positives": 5,
+          "false_negatives": 23,
+          "true_positives": 22
+        },
+        "classification_metrics": {
+          "mcc": 0.6035920395249953,
+          "accuracy": 0.84,
+          "precision": 0.7317073170731707,
+          "recall": 0.6976744186046512,
+          "f1": 0.7142857142857143,
+          "specificity": 0.897196261682243,
+          "confusion_matrix": [
+            [
+              96,
+              11
+            ],
+            [
+              13,
+              30
+            ]
+          ],
+          "true_negatives": 96,
+          "false_positives": 11,
+          "false_negatives": 13,
+          "true_positives": 30
+        },
+        "mcc_difference": 0.07724678093528103,
+        "accuracy_difference": 0.026666666666666616,
+        "f1_difference": 0.10317460317460314,
+        "better_model": "classification",
+        "mcc_improvement": 0.07724678093528103
+      },
+      {
+        "protein_name": "HSD11B1",
+        "organism": "human",
+        "n_samples": 2046,
+        "regression_metrics": {
+          "mcc": 0.6372472273463897,
+          "accuracy": 0.833822091886608,
+          "precision": 0.8469387755102041,
+          "recall": 0.8993808049535603,
+          "f1": 0.8723723723723724,
+          "specificity": 0.7214854111405835,
+          "confusion_matrix": [
+            [
+              544,
+              210
+            ],
+            [
+              130,
+              1162
+            ]
+          ],
+          "true_negatives": 544,
+          "false_positives": 210,
+          "false_negatives": 130,
+          "true_positives": 1162
+        },
+        "classification_metrics": {
+          "mcc": 0.6216302362887104,
+          "accuracy": 0.821603128054741,
+          "precision": 0.863961813842482,
+          "recall": 0.8484375,
+          "f1": 0.8561292865589278,
+          "specificity": 0.7767624020887729,
+          "confusion_matrix": [
+            [
+              595,
+              171
+            ],
+            [
+              194,
+              1086
+            ]
+          ],
+          "true_negatives": 595,
+          "false_positives": 171,
+          "false_negatives": 194,
+          "true_positives": 1086
+        },
+        "mcc_difference": -0.01561699105767933,
+        "accuracy_difference": -0.012218963831867047,
+        "f1_difference": -0.01624308581344458,
+        "better_model": "regression",
+        "mcc_improvement": 0.01561699105767933
+      },
+      {
+        "protein_name": "NR1I3",
+        "organism": "human",
+        "n_samples": 59,
+        "regression_metrics": {
+          "mcc": 0.5602635585791081,
+          "accuracy": 0.8305084745762712,
+          "precision": 0.8181818181818182,
+          "recall": 0.5294117647058824,
+          "f1": 0.6428571428571429,
+          "specificity": 0.9523809523809523,
+          "confusion_matrix": [
+            [
+              40,
+              2
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "true_negatives": 40,
+          "false_positives": 2,
+          "false_negatives": 8,
+          "true_positives": 9
+        },
+        "classification_metrics": {
+          "mcc": 0.7458455232290655,
+          "accuracy": 0.8983050847457628,
+          "precision": 0.8666666666666667,
+          "recall": 0.7647058823529411,
+          "f1": 0.8125,
+          "specificity": 0.9523809523809523,
+          "confusion_matrix": [
+            [
+              40,
+              2
+            ],
+            [
+              4,
+              13
+            ]
+          ],
+          "true_negatives": 40,
+          "false_positives": 2,
+          "false_negatives": 4,
+          "true_positives": 13
+        },
+        "mcc_difference": 0.18558196464995735,
+        "accuracy_difference": 0.06779661016949157,
+        "f1_difference": 0.1696428571428571,
+        "better_model": "classification",
+        "mcc_improvement": 0.18558196464995735
+      },
+      {
+        "protein_name": "NR1I2",
+        "organism": "human",
+        "n_samples": 344,
+        "regression_metrics": {
+          "mcc": 0.4937499336238476,
+          "accuracy": 0.8953488372093024,
+          "precision": 0.7142857142857143,
+          "recall": 0.4166666666666667,
+          "f1": 0.5263157894736842,
+          "specificity": 0.972972972972973,
+          "confusion_matrix": [
+            [
+              288,
+              8
+            ],
+            [
+              28,
+              20
+            ]
+          ],
+          "true_negatives": 288,
+          "false_positives": 8,
+          "false_negatives": 28,
+          "true_positives": 20
+        },
+        "classification_metrics": {
+          "mcc": 0.5841614746052305,
+          "accuracy": 0.8866279069767442,
+          "precision": 0.5645161290322581,
+          "recall": 0.7446808510638298,
+          "f1": 0.6422018348623854,
+          "specificity": 0.9090909090909091,
+          "confusion_matrix": [
+            [
+              270,
+              27
+            ],
+            [
+              12,
+              35
+            ]
+          ],
+          "true_negatives": 270,
+          "false_positives": 27,
+          "false_negatives": 12,
+          "true_positives": 35
+        },
+        "mcc_difference": 0.09041154098138288,
+        "accuracy_difference": -0.008720930232558155,
+        "f1_difference": 0.11588604538870118,
+        "better_model": "classification",
+        "mcc_improvement": 0.09041154098138288
+      },
+      {
+        "protein_name": "KCNH2",
+        "organism": "human",
+        "n_samples": 4492,
+        "regression_metrics": {
+          "mcc": 0.541667178232554,
+          "accuracy": 0.9392252894033838,
+          "precision": 0.9139072847682119,
+          "recall": 0.34673366834170855,
+          "f1": 0.5027322404371585,
+          "specificity": 0.9968246213971665,
+          "confusion_matrix": [
+            [
+              4081,
+              13
+            ],
+            [
+              260,
+              138
+            ]
+          ],
+          "true_negatives": 4081,
+          "false_positives": 13,
+          "false_negatives": 260,
+          "true_positives": 138
+        },
+        "classification_metrics": {
+          "mcc": 0.6005559353413893,
+          "accuracy": 0.942787177203918,
+          "precision": 0.6697247706422018,
+          "recall": 0.595108695652174,
+          "f1": 0.6302158273381295,
+          "specificity": 0.973811833171678,
+          "confusion_matrix": [
+            [
+              4016,
+              108
+            ],
+            [
+              149,
+              219
+            ]
+          ],
+          "true_negatives": 4016,
+          "false_positives": 108,
+          "false_negatives": 149,
+          "true_positives": 219
+        },
+        "mcc_difference": 0.05888875710883534,
+        "accuracy_difference": 0.003561887800534236,
+        "f1_difference": 0.12748358690097106,
+        "better_model": "classification",
+        "mcc_improvement": 0.05888875710883534
+      },
+      {
+        "protein_name": "SCN5A",
+        "organism": "human",
+        "n_samples": 329,
+        "regression_metrics": {
+          "mcc": 0.0,
+          "accuracy": 0.9848024316109423,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "specificity": 1.0,
+          "confusion_matrix": [
+            [
+              324,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "true_negatives": 324,
+          "false_positives": 0,
+          "false_negatives": 5,
+          "true_positives": 0
+        },
+        "classification_metrics": {
+          "mcc": 0.34813243045135706,
+          "accuracy": 0.9878419452887538,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333,
+          "specificity": 0.9969230769230769,
+          "confusion_matrix": [
+            [
+              324,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "true_negatives": 324,
+          "false_positives": 1,
+          "false_negatives": 3,
+          "true_positives": 1
+        },
+        "mcc_difference": 0.34813243045135706,
+        "accuracy_difference": 0.003039513677811523,
+        "f1_difference": 0.3333333333333333,
+        "better_model": "classification",
+        "mcc_improvement": 0.34813243045135706
+      },
+      {
+        "protein_name": "HTR2B",
+        "organism": "human",
+        "n_samples": 1180,
+        "regression_metrics": {
+          "mcc": 0.4185424649120396,
+          "accuracy": 0.7398305084745763,
+          "precision": 0.8195876288659794,
+          "recall": 0.3689095127610209,
+          "f1": 0.5088,
+          "specificity": 0.9532710280373832,
+          "confusion_matrix": [
+            [
+              714,
+              35
+            ],
+            [
+              272,
+              159
+            ]
+          ],
+          "true_negatives": 714,
+          "false_positives": 35,
+          "false_negatives": 272,
+          "true_positives": 159
+        },
+        "classification_metrics": {
+          "mcc": 0.38558558553475003,
+          "accuracy": 0.7237288135593221,
+          "precision": 0.6112531969309463,
+          "recall": 0.5786924939467313,
+          "f1": 0.5945273631840796,
+          "specificity": 0.8018252933507171,
+          "confusion_matrix": [
+            [
+              615,
+              152
+            ],
+            [
+              174,
+              239
+            ]
+          ],
+          "true_negatives": 615,
+          "false_positives": 152,
+          "false_negatives": 174,
+          "true_positives": 239
+        },
+        "mcc_difference": -0.03295687937728958,
+        "accuracy_difference": -0.01610169491525426,
+        "f1_difference": 0.08572736318407959,
+        "better_model": "regression",
+        "mcc_improvement": 0.03295687937728958
+      },
+      {
+        "protein_name": "SLC6A4",
+        "organism": "human",
+        "n_samples": 2958,
+        "regression_metrics": {
+          "mcc": 0.5850040678543069,
+          "accuracy": 0.7985125084516566,
+          "precision": 0.8084868788386377,
+          "recall": 0.8512639623750735,
+          "f1": 0.8293241695303551,
+          "specificity": 0.7271280827366746,
+          "confusion_matrix": [
+            [
+              914,
+              343
+            ],
+            [
+              253,
+              1448
+            ]
+          ],
+          "true_negatives": 914,
+          "false_positives": 343,
+          "false_negatives": 253,
+          "true_positives": 1448
+        },
+        "classification_metrics": {
+          "mcc": 0.6119161719422113,
+          "accuracy": 0.8066260987153482,
+          "precision": 0.8545918367346939,
+          "recall": 0.7957244655581948,
+          "f1": 0.8241082410824109,
+          "specificity": 0.8210361067503925,
+          "confusion_matrix": [
+            [
+              1046,
+              228
+            ],
+            [
+              344,
+              1340
+            ]
+          ],
+          "true_negatives": 1046,
+          "false_positives": 228,
+          "false_negatives": 344,
+          "true_positives": 1340
+        },
+        "mcc_difference": 0.026912104087904343,
+        "accuracy_difference": 0.008113590263691628,
+        "f1_difference": -0.005215928447944274,
+        "better_model": "classification",
+        "mcc_improvement": 0.026912104087904343
+      },
+      {
+        "protein_name": "SLC6A3",
+        "organism": "human",
+        "n_samples": 1646,
+        "regression_metrics": {
+          "mcc": 0.5748406192167462,
+          "accuracy": 0.8238153098420413,
+          "precision": 0.7813267813267813,
+          "recall": 0.6127167630057804,
+          "f1": 0.6868250539956804,
+          "specificity": 0.9210292812777284,
+          "confusion_matrix": [
+            [
+              1038,
+              89
+            ],
+            [
+              201,
+              318
+            ]
+          ],
+          "true_negatives": 1038,
+          "false_positives": 89,
+          "false_negatives": 201,
+          "true_positives": 318
+        },
+        "classification_metrics": {
+          "mcc": 0.5848499077698981,
+          "accuracy": 0.8171324422843257,
+          "precision": 0.6827094474153298,
+          "recall": 0.7569169960474308,
+          "f1": 0.717900656044986,
+          "specificity": 0.843859649122807,
+          "confusion_matrix": [
+            [
+              962,
+              178
+            ],
+            [
+              123,
+              383
+            ]
+          ],
+          "true_negatives": 962,
+          "false_positives": 178,
+          "false_negatives": 123,
+          "true_positives": 383
+        },
+        "mcc_difference": 0.010009288553151863,
+        "accuracy_difference": -0.006682867557715633,
+        "f1_difference": 0.031075602049305595,
+        "better_model": "classification",
+        "mcc_improvement": 0.010009288553151863
+      },
+      {
+        "protein_name": "SLC6A2",
+        "organism": "human",
+        "n_samples": 2021,
+        "regression_metrics": {
+          "mcc": 0.6039971752811545,
+          "accuracy": 0.8030677882236517,
+          "precision": 0.7960954446854663,
+          "recall": 0.777542372881356,
+          "f1": 0.7867095391211146,
+          "specificity": 0.8254410399257196,
+          "confusion_matrix": [
+            [
+              889,
+              188
+            ],
+            [
+              210,
+              734
+            ]
+          ],
+          "true_negatives": 889,
+          "false_positives": 188,
+          "false_negatives": 210,
+          "true_positives": 734
+        },
+        "classification_metrics": {
+          "mcc": 0.5931315906120108,
+          "accuracy": 0.7966353290450272,
+          "precision": 0.7660223804679552,
+          "recall": 0.8062098501070664,
+          "f1": 0.7856025039123631,
+          "specificity": 0.7884084636614536,
+          "confusion_matrix": [
+            [
+              857,
+              230
+            ],
+            [
+              181,
+              753
+            ]
+          ],
+          "true_negatives": 857,
+          "false_positives": 230,
+          "false_negatives": 181,
+          "true_positives": 753
+        },
+        "mcc_difference": -0.010865584669143669,
+        "accuracy_difference": -0.00643245917862445,
+        "f1_difference": -0.00110703520875155,
+        "better_model": "regression",
+        "mcc_improvement": 0.010865584669143669
+      },
+      {
+        "protein_name": "ADRA1A",
+        "organism": "human",
+        "n_samples": 566,
+        "regression_metrics": {
+          "mcc": 0.5334665063915358,
+          "accuracy": 0.8109540636042403,
+          "precision": 0.8325581395348837,
+          "recall": 0.910941475826972,
+          "f1": 0.8699878493317132,
+          "specificity": 0.5838150289017341,
+          "confusion_matrix": [
+            [
+              101,
+              72
+            ],
+            [
+              35,
+              358
+            ]
+          ],
+          "true_negatives": 101,
+          "false_positives": 72,
+          "false_negatives": 35,
+          "true_positives": 358
+        },
+        "classification_metrics": {
+          "mcc": 0.5528315214945807,
+          "accuracy": 0.8074204946996466,
+          "precision": 0.8652849740932642,
+          "recall": 0.8542199488491049,
+          "f1": 0.8597168597168597,
+          "specificity": 0.7028571428571428,
+          "confusion_matrix": [
+            [
+              123,
+              52
+            ],
+            [
+              57,
+              334
+            ]
+          ],
+          "true_negatives": 123,
+          "false_positives": 52,
+          "false_negatives": 57,
+          "true_positives": 334
+        },
+        "mcc_difference": 0.01936501510304489,
+        "accuracy_difference": -0.0035335689045936647,
+        "f1_difference": -0.01027098961485351,
+        "better_model": "classification",
+        "mcc_improvement": 0.01936501510304489
+      },
+      {
+        "protein_name": "ADRA2A",
+        "organism": "human",
+        "n_samples": 526,
+        "regression_metrics": {
+          "mcc": 0.6117487177677221,
+          "accuracy": 0.8098859315589354,
+          "precision": 0.8491620111731844,
+          "recall": 0.6755555555555556,
+          "f1": 0.7524752475247525,
+          "specificity": 0.9102990033222591,
+          "confusion_matrix": [
+            [
+              274,
+              27
+            ],
+            [
+              73,
+              152
+            ]
+          ],
+          "true_negatives": 274,
+          "false_positives": 27,
+          "false_negatives": 73,
+          "true_positives": 152
+        },
+        "classification_metrics": {
+          "mcc": 0.6006900444997986,
+          "accuracy": 0.8060836501901141,
+          "precision": 0.7767441860465116,
+          "recall": 0.755656108597285,
+          "f1": 0.7660550458715596,
+          "specificity": 0.8426229508196721,
+          "confusion_matrix": [
+            [
+              257,
+              48
+            ],
+            [
+              54,
+              167
+            ]
+          ],
+          "true_negatives": 257,
+          "false_positives": 48,
+          "false_negatives": 54,
+          "true_positives": 167
+        },
+        "mcc_difference": -0.011058673267923536,
+        "accuracy_difference": -0.0038022813688213253,
+        "f1_difference": 0.013579798346807115,
+        "better_model": "regression",
+        "mcc_improvement": 0.011058673267923536
+      },
+      {
+        "protein_name": "ADRB1",
+        "organism": "human",
+        "n_samples": 614,
+        "regression_metrics": {
+          "mcc": 0.5731758048998329,
+          "accuracy": 0.7882736156351792,
+          "precision": 0.8143459915611815,
+          "recall": 0.6917562724014337,
+          "f1": 0.748062015503876,
+          "specificity": 0.8686567164179104,
+          "confusion_matrix": [
+            [
+              291,
+              44
+            ],
+            [
+              86,
+              193
+            ]
+          ],
+          "true_negatives": 291,
+          "false_positives": 44,
+          "false_negatives": 86,
+          "true_positives": 193
+        },
+        "classification_metrics": {
+          "mcc": 0.618606126260627,
+          "accuracy": 0.8127035830618893,
+          "precision": 0.8095238095238095,
+          "recall": 0.7527675276752768,
+          "f1": 0.780114722753346,
+          "specificity": 0.8600583090379009,
+          "confusion_matrix": [
+            [
+              295,
+              48
+            ],
+            [
+              67,
+              204
+            ]
+          ],
+          "true_negatives": 295,
+          "false_positives": 48,
+          "false_negatives": 67,
+          "true_positives": 204
+        },
+        "mcc_difference": 0.04543032136079417,
+        "accuracy_difference": 0.02442996742671011,
+        "f1_difference": 0.03205270724947007,
+        "better_model": "classification",
+        "mcc_improvement": 0.04543032136079417
+      },
+      {
+        "protein_name": "ADRB2",
+        "organism": "human",
+        "n_samples": 860,
+        "regression_metrics": {
+          "mcc": 0.6833472060662156,
+          "accuracy": 0.8709302325581395,
+          "precision": 0.8920634920634921,
+          "recall": 0.9289256198347108,
+          "f1": 0.9101214574898785,
+          "specificity": 0.7333333333333333,
+          "confusion_matrix": [
+            [
+              187,
+              68
+            ],
+            [
+              43,
+              562
+            ]
+          ],
+          "true_negatives": 187,
+          "false_positives": 68,
+          "false_negatives": 43,
+          "true_positives": 562
+        },
+        "classification_metrics": {
+          "mcc": 0.6623483423190432,
+          "accuracy": 0.8523255813953489,
+          "precision": 0.9159369527145359,
+          "recall": 0.8687707641196013,
+          "f1": 0.8917306052855924,
+          "specificity": 0.813953488372093,
+          "confusion_matrix": [
+            [
+              210,
+              48
+            ],
+            [
+              79,
+              523
+            ]
+          ],
+          "true_negatives": 210,
+          "false_positives": 48,
+          "false_negatives": 79,
+          "true_positives": 523
+        },
+        "mcc_difference": -0.020998863747172414,
+        "accuracy_difference": -0.018604651162790642,
+        "f1_difference": -0.018390852204286046,
+        "better_model": "regression",
+        "mcc_improvement": 0.020998863747172414
+      },
+      {
+        "protein_name": "CNR2",
+        "organism": "human",
+        "n_samples": 4295,
+        "regression_metrics": {
+          "mcc": 0.5491161532301057,
+          "accuracy": 0.7741559953434226,
+          "precision": 0.7588110403397028,
+          "recall": 0.8163544997715853,
+          "f1": 0.7865316901408451,
+          "specificity": 0.7302943969610636,
+          "confusion_matrix": [
+            [
+              1538,
+              568
+            ],
+            [
+              402,
+              1787
+            ]
+          ],
+          "true_negatives": 1538,
+          "false_positives": 568,
+          "false_negatives": 402,
+          "true_positives": 1787
+        },
+        "classification_metrics": {
+          "mcc": 0.5490442894169165,
+          "accuracy": 0.7743888242142025,
+          "precision": 0.7656736327256558,
+          "recall": 0.7957486136783734,
+          "f1": 0.7804214819850442,
+          "specificity": 0.7526982637259503,
+          "confusion_matrix": [
+            [
+              1604,
+              527
+            ],
+            [
+              442,
+              1722
+            ]
+          ],
+          "true_negatives": 1604,
+          "false_positives": 527,
+          "false_negatives": 442,
+          "true_positives": 1722
+        },
+        "mcc_difference": -7.186381318913249e-05,
+        "accuracy_difference": 0.00023282887077991088,
+        "f1_difference": -0.006110208155800878,
+        "better_model": "regression",
+        "mcc_improvement": 7.186381318913249e-05
+      },
+      {
+        "protein_name": "CHRM1",
+        "organism": "human",
+        "n_samples": 1103,
+        "regression_metrics": {
+          "mcc": 0.48733825135652126,
+          "accuracy": 0.772438803263826,
+          "precision": 0.8059071729957806,
+          "recall": 0.4823232323232323,
+          "f1": 0.6034755134281201,
+          "specificity": 0.9349363507779349,
+          "confusion_matrix": [
+            [
+              661,
+              46
+            ],
+            [
+              205,
+              191
+            ]
+          ],
+          "true_negatives": 661,
+          "false_positives": 46,
+          "false_negatives": 205,
+          "true_positives": 191
+        },
+        "classification_metrics": {
+          "mcc": 0.5519567751839389,
+          "accuracy": 0.7969174977334542,
+          "precision": 0.7238605898123325,
+          "recall": 0.690537084398977,
+          "f1": 0.7068062827225131,
+          "specificity": 0.8553370786516854,
+          "confusion_matrix": [
+            [
+              609,
+              103
+            ],
+            [
+              121,
+              270
+            ]
+          ],
+          "true_negatives": 609,
+          "false_positives": 103,
+          "false_negatives": 121,
+          "true_positives": 270
+        },
+        "mcc_difference": 0.06461852382741767,
+        "accuracy_difference": 0.024478694469628248,
+        "f1_difference": 0.103330769294393,
+        "better_model": "classification",
+        "mcc_improvement": 0.06461852382741767
+      },
+      {
+        "protein_name": "CHRM2",
+        "organism": "human",
+        "n_samples": 721,
+        "regression_metrics": {
+          "mcc": 0.6096965029331164,
+          "accuracy": 0.8044382801664355,
+          "precision": 0.8213256484149856,
+          "recall": 0.782967032967033,
+          "f1": 0.8016877637130801,
+          "specificity": 0.8263305322128851,
+          "confusion_matrix": [
+            [
+              295,
+              62
+            ],
+            [
+              79,
+              285
+            ]
+          ],
+          "true_negatives": 295,
+          "false_positives": 62,
+          "false_negatives": 79,
+          "true_positives": 285
+        },
+        "classification_metrics": {
+          "mcc": 0.6116262792932121,
+          "accuracy": 0.8058252427184466,
+          "precision": 0.8016759776536313,
+          "recall": 0.8061797752808989,
+          "f1": 0.803921568627451,
+          "specificity": 0.8054794520547945,
+          "confusion_matrix": [
+            [
+              294,
+              71
+            ],
+            [
+              69,
+              287
+            ]
+          ],
+          "true_negatives": 294,
+          "false_positives": 71,
+          "false_negatives": 69,
+          "true_positives": 287
+        },
+        "mcc_difference": 0.0019297763600957252,
+        "accuracy_difference": 0.001386962552011095,
+        "f1_difference": 0.0022338049143708627,
+        "better_model": "classification",
+        "mcc_improvement": 0.0019297763600957252
+      },
+      {
+        "protein_name": "CHRM3",
+        "organism": "human",
+        "n_samples": 1209,
+        "regression_metrics": {
+          "mcc": 0.7222923427858238,
+          "accuracy": 0.880066170388751,
+          "precision": 0.8981042654028436,
+          "recall": 0.9277845777233782,
+          "f1": 0.9127031908488862,
+          "specificity": 0.7806122448979592,
+          "confusion_matrix": [
+            [
+              306,
+              86
+            ],
+            [
+              59,
+              758
+            ]
+          ],
+          "true_negatives": 306,
+          "false_positives": 86,
+          "false_negatives": 59,
+          "true_positives": 758
+        },
+        "classification_metrics": {
+          "mcc": 0.6837172663616448,
+          "accuracy": 0.8395368072787428,
+          "precision": 0.9525222551928784,
+          "recall": 0.7985074626865671,
+          "f1": 0.8687415426251691,
+          "specificity": 0.9209876543209876,
+          "confusion_matrix": [
+            [
+              373,
+              32
+            ],
+            [
+              162,
+              642
+            ]
+          ],
+          "true_negatives": 373,
+          "false_positives": 32,
+          "false_negatives": 162,
+          "true_positives": 642
+        },
+        "mcc_difference": -0.03857507642417901,
+        "accuracy_difference": -0.04052936311000821,
+        "f1_difference": -0.043961648223717065,
+        "better_model": "regression",
+        "mcc_improvement": 0.03857507642417901
+      },
+      {
+        "protein_name": "CHRNA7",
+        "organism": "human",
+        "n_samples": 595,
+        "regression_metrics": {
+          "mcc": 0.5930365405238857,
+          "accuracy": 0.8336134453781513,
+          "precision": 0.7531645569620253,
+          "recall": 0.664804469273743,
+          "f1": 0.7062314540059347,
+          "specificity": 0.90625,
+          "confusion_matrix": [
+            [
+              377,
+              39
+            ],
+            [
+              60,
+              119
+            ]
+          ],
+          "true_negatives": 377,
+          "false_positives": 39,
+          "false_negatives": 60,
+          "true_positives": 119
+        },
+        "classification_metrics": {
+          "mcc": 0.6140027350691567,
+          "accuracy": 0.8336134453781513,
+          "precision": 0.7010309278350515,
+          "recall": 0.768361581920904,
+          "f1": 0.7331536388140162,
+          "specificity": 0.861244019138756,
+          "confusion_matrix": [
+            [
+              360,
+              58
+            ],
+            [
+              41,
+              136
+            ]
+          ],
+          "true_negatives": 360,
+          "false_positives": 58,
+          "false_negatives": 41,
+          "true_positives": 136
+        },
+        "mcc_difference": 0.020966194545271044,
+        "accuracy_difference": 0.0,
+        "f1_difference": 0.026922184808081506,
+        "better_model": "classification",
+        "mcc_improvement": 0.020966194545271044
+      },
+      {
+        "protein_name": "HRH1",
+        "organism": "human",
+        "n_samples": 945,
+        "regression_metrics": {
+          "mcc": 0.6267006307123969,
+          "accuracy": 0.8116402116402116,
+          "precision": 0.8511166253101737,
+          "recall": 0.7440347071583514,
+          "f1": 0.7939814814814815,
+          "specificity": 0.8760330578512396,
+          "confusion_matrix": [
+            [
+              424,
+              60
+            ],
+            [
+              118,
+              343
+            ]
+          ],
+          "true_negatives": 424,
+          "false_positives": 60,
+          "false_negatives": 118,
+          "true_positives": 343
+        },
+        "classification_metrics": {
+          "mcc": 0.6276271361566373,
+          "accuracy": 0.8126984126984127,
+          "precision": 0.8498727735368957,
+          "recall": 0.7389380530973452,
+          "f1": 0.7905325443786982,
+          "specificity": 0.8803245436105477,
+          "confusion_matrix": [
+            [
+              434,
+              59
+            ],
+            [
+              118,
+              334
+            ]
+          ],
+          "true_negatives": 434,
+          "false_positives": 59,
+          "false_negatives": 118,
+          "true_positives": 334
+        },
+        "mcc_difference": 0.0009265054442404441,
+        "accuracy_difference": 0.0010582010582010914,
+        "f1_difference": -0.003448937102783267,
+        "better_model": "classification",
+        "mcc_improvement": 0.0009265054442404441
+      },
+      {
+        "protein_name": "HSD11B1",
+        "organism": "mouse",
+        "n_samples": 612,
+        "regression_metrics": {
+          "mcc": 0.4983550262481935,
+          "accuracy": 0.761437908496732,
+          "precision": 0.7732997481108312,
+          "recall": 0.8457300275482094,
+          "f1": 0.8078947368421052,
+          "specificity": 0.6385542168674698,
+          "confusion_matrix": [
+            [
+              159,
+              90
+            ],
+            [
+              56,
+              307
+            ]
+          ],
+          "true_negatives": 159,
+          "false_positives": 90,
+          "false_negatives": 56,
+          "true_positives": 307
+        },
+        "classification_metrics": {
+          "mcc": 0.4911741550628385,
+          "accuracy": 0.75,
+          "precision": 0.8029411764705883,
+          "recall": 0.7604456824512534,
+          "f1": 0.7811158798283262,
+          "specificity": 0.7351778656126482,
+          "confusion_matrix": [
+            [
+              186,
+              67
+            ],
+            [
+              86,
+              273
+            ]
+          ],
+          "true_negatives": 186,
+          "false_positives": 67,
+          "false_negatives": 86,
+          "true_positives": 273
+        },
+        "mcc_difference": -0.007180871185354987,
+        "accuracy_difference": -0.011437908496731986,
+        "f1_difference": -0.026778857013779023,
+        "better_model": "regression",
+        "mcc_improvement": 0.007180871185354987
+      },
+      {
+        "protein_name": "ADRB1",
+        "organism": "mouse",
+        "n_samples": 32,
+        "regression_metrics": {
+          "mcc": 0.29012942659282975,
+          "accuracy": 0.65625,
+          "precision": 0.6666666666666666,
+          "recall": 0.7777777777777778,
+          "f1": 0.717948717948718,
+          "specificity": 0.5,
+          "confusion_matrix": [
+            [
+              7,
+              7
+            ],
+            [
+              4,
+              14
+            ]
+          ],
+          "true_negatives": 7,
+          "false_positives": 7,
+          "false_negatives": 4,
+          "true_positives": 14
+        },
+        "classification_metrics": {
+          "mcc": 0.2698412698412698,
+          "accuracy": 0.625,
+          "precision": 0.7142857142857143,
+          "recall": 0.5555555555555556,
+          "f1": 0.625,
+          "specificity": 0.7142857142857143,
+          "confusion_matrix": [
+            [
+              10,
+              4
+            ],
+            [
+              8,
+              10
+            ]
+          ],
+          "true_negatives": 10,
+          "false_positives": 4,
+          "false_negatives": 8,
+          "true_positives": 10
+        },
+        "mcc_difference": -0.020288156751559927,
+        "accuracy_difference": -0.03125,
+        "f1_difference": -0.09294871794871795,
+        "better_model": "regression",
+        "mcc_improvement": 0.020288156751559927
+      },
+      {
+        "protein_name": "CNR2",
+        "organism": "mouse",
+        "n_samples": 363,
+        "regression_metrics": {
+          "mcc": 0.6991272280664249,
+          "accuracy": 0.8622589531680441,
+          "precision": 0.8688524590163934,
+          "recall": 0.9217391304347826,
+          "f1": 0.8945147679324894,
+          "specificity": 0.7593984962406015,
+          "confusion_matrix": [
+            [
+              101,
+              32
+            ],
+            [
+              18,
+              212
+            ]
+          ],
+          "true_negatives": 101,
+          "false_positives": 32,
+          "false_negatives": 18,
+          "true_positives": 212
+        },
+        "classification_metrics": {
+          "mcc": 0.6888773994902269,
+          "accuracy": 0.8539944903581267,
+          "precision": 0.8849557522123894,
+          "recall": 0.8810572687224669,
+          "f1": 0.8830022075055187,
+          "specificity": 0.8088235294117647,
+          "confusion_matrix": [
+            [
+              110,
+              26
+            ],
+            [
+              27,
+              200
+            ]
+          ],
+          "true_negatives": 110,
+          "false_positives": 26,
+          "false_negatives": 27,
+          "true_positives": 200
+        },
+        "mcc_difference": -0.01024982857619805,
+        "accuracy_difference": -0.008264462809917439,
+        "f1_difference": -0.011512560426970686,
+        "better_model": "regression",
+        "mcc_improvement": 0.01024982857619805
+      },
+      {
+        "protein_name": "MAOA",
+        "organism": "rat",
+        "n_samples": 336,
+        "regression_metrics": {
+          "mcc": 0.7679819468857122,
+          "accuracy": 0.9375,
+          "precision": 0.9302325581395349,
+          "recall": 0.6896551724137931,
+          "f1": 0.7920792079207921,
+          "specificity": 0.9892086330935251,
+          "confusion_matrix": [
+            [
+              275,
+              3
+            ],
+            [
+              18,
+              40
+            ]
+          ],
+          "true_negatives": 275,
+          "false_positives": 3,
+          "false_negatives": 18,
+          "true_positives": 40
+        },
+        "classification_metrics": {
+          "mcc": 0.7139304177486642,
+          "accuracy": 0.9226190476190477,
+          "precision": 0.7884615384615384,
+          "recall": 0.7321428571428571,
+          "f1": 0.7592592592592593,
+          "specificity": 0.9607142857142857,
+          "confusion_matrix": [
+            [
+              269,
+              11
+            ],
+            [
+              15,
+              41
+            ]
+          ],
+          "true_negatives": 269,
+          "false_positives": 11,
+          "false_negatives": 15,
+          "true_positives": 41
+        },
+        "mcc_difference": -0.05405152913704803,
+        "accuracy_difference": -0.014880952380952328,
+        "f1_difference": -0.032819948661532816,
+        "better_model": "regression",
+        "mcc_improvement": 0.05405152913704803
+      },
+      {
+        "protein_name": "MAOB",
+        "organism": "rat",
+        "n_samples": 263,
+        "regression_metrics": {
+          "mcc": 0.484081086732218,
+          "accuracy": 0.7984790874524715,
+          "precision": 0.7068965517241379,
+          "recall": 0.5324675324675324,
+          "f1": 0.6074074074074074,
+          "specificity": 0.9086021505376344,
+          "confusion_matrix": [
+            [
+              169,
+              17
+            ],
+            [
+              36,
+              41
+            ]
+          ],
+          "true_negatives": 169,
+          "false_positives": 17,
+          "false_negatives": 36,
+          "true_positives": 41
+        },
+        "classification_metrics": {
+          "mcc": 0.5555875288020072,
+          "accuracy": 0.7908745247148289,
+          "precision": 0.5825242718446602,
+          "recall": 0.8333333333333334,
+          "f1": 0.6857142857142857,
+          "specificity": 0.774869109947644,
+          "confusion_matrix": [
+            [
+              148,
+              43
+            ],
+            [
+              12,
+              60
+            ]
+          ],
+          "true_negatives": 148,
+          "false_positives": 43,
+          "false_negatives": 12,
+          "true_positives": 60
+        },
+        "mcc_difference": 0.07150644206978923,
+        "accuracy_difference": -0.0076045627376426506,
+        "f1_difference": 0.07830687830687832,
+        "better_model": "classification",
+        "mcc_improvement": 0.07150644206978923
+      },
+      {
+        "protein_name": "HSD11B1",
+        "organism": "rat",
+        "n_samples": 67,
+        "regression_metrics": {
+          "mcc": 0.6272483391435818,
+          "accuracy": 0.835820895522388,
+          "precision": 0.8235294117647058,
+          "recall": 0.9545454545454546,
+          "f1": 0.8842105263157894,
+          "specificity": 0.6086956521739131,
+          "confusion_matrix": [
+            [
+              14,
+              9
+            ],
+            [
+              2,
+              42
+            ]
+          ],
+          "true_negatives": 14,
+          "false_positives": 9,
+          "false_negatives": 2,
+          "true_positives": 42
+        },
+        "classification_metrics": {
+          "mcc": 0.8064953704818743,
+          "accuracy": 0.9104477611940298,
+          "precision": 0.88,
+          "recall": 1.0,
+          "f1": 0.9361702127659575,
+          "specificity": 0.7391304347826086,
+          "confusion_matrix": [
+            [
+              17,
+              6
+            ],
+            [
+              0,
+              44
+            ]
+          ],
+          "true_negatives": 17,
+          "false_positives": 6,
+          "false_negatives": 0,
+          "true_positives": 44
+        },
+        "mcc_difference": 0.17924703133829245,
+        "accuracy_difference": 0.07462686567164178,
+        "f1_difference": 0.05195968645016802,
+        "better_model": "classification",
+        "mcc_improvement": 0.17924703133829245
+      },
+      {
+        "protein_name": "HTR2B",
+        "organism": "rat",
+        "n_samples": 35,
+        "regression_metrics": {
+          "mcc": -0.15309310892394862,
+          "accuracy": 0.7142857142857143,
+          "precision": 0.78125,
+          "recall": 0.8928571428571429,
+          "f1": 0.8333333333333334,
+          "specificity": 0.0,
+          "confusion_matrix": [
+            [
+              0,
+              7
+            ],
+            [
+              3,
+              25
+            ]
+          ],
+          "true_negatives": 0,
+          "false_positives": 7,
+          "false_negatives": 3,
+          "true_positives": 25
+        },
+        "classification_metrics": {
+          "mcc": 0.15161960871578067,
+          "accuracy": 0.7428571428571429,
+          "precision": 0.8275862068965517,
+          "recall": 0.8571428571428571,
+          "f1": 0.8421052631578947,
+          "specificity": 0.2857142857142857,
+          "confusion_matrix": [
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              24
+            ]
+          ],
+          "true_negatives": 2,
+          "false_positives": 5,
+          "false_negatives": 4,
+          "true_positives": 24
+        },
+        "mcc_difference": 0.3047127176397293,
+        "accuracy_difference": 0.02857142857142858,
+        "f1_difference": 0.00877192982456132,
+        "better_model": "classification",
+        "mcc_improvement": 0.3047127176397293
+      },
+      {
+        "protein_name": "SLC6A4",
+        "organism": "rat",
+        "n_samples": 1995,
+        "regression_metrics": {
+          "mcc": 0.6670375880841488,
+          "accuracy": 0.8345864661654135,
+          "precision": 0.8267370272647317,
+          "recall": 0.8760484622553588,
+          "f1": 0.8506787330316742,
+          "specificity": 0.7863340563991323,
+          "confusion_matrix": [
+            [
+              725,
+              197
+            ],
+            [
+              133,
+              940
+            ]
+          ],
+          "true_negatives": 725,
+          "false_positives": 197,
+          "false_negatives": 133,
+          "true_positives": 940
+        },
+        "classification_metrics": {
+          "mcc": 0.6469106671028022,
+          "accuracy": 0.8225563909774436,
+          "precision": 0.8562753036437247,
+          "recall": 0.7996219281663516,
+          "f1": 0.8269794721407625,
+          "specificity": 0.848452508004269,
+          "confusion_matrix": [
+            [
+              795,
+              142
+            ],
+            [
+              212,
+              846
+            ]
+          ],
+          "true_negatives": 795,
+          "false_positives": 142,
+          "false_negatives": 212,
+          "true_positives": 846
+        },
+        "mcc_difference": -0.020126920981346608,
+        "accuracy_difference": -0.012030075187969946,
+        "f1_difference": -0.023699260890911678,
+        "better_model": "regression",
+        "mcc_improvement": 0.020126920981346608
+      },
+      {
+        "protein_name": "SLC6A3",
+        "organism": "rat",
+        "n_samples": 1114,
+        "regression_metrics": {
+          "mcc": 0.6748822962965064,
+          "accuracy": 0.8411131059245961,
+          "precision": 0.8286334056399133,
+          "recall": 0.7958333333333333,
+          "f1": 0.8119022316684378,
+          "specificity": 0.8753943217665615,
+          "confusion_matrix": [
+            [
+              555,
+              79
+            ],
+            [
+              98,
+              382
+            ]
+          ],
+          "true_negatives": 555,
+          "false_positives": 79,
+          "false_negatives": 98,
+          "true_positives": 382
+        },
+        "classification_metrics": {
+          "mcc": 0.6310563807284498,
+          "accuracy": 0.8195691202872532,
+          "precision": 0.7906976744186046,
+          "recall": 0.7857142857142857,
+          "f1": 0.7881981032665965,
+          "specificity": 0.8448275862068966,
+          "confusion_matrix": [
+            [
+              539,
+              99
+            ],
+            [
+              102,
+              374
+            ]
+          ],
+          "true_negatives": 539,
+          "false_positives": 99,
+          "false_negatives": 102,
+          "true_positives": 374
+        },
+        "mcc_difference": -0.043825915568056595,
+        "accuracy_difference": -0.021543985637342944,
+        "f1_difference": -0.02370412840184133,
+        "better_model": "regression",
+        "mcc_improvement": 0.043825915568056595
+      },
+      {
+        "protein_name": "ADRA1A",
+        "organism": "rat",
+        "n_samples": 146,
+        "regression_metrics": {
+          "mcc": 0.7217401229192171,
+          "accuracy": 0.8767123287671232,
+          "precision": 0.8679245283018868,
+          "recall": 0.9583333333333334,
+          "f1": 0.9108910891089109,
+          "specificity": 0.72,
+          "confusion_matrix": [
+            [
+              36,
+              14
+            ],
+            [
+              4,
+              92
+            ]
+          ],
+          "true_negatives": 36,
+          "false_positives": 14,
+          "false_negatives": 4,
+          "true_positives": 92
+        },
+        "classification_metrics": {
+          "mcc": 0.8016248501074037,
+          "accuracy": 0.910958904109589,
+          "precision": 0.8952380952380953,
+          "recall": 0.9791666666666666,
+          "f1": 0.9353233830845771,
+          "specificity": 0.78,
+          "confusion_matrix": [
+            [
+              39,
+              11
+            ],
+            [
+              2,
+              94
+            ]
+          ],
+          "true_negatives": 39,
+          "false_positives": 11,
+          "false_negatives": 2,
+          "true_positives": 94
+        },
+        "mcc_difference": 0.07988472718818662,
+        "accuracy_difference": 0.03424657534246578,
+        "f1_difference": 0.024432293975666153,
+        "better_model": "classification",
+        "mcc_improvement": 0.07988472718818662
+      },
+      {
+        "protein_name": "ADRA2A",
+        "organism": "rat",
+        "n_samples": 39,
+        "regression_metrics": {
+          "mcc": 0.6148873228105182,
+          "accuracy": 0.8205128205128205,
+          "precision": 0.8333333333333334,
+          "recall": 0.6666666666666666,
+          "f1": 0.7407407407407407,
+          "specificity": 0.9166666666666666,
+          "confusion_matrix": [
+            [
+              22,
+              2
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "true_negatives": 22,
+          "false_positives": 2,
+          "false_negatives": 5,
+          "true_positives": 10
+        },
+        "classification_metrics": {
+          "mcc": 0.4085643303447759,
+          "accuracy": 0.6923076923076923,
+          "precision": 0.55,
+          "recall": 0.7857142857142857,
+          "f1": 0.6470588235294118,
+          "specificity": 0.64,
+          "confusion_matrix": [
+            [
+              16,
+              9
+            ],
+            [
+              3,
+              11
+            ]
+          ],
+          "true_negatives": 16,
+          "false_positives": 9,
+          "false_negatives": 3,
+          "true_positives": 11
+        },
+        "mcc_difference": -0.20632299246574226,
+        "accuracy_difference": -0.1282051282051282,
+        "f1_difference": -0.0936819172113289,
+        "better_model": "regression",
+        "mcc_improvement": 0.20632299246574226
+      },
+      {
+        "protein_name": "ADRB1",
+        "organism": "rat",
+        "n_samples": 53,
+        "regression_metrics": {
+          "mcc": 0.6657752989431589,
+          "accuracy": 0.8490566037735849,
+          "precision": 0.8666666666666667,
+          "recall": 0.6842105263157895,
+          "f1": 0.7647058823529411,
+          "specificity": 0.9411764705882353,
+          "confusion_matrix": [
+            [
+              32,
+              2
+            ],
+            [
+              6,
+              13
+            ]
+          ],
+          "true_negatives": 32,
+          "false_positives": 2,
+          "false_negatives": 6,
+          "true_positives": 13
+        },
+        "classification_metrics": {
+          "mcc": 0.37777264669154326,
+          "accuracy": 0.7169811320754716,
+          "precision": 0.5789473684210527,
+          "recall": 0.6111111111111112,
+          "f1": 0.5945945945945946,
+          "specificity": 0.7714285714285715,
+          "confusion_matrix": [
+            [
+              27,
+              8
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "true_negatives": 27,
+          "false_positives": 8,
+          "false_negatives": 7,
+          "true_positives": 11
+        },
+        "mcc_difference": -0.28800265225161564,
+        "accuracy_difference": -0.1320754716981133,
+        "f1_difference": -0.1701112877583465,
+        "better_model": "regression",
+        "mcc_improvement": 0.28800265225161564
+      },
+      {
+        "protein_name": "CNR2",
+        "organism": "rat",
+        "n_samples": 194,
+        "regression_metrics": {
+          "mcc": 0.5388600313182526,
+          "accuracy": 0.8247422680412371,
+          "precision": 0.8343949044585988,
+          "recall": 0.9424460431654677,
+          "f1": 0.8851351351351351,
+          "specificity": 0.5272727272727272,
+          "confusion_matrix": [
+            [
+              29,
+              26
+            ],
+            [
+              8,
+              131
+            ]
+          ],
+          "true_negatives": 29,
+          "false_positives": 26,
+          "false_negatives": 8,
+          "true_positives": 131
+        },
+        "classification_metrics": {
+          "mcc": 0.5293982455075259,
+          "accuracy": 0.8092783505154639,
+          "precision": 0.852112676056338,
+          "recall": 0.8832116788321168,
+          "f1": 0.8673835125448028,
+          "specificity": 0.631578947368421,
+          "confusion_matrix": [
+            [
+              36,
+              21
+            ],
+            [
+              16,
+              121
+            ]
+          ],
+          "true_negatives": 36,
+          "false_positives": 21,
+          "false_negatives": 16,
+          "true_positives": 121
+        },
+        "mcc_difference": -0.009461785810726653,
+        "accuracy_difference": -0.015463917525773141,
+        "f1_difference": -0.01775162259033225,
+        "better_model": "regression",
+        "mcc_improvement": 0.009461785810726653
+      },
+      {
+        "protein_name": "CHRM1",
+        "organism": "rat",
+        "n_samples": 261,
+        "regression_metrics": {
+          "mcc": 0.7941829520617333,
+          "accuracy": 0.9042145593869731,
+          "precision": 0.826530612244898,
+          "recall": 0.9101123595505618,
+          "f1": 0.8663101604278075,
+          "specificity": 0.9011627906976745,
+          "confusion_matrix": [
+            [
+              155,
+              17
+            ],
+            [
+              8,
+              81
+            ]
+          ],
+          "true_negatives": 155,
+          "false_positives": 17,
+          "false_negatives": 8,
+          "true_positives": 81
+        },
+        "classification_metrics": {
+          "mcc": 0.8173767943989353,
+          "accuracy": 0.9157088122605364,
+          "precision": 0.84375,
+          "recall": 0.9204545454545454,
+          "f1": 0.8804347826086957,
+          "specificity": 0.9132947976878613,
+          "confusion_matrix": [
+            [
+              158,
+              15
+            ],
+            [
+              7,
+              81
+            ]
+          ],
+          "true_negatives": 158,
+          "false_positives": 15,
+          "false_negatives": 7,
+          "true_positives": 81
+        },
+        "mcc_difference": 0.02319384233720201,
+        "accuracy_difference": 0.011494252873563204,
+        "f1_difference": 0.014124622180888169,
+        "better_model": "classification",
+        "mcc_improvement": 0.02319384233720201
+      },
+      {
+        "protein_name": "CHRM2",
+        "organism": "rat",
+        "n_samples": 130,
+        "regression_metrics": {
+          "mcc": 0.6315315278804936,
+          "accuracy": 0.8153846153846154,
+          "precision": 0.8,
+          "recall": 0.8484848484848485,
+          "f1": 0.8235294117647058,
+          "specificity": 0.78125,
+          "confusion_matrix": [
+            [
+              50,
+              14
+            ],
+            [
+              10,
+              56
+            ]
+          ],
+          "true_negatives": 50,
+          "false_positives": 14,
+          "false_negatives": 10,
+          "true_positives": 56
+        },
+        "classification_metrics": {
+          "mcc": 0.6307692307692307,
+          "accuracy": 0.8153846153846154,
+          "precision": 0.8153846153846154,
+          "recall": 0.8153846153846154,
+          "f1": 0.8153846153846154,
+          "specificity": 0.8153846153846154,
+          "confusion_matrix": [
+            [
+              53,
+              12
+            ],
+            [
+              12,
+              53
+            ]
+          ],
+          "true_negatives": 53,
+          "false_positives": 12,
+          "false_negatives": 12,
+          "true_positives": 53
+        },
+        "mcc_difference": -0.0007622971112628552,
+        "accuracy_difference": 0.0,
+        "f1_difference": -0.008144796380090469,
+        "better_model": "regression",
+        "mcc_improvement": 0.0007622971112628552
+      },
+      {
+        "protein_name": "CHRM3",
+        "organism": "rat",
+        "n_samples": 93,
+        "regression_metrics": {
+          "mcc": 0.4840398047969464,
+          "accuracy": 0.8602150537634409,
+          "precision": 0.8690476190476191,
+          "recall": 0.9733333333333334,
+          "f1": 0.9182389937106918,
+          "specificity": 0.3888888888888889,
+          "confusion_matrix": [
+            [
+              7,
+              11
+            ],
+            [
+              2,
+              73
+            ]
+          ],
+          "true_negatives": 7,
+          "false_positives": 11,
+          "false_negatives": 2,
+          "true_positives": 73
+        },
+        "classification_metrics": {
+          "mcc": 0.3262363486962221,
+          "accuracy": 0.8172043010752689,
+          "precision": 0.8536585365853658,
+          "recall": 0.9333333333333333,
+          "f1": 0.89171974522293,
+          "specificity": 0.3333333333333333,
+          "confusion_matrix": [
+            [
+              6,
+              12
+            ],
+            [
+              5,
+              70
+            ]
+          ],
+          "true_negatives": 6,
+          "false_positives": 12,
+          "false_negatives": 5,
+          "true_positives": 70
+        },
+        "mcc_difference": -0.15780345610072433,
+        "accuracy_difference": -0.043010752688172005,
+        "f1_difference": -0.02651924848776188,
+        "better_model": "regression",
+        "mcc_improvement": 0.15780345610072433
+      },
+      {
+        "protein_name": "CHRNA7",
+        "organism": "rat",
+        "n_samples": 1018,
+        "regression_metrics": {
+          "mcc": 0.6021168472518047,
+          "accuracy": 0.8045186640471512,
+          "precision": 0.7685393258426966,
+          "recall": 0.7808219178082192,
+          "f1": 0.7746319365798414,
+          "specificity": 0.8224137931034483,
+          "confusion_matrix": [
+            [
+              477,
+              103
+            ],
+            [
+              96,
+              342
+            ]
+          ],
+          "true_negatives": 477,
+          "false_positives": 103,
+          "false_negatives": 96,
+          "true_positives": 342
+        },
+        "classification_metrics": {
+          "mcc": 0.5717064977605071,
+          "accuracy": 0.7858546168958742,
+          "precision": 0.7216494845360825,
+          "recall": 0.8083140877598153,
+          "f1": 0.7625272331154684,
+          "specificity": 0.7692307692307693,
+          "confusion_matrix": [
+            [
+              450,
+              135
+            ],
+            [
+              83,
+              350
+            ]
+          ],
+          "true_negatives": 450,
+          "false_positives": 135,
+          "false_negatives": 83,
+          "true_positives": 350
+        },
+        "mcc_difference": -0.030410349491297617,
+        "accuracy_difference": -0.018664047151277008,
+        "f1_difference": -0.012104703464372979,
+        "better_model": "regression",
+        "mcc_improvement": 0.030410349491297617
+      }
+    ]
+  },
+  "summary": {}
+}

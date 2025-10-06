@@ -1,0 +1,17 @@
+{
+  "target_protein": "ADRA2A",
+  "protein_type": "ADRA",
+  "status": "success",
+  "n_target_samples": 526,
+  "n_training_samples": 566,
+  "n_same_type_proteins": 1,
+  "rmse": 1.3081420018033707,
+  "mae": 1.0337695817490495,
+  "r2": -0.0968211283007312,
+  "target_uniprot": "P08913",
+  "same_type_proteins": [
+    "ADRA1A"
+  ],
+  "training_activities_count": 566,
+  "target_activities_count": 526
+}

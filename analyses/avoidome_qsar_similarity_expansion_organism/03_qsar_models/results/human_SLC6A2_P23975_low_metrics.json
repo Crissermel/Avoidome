@@ -1,0 +1,21 @@
+{
+  "organism": "human",
+  "target_name": "SLC6A2",
+  "uniprot_id": "P23975",
+  "threshold": "low",
+  "test_r2": 0.6435828032796251,
+  "test_rmse": 0.6181712986007194,
+  "test_mae": 0.4729968243913837,
+  "q2": 0.5762438803849966,
+  "n_train": 1795,
+  "n_test": 405,
+  "n_similar_proteins": 179,
+  "n_target_train": 1616,
+  "n_target_test": 405,
+  "n_features": 3342,
+  "similar_proteins": [
+    "O55192",
+    "Q63380",
+    "P27922"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "organism": "human",
+  "target_name": "SLC6A3",
+  "uniprot_id": "Q01959",
+  "threshold": "low",
+  "test_r2": 0.7090950406401548,
+  "test_rmse": 0.58012493971738,
+  "test_mae": 0.43890358898180964,
+  "q2": 0.6695021769583234,
+  "n_train": 2485,
+  "n_test": 330,
+  "n_similar_proteins": 1169,
+  "n_target_train": 1316,
+  "n_target_test": 330,
+  "n_features": 3342,
+  "similar_proteins": [
+    "Q9GJT6",
+    "Q7JHP9",
+    "P23977",
+    "Q61327",
+    "Q2L8D9",
+    "P27922"
+  ]
+}

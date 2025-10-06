@@ -1,0 +1,18 @@
+{
+  "target_protein": "MAOB",
+  "protein_type": "MAO",
+  "status": "success",
+  "n_target_samples": 1519,
+  "n_training_samples": 1130,
+  "n_same_type_proteins": 1,
+  "rmse": 0.9095878485771609,
+  "mae": 0.7265841299342107,
+  "r2": 0.5347310457399125,
+  "target_uniprot": "P27338",
+  "same_type_proteins": [
+    "MAOA"
+  ],
+  "training_activities_count": 1130,
+  "target_activities_count": 1519,
+  "approach": "fine_tuned_ensemble"
+}

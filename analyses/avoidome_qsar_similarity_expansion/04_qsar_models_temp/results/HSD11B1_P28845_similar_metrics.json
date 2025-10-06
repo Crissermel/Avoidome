@@ -1,0 +1,15 @@
+{
+  "target_name": "HSD11B1",
+  "uniprot_id": "P28845",
+  "test_r2": 0.11499836978589151,
+  "test_rmse": 0.9773197574922357,
+  "test_mae": 0.8067272915793884,
+  "q2": 0.47089275133601677,
+  "n_train": 613,
+  "n_test": 2046,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P50172",
+    "Q5XX84"
+  ]
+}

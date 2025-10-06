@@ -1,0 +1,17 @@
+{
+  "target_protein": "NR1I2",
+  "protein_type": "NR",
+  "status": "success",
+  "n_target_samples": 344,
+  "n_training_samples": 59,
+  "n_same_type_proteins": 1,
+  "rmse": 0.9665833919106209,
+  "mae": 0.7722840116279067,
+  "r2": -0.12385870120811848,
+  "target_uniprot": "O75469",
+  "same_type_proteins": [
+    "NR1I3"
+  ],
+  "training_activities_count": 59,
+  "target_activities_count": 344
+}

@@ -1,0 +1,336 @@
+2025-09-11 15:49:31,256 - INFO - Starting complete MCC analysis
+2025-09-11 15:49:31,257 - INFO - Starting Morgan regression vs classification comparison
+2025-09-11 15:49:31,257 - INFO - Processing human models
+2025-09-11 15:49:31,257 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/CYP1A2_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,257 - WARNING - No classification model found for CYP2B6 in human
+2025-09-11 15:49:31,257 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/CYP2C9_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,258 - WARNING - No classification model found for CYP2C19 in human
+2025-09-11 15:49:31,258 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/CYP2D6_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,258 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/CYP3A4_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,258 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/XDH_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,258 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/MAOA_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,259 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/MAOB_P27338/human/predictions.csv
+2025-09-11 15:49:31,259 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ALDH1A1_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,260 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/HSD11B1_P28845/human/predictions.csv
+2025-09-11 15:49:31,260 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/NR1I3_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,260 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/NR1I2_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,260 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/KCNH2_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,260 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/SCN5A_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,261 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/HTR2B_P41595/human/predictions.csv
+2025-09-11 15:49:31,261 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/SLC6A4_P31645/human/predictions.csv
+2025-09-11 15:49:31,261 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/SLC6A3_Q01959/human/predictions.csv
+2025-09-11 15:49:31,261 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/SLC6A2_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,261 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/ADRA1A_P25100/human/predictions.csv
+2025-09-11 15:49:31,262 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ADRA2A_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,262 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ADRB1_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,262 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ADRB2_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,262 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CNR2_P34972/human/predictions.csv
+2025-09-11 15:49:31,262 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CHRM1_P11229/human/predictions.csv
+2025-09-11 15:49:31,262 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CHRM2_P08172/human/predictions.csv
+2025-09-11 15:49:31,263 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/CHRM3_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,263 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CHRNA7_P36544/human/predictions.csv
+2025-09-11 15:49:31,263 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/HRH1_sklearn_report.txt/human/predictions.csv
+2025-09-11 15:49:31,263 - WARNING - No classification model found for SLCO2B1 in human
+2025-09-11 15:49:31,263 - INFO - Processing mouse models
+2025-09-11 15:49:31,263 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/HSD11B1_P28845/mouse/predictions.csv
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ADRB1_sklearn_report.txt/mouse/predictions.csv
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CNR2_P34972/mouse/predictions.csv
+2025-09-11 15:49:31,264 - INFO - Processing rat models
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/MAOA_sklearn_report.txt/rat/predictions.csv
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/MAOB_P27338/rat/predictions.csv
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/HSD11B1_P28845/rat/predictions.csv
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/HTR2B_P41595/rat/predictions.csv
+2025-09-11 15:49:31,264 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/SLC6A4_P31645/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/SLC6A3_Q01959/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/ADRA1A_P25100/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ADRA2A_sklearn_report.txt/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/ADRB1_sklearn_report.txt/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CNR2_P34972/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CHRM1_P11229/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CHRM2_P08172/rat/predictions.csv
+2025-09-11 15:49:31,265 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/performance_reports/CHRM3_sklearn_report.txt/rat/predictions.csv
+2025-09-11 15:49:31,266 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/morgan_regression/human/CHRNA7_P36544/rat/predictions.csv
+2025-09-11 15:49:31,266 - INFO - Morgan comparison completed: 0 comparisons
+2025-09-11 15:49:31,266 - INFO - Starting ESM+Morgan regression vs classification comparison
+2025-09-11 15:49:31,266 - INFO - Processing human models
+2025-09-11 15:49:31,266 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CYP1A2_P05177/human/predictions.csv
+2025-09-11 15:49:31,266 - WARNING - No classification model found for CYP2B6 in human
+2025-09-11 15:49:31,266 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CYP2C9_P11712/human/predictions.csv
+2025-09-11 15:49:31,266 - WARNING - No classification model found for CYP2C19 in human
+2025-09-11 15:49:31,266 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CYP2D6_P10635/human/predictions.csv
+2025-09-11 15:49:31,266 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CYP3A4_P08684/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/XDH_P47989/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/MAOA_P21397/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/MAOB_P27338/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ALDH1A1_P00352/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/HSD11B1_P28845/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/NR1I3_Q14994/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/NR1I2_O75469/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/KCNH2_Q12809/human/predictions.csv
+2025-09-11 15:49:31,267 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/SCN5A_Q14524/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/HTR2B_P41595/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/SLC6A4_P31645/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/SLC6A3_Q01959/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/SLC6A2_P23975/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRA1A_P25100/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRA2A_P08913/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRB1_P08588/human/predictions.csv
+2025-09-11 15:49:31,268 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRB2_P07550/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CNR2_P34972/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRM1_P11229/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRM2_P08172/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRM3_P20309/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRNA7_P36544/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/HRH1_P35367/human/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - No classification model found for SLCO2B1 in human
+2025-09-11 15:49:31,269 - INFO - Processing mouse models
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/HSD11B1_P28845/mouse/predictions.csv
+2025-09-11 15:49:31,269 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRB1_P08588/mouse/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CNR2_P34972/mouse/predictions.csv
+2025-09-11 15:49:31,270 - INFO - Processing rat models
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/MAOA_P21397/rat/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/MAOB_P27338/rat/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/HSD11B1_P28845/rat/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/HTR2B_P41595/rat/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/SLC6A4_P31645/rat/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/SLC6A3_Q01959/rat/predictions.csv
+2025-09-11 15:49:31,270 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRA1A_P25100/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRA2A_P08913/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/ADRB1_P08588/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CNR2_P34972/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRM1_P11229/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRM2_P08172/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRM3_P20309/rat/predictions.csv
+2025-09-11 15:49:31,271 - WARNING - Predictions file not found: /home/serramelendezcsm/RA/Avoidome/analyses/standardized_qsar_models/esm_morgan_regression/human/CHRNA7_P36544/rat/predictions.csv
+2025-09-11 15:49:31,271 - INFO - ESM+Morgan comparison completed: 0 comparisons
+2025-09-11 15:49:31,271 - INFO - Creating visualizations
+2025-09-11 15:49:31,897 - INFO - Visualizations created successfully
+2025-09-11 15:49:31,897 - INFO - Saving results
+2025-09-11 15:49:31,898 - INFO - Results saved successfully
+2025-09-11 15:49:31,898 - INFO - Generating analysis report
+2025-09-11 15:49:31,898 - INFO - Analysis report generated: /home/serramelendezcsm/RA/Avoidome/analyses/mcc_comparison/MCC_Analysis_Report.md
+2025-09-11 15:49:31,898 - INFO - Complete MCC analysis finished
+2025-09-11 15:50:13,804 - INFO - Starting complete MCC analysis
+2025-09-11 15:50:13,804 - INFO - Starting Morgan regression vs classification comparison
+2025-09-11 15:50:13,804 - INFO - Processing human models
+2025-09-11 15:50:13,805 - WARNING - No regression model found for CYP1A2 in human
+2025-09-11 15:50:13,805 - WARNING - No regression model found for CYP2B6 in human
+2025-09-11 15:50:13,805 - WARNING - No regression model found for CYP2C9 in human
+2025-09-11 15:50:13,806 - WARNING - No regression model found for CYP2C19 in human
+2025-09-11 15:50:13,806 - WARNING - No regression model found for CYP2D6 in human
+2025-09-11 15:50:13,806 - WARNING - No regression model found for CYP3A4 in human
+2025-09-11 15:50:13,807 - WARNING - No regression model found for XDH in human
+2025-09-11 15:50:13,807 - WARNING - No regression model found for MAOA in human
+2025-09-11 15:50:13,807 - WARNING - No regression model found for MAOB in human
+2025-09-11 15:50:13,807 - WARNING - No regression model found for ALDH1A1 in human
+2025-09-11 15:50:13,808 - WARNING - No regression model found for HSD11B1 in human
+2025-09-11 15:50:13,809 - WARNING - No regression model found for NR1I3 in human
+2025-09-11 15:50:13,809 - WARNING - No regression model found for NR1I2 in human
+2025-09-11 15:50:13,809 - WARNING - No regression model found for KCNH2 in human
+2025-09-11 15:50:13,809 - WARNING - No regression model found for SCN5A in human
+2025-09-11 15:50:13,810 - WARNING - No regression model found for HTR2B in human
+2025-09-11 15:50:13,810 - WARNING - No regression model found for SLC6A4 in human
+2025-09-11 15:50:13,810 - WARNING - No regression model found for SLC6A3 in human
+2025-09-11 15:50:13,811 - WARNING - No regression model found for SLC6A2 in human
+2025-09-11 15:50:13,811 - WARNING - No regression model found for ADRA1A in human
+2025-09-11 15:50:13,811 - WARNING - No regression model found for ADRA2A in human
+2025-09-11 15:50:13,811 - WARNING - No regression model found for ADRB1 in human
+2025-09-11 15:50:13,812 - WARNING - No regression model found for ADRB2 in human
+2025-09-11 15:50:13,812 - WARNING - No regression model found for CNR2 in human
+2025-09-11 15:50:13,812 - WARNING - No regression model found for CHRM1 in human
+2025-09-11 15:50:13,813 - WARNING - No regression model found for CHRM2 in human
+2025-09-11 15:50:13,813 - WARNING - No regression model found for CHRM3 in human
+2025-09-11 15:50:13,813 - WARNING - No regression model found for CHRNA7 in human
+2025-09-11 15:50:13,814 - WARNING - No regression model found for HRH1 in human
+2025-09-11 15:50:13,814 - WARNING - No regression model found for SLCO2B1 in human
+2025-09-11 15:50:13,814 - INFO - Processing mouse models
+2025-09-11 15:50:13,814 - WARNING - No regression model found for HSD11B1 in mouse
+2025-09-11 15:50:13,814 - WARNING - No regression model found for ADRB1 in mouse
+2025-09-11 15:50:13,814 - WARNING - No regression model found for CNR2 in mouse
+2025-09-11 15:50:13,814 - INFO - Processing rat models
+2025-09-11 15:50:13,814 - WARNING - No regression model found for MAOA in rat
+2025-09-11 15:50:13,814 - WARNING - No regression model found for MAOB in rat
+2025-09-11 15:50:13,814 - WARNING - No regression model found for HSD11B1 in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for HTR2B in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for SLC6A4 in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for SLC6A3 in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for ADRA1A in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for ADRA2A in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for ADRB1 in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for CNR2 in rat
+2025-09-11 15:50:13,815 - WARNING - No regression model found for CHRM1 in rat
+2025-09-11 15:50:13,816 - WARNING - No regression model found for CHRM2 in rat
+2025-09-11 15:50:13,816 - WARNING - No regression model found for CHRM3 in rat
+2025-09-11 15:50:13,816 - WARNING - No regression model found for CHRNA7 in rat
+2025-09-11 15:50:13,816 - INFO - Morgan comparison completed: 0 comparisons
+2025-09-11 15:50:13,816 - INFO - Starting ESM+Morgan regression vs classification comparison
+2025-09-11 15:50:13,816 - INFO - Processing human models
+2025-09-11 15:50:13,816 - WARNING - No regression model found for CYP1A2 in human
+2025-09-11 15:50:13,816 - WARNING - No regression model found for CYP2B6 in human
+2025-09-11 15:50:13,817 - WARNING - No regression model found for CYP2C9 in human
+2025-09-11 15:50:13,817 - WARNING - No regression model found for CYP2C19 in human
+2025-09-11 15:50:13,817 - WARNING - No regression model found for CYP2D6 in human
+2025-09-11 15:50:13,817 - WARNING - No regression model found for CYP3A4 in human
+2025-09-11 15:50:13,818 - WARNING - No regression model found for XDH in human
+2025-09-11 15:50:13,818 - WARNING - No regression model found for MAOA in human
+2025-09-11 15:50:13,818 - WARNING - No regression model found for MAOB in human
+2025-09-11 15:50:13,818 - WARNING - No regression model found for ALDH1A1 in human
+2025-09-11 15:50:13,818 - WARNING - No regression model found for HSD11B1 in human
+2025-09-11 15:50:13,819 - WARNING - No regression model found for NR1I3 in human
+2025-09-11 15:50:13,819 - WARNING - No regression model found for NR1I2 in human
+2025-09-11 15:50:13,819 - WARNING - No regression model found for KCNH2 in human
+2025-09-11 15:50:13,819 - WARNING - No regression model found for SCN5A in human
+2025-09-11 15:50:13,820 - WARNING - No regression model found for HTR2B in human
+2025-09-11 15:50:13,820 - WARNING - No regression model found for SLC6A4 in human
+2025-09-11 15:50:13,820 - WARNING - No regression model found for SLC6A3 in human
+2025-09-11 15:50:13,820 - WARNING - No regression model found for SLC6A2 in human
+2025-09-11 15:50:13,820 - WARNING - No regression model found for ADRA1A in human
+2025-09-11 15:50:13,821 - WARNING - No regression model found for ADRA2A in human
+2025-09-11 15:50:13,821 - WARNING - No regression model found for ADRB1 in human
+2025-09-11 15:50:13,821 - WARNING - No regression model found for ADRB2 in human
+2025-09-11 15:50:13,821 - WARNING - No regression model found for CNR2 in human
+2025-09-11 15:50:13,822 - WARNING - No regression model found for CHRM1 in human
+2025-09-11 15:50:13,824 - WARNING - No regression model found for CHRM2 in human
+2025-09-11 15:50:13,825 - WARNING - No regression model found for CHRM3 in human
+2025-09-11 15:50:13,826 - WARNING - No regression model found for CHRNA7 in human
+2025-09-11 15:50:13,826 - WARNING - No regression model found for HRH1 in human
+2025-09-11 15:50:13,827 - WARNING - No regression model found for SLCO2B1 in human
+2025-09-11 15:50:13,827 - INFO - Processing mouse models
+2025-09-11 15:50:13,827 - WARNING - No regression model found for HSD11B1 in mouse
+2025-09-11 15:50:13,827 - WARNING - No regression model found for ADRB1 in mouse
+2025-09-11 15:50:13,828 - WARNING - No regression model found for CNR2 in mouse
+2025-09-11 15:50:13,828 - INFO - Processing rat models
+2025-09-11 15:50:13,828 - WARNING - No regression model found for MAOA in rat
+2025-09-11 15:50:13,828 - WARNING - No regression model found for MAOB in rat
+2025-09-11 15:50:13,828 - WARNING - No regression model found for HSD11B1 in rat
+2025-09-11 15:50:13,829 - WARNING - No regression model found for HTR2B in rat
+2025-09-11 15:50:13,829 - WARNING - No regression model found for SLC6A4 in rat
+2025-09-11 15:50:13,829 - WARNING - No regression model found for SLC6A3 in rat
+2025-09-11 15:50:13,829 - WARNING - No regression model found for ADRA1A in rat
+2025-09-11 15:50:13,829 - WARNING - No regression model found for ADRA2A in rat
+2025-09-11 15:50:13,830 - WARNING - No regression model found for ADRB1 in rat
+2025-09-11 15:50:13,830 - WARNING - No regression model found for CNR2 in rat
+2025-09-11 15:50:13,830 - WARNING - No regression model found for CHRM1 in rat
+2025-09-11 15:50:13,830 - WARNING - No regression model found for CHRM2 in rat
+2025-09-11 15:50:13,830 - WARNING - No regression model found for CHRM3 in rat
+2025-09-11 15:50:13,831 - WARNING - No regression model found for CHRNA7 in rat
+2025-09-11 15:50:13,831 - INFO - ESM+Morgan comparison completed: 0 comparisons
+2025-09-11 15:50:13,831 - INFO - Creating visualizations
+2025-09-11 15:50:14,463 - INFO - Visualizations created successfully
+2025-09-11 15:50:14,463 - INFO - Saving results
+2025-09-11 15:50:14,463 - INFO - Results saved successfully
+2025-09-11 15:50:14,463 - INFO - Generating analysis report
+2025-09-11 15:50:14,463 - INFO - Analysis report generated: /home/serramelendezcsm/RA/Avoidome/analyses/mcc_comparison/MCC_Analysis_Report.md
+2025-09-11 15:50:14,464 - INFO - Complete MCC analysis finished
+2025-09-11 15:50:47,028 - INFO - Starting complete MCC analysis
+2025-09-11 15:50:47,028 - INFO - Starting Morgan regression vs classification comparison
+2025-09-11 15:50:47,028 - INFO - Processing human models
+2025-09-11 15:50:47,040 - INFO - Completed comparison for CYP1A2 (human)
+2025-09-11 15:50:47,040 - WARNING - No classification model found for CYP2B6 in human
+2025-09-11 15:50:47,050 - INFO - Completed comparison for CYP2C9 (human)
+2025-09-11 15:50:47,050 - WARNING - No classification model found for CYP2C19 in human
+2025-09-11 15:50:47,061 - INFO - Completed comparison for CYP2D6 (human)
+2025-09-11 15:50:47,073 - INFO - Completed comparison for CYP3A4 (human)
+2025-09-11 15:50:47,082 - INFO - Completed comparison for XDH (human)
+2025-09-11 15:50:47,094 - INFO - Completed comparison for MAOA (human)
+2025-09-11 15:50:47,107 - INFO - Completed comparison for MAOB (human)
+2025-09-11 15:50:47,116 - INFO - Completed comparison for ALDH1A1 (human)
+2025-09-11 15:50:47,128 - INFO - Completed comparison for HSD11B1 (human)
+2025-09-11 15:50:47,138 - INFO - Completed comparison for NR1I3 (human)
+2025-09-11 15:50:47,148 - INFO - Completed comparison for NR1I2 (human)
+2025-09-11 15:50:47,167 - INFO - Completed comparison for KCNH2 (human)
+2025-09-11 15:50:47,176 - INFO - Completed comparison for SCN5A (human)
+2025-09-11 15:50:47,188 - INFO - Completed comparison for HTR2B (human)
+2025-09-11 15:50:47,202 - INFO - Completed comparison for SLC6A4 (human)
+2025-09-11 15:50:47,215 - INFO - Completed comparison for SLC6A3 (human)
+2025-09-11 15:50:47,227 - INFO - Completed comparison for SLC6A2 (human)
+2025-09-11 15:50:47,237 - INFO - Completed comparison for ADRA1A (human)
+2025-09-11 15:50:47,247 - INFO - Completed comparison for ADRA2A (human)
+2025-09-11 15:50:47,257 - INFO - Completed comparison for ADRB1 (human)
+2025-09-11 15:50:47,268 - INFO - Completed comparison for ADRB2 (human)
+2025-09-11 15:50:47,284 - INFO - Completed comparison for CNR2 (human)
+2025-09-11 15:50:47,295 - INFO - Completed comparison for CHRM1 (human)
+2025-09-11 15:50:47,306 - INFO - Completed comparison for CHRM2 (human)
+2025-09-11 15:50:47,317 - INFO - Completed comparison for CHRM3 (human)
+2025-09-11 15:50:47,327 - INFO - Completed comparison for CHRNA7 (human)
+2025-09-11 15:50:47,337 - INFO - Completed comparison for HRH1 (human)
+2025-09-11 15:50:47,338 - WARNING - No classification model found for SLCO2B1 in human
+2025-09-11 15:50:47,338 - INFO - Processing mouse models
+2025-09-11 15:50:47,348 - INFO - Completed comparison for HSD11B1 (mouse)
+2025-09-11 15:50:47,356 - INFO - Completed comparison for ADRB1 (mouse)
+2025-09-11 15:50:47,366 - INFO - Completed comparison for CNR2 (mouse)
+2025-09-11 15:50:47,366 - INFO - Processing rat models
+2025-09-11 15:50:47,376 - INFO - Completed comparison for MAOA (rat)
+2025-09-11 15:50:47,385 - INFO - Completed comparison for MAOB (rat)
+2025-09-11 15:50:47,394 - INFO - Completed comparison for HSD11B1 (rat)
+2025-09-11 15:50:47,403 - INFO - Completed comparison for HTR2B (rat)
+2025-09-11 15:50:47,415 - INFO - Completed comparison for SLC6A4 (rat)
+2025-09-11 15:50:47,426 - INFO - Completed comparison for SLC6A3 (rat)
+2025-09-11 15:50:47,435 - INFO - Completed comparison for ADRA1A (rat)
+2025-09-11 15:50:47,444 - INFO - Completed comparison for ADRA2A (rat)
+2025-09-11 15:50:47,453 - INFO - Completed comparison for ADRB1 (rat)
+2025-09-11 15:50:47,462 - INFO - Completed comparison for CNR2 (rat)
+2025-09-11 15:50:47,471 - INFO - Completed comparison for CHRM1 (rat)
+2025-09-11 15:50:47,480 - INFO - Completed comparison for CHRM2 (rat)
+2025-09-11 15:50:47,489 - INFO - Completed comparison for CHRM3 (rat)
+2025-09-11 15:50:47,500 - INFO - Completed comparison for CHRNA7 (rat)
+2025-09-11 15:50:47,500 - INFO - Morgan comparison completed: 44 comparisons
+2025-09-11 15:50:47,500 - INFO - Starting ESM+Morgan regression vs classification comparison
+2025-09-11 15:50:47,500 - INFO - Processing human models
+2025-09-11 15:50:47,510 - INFO - Completed comparison for CYP1A2 (human)
+2025-09-11 15:50:47,510 - WARNING - No classification model found for CYP2B6 in human
+2025-09-11 15:50:47,520 - INFO - Completed comparison for CYP2C9 (human)
+2025-09-11 15:50:47,520 - WARNING - No classification model found for CYP2C19 in human
+2025-09-11 15:50:47,530 - INFO - Completed comparison for CYP2D6 (human)
+2025-09-11 15:50:47,543 - INFO - Completed comparison for CYP3A4 (human)
+2025-09-11 15:50:47,552 - INFO - Completed comparison for XDH (human)
+2025-09-11 15:50:47,563 - INFO - Completed comparison for MAOA (human)
+2025-09-11 15:50:47,577 - INFO - Completed comparison for MAOB (human)
+2025-09-11 15:50:47,586 - INFO - Completed comparison for ALDH1A1 (human)
+2025-09-11 15:50:47,599 - INFO - Completed comparison for HSD11B1 (human)
+2025-09-11 15:50:47,608 - INFO - Completed comparison for NR1I3 (human)
+2025-09-11 15:50:47,618 - INFO - Completed comparison for NR1I2 (human)
+2025-09-11 15:50:47,638 - INFO - Completed comparison for KCNH2 (human)
+2025-09-11 15:50:47,647 - INFO - Completed comparison for SCN5A (human)
+2025-09-11 15:50:47,659 - INFO - Completed comparison for HTR2B (human)
+2025-09-11 15:50:47,673 - INFO - Completed comparison for SLC6A4 (human)
+2025-09-11 15:50:47,687 - INFO - Completed comparison for SLC6A3 (human)
+2025-09-11 15:50:47,699 - INFO - Completed comparison for SLC6A2 (human)
+2025-09-11 15:50:47,709 - INFO - Completed comparison for ADRA1A (human)
+2025-09-11 15:50:47,719 - INFO - Completed comparison for ADRA2A (human)
+2025-09-11 15:50:47,730 - INFO - Completed comparison for ADRB1 (human)
+2025-09-11 15:50:47,740 - INFO - Completed comparison for ADRB2 (human)
+2025-09-11 15:50:47,757 - INFO - Completed comparison for CNR2 (human)
+2025-09-11 15:50:47,769 - INFO - Completed comparison for CHRM1 (human)
+2025-09-11 15:50:47,779 - INFO - Completed comparison for CHRM2 (human)
+2025-09-11 15:50:47,790 - INFO - Completed comparison for CHRM3 (human)
+2025-09-11 15:50:47,801 - INFO - Completed comparison for CHRNA7 (human)
+2025-09-11 15:50:47,811 - INFO - Completed comparison for HRH1 (human)
+2025-09-11 15:50:47,812 - WARNING - No classification model found for SLCO2B1 in human
+2025-09-11 15:50:47,812 - INFO - Processing mouse models
+2025-09-11 15:50:47,822 - INFO - Completed comparison for HSD11B1 (mouse)
+2025-09-11 15:50:47,831 - INFO - Completed comparison for ADRB1 (mouse)
+2025-09-11 15:50:47,841 - INFO - Completed comparison for CNR2 (mouse)
+2025-09-11 15:50:47,841 - INFO - Processing rat models
+2025-09-11 15:50:47,850 - INFO - Completed comparison for MAOA (rat)
+2025-09-11 15:50:47,860 - INFO - Completed comparison for MAOB (rat)
+2025-09-11 15:50:47,869 - INFO - Completed comparison for HSD11B1 (rat)
+2025-09-11 15:50:47,878 - INFO - Completed comparison for HTR2B (rat)
+2025-09-11 15:50:47,890 - INFO - Completed comparison for SLC6A4 (rat)
+2025-09-11 15:50:47,901 - INFO - Completed comparison for SLC6A3 (rat)
+2025-09-11 15:50:47,911 - INFO - Completed comparison for ADRA1A (rat)
+2025-09-11 15:50:47,920 - INFO - Completed comparison for ADRA2A (rat)
+2025-09-11 15:50:47,929 - INFO - Completed comparison for ADRB1 (rat)
+2025-09-11 15:50:47,938 - INFO - Completed comparison for CNR2 (rat)
+2025-09-11 15:50:47,948 - INFO - Completed comparison for CHRM1 (rat)
+2025-09-11 15:50:47,957 - INFO - Completed comparison for CHRM2 (rat)
+2025-09-11 15:50:47,966 - INFO - Completed comparison for CHRM3 (rat)
+2025-09-11 15:50:47,977 - INFO - Completed comparison for CHRNA7 (rat)
+2025-09-11 15:50:47,977 - INFO - ESM+Morgan comparison completed: 44 comparisons
+2025-09-11 15:50:47,977 - INFO - Creating visualizations
+2025-09-11 15:50:49,527 - INFO - Visualizations created successfully
+2025-09-11 15:50:49,527 - INFO - Saving results
+2025-09-11 15:50:49,536 - INFO - Results saved successfully
+2025-09-11 15:50:49,536 - INFO - Generating analysis report
+2025-09-11 15:50:49,537 - INFO - Analysis report generated: /home/serramelendezcsm/RA/Avoidome/analyses/mcc_comparison/MCC_Analysis_Report.md
+2025-09-11 15:50:49,537 - INFO - Complete MCC analysis finished

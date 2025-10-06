@@ -1,0 +1,866 @@
+2025-07-30 09:54:24,855 - INFO - Checking 52 proteins for multi-organism data...
+2025-07-30 09:54:24,856 - INFO - Initializing Papyrus dataset...
+2025-07-30 09:54:25,052 - INFO - Papyrus dataset initialized successfully
+2025-07-30 09:54:25,053 - INFO - Checking protein 1/52: CYP1A2
+2025-07-30 09:54:35,181 - INFO -   Human (P05177): 329 activities
+2025-07-30 09:54:35,184 - INFO -   Mouse (P00186): 0 activities
+2025-07-30 09:54:35,185 - INFO -   Rat (P04799): 0 activities
+2025-07-30 09:54:35,185 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 09:54:35,185 - INFO - Checking protein 2/52: CYP2B6
+2025-07-30 09:54:35,185 - INFO -   Human (P20813): 0 activities
+2025-07-30 09:54:35,185 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,185 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,185 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,185 - INFO - Checking protein 3/52: CYP2C9
+2025-07-30 09:54:35,186 - INFO -   Human (P11712): 0 activities
+2025-07-30 09:54:35,186 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,186 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,186 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,186 - INFO - Checking protein 4/52: CYP2C19
+2025-07-30 09:54:35,186 - INFO -   Human (P33261): 0 activities
+2025-07-30 09:54:35,186 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,186 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,186 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,186 - INFO - Checking protein 5/52: CYP2D6
+2025-07-30 09:54:35,186 - INFO -   Human (P10635): 0 activities
+2025-07-30 09:54:35,186 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,186 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,186 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,186 - INFO - Checking protein 6/52: CYP3A4
+2025-07-30 09:54:35,187 - INFO -   Human (P08684): 0 activities
+2025-07-30 09:54:35,187 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,187 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,187 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,187 - INFO - Checking protein 7/52: AOX1
+2025-07-30 09:54:35,187 - INFO -   Human (Q06278): 0 activities
+2025-07-30 09:54:35,187 - INFO -   Mouse (O54754): 0 activities
+2025-07-30 09:54:35,187 - INFO -   Rat (Q9Z0U5): 0 activities
+2025-07-30 09:54:35,187 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,187 - INFO - Checking protein 8/52: XDH
+2025-07-30 09:54:35,187 - INFO -   Human (P47989): 0 activities
+2025-07-30 09:54:35,188 - INFO -   Mouse (Q00519): 0 activities
+2025-07-30 09:54:35,188 - INFO -   Rat (P22985): 0 activities
+2025-07-30 09:54:35,188 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,188 - INFO - Checking protein 9/52: MAOA
+2025-07-30 09:54:35,188 - INFO -   Human (P21397): 0 activities
+2025-07-30 09:54:35,188 - INFO -   Mouse (Q64133): 0 activities
+2025-07-30 09:54:35,188 - INFO -   Rat (P21396): 0 activities
+2025-07-30 09:54:35,188 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,188 - INFO - Checking protein 10/52: MAOB
+2025-07-30 09:54:35,188 - INFO -   Human (P27338): 0 activities
+2025-07-30 09:54:35,189 - INFO -   Mouse (Q8BW75): 0 activities
+2025-07-30 09:54:35,189 - INFO -   Rat (P19643): 0 activities
+2025-07-30 09:54:35,189 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,189 - INFO - Checking protein 11/52: ALDH1A1
+2025-07-30 09:54:35,189 - INFO -   Human (P00352): 0 activities
+2025-07-30 09:54:35,189 - INFO -   Mouse (P24549): 0 activities
+2025-07-30 09:54:35,189 - INFO -   Rat (P51647): 0 activities
+2025-07-30 09:54:35,189 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,189 - INFO - Checking protein 12/52: ADH1A
+2025-07-30 09:54:35,189 - INFO -   Human (P07327): 0 activities
+2025-07-30 09:54:35,189 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,190 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,190 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,190 - INFO - Checking protein 13/52: HSD11B1
+2025-07-30 09:54:35,190 - INFO -   Human (P28845): 0 activities
+2025-07-30 09:54:35,190 - INFO -   Mouse (P50172): 0 activities
+2025-07-30 09:54:35,190 - INFO -   Rat (P16232): 0 activities
+2025-07-30 09:54:35,190 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,190 - INFO - Checking protein 14/52: AKR7A3
+2025-07-30 09:54:35,190 - INFO -   Human (O95154): 0 activities
+2025-07-30 09:54:35,190 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,190 - INFO -   Rat (P38918): 0 activities
+2025-07-30 09:54:35,190 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,191 - INFO - Checking protein 15/52: FMO1
+2025-07-30 09:54:35,191 - INFO -   Human (Q01740): 0 activities
+2025-07-30 09:54:35,191 - INFO -   Mouse (P50285): 0 activities
+2025-07-30 09:54:35,191 - INFO -   Rat (P36365): 0 activities
+2025-07-30 09:54:35,191 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,191 - INFO - Checking protein 16/52: AHR
+2025-07-30 09:54:35,191 - INFO -   Human (P35869): 0 activities
+2025-07-30 09:54:35,191 - INFO -   Mouse (P30561): 0 activities
+2025-07-30 09:54:35,191 - INFO -   Rat (P41738): 0 activities
+2025-07-30 09:54:35,191 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,192 - INFO - Checking protein 17/52: NR1I3
+2025-07-30 09:54:35,192 - INFO -   Human (Q14994): 0 activities
+2025-07-30 09:54:35,192 - INFO -   Mouse (O35627): 0 activities
+2025-07-30 09:54:35,192 - INFO -   Rat (Q9QUS1): 0 activities
+2025-07-30 09:54:35,192 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,192 - INFO - Checking protein 18/52: NR1I2
+2025-07-30 09:54:35,192 - INFO -   Human (O75469): 0 activities
+2025-07-30 09:54:35,192 - INFO -   Mouse (O54915): 0 activities
+2025-07-30 09:54:35,192 - INFO -   Rat (Q9R1A7): 0 activities
+2025-07-30 09:54:35,192 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,193 - INFO - Checking protein 19/52: SULT1A1
+2025-07-30 09:54:35,193 - INFO -   Human (P50225): 0 activities
+2025-07-30 09:54:35,193 - INFO -   Mouse (P52840): 0 activities
+2025-07-30 09:54:35,193 - INFO -   Rat (P17988): 0 activities
+2025-07-30 09:54:35,193 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,193 - INFO - Checking protein 20/52: GSTA1
+2025-07-30 09:54:35,193 - INFO -   Human (P08263): 0 activities
+2025-07-30 09:54:35,193 - INFO -   Mouse (P13745): 0 activities
+2025-07-30 09:54:35,193 - INFO -   Rat (P00502): 0 activities
+2025-07-30 09:54:35,194 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,194 - INFO - Checking protein 21/52: OXA1L
+2025-07-30 09:54:35,194 - INFO -   Human (Q15070): 0 activities
+2025-07-30 09:54:35,194 - INFO -   Mouse (Q8BGA9): 0 activities
+2025-07-30 09:54:35,194 - INFO -   Rat (A0A8I6AQW6): 0 activities
+2025-07-30 09:54:35,194 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,194 - INFO - Checking protein 22/52: ORM1
+2025-07-30 09:54:35,194 - INFO -   Human (P02763): 0 activities
+2025-07-30 09:54:35,194 - INFO -   Mouse (Q60590): 0 activities
+2025-07-30 09:54:35,194 - INFO -   Rat (P02764): 0 activities
+2025-07-30 09:54:35,195 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,195 - INFO - Checking protein 23/52: KCNH2
+2025-07-30 09:54:35,195 - INFO -   Human (Q12809): 0 activities
+2025-07-30 09:54:35,195 - INFO -   Mouse (O35219): 0 activities
+2025-07-30 09:54:35,195 - INFO -   Rat (O08962): 0 activities
+2025-07-30 09:54:35,195 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,195 - INFO - Checking protein 24/52: SCN5A
+2025-07-30 09:54:35,195 - INFO -   Human (Q14524): 0 activities
+2025-07-30 09:54:35,195 - INFO -   Mouse (Q9JJV9): 0 activities
+2025-07-30 09:54:35,196 - INFO -   Rat (P15389): 0 activities
+2025-07-30 09:54:35,196 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,196 - INFO - Checking protein 25/52: CACNB1
+2025-07-30 09:54:35,196 - INFO -   Human (Q02641): 0 activities
+2025-07-30 09:54:35,196 - INFO -   Mouse (Q8R3Z5): 0 activities
+2025-07-30 09:54:35,196 - INFO -   Rat (P54283): 0 activities
+2025-07-30 09:54:35,196 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,196 - INFO - Checking protein 26/52: CAV1
+2025-07-30 09:54:35,196 - INFO -   Human (Q03135): 0 activities
+2025-07-30 09:54:35,196 - INFO -   Mouse (P49817): 0 activities
+2025-07-30 09:54:35,196 - INFO -   Rat (P41350): 0 activities
+2025-07-30 09:54:35,197 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,197 - INFO - Checking protein 27/52: HTR2B
+2025-07-30 09:54:35,197 - INFO -   Human (P41595): 0 activities
+2025-07-30 09:54:35,197 - INFO -   Mouse (Q02152): 0 activities
+2025-07-30 09:54:35,197 - INFO -   Rat (P30994): 0 activities
+2025-07-30 09:54:35,197 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,197 - INFO - Checking protein 28/52: SLC6A4
+2025-07-30 09:54:35,197 - INFO -   Human (P31645): 0 activities
+2025-07-30 09:54:35,197 - INFO -   Mouse (Q60857): 0 activities
+2025-07-30 09:54:35,198 - INFO -   Rat (P31652): 0 activities
+2025-07-30 09:54:35,198 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,198 - INFO - Checking protein 29/52: DIDO1
+2025-07-30 09:54:35,198 - INFO -   Human (Q9BTC0): 0 activities
+2025-07-30 09:54:35,198 - INFO -   Mouse (Q8C9B9): 0 activities
+2025-07-30 09:54:35,198 - INFO -   Rat (A0A8I5ZXE0): 0 activities
+2025-07-30 09:54:35,198 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,198 - INFO - Checking protein 30/52: SLC6A3
+2025-07-30 09:54:35,198 - INFO -   Human (Q01959): 0 activities
+2025-07-30 09:54:35,198 - INFO -   Mouse (Q61327): 0 activities
+2025-07-30 09:54:35,199 - INFO -   Rat (P23977): 0 activities
+2025-07-30 09:54:35,199 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,199 - INFO - Checking protein 31/52: SLC6A2
+2025-07-30 09:54:35,199 - INFO -   Human (P23975): 0 activities
+2025-07-30 09:54:35,199 - INFO -   Mouse (O55192): 0 activities
+2025-07-30 09:54:35,199 - INFO -   Rat (F1LNR9): 0 activities
+2025-07-30 09:54:35,199 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,199 - INFO - Checking protein 32/52: NAT8
+2025-07-30 09:54:35,199 - INFO -   Human (Q9UHE5): 0 activities
+2025-07-30 09:54:35,199 - INFO -   Mouse (Q9JIY7): 0 activities
+2025-07-30 09:54:35,200 - INFO -   Rat (Q9QXT3): 0 activities
+2025-07-30 09:54:35,200 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,200 - INFO - Checking protein 33/52: ADRA1A
+2025-07-30 09:54:35,200 - INFO -   Human (P25100): 0 activities
+2025-07-30 09:54:35,200 - INFO -   Mouse (P97718): 0 activities
+2025-07-30 09:54:35,200 - INFO -   Rat (P23944): 0 activities
+2025-07-30 09:54:35,200 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,200 - INFO - Checking protein 34/52: ADRA2A
+2025-07-30 09:54:35,200 - INFO -   Human (P08913): 0 activities
+2025-07-30 09:54:35,200 - INFO -   Mouse (Q01338): 0 activities
+2025-07-30 09:54:35,200 - INFO -   Rat (P22909): 0 activities
+2025-07-30 09:54:35,201 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,201 - INFO - Checking protein 35/52: ADRB1
+2025-07-30 09:54:35,201 - INFO -   Human (P08588): 0 activities
+2025-07-30 09:54:35,201 - INFO -   Mouse (P34971): 0 activities
+2025-07-30 09:54:35,201 - INFO -   Rat (P18090): 0 activities
+2025-07-30 09:54:35,201 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,201 - INFO - Checking protein 36/52: ADRB2
+2025-07-30 09:54:35,201 - INFO -   Human (P07550): 0 activities
+2025-07-30 09:54:35,201 - INFO -   Mouse (P18762): 0 activities
+2025-07-30 09:54:35,201 - INFO -   Rat (P10608): 0 activities
+2025-07-30 09:54:35,202 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,202 - INFO - Checking protein 37/52: CNRIP1
+2025-07-30 09:54:35,202 - INFO -   Human (Q96F85): 0 activities
+2025-07-30 09:54:35,202 - INFO -   Mouse (Q5M8N0): 0 activities
+2025-07-30 09:54:35,202 - INFO -   Rat (Q5M7A7): 0 activities
+2025-07-30 09:54:35,202 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,202 - INFO - Checking protein 38/52: CNR2
+2025-07-30 09:54:35,202 - INFO -   Human (P34972): 0 activities
+2025-07-30 09:54:35,202 - INFO -   Mouse (P47936): 0 activities
+2025-07-30 09:54:35,203 - INFO -   Rat (Q9QZN9): 0 activities
+2025-07-30 09:54:35,203 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,203 - INFO - Checking protein 39/52: CHRM1
+2025-07-30 09:54:35,203 - INFO -   Human (P11229): 0 activities
+2025-07-30 09:54:35,203 - INFO -   Mouse (P12657): 0 activities
+2025-07-30 09:54:35,203 - INFO -   Rat (P08482): 0 activities
+2025-07-30 09:54:35,203 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,203 - INFO - Checking protein 40/52: CHRM2
+2025-07-30 09:54:35,203 - INFO -   Human (P08172): 0 activities
+2025-07-30 09:54:35,203 - INFO -   Mouse (Q9ERZ4): 0 activities
+2025-07-30 09:54:35,204 - INFO -   Rat (P10980): 0 activities
+2025-07-30 09:54:35,204 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,204 - INFO - Checking protein 41/52: CHRM3
+2025-07-30 09:54:35,204 - INFO -   Human (P20309): 0 activities
+2025-07-30 09:54:35,204 - INFO -   Mouse (Q9ERZ3): 0 activities
+2025-07-30 09:54:35,204 - INFO -   Rat (P08483): 0 activities
+2025-07-30 09:54:35,204 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,204 - INFO - Checking protein 42/52: CHRNA10
+2025-07-30 09:54:35,204 - INFO -   Human (Q9GZZ6): 0 activities
+2025-07-30 09:54:35,204 - INFO -   Mouse (B2RX82): 0 activities
+2025-07-30 09:54:35,205 - INFO -   Rat (Q9JLB5): 0 activities
+2025-07-30 09:54:35,205 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,205 - INFO - Checking protein 43/52: CHRNA9
+2025-07-30 09:54:35,205 - INFO -   Human (Q9UGM1): 0 activities
+2025-07-30 09:54:35,205 - INFO -   Mouse (G3X8Z7): 0 activities
+2025-07-30 09:54:35,205 - INFO -   Rat (P43144): 0 activities
+2025-07-30 09:54:35,205 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,205 - INFO - Checking protein 44/52: CHRNA7
+2025-07-30 09:54:35,205 - INFO -   Human (P36544): 0 activities
+2025-07-30 09:54:35,205 - INFO -   Mouse (P49582): 0 activities
+2025-07-30 09:54:35,205 - INFO -   Rat (Q05941): 0 activities
+2025-07-30 09:54:35,206 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,206 - INFO - Checking protein 45/52: CHRNA3
+2025-07-30 09:54:35,206 - INFO -   Human (P32297): 0 activities
+2025-07-30 09:54:35,206 - INFO -   Mouse (Q8R4G9): 0 activities
+2025-07-30 09:54:35,206 - INFO -   Rat (P04757): 0 activities
+2025-07-30 09:54:35,206 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,206 - INFO - Checking protein 46/52: CHRNA5
+2025-07-30 09:54:35,206 - INFO -   Human (P30532): 0 activities
+2025-07-30 09:54:35,206 - INFO -   Mouse (Q2MKA5): 0 activities
+2025-07-30 09:54:35,206 - INFO -   Rat (P20420): 0 activities
+2025-07-30 09:54:35,207 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,207 - INFO - Checking protein 47/52: SMPDL3A
+2025-07-30 09:54:35,207 - INFO -   Human (Q92484): 0 activities
+2025-07-30 09:54:35,207 - INFO -   Mouse (P70158): 0 activities
+2025-07-30 09:54:35,207 - INFO -   Rat (Q641Z7): 0 activities
+2025-07-30 09:54:35,207 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,207 - INFO - Checking protein 48/52: GABPA
+2025-07-30 09:54:35,207 - INFO -   Human (Q06546): 0 activities
+2025-07-30 09:54:35,207 - INFO -   Mouse (Q00422): 0 activities
+2025-07-30 09:54:35,207 - INFO -   Rat (A0A8I6GML2): 0 activities
+2025-07-30 09:54:35,207 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,208 - INFO - Checking protein 49/52: HRH1
+2025-07-30 09:54:35,208 - INFO -   Human (P35367): 0 activities
+2025-07-30 09:54:35,208 - INFO -   Mouse (P70174): 0 activities
+2025-07-30 09:54:35,208 - INFO -   Rat (P31390): 0 activities
+2025-07-30 09:54:35,208 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,208 - INFO - Checking protein 50/52: SLCO1B1
+2025-07-30 09:54:35,208 - INFO -   Human (Q9Y6L6): 0 activities
+2025-07-30 09:54:35,208 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,208 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,208 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,208 - INFO - Checking protein 51/52: SLCO2B3
+2025-07-30 09:54:35,208 - INFO -   Human: No UniProt ID provided
+2025-07-30 09:54:35,208 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 09:54:35,208 - INFO -   Rat: No UniProt ID provided
+2025-07-30 09:54:35,208 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,208 - INFO - Checking protein 52/52: SLCO2B1
+2025-07-30 09:54:35,209 - INFO -   Human (O94956): 0 activities
+2025-07-30 09:54:35,209 - INFO -   Mouse (Q8BXB6): 0 activities
+2025-07-30 09:54:35,209 - INFO -   Rat (Q9JHI3): 0 activities
+2025-07-30 09:54:35,209 - WARNING -   Result: NO DATA
+2025-07-30 09:54:35,209 - INFO - 
+==================================================
+2025-07-30 09:54:35,209 - INFO - SUMMARY
+2025-07-30 09:54:35,209 - INFO - ==================================================
+2025-07-30 09:54:35,209 - INFO - Total proteins checked: 52
+2025-07-30 09:54:35,209 - INFO - Proteins with multi-organism data: 0
+2025-07-30 09:54:35,209 - INFO - Proteins with single-organism data: 1
+2025-07-30 09:54:35,209 - INFO - Proteins with no data: 51
+2025-07-30 09:54:35,214 - INFO - Detailed results saved to: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/multi_organism_results.csv
+2025-07-30 09:54:35,214 - INFO - 
+No proteins found with multi-organism data.
+2025-07-30 09:54:35,214 - INFO - 
+TOP SINGLE-ORGANISM PROTEINS (by activity count):
+2025-07-30 09:54:35,214 - INFO - ----------------------------------------
+2025-07-30 09:54:35,214 - INFO - CYP1A2: human (329 activities)
+2025-07-30 10:16:40,073 - INFO - Checking 52 proteins for multi-organism data...
+2025-07-30 10:16:40,073 - INFO - Initializing Papyrus dataset...
+2025-07-30 10:16:40,233 - INFO - Papyrus dataset initialized successfully
+2025-07-30 10:16:40,234 - INFO - Checking protein 1/52: CYP1A2
+2025-07-30 10:22:08,624 - INFO -   Human (P05177): 12836 activities
+2025-07-30 10:22:08,637 - INFO -   Mouse (P00186): 0 activities
+2025-07-30 10:22:08,637 - INFO -   Rat (P04799): 0 activities
+2025-07-30 10:22:08,637 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:22:08,637 - INFO - Checking protein 2/52: CYP2B6
+2025-07-30 10:22:08,638 - INFO -   Human (P20813): 0 activities
+2025-07-30 10:22:08,638 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,638 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,638 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,638 - INFO - Checking protein 3/52: CYP2C9
+2025-07-30 10:22:08,638 - INFO -   Human (P11712): 0 activities
+2025-07-30 10:22:08,638 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,638 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,638 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,638 - INFO - Checking protein 4/52: CYP2C19
+2025-07-30 10:22:08,638 - INFO -   Human (P33261): 0 activities
+2025-07-30 10:22:08,638 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,638 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,638 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,638 - INFO - Checking protein 5/52: CYP2D6
+2025-07-30 10:22:08,638 - INFO -   Human (P10635): 0 activities
+2025-07-30 10:22:08,638 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,638 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,639 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,639 - INFO - Checking protein 6/52: CYP3A4
+2025-07-30 10:22:08,639 - INFO -   Human (P08684): 0 activities
+2025-07-30 10:22:08,639 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,639 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,639 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,639 - INFO - Checking protein 7/52: AOX1
+2025-07-30 10:22:08,639 - INFO -   Human (Q06278): 0 activities
+2025-07-30 10:22:08,639 - INFO -   Mouse (O54754): 0 activities
+2025-07-30 10:22:08,639 - INFO -   Rat (Q9Z0U5): 0 activities
+2025-07-30 10:22:08,639 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,639 - INFO - Checking protein 8/52: XDH
+2025-07-30 10:22:08,639 - INFO -   Human (P47989): 0 activities
+2025-07-30 10:22:08,639 - INFO -   Mouse (Q00519): 0 activities
+2025-07-30 10:22:08,640 - INFO -   Rat (P22985): 0 activities
+2025-07-30 10:22:08,640 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,640 - INFO - Checking protein 9/52: MAOA
+2025-07-30 10:22:08,640 - INFO -   Human (P21397): 0 activities
+2025-07-30 10:22:08,640 - INFO -   Mouse (Q64133): 0 activities
+2025-07-30 10:22:08,640 - INFO -   Rat (P21396): 0 activities
+2025-07-30 10:22:08,640 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,640 - INFO - Checking protein 10/52: MAOB
+2025-07-30 10:22:08,640 - INFO -   Human (P27338): 0 activities
+2025-07-30 10:22:08,640 - INFO -   Mouse (Q8BW75): 0 activities
+2025-07-30 10:22:08,640 - INFO -   Rat (P19643): 0 activities
+2025-07-30 10:22:08,641 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,641 - INFO - Checking protein 11/52: ALDH1A1
+2025-07-30 10:22:08,641 - INFO -   Human (P00352): 0 activities
+2025-07-30 10:22:08,641 - INFO -   Mouse (P24549): 0 activities
+2025-07-30 10:22:08,641 - INFO -   Rat (P51647): 0 activities
+2025-07-30 10:22:08,641 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,641 - INFO - Checking protein 12/52: ADH1A
+2025-07-30 10:22:08,641 - INFO -   Human (P07327): 0 activities
+2025-07-30 10:22:08,641 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,641 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,641 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,641 - INFO - Checking protein 13/52: HSD11B1
+2025-07-30 10:22:08,641 - INFO -   Human (P28845): 0 activities
+2025-07-30 10:22:08,642 - INFO -   Mouse (P50172): 0 activities
+2025-07-30 10:22:08,642 - INFO -   Rat (P16232): 0 activities
+2025-07-30 10:22:08,642 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,642 - INFO - Checking protein 14/52: AKR7A3
+2025-07-30 10:22:08,642 - INFO -   Human (O95154): 0 activities
+2025-07-30 10:22:08,642 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,642 - INFO -   Rat (P38918): 0 activities
+2025-07-30 10:22:08,642 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,642 - INFO - Checking protein 15/52: FMO1
+2025-07-30 10:22:08,642 - INFO -   Human (Q01740): 0 activities
+2025-07-30 10:22:08,642 - INFO -   Mouse (P50285): 0 activities
+2025-07-30 10:22:08,642 - INFO -   Rat (P36365): 0 activities
+2025-07-30 10:22:08,642 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,643 - INFO - Checking protein 16/52: AHR
+2025-07-30 10:22:08,643 - INFO -   Human (P35869): 0 activities
+2025-07-30 10:22:08,643 - INFO -   Mouse (P30561): 0 activities
+2025-07-30 10:22:08,643 - INFO -   Rat (P41738): 0 activities
+2025-07-30 10:22:08,643 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,643 - INFO - Checking protein 17/52: NR1I3
+2025-07-30 10:22:08,643 - INFO -   Human (Q14994): 0 activities
+2025-07-30 10:22:08,643 - INFO -   Mouse (O35627): 0 activities
+2025-07-30 10:22:08,643 - INFO -   Rat (Q9QUS1): 0 activities
+2025-07-30 10:22:08,643 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,643 - INFO - Checking protein 18/52: NR1I2
+2025-07-30 10:22:08,643 - INFO -   Human (O75469): 0 activities
+2025-07-30 10:22:08,644 - INFO -   Mouse (O54915): 0 activities
+2025-07-30 10:22:08,644 - INFO -   Rat (Q9R1A7): 0 activities
+2025-07-30 10:22:08,644 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,644 - INFO - Checking protein 19/52: SULT1A1
+2025-07-30 10:22:08,644 - INFO -   Human (P50225): 0 activities
+2025-07-30 10:22:08,644 - INFO -   Mouse (P52840): 0 activities
+2025-07-30 10:22:08,644 - INFO -   Rat (P17988): 0 activities
+2025-07-30 10:22:08,644 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,644 - INFO - Checking protein 20/52: GSTA1
+2025-07-30 10:22:08,644 - INFO -   Human (P08263): 0 activities
+2025-07-30 10:22:08,644 - INFO -   Mouse (P13745): 0 activities
+2025-07-30 10:22:08,645 - INFO -   Rat (P00502): 0 activities
+2025-07-30 10:22:08,645 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,645 - INFO - Checking protein 21/52: OXA1L
+2025-07-30 10:22:08,645 - INFO -   Human (Q15070): 0 activities
+2025-07-30 10:22:08,645 - INFO -   Mouse (Q8BGA9): 0 activities
+2025-07-30 10:22:08,645 - INFO -   Rat (A0A8I6AQW6): 0 activities
+2025-07-30 10:22:08,645 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,645 - INFO - Checking protein 22/52: ORM1
+2025-07-30 10:22:08,645 - INFO -   Human (P02763): 0 activities
+2025-07-30 10:22:08,645 - INFO -   Mouse (Q60590): 0 activities
+2025-07-30 10:22:08,645 - INFO -   Rat (P02764): 0 activities
+2025-07-30 10:22:08,646 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,646 - INFO - Checking protein 23/52: KCNH2
+2025-07-30 10:22:08,646 - INFO -   Human (Q12809): 0 activities
+2025-07-30 10:22:08,646 - INFO -   Mouse (O35219): 0 activities
+2025-07-30 10:22:08,646 - INFO -   Rat (O08962): 0 activities
+2025-07-30 10:22:08,646 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,646 - INFO - Checking protein 24/52: SCN5A
+2025-07-30 10:22:08,646 - INFO -   Human (Q14524): 0 activities
+2025-07-30 10:22:08,646 - INFO -   Mouse (Q9JJV9): 0 activities
+2025-07-30 10:22:08,646 - INFO -   Rat (P15389): 0 activities
+2025-07-30 10:22:08,646 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,646 - INFO - Checking protein 25/52: CACNB1
+2025-07-30 10:22:08,647 - INFO -   Human (Q02641): 0 activities
+2025-07-30 10:22:08,647 - INFO -   Mouse (Q8R3Z5): 0 activities
+2025-07-30 10:22:08,647 - INFO -   Rat (P54283): 0 activities
+2025-07-30 10:22:08,647 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,647 - INFO - Checking protein 26/52: CAV1
+2025-07-30 10:22:08,647 - INFO -   Human (Q03135): 0 activities
+2025-07-30 10:22:08,647 - INFO -   Mouse (P49817): 0 activities
+2025-07-30 10:22:08,647 - INFO -   Rat (P41350): 0 activities
+2025-07-30 10:22:08,647 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,647 - INFO - Checking protein 27/52: HTR2B
+2025-07-30 10:22:08,647 - INFO -   Human (P41595): 0 activities
+2025-07-30 10:22:08,648 - INFO -   Mouse (Q02152): 0 activities
+2025-07-30 10:22:08,648 - INFO -   Rat (P30994): 0 activities
+2025-07-30 10:22:08,648 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,648 - INFO - Checking protein 28/52: SLC6A4
+2025-07-30 10:22:08,648 - INFO -   Human (P31645): 0 activities
+2025-07-30 10:22:08,648 - INFO -   Mouse (Q60857): 0 activities
+2025-07-30 10:22:08,648 - INFO -   Rat (P31652): 0 activities
+2025-07-30 10:22:08,648 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,648 - INFO - Checking protein 29/52: DIDO1
+2025-07-30 10:22:08,648 - INFO -   Human (Q9BTC0): 0 activities
+2025-07-30 10:22:08,648 - INFO -   Mouse (Q8C9B9): 0 activities
+2025-07-30 10:22:08,649 - INFO -   Rat (A0A8I5ZXE0): 0 activities
+2025-07-30 10:22:08,649 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,649 - INFO - Checking protein 30/52: SLC6A3
+2025-07-30 10:22:08,649 - INFO -   Human (Q01959): 0 activities
+2025-07-30 10:22:08,649 - INFO -   Mouse (Q61327): 0 activities
+2025-07-30 10:22:08,649 - INFO -   Rat (P23977): 0 activities
+2025-07-30 10:22:08,649 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,649 - INFO - Checking protein 31/52: SLC6A2
+2025-07-30 10:22:08,649 - INFO -   Human (P23975): 0 activities
+2025-07-30 10:22:08,649 - INFO -   Mouse (O55192): 0 activities
+2025-07-30 10:22:08,650 - INFO -   Rat (F1LNR9): 0 activities
+2025-07-30 10:22:08,650 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,650 - INFO - Checking protein 32/52: NAT8
+2025-07-30 10:22:08,650 - INFO -   Human (Q9UHE5): 0 activities
+2025-07-30 10:22:08,650 - INFO -   Mouse (Q9JIY7): 0 activities
+2025-07-30 10:22:08,650 - INFO -   Rat (Q9QXT3): 0 activities
+2025-07-30 10:22:08,650 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,650 - INFO - Checking protein 33/52: ADRA1A
+2025-07-30 10:22:08,650 - INFO -   Human (P25100): 0 activities
+2025-07-30 10:22:08,650 - INFO -   Mouse (P97718): 0 activities
+2025-07-30 10:22:08,651 - INFO -   Rat (P23944): 0 activities
+2025-07-30 10:22:08,651 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,651 - INFO - Checking protein 34/52: ADRA2A
+2025-07-30 10:22:08,651 - INFO -   Human (P08913): 0 activities
+2025-07-30 10:22:08,651 - INFO -   Mouse (Q01338): 0 activities
+2025-07-30 10:22:08,651 - INFO -   Rat (P22909): 0 activities
+2025-07-30 10:22:08,651 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,651 - INFO - Checking protein 35/52: ADRB1
+2025-07-30 10:22:08,651 - INFO -   Human (P08588): 0 activities
+2025-07-30 10:22:08,651 - INFO -   Mouse (P34971): 0 activities
+2025-07-30 10:22:08,651 - INFO -   Rat (P18090): 0 activities
+2025-07-30 10:22:08,651 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,652 - INFO - Checking protein 36/52: ADRB2
+2025-07-30 10:22:08,652 - INFO -   Human (P07550): 0 activities
+2025-07-30 10:22:08,652 - INFO -   Mouse (P18762): 0 activities
+2025-07-30 10:22:08,652 - INFO -   Rat (P10608): 0 activities
+2025-07-30 10:22:08,652 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,652 - INFO - Checking protein 37/52: CNRIP1
+2025-07-30 10:22:08,652 - INFO -   Human (Q96F85): 0 activities
+2025-07-30 10:22:08,653 - INFO -   Mouse (Q5M8N0): 0 activities
+2025-07-30 10:22:08,653 - INFO -   Rat (Q5M7A7): 0 activities
+2025-07-30 10:22:08,653 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,653 - INFO - Checking protein 38/52: CNR2
+2025-07-30 10:22:08,653 - INFO -   Human (P34972): 0 activities
+2025-07-30 10:22:08,653 - INFO -   Mouse (P47936): 0 activities
+2025-07-30 10:22:08,653 - INFO -   Rat (Q9QZN9): 0 activities
+2025-07-30 10:22:08,653 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,653 - INFO - Checking protein 39/52: CHRM1
+2025-07-30 10:22:08,653 - INFO -   Human (P11229): 0 activities
+2025-07-30 10:22:08,653 - INFO -   Mouse (P12657): 0 activities
+2025-07-30 10:22:08,654 - INFO -   Rat (P08482): 0 activities
+2025-07-30 10:22:08,654 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,654 - INFO - Checking protein 40/52: CHRM2
+2025-07-30 10:22:08,654 - INFO -   Human (P08172): 0 activities
+2025-07-30 10:22:08,654 - INFO -   Mouse (Q9ERZ4): 0 activities
+2025-07-30 10:22:08,654 - INFO -   Rat (P10980): 0 activities
+2025-07-30 10:22:08,654 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,654 - INFO - Checking protein 41/52: CHRM3
+2025-07-30 10:22:08,654 - INFO -   Human (P20309): 0 activities
+2025-07-30 10:22:08,654 - INFO -   Mouse (Q9ERZ3): 0 activities
+2025-07-30 10:22:08,654 - INFO -   Rat (P08483): 0 activities
+2025-07-30 10:22:08,654 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,655 - INFO - Checking protein 42/52: CHRNA10
+2025-07-30 10:22:08,655 - INFO -   Human (Q9GZZ6): 0 activities
+2025-07-30 10:22:08,655 - INFO -   Mouse (B2RX82): 0 activities
+2025-07-30 10:22:08,655 - INFO -   Rat (Q9JLB5): 0 activities
+2025-07-30 10:22:08,655 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,655 - INFO - Checking protein 43/52: CHRNA9
+2025-07-30 10:22:08,655 - INFO -   Human (Q9UGM1): 0 activities
+2025-07-30 10:22:08,655 - INFO -   Mouse (G3X8Z7): 0 activities
+2025-07-30 10:22:08,655 - INFO -   Rat (P43144): 0 activities
+2025-07-30 10:22:08,655 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,655 - INFO - Checking protein 44/52: CHRNA7
+2025-07-30 10:22:08,656 - INFO -   Human (P36544): 0 activities
+2025-07-30 10:22:08,656 - INFO -   Mouse (P49582): 0 activities
+2025-07-30 10:22:08,656 - INFO -   Rat (Q05941): 0 activities
+2025-07-30 10:22:08,656 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,656 - INFO - Checking protein 45/52: CHRNA3
+2025-07-30 10:22:08,656 - INFO -   Human (P32297): 0 activities
+2025-07-30 10:22:08,656 - INFO -   Mouse (Q8R4G9): 0 activities
+2025-07-30 10:22:08,656 - INFO -   Rat (P04757): 0 activities
+2025-07-30 10:22:08,656 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,656 - INFO - Checking protein 46/52: CHRNA5
+2025-07-30 10:22:08,656 - INFO -   Human (P30532): 0 activities
+2025-07-30 10:22:08,657 - INFO -   Mouse (Q2MKA5): 0 activities
+2025-07-30 10:22:08,657 - INFO -   Rat (P20420): 0 activities
+2025-07-30 10:22:08,657 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,657 - INFO - Checking protein 47/52: SMPDL3A
+2025-07-30 10:22:08,657 - INFO -   Human (Q92484): 0 activities
+2025-07-30 10:22:08,657 - INFO -   Mouse (P70158): 0 activities
+2025-07-30 10:22:08,657 - INFO -   Rat (Q641Z7): 0 activities
+2025-07-30 10:22:08,657 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,657 - INFO - Checking protein 48/52: GABPA
+2025-07-30 10:22:08,657 - INFO -   Human (Q06546): 0 activities
+2025-07-30 10:22:08,657 - INFO -   Mouse (Q00422): 0 activities
+2025-07-30 10:22:08,658 - INFO -   Rat (A0A8I6GML2): 0 activities
+2025-07-30 10:22:08,658 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,658 - INFO - Checking protein 49/52: HRH1
+2025-07-30 10:22:08,658 - INFO -   Human (P35367): 0 activities
+2025-07-30 10:22:08,658 - INFO -   Mouse (P70174): 0 activities
+2025-07-30 10:22:08,658 - INFO -   Rat (P31390): 0 activities
+2025-07-30 10:22:08,658 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,658 - INFO - Checking protein 50/52: SLCO1B1
+2025-07-30 10:22:08,658 - INFO -   Human (Q9Y6L6): 0 activities
+2025-07-30 10:22:08,658 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,658 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,658 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,658 - INFO - Checking protein 51/52: SLCO2B3
+2025-07-30 10:22:08,658 - INFO -   Human: No UniProt ID provided
+2025-07-30 10:22:08,658 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:22:08,658 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:22:08,658 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,658 - INFO - Checking protein 52/52: SLCO2B1
+2025-07-30 10:22:08,659 - INFO -   Human (O94956): 0 activities
+2025-07-30 10:22:08,659 - INFO -   Mouse (Q8BXB6): 0 activities
+2025-07-30 10:22:08,659 - INFO -   Rat (Q9JHI3): 0 activities
+2025-07-30 10:22:08,659 - WARNING -   Result: NO DATA
+2025-07-30 10:22:08,659 - INFO - 
+==================================================
+2025-07-30 10:22:08,659 - INFO - SUMMARY
+2025-07-30 10:22:08,659 - INFO - ==================================================
+2025-07-30 10:22:08,659 - INFO - Total proteins checked: 52
+2025-07-30 10:22:08,659 - INFO - Proteins with multi-organism data: 0
+2025-07-30 10:22:08,659 - INFO - Proteins with single-organism data: 1
+2025-07-30 10:22:08,659 - INFO - Proteins with no data: 51
+2025-07-30 10:22:08,662 - INFO - Detailed results saved to: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/multi_organism_results.csv
+2025-07-30 10:22:08,662 - INFO - 
+No proteins found with multi-organism data.
+2025-07-30 10:22:08,662 - INFO - 
+TOP SINGLE-ORGANISM PROTEINS (by activity count):
+2025-07-30 10:22:08,662 - INFO - ----------------------------------------
+2025-07-30 10:22:08,662 - INFO - CYP1A2: human (12836 activities)
+2025-07-30 10:32:13,368 - INFO - Checking 52 proteins for multi-organism data...
+2025-07-30 10:32:13,368 - INFO - Initializing Papyrus dataset...
+2025-07-30 10:32:13,538 - INFO - Papyrus dataset initialized successfully
+2025-07-30 10:32:13,538 - INFO - Loading full Papyrus dataset into DataFrame...
+2025-07-30 10:32:21,372 - INFO - Loaded 707461 total activities from Papyrus
+2025-07-30 10:32:21,373 - INFO - Checking protein 1/52: CYP1A2
+2025-07-30 10:32:21,394 - INFO -   Human (P05177): 329 activities
+2025-07-30 10:32:21,415 - INFO -   Mouse (P00186): 1 activities
+2025-07-30 10:32:21,435 - INFO -   Rat (P04799): 9 activities
+2025-07-30 10:32:21,435 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:21,435 - INFO - Checking protein 2/52: CYP2B6
+2025-07-30 10:32:21,455 - INFO -   Human (P20813): 33 activities
+2025-07-30 10:32:21,456 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,456 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:21,456 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,456 - INFO - Checking protein 3/52: CYP2C9
+2025-07-30 10:32:21,477 - INFO -   Human (P11712): 466 activities
+2025-07-30 10:32:21,477 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,477 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:21,477 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,477 - INFO - Checking protein 4/52: CYP2C19
+2025-07-30 10:32:21,497 - INFO -   Human (P33261): 165 activities
+2025-07-30 10:32:21,498 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,498 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:21,498 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,498 - INFO - Checking protein 5/52: CYP2D6
+2025-07-30 10:32:21,518 - INFO -   Human (P10635): 607 activities
+2025-07-30 10:32:21,519 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,519 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:21,519 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,519 - INFO - Checking protein 6/52: CYP3A4
+2025-07-30 10:32:21,540 - INFO -   Human (P08684): 1387 activities
+2025-07-30 10:32:21,540 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,540 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:21,540 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,540 - INFO - Checking protein 7/52: AOX1
+2025-07-30 10:32:21,561 - INFO -   Human (Q06278): 13 activities
+2025-07-30 10:32:21,581 - INFO -   Mouse (O54754): 0 activities
+2025-07-30 10:32:21,602 - INFO -   Rat (Q9Z0U5): 4 activities
+2025-07-30 10:32:21,602 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:21,602 - INFO - Checking protein 8/52: XDH
+2025-07-30 10:32:21,622 - INFO -   Human (P47989): 98 activities
+2025-07-30 10:32:21,643 - INFO -   Mouse (Q00519): 0 activities
+2025-07-30 10:32:21,663 - INFO -   Rat (P22985): 0 activities
+2025-07-30 10:32:21,663 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,663 - INFO - Checking protein 9/52: MAOA
+2025-07-30 10:32:21,685 - INFO -   Human (P21397): 1130 activities
+2025-07-30 10:32:21,705 - INFO -   Mouse (Q64133): 2 activities
+2025-07-30 10:32:21,726 - INFO -   Rat (P21396): 336 activities
+2025-07-30 10:32:21,726 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:21,726 - INFO - Checking protein 10/52: MAOB
+2025-07-30 10:32:21,747 - INFO -   Human (P27338): 1519 activities
+2025-07-30 10:32:21,768 - INFO -   Mouse (Q8BW75): 14 activities
+2025-07-30 10:32:21,789 - INFO -   Rat (P19643): 263 activities
+2025-07-30 10:32:21,789 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:21,789 - INFO - Checking protein 11/52: ALDH1A1
+2025-07-30 10:32:21,810 - INFO -   Human (P00352): 150 activities
+2025-07-30 10:32:21,831 - INFO -   Mouse (P24549): 0 activities
+2025-07-30 10:32:21,851 - INFO -   Rat (P51647): 0 activities
+2025-07-30 10:32:21,851 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:21,851 - INFO - Checking protein 12/52: ADH1A
+2025-07-30 10:32:21,871 - INFO -   Human (P07327): 0 activities
+2025-07-30 10:32:21,872 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,872 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:21,872 - WARNING -   Result: NO DATA
+2025-07-30 10:32:21,872 - INFO - Checking protein 13/52: HSD11B1
+2025-07-30 10:32:21,893 - INFO -   Human (P28845): 2046 activities
+2025-07-30 10:32:21,914 - INFO -   Mouse (P50172): 612 activities
+2025-07-30 10:32:21,935 - INFO -   Rat (P16232): 67 activities
+2025-07-30 10:32:21,935 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:21,936 - INFO - Checking protein 14/52: AKR7A3
+2025-07-30 10:32:21,956 - INFO -   Human (O95154): 0 activities
+2025-07-30 10:32:21,956 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:21,976 - INFO -   Rat (P38918): 0 activities
+2025-07-30 10:32:21,976 - WARNING -   Result: NO DATA
+2025-07-30 10:32:21,976 - INFO - Checking protein 15/52: FMO1
+2025-07-30 10:32:21,996 - INFO -   Human (Q01740): 0 activities
+2025-07-30 10:32:22,017 - INFO -   Mouse (P50285): 0 activities
+2025-07-30 10:32:22,037 - INFO -   Rat (P36365): 0 activities
+2025-07-30 10:32:22,037 - WARNING -   Result: NO DATA
+2025-07-30 10:32:22,037 - INFO - Checking protein 16/52: AHR
+2025-07-30 10:32:22,057 - INFO -   Human (P35869): 25 activities
+2025-07-30 10:32:22,078 - INFO -   Mouse (P30561): 4 activities
+2025-07-30 10:32:22,098 - INFO -   Rat (P41738): 2 activities
+2025-07-30 10:32:22,098 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:22,098 - INFO - Checking protein 17/52: NR1I3
+2025-07-30 10:32:22,118 - INFO -   Human (Q14994): 59 activities
+2025-07-30 10:32:22,139 - INFO -   Mouse (O35627): 0 activities
+2025-07-30 10:32:22,159 - INFO -   Rat (Q9QUS1): 0 activities
+2025-07-30 10:32:22,159 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:22,159 - INFO - Checking protein 18/52: NR1I2
+2025-07-30 10:32:22,180 - INFO -   Human (O75469): 344 activities
+2025-07-30 10:32:22,200 - INFO -   Mouse (O54915): 0 activities
+2025-07-30 10:32:22,220 - INFO -   Rat (Q9R1A7): 0 activities
+2025-07-30 10:32:22,220 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:22,220 - INFO - Checking protein 19/52: SULT1A1
+2025-07-30 10:32:22,240 - INFO -   Human (P50225): 6 activities
+2025-07-30 10:32:22,261 - INFO -   Mouse (P52840): 0 activities
+2025-07-30 10:32:22,281 - INFO -   Rat (P17988): 0 activities
+2025-07-30 10:32:22,281 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:22,281 - INFO - Checking protein 20/52: GSTA1
+2025-07-30 10:32:22,302 - INFO -   Human (P08263): 6 activities
+2025-07-30 10:32:22,322 - INFO -   Mouse (P13745): 0 activities
+2025-07-30 10:32:22,343 - INFO -   Rat (P00502): 0 activities
+2025-07-30 10:32:22,343 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:22,343 - INFO - Checking protein 21/52: OXA1L
+2025-07-30 10:32:22,363 - INFO -   Human (Q15070): 0 activities
+2025-07-30 10:32:22,383 - INFO -   Mouse (Q8BGA9): 0 activities
+2025-07-30 10:32:22,402 - INFO -   Rat (A0A8I6AQW6): 0 activities
+2025-07-30 10:32:22,402 - WARNING -   Result: NO DATA
+2025-07-30 10:32:22,402 - INFO - Checking protein 22/52: ORM1
+2025-07-30 10:32:22,423 - INFO -   Human (P02763): 0 activities
+2025-07-30 10:32:22,443 - INFO -   Mouse (Q60590): 0 activities
+2025-07-30 10:32:22,463 - INFO -   Rat (P02764): 0 activities
+2025-07-30 10:32:22,463 - WARNING -   Result: NO DATA
+2025-07-30 10:32:22,463 - INFO - Checking protein 23/52: KCNH2
+2025-07-30 10:32:22,486 - INFO -   Human (Q12809): 4492 activities
+2025-07-30 10:32:22,507 - INFO -   Mouse (O35219): 0 activities
+2025-07-30 10:32:22,528 - INFO -   Rat (O08962): 0 activities
+2025-07-30 10:32:22,528 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:22,528 - INFO - Checking protein 24/52: SCN5A
+2025-07-30 10:32:22,549 - INFO -   Human (Q14524): 329 activities
+2025-07-30 10:32:22,569 - INFO -   Mouse (Q9JJV9): 0 activities
+2025-07-30 10:32:22,589 - INFO -   Rat (P15389): 0 activities
+2025-07-30 10:32:22,589 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:22,589 - INFO - Checking protein 25/52: CACNB1
+2025-07-30 10:32:22,609 - INFO -   Human (Q02641): 0 activities
+2025-07-30 10:32:22,629 - INFO -   Mouse (Q8R3Z5): 0 activities
+2025-07-30 10:32:22,650 - INFO -   Rat (P54283): 0 activities
+2025-07-30 10:32:22,650 - WARNING -   Result: NO DATA
+2025-07-30 10:32:22,650 - INFO - Checking protein 26/52: CAV1
+2025-07-30 10:32:22,670 - INFO -   Human (Q03135): 0 activities
+2025-07-30 10:32:22,690 - INFO -   Mouse (P49817): 0 activities
+2025-07-30 10:32:22,711 - INFO -   Rat (P41350): 0 activities
+2025-07-30 10:32:22,711 - WARNING -   Result: NO DATA
+2025-07-30 10:32:22,711 - INFO - Checking protein 27/52: HTR2B
+2025-07-30 10:32:22,732 - INFO -   Human (P41595): 1180 activities
+2025-07-30 10:32:22,753 - INFO -   Mouse (Q02152): 0 activities
+2025-07-30 10:32:22,773 - INFO -   Rat (P30994): 35 activities
+2025-07-30 10:32:22,773 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:22,773 - INFO - Checking protein 28/52: SLC6A4
+2025-07-30 10:32:22,795 - INFO -   Human (P31645): 2958 activities
+2025-07-30 10:32:22,816 - INFO -   Mouse (Q60857): 12 activities
+2025-07-30 10:32:22,838 - INFO -   Rat (P31652): 1995 activities
+2025-07-30 10:32:22,838 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:22,838 - INFO - Checking protein 29/52: DIDO1
+2025-07-30 10:32:22,859 - INFO -   Human (Q9BTC0): 0 activities
+2025-07-30 10:32:22,879 - INFO -   Mouse (Q8C9B9): 0 activities
+2025-07-30 10:32:22,898 - INFO -   Rat (A0A8I5ZXE0): 0 activities
+2025-07-30 10:32:22,898 - WARNING -   Result: NO DATA
+2025-07-30 10:32:22,898 - INFO - Checking protein 30/52: SLC6A3
+2025-07-30 10:32:22,920 - INFO -   Human (Q01959): 1646 activities
+2025-07-30 10:32:22,941 - INFO -   Mouse (Q61327): 14 activities
+2025-07-30 10:32:22,962 - INFO -   Rat (P23977): 1114 activities
+2025-07-30 10:32:22,962 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:22,962 - INFO - Checking protein 31/52: SLC6A2
+2025-07-30 10:32:22,984 - INFO -   Human (P23975): 2021 activities
+2025-07-30 10:32:23,005 - INFO -   Mouse (O55192): 1 activities
+2025-07-30 10:32:23,025 - INFO -   Rat (F1LNR9): 0 activities
+2025-07-30 10:32:23,025 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:23,025 - INFO - Checking protein 32/52: NAT8
+2025-07-30 10:32:23,045 - INFO -   Human (Q9UHE5): 0 activities
+2025-07-30 10:32:23,066 - INFO -   Mouse (Q9JIY7): 0 activities
+2025-07-30 10:32:23,086 - INFO -   Rat (Q9QXT3): 0 activities
+2025-07-30 10:32:23,086 - WARNING -   Result: NO DATA
+2025-07-30 10:32:23,086 - INFO - Checking protein 33/52: ADRA1A
+2025-07-30 10:32:23,107 - INFO -   Human (P25100): 566 activities
+2025-07-30 10:32:23,128 - INFO -   Mouse (P97718): 0 activities
+2025-07-30 10:32:23,148 - INFO -   Rat (P23944): 146 activities
+2025-07-30 10:32:23,149 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:23,149 - INFO - Checking protein 34/52: ADRA2A
+2025-07-30 10:32:23,169 - INFO -   Human (P08913): 526 activities
+2025-07-30 10:32:23,190 - INFO -   Mouse (Q01338): 0 activities
+2025-07-30 10:32:23,210 - INFO -   Rat (P22909): 39 activities
+2025-07-30 10:32:23,210 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:23,211 - INFO - Checking protein 35/52: ADRB1
+2025-07-30 10:32:23,231 - INFO -   Human (P08588): 614 activities
+2025-07-30 10:32:23,252 - INFO -   Mouse (P34971): 32 activities
+2025-07-30 10:32:23,272 - INFO -   Rat (P18090): 53 activities
+2025-07-30 10:32:23,273 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:23,273 - INFO - Checking protein 36/52: ADRB2
+2025-07-30 10:32:23,294 - INFO -   Human (P07550): 860 activities
+2025-07-30 10:32:23,314 - INFO -   Mouse (P18762): 0 activities
+2025-07-30 10:32:23,335 - INFO -   Rat (P10608): 20 activities
+2025-07-30 10:32:23,335 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:23,335 - INFO - Checking protein 37/52: CNRIP1
+2025-07-30 10:32:23,355 - INFO -   Human (Q96F85): 0 activities
+2025-07-30 10:32:23,375 - INFO -   Mouse (Q5M8N0): 0 activities
+2025-07-30 10:32:23,396 - INFO -   Rat (Q5M7A7): 0 activities
+2025-07-30 10:32:23,396 - WARNING -   Result: NO DATA
+2025-07-30 10:32:23,396 - INFO - Checking protein 38/52: CNR2
+2025-07-30 10:32:23,419 - INFO -   Human (P34972): 4295 activities
+2025-07-30 10:32:23,440 - INFO -   Mouse (P47936): 363 activities
+2025-07-30 10:32:23,461 - INFO -   Rat (Q9QZN9): 194 activities
+2025-07-30 10:32:23,461 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:23,461 - INFO - Checking protein 39/52: CHRM1
+2025-07-30 10:32:23,482 - INFO -   Human (P11229): 1103 activities
+2025-07-30 10:32:23,503 - INFO -   Mouse (P12657): 1 activities
+2025-07-30 10:32:23,523 - INFO -   Rat (P08482): 261 activities
+2025-07-30 10:32:23,523 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:23,524 - INFO - Checking protein 40/52: CHRM2
+2025-07-30 10:32:23,544 - INFO -   Human (P08172): 721 activities
+2025-07-30 10:32:23,567 - INFO -   Mouse (Q9ERZ4): 5 activities
+2025-07-30 10:32:23,588 - INFO -   Rat (P10980): 130 activities
+2025-07-30 10:32:23,588 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:23,588 - INFO - Checking protein 41/52: CHRM3
+2025-07-30 10:32:23,609 - INFO -   Human (P20309): 1209 activities
+2025-07-30 10:32:23,632 - INFO -   Mouse (Q9ERZ3): 0 activities
+2025-07-30 10:32:23,652 - INFO -   Rat (P08483): 93 activities
+2025-07-30 10:32:23,652 - INFO -   Result: MULTI-ORGANISM (2 organisms)
+2025-07-30 10:32:23,652 - INFO - Checking protein 42/52: CHRNA10
+2025-07-30 10:32:23,673 - INFO -   Human (Q9GZZ6): 0 activities
+2025-07-30 10:32:23,693 - INFO -   Mouse (B2RX82): 0 activities
+2025-07-30 10:32:23,713 - INFO -   Rat (Q9JLB5): 0 activities
+2025-07-30 10:32:23,714 - WARNING -   Result: NO DATA
+2025-07-30 10:32:23,714 - INFO - Checking protein 43/52: CHRNA9
+2025-07-30 10:32:23,734 - INFO -   Human (Q9UGM1): 0 activities
+2025-07-30 10:32:23,754 - INFO -   Mouse (G3X8Z7): 0 activities
+2025-07-30 10:32:23,775 - INFO -   Rat (P43144): 0 activities
+2025-07-30 10:32:23,775 - WARNING -   Result: NO DATA
+2025-07-30 10:32:23,775 - INFO - Checking protein 44/52: CHRNA7
+2025-07-30 10:32:23,796 - INFO -   Human (P36544): 595 activities
+2025-07-30 10:32:23,816 - INFO -   Mouse (P49582): 4 activities
+2025-07-30 10:32:23,838 - INFO -   Rat (Q05941): 1018 activities
+2025-07-30 10:32:23,838 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:23,838 - INFO - Checking protein 45/52: CHRNA3
+2025-07-30 10:32:23,858 - INFO -   Human (P32297): 3 activities
+2025-07-30 10:32:23,879 - INFO -   Mouse (Q8R4G9): 0 activities
+2025-07-30 10:32:23,899 - INFO -   Rat (P04757): 0 activities
+2025-07-30 10:32:23,899 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:23,900 - INFO - Checking protein 46/52: CHRNA5
+2025-07-30 10:32:23,920 - INFO -   Human (P30532): 0 activities
+2025-07-30 10:32:23,940 - INFO -   Mouse (Q2MKA5): 0 activities
+2025-07-30 10:32:23,961 - INFO -   Rat (P20420): 0 activities
+2025-07-30 10:32:23,961 - WARNING -   Result: NO DATA
+2025-07-30 10:32:23,961 - INFO - Checking protein 47/52: SMPDL3A
+2025-07-30 10:32:23,981 - INFO -   Human (Q92484): 0 activities
+2025-07-30 10:32:24,002 - INFO -   Mouse (P70158): 0 activities
+2025-07-30 10:32:24,022 - INFO -   Rat (Q641Z7): 0 activities
+2025-07-30 10:32:24,022 - WARNING -   Result: NO DATA
+2025-07-30 10:32:24,023 - INFO - Checking protein 48/52: GABPA
+2025-07-30 10:32:24,043 - INFO -   Human (Q06546): 0 activities
+2025-07-30 10:32:24,064 - INFO -   Mouse (Q00422): 0 activities
+2025-07-30 10:32:24,083 - INFO -   Rat (A0A8I6GML2): 0 activities
+2025-07-30 10:32:24,083 - WARNING -   Result: NO DATA
+2025-07-30 10:32:24,083 - INFO - Checking protein 49/52: HRH1
+2025-07-30 10:32:24,106 - INFO -   Human (P35367): 945 activities
+2025-07-30 10:32:24,126 - INFO -   Mouse (P70174): 1 activities
+2025-07-30 10:32:24,147 - INFO -   Rat (P31390): 26 activities
+2025-07-30 10:32:24,147 - INFO -   Result: MULTI-ORGANISM (3 organisms)
+2025-07-30 10:32:24,147 - INFO - Checking protein 50/52: SLCO1B1
+2025-07-30 10:32:24,167 - INFO -   Human (Q9Y6L6): 16 activities
+2025-07-30 10:32:24,167 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:24,167 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:24,167 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:24,167 - INFO - Checking protein 51/52: SLCO2B3
+2025-07-30 10:32:24,167 - INFO -   Human: No UniProt ID provided
+2025-07-30 10:32:24,167 - INFO -   Mouse: No UniProt ID provided
+2025-07-30 10:32:24,167 - INFO -   Rat: No UniProt ID provided
+2025-07-30 10:32:24,167 - WARNING -   Result: NO DATA
+2025-07-30 10:32:24,167 - INFO - Checking protein 52/52: SLCO2B1
+2025-07-30 10:32:24,188 - INFO -   Human (O94956): 33 activities
+2025-07-30 10:32:24,208 - INFO -   Mouse (Q8BXB6): 0 activities
+2025-07-30 10:32:24,229 - INFO -   Rat (Q9JHI3): 0 activities
+2025-07-30 10:32:24,229 - INFO -   Result: SINGLE-ORGANISM (human)
+2025-07-30 10:32:24,229 - INFO - 
+==================================================
+2025-07-30 10:32:24,229 - INFO - SUMMARY
+2025-07-30 10:32:24,229 - INFO - ==================================================
+2025-07-30 10:32:24,229 - INFO - Total proteins checked: 52
+2025-07-30 10:32:24,229 - INFO - Proteins with multi-organism data: 20
+2025-07-30 10:32:24,229 - INFO - Proteins with single-organism data: 16
+2025-07-30 10:32:24,229 - INFO - Proteins with no data: 16
+2025-07-30 10:32:24,234 - INFO - Detailed results saved to: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_papyrus_modelling/multi_organism_results.csv
+2025-07-30 10:32:24,234 - INFO - 
+MULTI-ORGANISM PROTEINS:
+2025-07-30 10:32:24,234 - INFO - ------------------------------
+2025-07-30 10:32:24,234 - INFO - CYP1A2: ['human', 'mouse', 'rat'] (H:329, M:1, R:9)
+2025-07-30 10:32:24,234 - INFO - AOX1: ['human', 'rat'] (H:13, M:0, R:4)
+2025-07-30 10:32:24,234 - INFO - MAOA: ['human', 'mouse', 'rat'] (H:1130, M:2, R:336)
+2025-07-30 10:32:24,234 - INFO - MAOB: ['human', 'mouse', 'rat'] (H:1519, M:14, R:263)
+2025-07-30 10:32:24,234 - INFO - HSD11B1: ['human', 'mouse', 'rat'] (H:2046, M:612, R:67)
+2025-07-30 10:32:24,234 - INFO - AHR: ['human', 'mouse', 'rat'] (H:25, M:4, R:2)
+2025-07-30 10:32:24,234 - INFO - HTR2B: ['human', 'rat'] (H:1180, M:0, R:35)
+2025-07-30 10:32:24,234 - INFO - SLC6A4: ['human', 'mouse', 'rat'] (H:2958, M:12, R:1995)
+2025-07-30 10:32:24,234 - INFO - SLC6A3: ['human', 'mouse', 'rat'] (H:1646, M:14, R:1114)
+2025-07-30 10:32:24,234 - INFO - SLC6A2: ['human', 'mouse'] (H:2021, M:1, R:0)
+2025-07-30 10:32:24,234 - INFO - ADRA1A: ['human', 'rat'] (H:566, M:0, R:146)
+2025-07-30 10:32:24,234 - INFO - ADRA2A: ['human', 'rat'] (H:526, M:0, R:39)
+2025-07-30 10:32:24,234 - INFO - ADRB1: ['human', 'mouse', 'rat'] (H:614, M:32, R:53)
+2025-07-30 10:32:24,234 - INFO - ADRB2: ['human', 'rat'] (H:860, M:0, R:20)
+2025-07-30 10:32:24,234 - INFO - CNR2: ['human', 'mouse', 'rat'] (H:4295, M:363, R:194)
+2025-07-30 10:32:24,234 - INFO - CHRM1: ['human', 'mouse', 'rat'] (H:1103, M:1, R:261)
+2025-07-30 10:32:24,234 - INFO - CHRM2: ['human', 'mouse', 'rat'] (H:721, M:5, R:130)
+2025-07-30 10:32:24,234 - INFO - CHRM3: ['human', 'rat'] (H:1209, M:0, R:93)
+2025-07-30 10:32:24,234 - INFO - CHRNA7: ['human', 'mouse', 'rat'] (H:595, M:4, R:1018)
+2025-07-30 10:32:24,234 - INFO - HRH1: ['human', 'mouse', 'rat'] (H:945, M:1, R:26)
+2025-07-30 10:32:24,234 - INFO - 
+TOP SINGLE-ORGANISM PROTEINS (by activity count):
+2025-07-30 10:32:24,234 - INFO - ----------------------------------------
+2025-07-30 10:32:24,234 - INFO - KCNH2: human (4492 activities)
+2025-07-30 10:32:24,234 - INFO - CYP3A4: human (1387 activities)
+2025-07-30 10:32:24,234 - INFO - CYP2D6: human (607 activities)
+2025-07-30 10:32:24,234 - INFO - CYP2C9: human (466 activities)
+2025-07-30 10:32:24,234 - INFO - NR1I2: human (344 activities)
+2025-07-30 10:32:24,235 - INFO - SCN5A: human (329 activities)
+2025-07-30 10:32:24,235 - INFO - CYP2C19: human (165 activities)
+2025-07-30 10:32:24,235 - INFO - ALDH1A1: human (150 activities)
+2025-07-30 10:32:24,235 - INFO - XDH: human (98 activities)
+2025-07-30 10:32:24,235 - INFO - NR1I3: human (59 activities)

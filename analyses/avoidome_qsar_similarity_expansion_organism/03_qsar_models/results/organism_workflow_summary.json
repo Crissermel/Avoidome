@@ -1,0 +1,10 @@
+{
+  "models_created": 48,
+  "proteins_skipped": 121,
+  "total_organisms": 3,
+  "step_0_results": {
+    "total_smiles": 398709,
+    "valid_fingerprints": 398709,
+    "fingerprints_file": "/home/serramelendezcsm/RA/Avoidome/analyses/avoidome_qsar_similarity_expansion_organism/03_qsar_models/morgan_fingerprints/papyrus_morgan_fingerprints.pkl"
+  }
+}

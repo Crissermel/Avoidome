@@ -1,0 +1,12 @@
+{
+  "target_protein": "CNR2",
+  "status": "success",
+  "n_total_samples": 4295,
+  "n_train_samples": 3436,
+  "n_test_samples": 859,
+  "rmse": 0.7409433138236876,
+  "mae": 0.5565889288486061,
+  "r2": 0.5876624890754854,
+  "target_uniprot": "P34972",
+  "total_activities_count": 4295
+}

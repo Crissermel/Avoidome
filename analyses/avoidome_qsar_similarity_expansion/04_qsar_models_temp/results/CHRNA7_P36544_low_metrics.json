@@ -1,0 +1,21 @@
+{
+  "target_name": "CHRNA7",
+  "uniprot_id": "P36544",
+  "threshold": "low",
+  "test_r2": 0.6364964694381644,
+  "test_rmse": 0.7102492160376376,
+  "test_mae": 0.5576986142790447,
+  "q2": 0.6120011058618299,
+  "n_train": 1498,
+  "n_test": 119,
+  "n_similar_proteins": 1022,
+  "n_target_train": 476,
+  "n_target_test": 119,
+  "n_features": 3342,
+  "similar_proteins": [
+    "Q866A2",
+    "Q05941",
+    "P49582",
+    "P22770"
+  ]
+}

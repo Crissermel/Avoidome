@@ -1,0 +1,19 @@
+{
+  "target_protein": "SLC6A2",
+  "protein_type": "SLC",
+  "status": "success",
+  "n_target_samples": 2021,
+  "n_training_samples": 4599,
+  "n_same_type_proteins": 2,
+  "rmse": 0.7013485206148372,
+  "mae": 0.547783662652985,
+  "r2": 0.566314110440699,
+  "target_uniprot": "P23975",
+  "same_type_proteins": [
+    "SLC6A4",
+    "SLC6A3"
+  ],
+  "training_activities_count": 4604,
+  "target_activities_count": 2021,
+  "approach": "fine_tuned_ensemble"
+}

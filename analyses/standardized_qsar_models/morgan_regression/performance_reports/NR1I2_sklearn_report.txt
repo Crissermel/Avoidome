@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: NR1I2
+Date: 2025-07-30 14:39:43.682485
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -1917827126730997027045376.0000 ± 1858314046255239947878400.0000
+  RMSE: 1208251467161.7783 ± 1146315812501.4177
+  MAE: 643988059077.5952 ± 357418163816.8058
+  Training Time: 0.9050s
+
+Random Forest:
+  R² Score: 0.5271 ± 0.0615
+  RMSE: 0.6210 ± 0.1907
+  MAE: 0.4741 ± 0.0331
+  Training Time: 12.6093s
+
+Gradient Boosting:
+  R² Score: 0.4683 ± 0.0631
+  RMSE: 0.6601 ± 0.2363
+  MAE: 0.5056 ± 0.0435
+  Training Time: 6.3485s
+
+SVM:
+  R² Score: 0.5833 ± 0.0653
+  RMSE: 0.5862 ± 0.2576
+  MAE: 0.4519 ± 0.0484
+  Training Time: 0.7622s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

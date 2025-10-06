@@ -1,0 +1,12 @@
+{
+  "target_protein": "ADRA2A",
+  "status": "success",
+  "n_total_samples": 526,
+  "n_train_samples": 420,
+  "n_test_samples": 106,
+  "rmse": 0.9121621916292013,
+  "mae": 0.6149784591194968,
+  "r2": 0.5105256817429771,
+  "target_uniprot": "P08913",
+  "total_activities_count": 526
+}

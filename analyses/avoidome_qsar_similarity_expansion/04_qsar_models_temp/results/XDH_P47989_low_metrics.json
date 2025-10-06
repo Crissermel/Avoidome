@@ -1,0 +1,18 @@
+{
+  "target_name": "XDH",
+  "uniprot_id": "P47989",
+  "threshold": "low",
+  "test_r2": 0.8182881332143503,
+  "test_rmse": 0.39764767407076534,
+  "test_mae": 0.28180116666666655,
+  "q2": 0.6787108696850518,
+  "n_train": 450,
+  "n_test": 20,
+  "n_similar_proteins": 372,
+  "n_target_train": 78,
+  "n_target_test": 20,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P80457"
+  ]
+}

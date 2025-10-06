@@ -1,0 +1,12 @@
+{
+  "target_protein": "KCNH2",
+  "status": "success",
+  "n_total_samples": 4492,
+  "n_train_samples": 3593,
+  "n_test_samples": 899,
+  "rmse": 0.6121023866770883,
+  "mae": 0.44489782514790854,
+  "r2": 0.5464445193625174,
+  "target_uniprot": "Q12809",
+  "total_activities_count": 4492
+}

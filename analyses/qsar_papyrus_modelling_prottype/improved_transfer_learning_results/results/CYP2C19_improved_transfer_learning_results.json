@@ -1,0 +1,23 @@
+{
+  "target_protein": "CYP2C19",
+  "protein_type": "CYP",
+  "status": "success",
+  "n_target_samples": 165,
+  "n_training_samples": 2807,
+  "n_same_type_proteins": 6,
+  "rmse": 0.381162930503995,
+  "mae": 0.2713361814296811,
+  "r2": 0.5433960243750064,
+  "target_uniprot": "P33261",
+  "same_type_proteins": [
+    "CYP1A2",
+    "CYP2B6",
+    "CYP2C9",
+    "CYP2D6",
+    "CYP3A4",
+    "CP2BA"
+  ],
+  "training_activities_count": 2822,
+  "target_activities_count": 165,
+  "approach": "fine_tuned_ensemble"
+}

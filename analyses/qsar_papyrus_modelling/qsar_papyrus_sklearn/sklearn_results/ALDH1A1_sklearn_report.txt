@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: ALDH1A1
+Date: 2025-07-30 14:38:35.039107
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -29849396851101270024388608.0000 ± 13904373366270759930953728.0000
+  RMSE: 5060070678030.1982 ± 3433205140101.5283
+  MAE: 2901953902461.5605 ± 496469996393.7130
+  Training Time: 0.4990s
+
+Random Forest:
+  R² Score: 0.1170 ± 0.3520
+  RMSE: 0.8623 ± 0.5335
+  MAE: 0.6520 ± 0.1242
+  Training Time: 4.1861s
+
+Gradient Boosting:
+  R² Score: 0.0383 ± 0.3677
+  RMSE: 0.9039 ± 0.5441
+  MAE: 0.6784 ± 0.1215
+  Training Time: 2.1175s
+
+SVM:
+  R² Score: 0.1293 ± 0.3240
+  RMSE: 0.8601 ± 0.5238
+  MAE: 0.6465 ± 0.1150
+  Training Time: 0.1199s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

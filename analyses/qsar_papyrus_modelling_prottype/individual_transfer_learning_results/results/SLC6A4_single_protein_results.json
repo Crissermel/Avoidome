@@ -1,0 +1,12 @@
+{
+  "target_protein": "SLC6A4",
+  "status": "success",
+  "n_total_samples": 2958,
+  "n_train_samples": 2366,
+  "n_test_samples": 592,
+  "rmse": 0.6553475079209451,
+  "mae": 0.47868526846042453,
+  "r2": 0.6734634438278513,
+  "target_uniprot": "P31645",
+  "total_activities_count": 2958
+}

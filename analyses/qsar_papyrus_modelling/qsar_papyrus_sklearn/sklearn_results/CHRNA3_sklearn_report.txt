@@ -1,0 +1,24 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: CHRNA3
+Date: 2025-07-30 15:08:22.047355
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression: FAILED
+  Error: Cannot have number of splits n_splits=5 greater than the number of samples: n_samples=3.
+
+Random Forest: FAILED
+  Error: Cannot have number of splits n_splits=5 greater than the number of samples: n_samples=3.
+
+Gradient Boosting: FAILED
+  Error: Cannot have number of splits n_splits=5 greater than the number of samples: n_samples=3.
+
+SVM: FAILED
+  Error: Cannot have number of splits n_splits=5 greater than the number of samples: n_samples=3.
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 0
+  Failed Models: 4

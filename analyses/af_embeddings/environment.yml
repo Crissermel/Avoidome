@@ -1,0 +1,19 @@
+# Conda environment 
+
+name: pcmol
+
+# channels:
+  # - conda-forge
+
+dependencies:
+  - python=3.10
+  - wget
+  - pip
+  - pip:
+    - rdkit
+    - torch
+    - tqdm
+    - wandb 
+    - papyrus-structure-pipeline
+    - pandas
+    - matplotlib

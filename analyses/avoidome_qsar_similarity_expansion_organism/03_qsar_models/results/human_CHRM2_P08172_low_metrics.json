@@ -1,0 +1,22 @@
+{
+  "organism": "human",
+  "target_name": "CHRM2",
+  "uniprot_id": "P08172",
+  "threshold": "low",
+  "test_r2": 0.7030193917367221,
+  "test_rmse": 0.6867991411894978,
+  "test_mae": 0.5347517038952333,
+  "q2": 0.5964657013495717,
+  "n_train": 788,
+  "n_test": 145,
+  "n_similar_proteins": 212,
+  "n_target_train": 576,
+  "n_target_test": 145,
+  "n_features": 3342,
+  "similar_proteins": [
+    "P06199",
+    "P10980",
+    "Q9ERZ4",
+    "Q8VH27"
+  ]
+}

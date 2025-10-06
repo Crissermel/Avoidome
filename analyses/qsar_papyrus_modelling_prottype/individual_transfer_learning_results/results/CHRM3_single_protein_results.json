@@ -1,0 +1,12 @@
+{
+  "target_protein": "CHRM3",
+  "status": "success",
+  "n_total_samples": 1209,
+  "n_train_samples": 967,
+  "n_test_samples": 242,
+  "rmse": 0.8462412153529715,
+  "mae": 0.6507046116509755,
+  "r2": 0.6950909879283356,
+  "target_uniprot": "P20309",
+  "total_activities_count": 1209
+}

@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: CYP2C9
+Date: 2025-07-30 14:28:59.092551
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -9844207571027964513484800.0000 ± 15547212758070812712370176.0000
+  RMSE: 2354134529961.8389 ± 3011807905218.8945
+  MAE: 1004109526131.4580 ± 1008101129828.6465
+  Training Time: 1.2117s
+
+Random Forest:
+  R² Score: 0.5357 ± 0.0787
+  RMSE: 0.4968 ± 0.1589
+  MAE: 0.3716 ± 0.0275
+  Training Time: 22.0659s
+
+Gradient Boosting:
+  R² Score: 0.5083 ± 0.1060
+  RMSE: 0.5096 ± 0.1735
+  MAE: 0.3885 ± 0.0299
+  Training Time: 10.7129s
+
+SVM:
+  R² Score: 0.5427 ± 0.0815
+  RMSE: 0.4951 ± 0.2065
+  MAE: 0.3660 ± 0.0339
+  Training Time: 1.1057s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

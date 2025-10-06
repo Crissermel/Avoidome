@@ -1,0 +1,17 @@
+# PCMol Configuration for Avoidome AlphaFold Embeddings
+input:
+  protein_ids_file: "avoidome_overlapping_ids.txt"
+  output_dir: "./alphafold_embeddings"
+  
+alphafold:
+  model: 5  # Use AlphaFold model 5
+  confidence_threshold: 0.7  # Minimum confidence score
+  
+embeddings:
+  extract_single: true  # Extract single representations
+  extract_structure: true  # Extract structure module representations
+  normalize: true  # Apply normalization
+  
+processing:
+  max_sequence_length: 450  # Skip proteins longer than 450 AA
+  batch_size: 10  # Process in batches

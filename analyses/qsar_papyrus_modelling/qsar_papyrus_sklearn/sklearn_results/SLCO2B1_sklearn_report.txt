@@ -1,0 +1,36 @@
+Scikit-learn Model Comparison Report
+====================================
+Protein: SLCO2B1
+Date: 2025-07-30 15:10:36.187422
+
+MODEL PERFORMANCE RESULTS
+=========================
+
+Multilinear Regression:
+  R² Score: -1076151602597592306450169856.0000 ± 2142519312077888976525983744.0000
+  RMSE: 4164926753352.4824 ± 5601263371353.0234
+  MAE: 1600691263020.9189 ± 2148568061597.1074
+  Training Time: 0.0665s
+
+Random Forest:
+  R² Score: -4.7767 ± 8.3685
+  RMSE: 0.7125 ± 0.5503
+  MAE: 0.5900 ± 0.1996
+  Training Time: 1.3821s
+
+Gradient Boosting:
+  R² Score: -6.3582 ± 10.7122
+  RMSE: 0.8011 ± 0.6417
+  MAE: 0.6598 ± 0.2335
+  Training Time: 0.7743s
+
+SVM:
+  R² Score: -5.0938 ± 9.2981
+  RMSE: 0.6854 ± 0.5105
+  MAE: 0.5556 ± 0.1767
+  Training Time: 0.0190s
+
+SUMMARY:
+  Total Models Attempted: 4
+  Successful Models: 4
+  Failed Models: 0

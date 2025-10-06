@@ -1,0 +1,116 @@
+2025-07-24 16:42:24,385 - INFO - QSAR Modeling started - Log file: /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/logs/qsar_modeling_20250724_164224.log
+2025-07-24 16:42:24,386 - INFO - Loading data...
+2025-07-24 16:42:25,719 - INFO - Loaded 233511 valid bioactivity records in 1.33s
+2025-07-24 16:42:25,723 - INFO - Number of unique targets: 41
+2025-07-24 16:42:25,730 - INFO - Found 33 targets with at least 50 samples
+2025-07-24 16:42:25,730 - INFO - Processing first 5 targets
+2025-07-24 16:42:25,731 - INFO - 
+============================================================
+2025-07-24 16:42:25,731 - INFO - Processing target 1/5: P00352
+2025-07-24 16:42:25,731 - INFO - ============================================================
+2025-07-24 16:42:25,750 - INFO - Processing target P00352 with 76322 samples
+2025-07-24 16:42:25,750 - INFO - Calculating descriptors for 76322 molecules...
+2025-07-24 16:43:44,294 - INFO - Successfully calculated descriptors for 76322 molecules in 78.54s
+2025-07-24 16:43:44,295 - INFO - Feature dimensionality: 522
+2025-07-24 16:44:19,631 - INFO - Feature matrix shape: (76322, 522), Target vector shape: (76322,)
+2025-07-24 16:44:20,425 - INFO - Training Random Forest model...
+2025-07-24 16:44:20,748 - INFO - Training set: 61057 samples, Test set: 15265 samples
+2025-07-24 16:44:46,097 - INFO - Training completed in 25.67s
+2025-07-24 16:44:46,097 - INFO - R²: 0.197, RMSE: 0.422, CV R²: 0.181 ± 0.006
+2025-07-24 16:44:46,224 - INFO - Model saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P00352/RandomForest_model.pkl
+2025-07-24 16:44:46,255 - INFO - Metadata saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P00352/RandomForest_metadata.json
+2025-07-24 16:44:46,256 - INFO - Creating performance plots...
+2025-07-24 16:44:46,848 - INFO - Performance plot saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P00352/P00352_performance.png
+2025-07-24 16:44:46,849 - INFO - Completed modeling for P00352 in 141.12s
+2025-07-24 16:44:46,849 - INFO - 
+============================================================
+2025-07-24 16:44:46,849 - INFO - Processing target 2/5: Q12809
+2025-07-24 16:44:46,849 - INFO - ============================================================
+2025-07-24 16:44:46,865 - INFO - Processing target Q12809 with 23660 samples
+2025-07-24 16:44:46,865 - INFO - Calculating descriptors for 23660 molecules...
+2025-07-24 16:45:13,278 - INFO - Successfully calculated descriptors for 23660 molecules in 26.41s
+2025-07-24 16:45:13,278 - INFO - Feature dimensionality: 522
+2025-07-24 16:45:24,922 - INFO - Feature matrix shape: (23660, 522), Target vector shape: (23660,)
+2025-07-24 16:45:25,181 - INFO - Training Random Forest model...
+2025-07-24 16:45:25,260 - INFO - Training set: 18928 samples, Test set: 4732 samples
+2025-07-24 16:45:31,834 - INFO - Training completed in 6.65s
+2025-07-24 16:45:31,835 - INFO - R²: 0.743, RMSE: 0.471, CV R²: 0.718 ± 0.007
+2025-07-24 16:45:31,959 - INFO - Model saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/Q12809/RandomForest_model.pkl
+2025-07-24 16:45:31,984 - INFO - Metadata saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/Q12809/RandomForest_metadata.json
+2025-07-24 16:45:31,985 - INFO - Creating performance plots...
+2025-07-24 16:45:32,455 - INFO - Performance plot saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/Q12809/Q12809_performance.png
+2025-07-24 16:45:32,455 - INFO - Completed modeling for Q12809 in 45.61s
+2025-07-24 16:45:32,455 - INFO - 
+============================================================
+2025-07-24 16:45:32,455 - INFO - Processing target 3/5: P33261
+2025-07-24 16:45:32,455 - INFO - ============================================================
+2025-07-24 16:45:32,475 - INFO - Processing target P33261 with 14227 samples
+2025-07-24 16:45:32,476 - INFO - Calculating descriptors for 14227 molecules...
+2025-07-24 16:45:47,238 - INFO - Successfully calculated descriptors for 14227 molecules in 14.76s
+2025-07-24 16:45:47,238 - INFO - Feature dimensionality: 522
+2025-07-24 16:45:54,089 - INFO - Feature matrix shape: (14227, 522), Target vector shape: (14227,)
+2025-07-24 16:45:54,257 - INFO - Training Random Forest model...
+2025-07-24 16:45:54,298 - INFO - Training set: 11381 samples, Test set: 2846 samples
+2025-07-24 16:45:59,185 - INFO - Training completed in 4.93s
+2025-07-24 16:45:59,186 - INFO - R²: 0.316, RMSE: 0.594, CV R²: 0.330 ± 0.024
+2025-07-24 16:45:59,271 - INFO - Model saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P33261/RandomForest_model.pkl
+2025-07-24 16:45:59,298 - INFO - Metadata saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P33261/RandomForest_metadata.json
+2025-07-24 16:45:59,298 - INFO - Creating performance plots...
+2025-07-24 16:45:59,707 - INFO - Performance plot saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P33261/P33261_performance.png
+2025-07-24 16:45:59,707 - INFO - Completed modeling for P33261 in 27.25s
+2025-07-24 16:45:59,707 - INFO - 
+============================================================
+2025-07-24 16:45:59,707 - INFO - Processing target 4/5: P11712
+2025-07-24 16:45:59,707 - INFO - ============================================================
+2025-07-24 16:45:59,721 - INFO - Processing target P11712 with 13338 samples
+2025-07-24 16:45:59,721 - INFO - Calculating descriptors for 13338 molecules...
+2025-07-24 16:46:13,787 - INFO - Successfully calculated descriptors for 13338 molecules in 14.07s
+2025-07-24 16:46:13,788 - INFO - Feature dimensionality: 522
+2025-07-24 16:46:20,430 - INFO - Feature matrix shape: (13338, 522), Target vector shape: (13338,)
+2025-07-24 16:46:20,580 - INFO - Training Random Forest model...
+2025-07-24 16:46:20,624 - INFO - Training set: 10670 samples, Test set: 2668 samples
+2025-07-24 16:46:25,546 - INFO - Training completed in 4.97s
+2025-07-24 16:46:25,547 - INFO - R²: 0.342, RMSE: 0.568, CV R²: 0.318 ± 0.032
+2025-07-24 16:46:25,637 - INFO - Model saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P11712/RandomForest_model.pkl
+2025-07-24 16:46:25,662 - INFO - Metadata saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P11712/RandomForest_metadata.json
+2025-07-24 16:46:25,663 - INFO - Creating performance plots...
+2025-07-24 16:46:26,066 - INFO - Performance plot saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P11712/P11712_performance.png
+2025-07-24 16:46:26,066 - INFO - Completed modeling for P11712 in 26.36s
+2025-07-24 16:46:26,066 - INFO - 
+============================================================
+2025-07-24 16:46:26,066 - INFO - Processing target 5/5: P31645
+2025-07-24 16:46:26,066 - INFO - ============================================================
+2025-07-24 16:46:26,080 - INFO - Processing target P31645 with 12942 samples
+2025-07-24 16:46:26,080 - INFO - Calculating descriptors for 12942 molecules...
+2025-07-24 16:46:39,444 - INFO - Successfully calculated descriptors for 12942 molecules in 13.36s
+2025-07-24 16:46:39,444 - INFO - Feature dimensionality: 522
+2025-07-24 16:46:45,631 - INFO - Feature matrix shape: (12942, 522), Target vector shape: (12942,)
+2025-07-24 16:46:45,767 - INFO - Training Random Forest model...
+2025-07-24 16:46:45,810 - INFO - Training set: 10353 samples, Test set: 2589 samples
+2025-07-24 16:46:50,117 - INFO - Training completed in 4.35s
+2025-07-24 16:46:50,118 - INFO - R²: 0.802, RMSE: 0.551, CV R²: 0.773 ± 0.013
+2025-07-24 16:46:50,208 - INFO - Model saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P31645/RandomForest_model.pkl
+2025-07-24 16:46:50,208 - INFO - Metadata saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P31645/RandomForest_metadata.json
+2025-07-24 16:46:50,209 - INFO - Creating performance plots...
+2025-07-24 16:46:50,643 - INFO - Performance plot saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/P31645/P31645_performance.png
+2025-07-24 16:46:50,643 - INFO - Completed modeling for P31645 in 24.58s
+2025-07-24 16:46:50,643 - INFO - 
+============================================================
+2025-07-24 16:46:50,643 - INFO - TOTAL PROCESSING TIME: 264.91s (4.4 minutes)
+2025-07-24 16:46:50,643 - INFO - Successfully processed 5 targets
+2025-07-24 16:46:50,643 - INFO - ============================================================
+2025-07-24 16:46:50,645 - INFO - Summary report saved to /home/serramelendezcsm/RA/Avoidome/analyses/qsar_avoidome/model_performance_summary.csv
+2025-07-24 16:46:50,645 - INFO - 
+Summary Statistics:
+2025-07-24 16:46:50,645 - INFO - Total models trained: 5
+2025-07-24 16:46:50,645 - INFO - Average R²: 0.480
+2025-07-24 16:46:50,645 - INFO - Average RMSE: 0.521
+2025-07-24 16:46:50,645 - INFO - Best R²: 0.802
+2025-07-24 16:46:50,646 - INFO - Worst R²: 0.197
+2025-07-24 16:46:50,647 - INFO - 
+Top 5 performing models:
+2025-07-24 16:46:50,647 - INFO -   P31645: R² = 0.802, RMSE = 0.551
+2025-07-24 16:46:50,647 - INFO -   Q12809: R² = 0.743, RMSE = 0.471
+2025-07-24 16:46:50,647 - INFO -   P11712: R² = 0.342, RMSE = 0.568
+2025-07-24 16:46:50,647 - INFO -   P33261: R² = 0.316, RMSE = 0.594
+2025-07-24 16:46:50,647 - INFO -   P00352: R² = 0.197, RMSE = 0.422

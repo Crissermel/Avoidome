@@ -29,3 +29,9 @@ analyses/qsar_avoidome/descriptor_cache/
 **/*.log
 **/*.npy
 **/*.zip
+
+# Exclude large CSV files
+processed_data/chembl_mapped_bioactivity_profile.csv
+primary_data/approved_drugs/02_processed/papyrus/papyrus_data.csv
+primary_data/approved_drugs/02_processed/papyrus/papyrus_data_cutoff.csv
+processed_data/avoidome_bioactivity_profile.csv
